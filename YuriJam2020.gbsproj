@@ -104,7 +104,7 @@
             "imageHeight": 144,
             "filename": "black.png",
             "inode": "9288674231547207",
-            "_v": 1602530287677
+            "_v": 1602533931360
         },
         {
             "id": "7830cef1-e119-418e-b6fd-5f55ff996190",
@@ -115,7 +115,7 @@
             "imageHeight": 144,
             "filename": "logo.png",
             "inode": "10133099161700929",
-            "_v": 1602530287678
+            "_v": 1602533931360
         },
         {
             "id": "a6670de0-80c0-406d-8829-0392b0d630fe",
@@ -126,7 +126,7 @@
             "imageHeight": 144,
             "filename": "menu.png",
             "inode": "10977524091832976",
-            "_v": 1602530287678
+            "_v": 1602533931361
         },
         {
             "id": "b863e6fa-737c-43b7-a798-61ddde679729",
@@ -137,7 +137,7 @@
             "imageHeight": 144,
             "filename": "titlescreen.png",
             "inode": "19421773393154752",
-            "_v": 1602531972575
+            "_v": 1602533931361
         },
         {
             "id": "add5d20b-2c70-42b1-a01c-70ef056926e9",
@@ -148,7 +148,7 @@
             "imageHeight": 144,
             "filename": "white.png",
             "inode": "7318349394756712",
-            "_v": 1602530876573
+            "_v": 1602533931361
         }
     ],
     "spriteSheets": [
@@ -159,7 +159,7 @@
             "type": "actor",
             "filename": "actor.png",
             "inode": "37154696926112283",
-            "_v": 1602530287678
+            "_v": 1602533931361
         },
         {
             "id": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
@@ -168,7 +168,7 @@
             "type": "actor_animated",
             "filename": "actor_animated.png",
             "inode": "8725724278338624",
-            "_v": 1602530287678
+            "_v": 1602533931361
         },
         {
             "id": "8ef626aa-79cb-4d3c-84b6-e95e2becb85d",
@@ -177,7 +177,7 @@
             "type": "static",
             "filename": "cat.png",
             "inode": "9288674231610565",
-            "_v": 1602530287678
+            "_v": 1602533931361
         },
         {
             "id": "daf95270-e30d-423b-9ee7-990ae29f57f6",
@@ -186,10 +186,61 @@
             "type": "static",
             "filename": "static.png",
             "inode": "5629499534521419",
-            "_v": 1602530287678
+            "_v": 1602533931361
         }
     ],
     "palettes": [
+        {
+            "id": "default-background",
+            "name": "Default Background",
+            "colors": [
+                "E0F8C0",
+                "78E850",
+                "207058",
+                "001028"
+            ],
+            "defaultName": "Default Background",
+            "defaultColors": [
+                "E0F8A0",
+                "78C838",
+                "488818",
+                "081800"
+            ]
+        },
+        {
+            "id": "default-sprite",
+            "name": "Default Sprites",
+            "colors": [
+                "E0F8C0",
+                "48F800",
+                "78E850",
+                "001028"
+            ],
+            "defaultName": "Default Sprites",
+            "defaultColors": [
+                "F8F0E0",
+                "D88078",
+                "B05010",
+                "000000"
+            ]
+        },
+        {
+            "id": "default-ui",
+            "name": "Default UI",
+            "colors": [
+                "E0F8C0",
+                "78E850",
+                "207058",
+                "001028"
+            ],
+            "defaultName": "Default UI",
+            "defaultColors": [
+                "F8F8B8",
+                "90C8C8",
+                "486878",
+                "082048"
+            ]
+        },
         {
             "id": "default-bg-1",
             "name": "Default BG 1",
@@ -291,40 +342,6 @@
                 "688840",
                 "583820"
             ]
-        },
-        {
-            "id": "default-sprite",
-            "name": "Default Sprites",
-            "colors": [
-                "F8F0E0",
-                "D88078",
-                "B05010",
-                "000000"
-            ],
-            "defaultName": "Default Sprites",
-            "defaultColors": [
-                "F8F0E0",
-                "D88078",
-                "B05010",
-                "000000"
-            ]
-        },
-        {
-            "id": "default-ui",
-            "name": "Default UI",
-            "colors": [
-                "F8F8B8",
-                "90C8C8",
-                "486878",
-                "082048"
-            ],
-            "defaultName": "Default UI",
-            "defaultColors": [
-                "F8F8B8",
-                "90C8C8",
-                "486878",
-                "082048"
-            ]
         }
     ],
     "customEvents": [],
@@ -335,7 +352,7 @@
             "filename": "template.mod",
             "settings": {},
             "inode": "3377699720827034",
-            "_v": 1602530287658
+            "_v": 1602533931345
         }
     ],
     "variables": [],
@@ -349,14 +366,7 @@
         "worldScrollY": 0,
         "zoom": 100,
         "customColorsEnabled": true,
-        "defaultBackgroundPaletteIds": [
-            "default-bg-1",
-            "default-bg-2",
-            "default-bg-3",
-            "default-bg-4",
-            "default-bg-5",
-            "default-bg-6"
-        ],
+        "defaultBackgroundPaletteIds": "default-background",
         "defaultSpritePaletteId": "default-sprite",
         "defaultUIPaletteId": "default-ui",
         "defaultFadeStyle": "white",
