@@ -129,17 +129,6 @@
             "_v": 1602530287678
         },
         {
-            "id": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
-            "name": "placeholder",
-            "width": 20,
-            "height": 18,
-            "imageWidth": 160,
-            "imageHeight": 144,
-            "filename": "placeholder.png",
-            "inode": "19984723346753655",
-            "_v": 1602530287678
-        },
-        {
             "id": "b863e6fa-737c-43b7-a798-61ddde679729",
             "name": "titlescreen",
             "width": 20,
@@ -147,8 +136,8 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "titlescreen.png",
-            "inode": "19140298416444096",
-            "_v": 1602530287678
+            "inode": "19421773393154752",
+            "_v": 1602531972575
         },
         {
             "id": "add5d20b-2c70-42b1-a01c-70ef056926e9",
