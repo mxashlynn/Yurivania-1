@@ -219,44 +219,24 @@
             "height": 18,
             "collisions": [
                 15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
                 0,
                 0,
                 0,
                 0,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
                 15,
                 15,
                 0,
@@ -452,6 +432,26 @@
                 0,
                 0,
                 0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                15,
+                15,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
                 15,
                 15,
                 15,
@@ -524,12 +524,12 @@
                 0,
                 0,
                 0,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
                 0,
                 0,
                 0,
@@ -582,6 +582,109 @@
             "tileColors": [],
             "script": [
                 {
+                    "id": "f565a21a-9e33-4bbd-825e-cea7aadba172",
+                    "command": "EVENT_SET_INPUT_SCRIPT",
+                    "args": {
+                        "input": [
+                            "a"
+                        ],
+                        "persist": false,
+                        "__scriptTabs": "press",
+                        "__comment": false
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "id": "f0b0183b-e55d-4962-8bc6-654518ffd57b",
+                                "command": "EVENT_IF_TRUE",
+                                "args": {
+                                    "variable": "1",
+                                    "__collapseElse": false
+                                },
+                                "children": {
+                                    "true": [
+                                        {
+                                            "id": "468262c4-d8a5-468f-a894-fda9d0213c99",
+                                            "command": "EVENT_IF_VALUE",
+                                            "args": {
+                                                "variable": "0",
+                                                "operator": ">",
+                                                "comparator": 1,
+                                                "__collapseElse": false
+                                            },
+                                            "children": {
+                                                "true": [
+                                                    {
+                                                        "id": "8ad1f53d-3bec-41ed-b205-0b8849c65a2e",
+                                                        "command": "EVENT_DEC_VALUE",
+                                                        "args": {
+                                                            "variable": "0"
+                                                        }
+                                                    },
+                                                    {
+                                                        "id": "0c9e5f28-65c0-4449-b33e-783c52d8c5d1",
+                                                        "command": "EVENT_TEXT",
+                                                        "args": {
+                                                            "text": [
+                                                                "Planted a seed!"
+                                                            ],
+                                                            "avatarId": ""
+                                                        }
+                                                    },
+                                                    {
+                                                        "id": "1484cbbf-795b-411d-940a-d1e41b40823f",
+                                                        "command": "EVENT_END"
+                                                    }
+                                                ],
+                                                "false": [
+                                                    {
+                                                        "id": "4cdf77ee-2923-48d8-acb7-defafc659938",
+                                                        "command": "EVENT_TEXT",
+                                                        "args": {
+                                                            "text": [
+                                                                "No seeds."
+                                                            ],
+                                                            "avatarId": ""
+                                                        }
+                                                    },
+                                                    {
+                                                        "id": "503a11f6-5b16-4782-b16a-2d5c188a5abf",
+                                                        "command": "EVENT_END"
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "id": "251cbdf1-9120-4086-928d-5daf23105c7b",
+                                            "command": "EVENT_END"
+                                        }
+                                    ],
+                                    "false": [
+                                        {
+                                            "id": "485953e9-ebb1-4c10-b2ca-e69a0751841f",
+                                            "command": "EVENT_TEXT",
+                                            "args": {
+                                                "text": [
+                                                    "No suitable\nplanting spot."
+                                                ],
+                                                "avatarId": ""
+                                            }
+                                        },
+                                        {
+                                            "id": "cce36591-cb5f-466b-b140-5190eaf7cb95",
+                                            "command": "EVENT_END"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "id": "cf7036c3-818f-4c34-8494-b7ed6e008ab9",
+                                "command": "EVENT_END"
+                            }
+                        ]
+                    }
+                },
+                {
                     "id": "bcff5440-b67d-42b6-b8de-73a958b3ea86",
                     "command": "EVENT_ACTOR_SHOW",
                     "args": {
@@ -608,7 +711,7 @@
                     "spriteType": "static",
                     "direction": "down",
                     "moveSpeed": "1",
-                    "animSpeed": "2",
+                    "animSpeed": "1",
                     "script": [],
                     "startScript": [],
                     "updateScript": [],
@@ -617,11 +720,178 @@
                     "hit3Script": [],
                     "id": "b2e5853f-2f4b-4264-806b-22a94162e2c8",
                     "x": 16,
-                    "y": 2,
+                    "y": 3,
                     "isPinned": true
+                },
+                {
+                    "name": "Seed 1",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "33e34750-214e-4dc3-9af7-952c6e1aebe1",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": "1",
+                    "animSpeed": "3",
+                    "script": [
+                        {
+                            "id": "96deaa53-0f4b-45db-a6a5-2b4f995ad8c7",
+                            "command": "EVENT_INC_VALUE",
+                            "args": {
+                                "variable": "0"
+                            }
+                        },
+                        {
+                            "id": "9601fa39-843c-4286-bb88-ad7f51e84f93",
+                            "command": "EVENT_ACTOR_HIDE",
+                            "args": {
+                                "actorId": "$self$"
+                            }
+                        },
+                        {
+                            "id": "1e1cb449-c732-4e59-b67e-d14dad3ce52f",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "3461ea50-8246-4865-b564-4fe57769c7eb",
+                    "x": 16,
+                    "y": 10,
+                    "collisionGroup": "1"
+                },
+                {
+                    "name": "Seed 2",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "33e34750-214e-4dc3-9af7-952c6e1aebe1",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": "1",
+                    "animSpeed": "3",
+                    "script": [
+                        {
+                            "id": "dc5baaf9-d070-4828-b12f-6b600924a026",
+                            "command": "EVENT_INC_VALUE",
+                            "args": {
+                                "variable": "0"
+                            }
+                        },
+                        {
+                            "id": "70fd8d4d-18f2-4530-9108-9e05f9b025de",
+                            "command": "EVENT_ACTOR_HIDE",
+                            "args": {
+                                "actorId": "$self$"
+                            }
+                        },
+                        {
+                            "id": "3a6d98d6-c6f2-4021-8af9-a2b2cf9bb9b6",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "eb73e4bf-ccbd-49d7-be8e-5a9b876569a4",
+                    "x": 14,
+                    "y": 15,
+                    "collisionGroup": "1"
                 }
             ],
-            "triggers": [],
+            "triggers": [
+                {
+                    "name": "Planting Region",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "00425295-4e35-4331-8d91-2878f9da24cf",
+                            "command": "EVENT_SET_TRUE",
+                            "args": {
+                                "variable": "1"
+                            }
+                        },
+                        {
+                            "id": "f5b12154-516c-4a37-a163-12358af7c2d6",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "832e17ed-953f-4d55-90e3-66b4d61683ef",
+                    "x": 6,
+                    "y": 14,
+                    "width": 6,
+                    "height": 1
+                },
+                {
+                    "name": "Outside Plantin Region",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "801b4f9c-797b-4e05-b4f9-e47e58064531",
+                            "command": "EVENT_SET_FALSE",
+                            "args": {
+                                "variable": "1"
+                            }
+                        },
+                        {
+                            "id": "fd031250-b9d6-4da9-8f9b-6c079a5e4f9f",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "a0a482e7-304a-4200-b890-44c2c3118e63",
+                    "x": 1,
+                    "y": 1,
+                    "width": 18,
+                    "height": 10
+                },
+                {
+                    "name": "Outside Planting Region",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "a4237c93-2ca1-41c8-83f0-397d4fb9265b",
+                            "command": "EVENT_SET_FALSE",
+                            "args": {
+                                "variable": "1"
+                            }
+                        },
+                        {
+                            "id": "5aa2fa9b-1e50-47d1-b1d1-d44dc0138235",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "559c2793-b333-4069-b74c-8dd0eaa67627",
+                    "x": 1,
+                    "y": 11,
+                    "width": 4,
+                    "height": 5
+                },
+                {
+                    "name": "Outside Planting Region",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "a97061c2-fbef-490d-90b5-99edf7206ba2",
+                            "command": "EVENT_SET_FALSE",
+                            "args": {
+                                "variable": "1"
+                            }
+                        },
+                        {
+                            "id": "299acd37-4375-4631-b54e-6d34e42402c1",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "a15672c8-c8b3-4513-a064-1cf9c77c2f58",
+                    "x": 13,
+                    "y": 11,
+                    "width": 6,
+                    "height": 5
+                }
+            ],
             "type": "1"
         }
     ],
@@ -720,6 +990,15 @@
             "filename": "cat.png",
             "inode": "9288674231610565",
             "_v": 1602533931361
+        },
+        {
+            "id": "33e34750-214e-4dc3-9af7-952c6e1aebe1",
+            "name": "seed",
+            "numFrames": 1,
+            "type": "static",
+            "filename": "seed.png",
+            "inode": "4785074604766564",
+            "_v": 1602540839135
         },
         {
             "id": "daf95270-e30d-423b-9ee7-990ae29f57f6",
@@ -910,6 +1189,14 @@
         {
             "id": "d75e6347-d4f9-4d95-a73b-67c07979054e__L0",
             "name": "Menu Selection"
+        },
+        {
+            "id": "0",
+            "name": "Seeds Carried"
+        },
+        {
+            "id": "1",
+            "name": "In Planting Region"
         }
     ],
     "settings": {
