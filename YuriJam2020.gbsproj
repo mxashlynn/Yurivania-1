@@ -27,7 +27,7 @@
         },
         {
             "name": "Logo",
-            "backgroundId": "a6670de0-80c0-406d-8829-0392b0d630fe",
+            "backgroundId": "7830cef1-e119-418e-b6fd-5f55ff996190",
             "width": 20,
             "height": 18,
             "collisions": [],
@@ -115,7 +115,7 @@
             "imageHeight": 144,
             "filename": "logo.png",
             "inode": "10133099161700929",
-            "_v": 1602533931360
+            "_v": 1602537538069
         },
         {
             "id": "a6670de0-80c0-406d-8829-0392b0d630fe",
