@@ -11,7 +11,126 @@
             "height": 18,
             "collisions": [],
             "tileColors": [],
-            "script": [],
+            "script": [
+                {
+                    "id": "db8c22f5-7007-4749-bb2f-c2a14908ba28",
+                    "command": "EVENT_ACTOR_HIDE",
+                    "args": {
+                        "actorId": "$self$"
+                    }
+                },
+                {
+                    "id": "7e112f58-0efb-46b2-8d90-acbe05da2109",
+                    "command": "EVENT_AWAIT_INPUT",
+                    "args": {
+                        "input": [
+                            "a",
+                            "b",
+                            "start",
+                            "select"
+                        ]
+                    }
+                },
+                {
+                    "id": "bbadd499-9b1e-4739-91b6-3ca699652e28",
+                    "command": "EVENT_IF_SAVED_DATA",
+                    "args": {
+                        "__collapseElse": false
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "id": "e0f3d5a3-f6dd-4aa7-bdf3-325a40a5f3c6",
+                                "command": "EVENT_LOOP",
+                                "args": {
+                                    "__collapse": true
+                                },
+                                "children": {
+                                    "true": [
+                                        {
+                                            "id": "f4b5dfd1-afb7-4c03-9c3b-06cf5a2dba59",
+                                            "command": "EVENT_CHOICE",
+                                            "args": {
+                                                "variable": "L0",
+                                                "trueText": "New Game",
+                                                "falseText": "Continue"
+                                            }
+                                        },
+                                        {
+                                            "id": "06e84e99-38c6-4d3a-95dc-62c571bff3f2",
+                                            "command": "EVENT_IF_TRUE",
+                                            "args": {
+                                                "variable": "L0",
+                                                "__collapseElse": false,
+                                                "__collapse": false
+                                            },
+                                            "children": {
+                                                "true": [
+                                                    {
+                                                        "id": "71cbd6d5-23a7-4c16-8385-acb8af4413f2",
+                                                        "command": "EVENT_SWITCH_SCENE",
+                                                        "args": {
+                                                            "sceneId": "9d71f524-4ede-41d7-9e3f-27470b9eb3ae",
+                                                            "x": 9,
+                                                            "y": 9,
+                                                            "direction": "down",
+                                                            "fadeSpeed": "2"
+                                                        }
+                                                    },
+                                                    {
+                                                        "id": "3b5a8f85-cadc-4d78-bb06-a4f6d65675e8",
+                                                        "command": "EVENT_END"
+                                                    }
+                                                ],
+                                                "false": [
+                                                    {
+                                                        "id": "5522c5f9-ff46-4d94-b31c-b3335eebae6a",
+                                                        "command": "EVENT_LOAD_DATA",
+                                                        "args": {}
+                                                    },
+                                                    {
+                                                        "id": "4d271f3a-debc-4da9-a42c-66b2fba759df",
+                                                        "command": "EVENT_END"
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "id": "7a704a11-1e0c-4991-8c9b-6414ca956ee2",
+                                            "command": "EVENT_END"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "id": "106ff5e5-ec8c-47ed-ad33-c441b10c76c3",
+                                "command": "EVENT_END"
+                            }
+                        ],
+                        "false": [
+                            {
+                                "id": "03af5c92-d834-43cc-b2bd-95808e19e387",
+                                "command": "EVENT_SWITCH_SCENE",
+                                "args": {
+                                    "sceneId": "9d71f524-4ede-41d7-9e3f-27470b9eb3ae",
+                                    "x": 9,
+                                    "y": 9,
+                                    "direction": "down",
+                                    "fadeSpeed": "2"
+                                }
+                            },
+                            {
+                                "id": "036f3582-6410-4cf0-9ce6-374678d4e4e2",
+                                "command": "EVENT_END"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "8a32b3ba-b356-4435-aea9-30f286557a08",
+                    "command": "EVENT_END"
+                }
+            ],
             "playerHit1Script": [],
             "playerHit2Script": [],
             "playerHit3Script": [],
@@ -92,6 +211,23 @@
             "paletteIds": [
                 "dmg"
             ]
+        },
+        {
+            "name": "Gardening Test Scene",
+            "backgroundId": "add5d20b-2c70-42b1-a01c-70ef056926e9",
+            "width": 20,
+            "height": 18,
+            "collisions": [],
+            "tileColors": [],
+            "script": [],
+            "playerHit1Script": [],
+            "playerHit2Script": [],
+            "playerHit3Script": [],
+            "id": "9d71f524-4ede-41d7-9e3f-27470b9eb3ae",
+            "x": 724,
+            "y": 216,
+            "actors": [],
+            "triggers": []
         }
     ],
     "backgrounds": [
@@ -355,7 +491,12 @@
             "_v": 1602533931345
         }
     ],
-    "variables": [],
+    "variables": [
+        {
+            "id": "d75e6347-d4f9-4d95-a73b-67c07979054e__L0",
+            "name": "Menu Selection"
+        }
+    ],
     "settings": {
         "startSceneId": "693f5a7f-f046-491f-b128-3f68cadf2aae",
         "startX": 9,
