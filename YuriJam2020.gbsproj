@@ -609,7 +609,7 @@
                                             "args": {
                                                 "variable": "0",
                                                 "operator": ">",
-                                                "comparator": 1,
+                                                "comparator": 0,
                                                 "__collapseElse": false
                                             },
                                             "children": {
