@@ -826,7 +826,7 @@
                     "height": 1
                 },
                 {
-                    "name": "Outside Plantin Region",
+                    "name": "Outside Planting Region",
                     "trigger": "walk",
                     "script": [
                         {
