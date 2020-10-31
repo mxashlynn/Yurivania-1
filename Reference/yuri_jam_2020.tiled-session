@@ -9,14 +9,31 @@
         "tiles",
         "."
     ],
+    "exportAsImage.useCurrentScale": false,
     "file.lastUsedOpenFilter": "All Files (*)",
     "fileStates": {
+        "backgrounds/alraunes_room.tmx": {
+            "scale": 5.5,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 77.36363636363637,
+                "y": 75.45454545454547
+            }
+        },
         "backgrounds/echoing_vaults.tmx": {
             "scale": 5.75,
             "selectedLayer": 0,
             "viewCenter": {
                 "x": 80,
                 "y": 70
+            }
+        },
+        "backgrounds/gorgons_room.tmx": {
+            "scale": 5.5,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 78.27272727272728,
+                "y": 64.72727272727273
             }
         },
         "backgrounds/lunarium.tmx": {
@@ -59,9 +76,6 @@
                 "y": 70
             }
         },
-        "tiles/YuriJam2020.tsx": {
-            "scaleInDock": 1
-        },
         "tiles/yuri_jam_2020.tsx": {
             "scaleInDock": 4,
             "scaleInEditor": 11
@@ -80,13 +94,13 @@
     ],
     "project": "yuri_jam_2020.tiled-project",
     "recentFiles": [
+        "backgrounds/solarium_shutters_down.tmx",
+        "backgrounds/solarium - sunbeam test.tmx",
         "tiles/yuri_jam_2020.tsx",
         "backgrounds/lunarium.tmx",
         "backgrounds/echoing_vaults.tmx",
         "backgrounds/skyclad_tower.tmx",
-        "backgrounds/solarium_shutters_up.tmx",
-        "backgrounds/solarium_shutters_down.tmx",
-        "backgrounds/solarium - sunbeam test.tmx"
+        "backgrounds/solarium_shutters_up.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {
