@@ -3,11 +3,11 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "",
+    "activeFile": "backgrounds/skyclad_tower.tmx",
     "expandedProjectPaths": [
-        ".",
         "backgrounds",
-        "tiles"
+        "tiles",
+        "."
     ],
     "file.lastUsedOpenFilter": "All Files (*)",
     "fileStates": {
@@ -15,16 +15,8 @@
             "scale": 5.75,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 480,
-                "y": 144
-            }
-        },
-        "backgrounds/skyclad_tower.tmx": {
-            "scale": 5.75,
-            "selectedLayer": 0,
-            "viewCenter": {
-                "x": 95,
-                "y": 812
+                "x": 80,
+                "y": 70
             }
         },
         "backgrounds/lunarium.tmx": {
@@ -32,7 +24,23 @@
             "selectedLayer": 0,
             "viewCenter": {
                 "x": 80,
-                "y": 72
+                "y": 70
+            }
+        },
+        "backgrounds/skyclad_tower.tmx": {
+            "scale": 5.75,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 80,
+                "y": 933
+            }
+        },
+        "backgrounds/solarium - sunbeam test.tmx": {
+            "scale": 5.75,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 80,
+                "y": 70
             }
         },
         "backgrounds/solarium_shutters_down.tmx": {
@@ -40,7 +48,7 @@
             "selectedLayer": 0,
             "viewCenter": {
                 "x": 80,
-                "y": 72
+                "y": 70
             }
         },
         "backgrounds/solarium_shutters_up.tmx": {
@@ -48,8 +56,11 @@
             "selectedLayer": 0,
             "viewCenter": {
                 "x": 80,
-                "y": 72
+                "y": 70
             }
+        },
+        "tiles/YuriJam2020.tsx": {
+            "scaleInDock": 1
         },
         "tiles/yuri_jam_2020.tsx": {
             "scaleInDock": 4,
@@ -62,15 +73,20 @@
     "map.tileWidth": 8,
     "map.width": 20,
     "openFiles": [
+        "tiles/yuri_jam_2020.tsx",
+        "backgrounds/lunarium.tmx",
+        "backgrounds/echoing_vaults.tmx",
+        "backgrounds/skyclad_tower.tmx"
     ],
     "project": "yuri_jam_2020.tiled-project",
     "recentFiles": [
+        "tiles/yuri_jam_2020.tsx",
         "backgrounds/lunarium.tmx",
-        "backgrounds/solarium_shutters_down.tmx",
-        "backgrounds/solarium_shutters_up.tmx",
-        "backgrounds/skyclad_tower.tmx",
         "backgrounds/echoing_vaults.tmx",
-        "tiles/yuri_jam_2020.tsx"
+        "backgrounds/skyclad_tower.tmx",
+        "backgrounds/solarium_shutters_up.tmx",
+        "backgrounds/solarium_shutters_down.tmx",
+        "backgrounds/solarium - sunbeam test.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {
