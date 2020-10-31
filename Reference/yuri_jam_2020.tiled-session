@@ -1,0 +1,82 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "",
+    "expandedProjectPaths": [
+        ".",
+        "backgrounds",
+        "tiles"
+    ],
+    "file.lastUsedOpenFilter": "All Files (*)",
+    "fileStates": {
+        "backgrounds/echoing_vaults.tmx": {
+            "scale": 5.75,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 480,
+                "y": 144
+            }
+        },
+        "backgrounds/skyclad_tower.tmx": {
+            "scale": 5.75,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 95,
+                "y": 812
+            }
+        },
+        "backgrounds/lunarium.tmx": {
+            "scale": 5.75,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 80,
+                "y": 72
+            }
+        },
+        "backgrounds/solarium_shutters_down.tmx": {
+            "scale": 5.75,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 80,
+                "y": 72
+            }
+        },
+        "backgrounds/solarium_shutters_up.tmx": {
+            "scale": 5.75,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 80,
+                "y": 72
+            }
+        },
+        "tiles/yuri_jam_2020.tsx": {
+            "scaleInDock": 4,
+            "scaleInEditor": 11
+        }
+    },
+    "map.height": 126,
+    "map.lastUsedFormat": "tmx",
+    "map.tileHeight": 8,
+    "map.tileWidth": 8,
+    "map.width": 20,
+    "openFiles": [
+    ],
+    "project": "yuri_jam_2020.tiled-project",
+    "recentFiles": [
+        "backgrounds/lunarium.tmx",
+        "backgrounds/solarium_shutters_down.tmx",
+        "backgrounds/solarium_shutters_up.tmx",
+        "backgrounds/skyclad_tower.tmx",
+        "backgrounds/echoing_vaults.tmx",
+        "tiles/yuri_jam_2020.tsx"
+    ],
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.tileSize": {
+        "height": 8,
+        "width": 8
+    },
+    "tileset.transparentColor": "#65ff00",
+    "tileset.useTransparentColor": true
+}
