@@ -3,11 +3,11 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "backgrounds/skyclad_tower.tmx",
+    "activeFile": "backgrounds/echoing_vaults.tmx",
     "expandedProjectPaths": [
+        ".",
         "backgrounds",
-        "tiles",
-        "."
+        "tiles"
     ],
     "exportAsImage.useCurrentScale": false,
     "file.lastUsedOpenFilter": "All Files (*)",
@@ -16,64 +16,72 @@
             "scale": 5.5,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 77.36363636363637,
-                "y": 75.45454545454547
+                "x": 77.54545454545453,
+                "y": 75.63636363636364
             }
         },
         "backgrounds/echoing_vaults.tmx": {
             "scale": 5.75,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 80,
-                "y": 70
+                "x": 93.1304347826087,
+                "y": 69.91304347826087
+            }
+        },
+        "backgrounds/gorgons_room - broken floor test.tmx": {
+            "scale": 5.6584375,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 80.14579996686363,
+                "y": 72.10471088529299
             }
         },
         "backgrounds/gorgons_room.tmx": {
             "scale": 5.5,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 78.27272727272728,
-                "y": 64.72727272727273
+                "x": 78.45454545454545,
+                "y": 64.90909090909092
             }
         },
         "backgrounds/lunarium.tmx": {
             "scale": 5.75,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 80,
-                "y": 70
+                "x": 80.08695652173913,
+                "y": 70.08695652173913
             }
         },
         "backgrounds/skyclad_tower.tmx": {
             "scale": 5.75,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 80,
-                "y": 933
+                "x": 80.08695652173913,
+                "y": 86.26086956521739
             }
         },
         "backgrounds/solarium - sunbeam test.tmx": {
             "scale": 5.75,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 80,
-                "y": 70
+                "x": 80.08695652173913,
+                "y": 70.08695652173913
             }
         },
         "backgrounds/solarium_shutters_down.tmx": {
             "scale": 5.75,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 80,
-                "y": 70
+                "x": 80.08695652173913,
+                "y": 70.08695652173913
             }
         },
         "backgrounds/solarium_shutters_up.tmx": {
             "scale": 5.75,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 80,
-                "y": 70
+                "x": 80.08695652173913,
+                "y": 70.08695652173913
             }
         },
         "tiles/yuri_jam_2020.tsx": {
@@ -88,19 +96,25 @@
     "map.width": 20,
     "openFiles": [
         "tiles/yuri_jam_2020.tsx",
-        "backgrounds/lunarium.tmx",
         "backgrounds/echoing_vaults.tmx",
-        "backgrounds/skyclad_tower.tmx"
+        "backgrounds/alraunes_room.tmx",
+        "backgrounds/skyclad_tower.tmx",
+        "backgrounds/gorgons_room.tmx",
+        "backgrounds/lunarium.tmx",
+        "backgrounds/solarium_shutters_up.tmx"
     ],
     "project": "yuri_jam_2020.tiled-project",
     "recentFiles": [
-        "backgrounds/solarium_shutters_down.tmx",
-        "backgrounds/solarium - sunbeam test.tmx",
         "tiles/yuri_jam_2020.tsx",
+        "backgrounds/solarium_shutters_up.tmx",
         "backgrounds/lunarium.tmx",
-        "backgrounds/echoing_vaults.tmx",
+        "backgrounds/gorgons_room.tmx",
         "backgrounds/skyclad_tower.tmx",
-        "backgrounds/solarium_shutters_up.tmx"
+        "backgrounds/alraunes_room.tmx",
+        "backgrounds/echoing_vaults.tmx",
+        "backgrounds/gorgons_room - broken floor test.tmx",
+        "backgrounds/solarium_shutters_down.tmx",
+        "backgrounds/solarium - sunbeam test.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {
