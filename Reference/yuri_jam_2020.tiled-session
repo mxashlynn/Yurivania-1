@@ -3,7 +3,7 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "backgrounds/echoing_vaults.tmx",
+    "activeFile": "backgrounds/starlit_court-yard.tmx",
     "expandedProjectPaths": [
         "backgrounds",
         ".",
@@ -21,11 +21,11 @@
             }
         },
         "backgrounds/echoing_vaults.tmx": {
-            "scale": 2,
+            "scale": 5.5,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 1056.75,
-                "y": 110
+                "x": 865.3636363636365,
+                "y": 108.9090909090909
             }
         },
         "backgrounds/lunarium.tmx": {
@@ -40,16 +40,16 @@
             "scale": 5.388988095238095,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 79.8851272988347,
-                "y": 71.90589274866075
+                "x": 80.16347269011985,
+                "y": 72.09145634285085
             }
         },
         "backgrounds/skyclad_tower.tmx": {
             "scale": 5.75,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 80.08695652173913,
-                "y": 75.82608695652173
+                "x": 80,
+                "y": 503.9130434782609
             }
         },
         "backgrounds/solarium - sunbeam test.tmx": {
@@ -74,6 +74,14 @@
             "viewCenter": {
                 "x": 80.08695652173913,
                 "y": 70.08695652173913
+            }
+        },
+        "backgrounds/starlit_court-yard.tmx": {
+            "scale": 5.5,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 218.54545454545456,
+                "y": 110.36363636363636
             }
         },
         "backgrounds/statue_hall.tmx": {
@@ -109,25 +117,27 @@
             }
         },
         "tiles/yuri_jam_2020.tsx": {
-            "scaleInDock": 4,
+            "scaleInDock": 5.5,
             "scaleInEditor": 11
         }
     },
-    "map.height": 18,
+    "map.height": 36,
     "map.lastUsedFormat": "tmx",
     "map.tileHeight": 8,
     "map.tileWidth": 8,
-    "map.width": 20,
+    "map.width": 40,
     "openFiles": [
         "backgrounds/skyclad_tower.tmx",
         "backgrounds/echoing_vaults.tmx",
-        "backgrounds/one-room-measurement.tmx"
+        "backgrounds/one-room-measurement.tmx",
+        "backgrounds/starlit_court-yard.tmx"
     ],
     "project": "yuri_jam_2020.tiled-project",
     "recentFiles": [
         "backgrounds/skyclad_tower.tmx",
-        "backgrounds/one-room-measurement.tmx",
         "backgrounds/echoing_vaults.tmx",
+        "backgrounds/one-room-measurement.tmx",
+        "backgrounds/starlit_court-yard.tmx",
         "tiles/yuri_jam_2020.tsx",
         "backgrounds/alraunes_corner.tmx",
         "backgrounds/sthenos_room.tmx",
@@ -135,8 +145,7 @@
         "backgrounds/solarium_shutters_up.tmx",
         "backgrounds/statue_hall.tmx",
         "backgrounds/sthenos_room - broken floor test.tmx",
-        "backgrounds/solarium_shutters_down.tmx",
-        "backgrounds/solarium - sunbeam test.tmx"
+        "backgrounds/solarium_shutters_down.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {
