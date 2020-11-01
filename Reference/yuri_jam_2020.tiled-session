@@ -21,11 +21,11 @@
             }
         },
         "backgrounds/echoing_vaults.tmx": {
-            "scale": 5.75,
+            "scale": 1.5,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 93.1304347826087,
-                "y": 69.91304347826087
+                "x": 231.66666666666666,
+                "y": 92
             }
         },
         "backgrounds/lunarium.tmx": {
@@ -36,12 +36,20 @@
                 "y": 70.08695652173913
             }
         },
+        "backgrounds/one-room-measurement.tmx": {
+            "scale": 5.388988095238095,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 76.17385541503286,
+                "y": 72.18423813994589
+            }
+        },
         "backgrounds/skyclad_tower.tmx": {
             "scale": 5.75,
             "selectedLayer": 0,
             "viewCenter": {
                 "x": 80.08695652173913,
-                "y": 844
+                "y": 843.8260869565217
             }
         },
         "backgrounds/solarium - sunbeam test.tmx": {
@@ -73,7 +81,7 @@
             "selectedLayer": 0,
             "viewCenter": {
                 "x": 80.14579996686363,
-                "y": 72.10471088529299
+                "y": 71.927983652731
             }
         },
         "backgrounds/sthenos_room - broken floor test.tmx": {
@@ -92,12 +100,20 @@
                 "y": 65.09090909090908
             }
         },
+        "backgrounds/test.tmx": {
+            "scale": 5.388988095238095,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 76.17385541503286,
+                "y": 72.18423813994589
+            }
+        },
         "tiles/yuri_jam_2020.tsx": {
             "scaleInDock": 4,
             "scaleInEditor": 11
         }
     },
-    "map.height": 126,
+    "map.height": 18,
     "map.lastUsedFormat": "tmx",
     "map.tileHeight": 8,
     "map.tileWidth": 8,
@@ -114,11 +130,12 @@
     "project": "yuri_jam_2020.tiled-project",
     "recentFiles": [
         "tiles/yuri_jam_2020.tsx",
-        "backgrounds/solarium_shutters_up.tmx",
-        "backgrounds/lunarium.tmx",
-        "backgrounds/sthenos_room.tmx",
-        "backgrounds/skyclad_tower.tmx",
         "backgrounds/alraunes_corner.tmx",
+        "backgrounds/sthenos_room.tmx",
+        "backgrounds/lunarium.tmx",
+        "backgrounds/solarium_shutters_up.tmx",
+        "backgrounds/statue_hall.tmx",
+        "backgrounds/skyclad_tower.tmx",
         "backgrounds/echoing_vaults.tmx",
         "backgrounds/sthenos_room - broken floor test.tmx",
         "backgrounds/solarium_shutters_down.tmx",
