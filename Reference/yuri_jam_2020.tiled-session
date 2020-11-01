@@ -5,8 +5,8 @@
     },
     "activeFile": "backgrounds/echoing_vaults.tmx",
     "expandedProjectPaths": [
-        ".",
         "backgrounds",
+        ".",
         "tiles"
     ],
     "exportAsImage.useCurrentScale": false,
@@ -21,11 +21,11 @@
             }
         },
         "backgrounds/echoing_vaults.tmx": {
-            "scale": 1.5,
+            "scale": 2,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 231.66666666666666,
-                "y": 92
+                "x": 1056.75,
+                "y": 110
             }
         },
         "backgrounds/lunarium.tmx": {
@@ -40,8 +40,8 @@
             "scale": 5.388988095238095,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 76.17385541503286,
-                "y": 72.18423813994589
+                "x": 79.8851272988347,
+                "y": 71.90589274866075
             }
         },
         "backgrounds/skyclad_tower.tmx": {
@@ -49,7 +49,7 @@
             "selectedLayer": 0,
             "viewCenter": {
                 "x": 80.08695652173913,
-                "y": 843.8260869565217
+                "y": 75.82608695652173
             }
         },
         "backgrounds/solarium - sunbeam test.tmx": {
@@ -119,24 +119,21 @@
     "map.tileWidth": 8,
     "map.width": 20,
     "openFiles": [
-        "tiles/yuri_jam_2020.tsx",
-        "backgrounds/echoing_vaults.tmx",
-        "backgrounds/alraunes_corner.tmx",
         "backgrounds/skyclad_tower.tmx",
-        "backgrounds/sthenos_room.tmx",
-        "backgrounds/lunarium.tmx",
-        "backgrounds/solarium_shutters_up.tmx"
+        "backgrounds/echoing_vaults.tmx",
+        "backgrounds/one-room-measurement.tmx"
     ],
     "project": "yuri_jam_2020.tiled-project",
     "recentFiles": [
+        "backgrounds/skyclad_tower.tmx",
+        "backgrounds/one-room-measurement.tmx",
+        "backgrounds/echoing_vaults.tmx",
         "tiles/yuri_jam_2020.tsx",
         "backgrounds/alraunes_corner.tmx",
         "backgrounds/sthenos_room.tmx",
         "backgrounds/lunarium.tmx",
         "backgrounds/solarium_shutters_up.tmx",
         "backgrounds/statue_hall.tmx",
-        "backgrounds/skyclad_tower.tmx",
-        "backgrounds/echoing_vaults.tmx",
         "backgrounds/sthenos_room - broken floor test.tmx",
         "backgrounds/solarium_shutters_down.tmx",
         "backgrounds/solarium - sunbeam test.tmx"
