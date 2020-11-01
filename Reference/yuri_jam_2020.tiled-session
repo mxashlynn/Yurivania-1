@@ -12,12 +12,12 @@
     "exportAsImage.useCurrentScale": false,
     "file.lastUsedOpenFilter": "All Files (*)",
     "fileStates": {
-        "backgrounds/alraunes_room.tmx": {
+        "backgrounds/alraunes_corner.tmx": {
             "scale": 5.5,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 77.54545454545453,
-                "y": 75.63636363636364
+                "x": 79.9090909090909,
+                "y": 71.9090909090909
             }
         },
         "backgrounds/echoing_vaults.tmx": {
@@ -28,36 +28,20 @@
                 "y": 69.91304347826087
             }
         },
-        "backgrounds/gorgons_room - broken floor test.tmx": {
-            "scale": 5.6584375,
-            "selectedLayer": 0,
-            "viewCenter": {
-                "x": 80.14579996686363,
-                "y": 72.10471088529299
-            }
-        },
-        "backgrounds/gorgons_room.tmx": {
-            "scale": 5.5,
-            "selectedLayer": 0,
-            "viewCenter": {
-                "x": 78.45454545454545,
-                "y": 64.90909090909092
-            }
-        },
         "backgrounds/lunarium.tmx": {
             "scale": 5.75,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 80.08695652173913,
-                "y": 70.08695652173913
+                "x": 79.91304347826087,
+                "y": 71.91304347826087
             }
         },
         "backgrounds/skyclad_tower.tmx": {
             "scale": 5.75,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 80.08695652173913,
-                "y": 86.26086956521739
+                "x": 79.91304347826087,
+                "y": 503.9130434782609
             }
         },
         "backgrounds/solarium - sunbeam test.tmx": {
@@ -80,8 +64,24 @@
             "scale": 5.75,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 80.08695652173913,
-                "y": 70.08695652173913
+                "x": 79.91304347826087,
+                "y": 71.91304347826087
+            }
+        },
+        "backgrounds/sthenos_room - broken floor test.tmx": {
+            "scale": 5.6584375,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 80.14579996686363,
+                "y": 72.10471088529299
+            }
+        },
+        "backgrounds/sthenos_room.tmx": {
+            "scale": 5.5,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 79.9090909090909,
+                "y": 71.9090909090909
             }
         },
         "tiles/yuri_jam_2020.tsx": {
@@ -97,9 +97,9 @@
     "openFiles": [
         "tiles/yuri_jam_2020.tsx",
         "backgrounds/echoing_vaults.tmx",
-        "backgrounds/alraunes_room.tmx",
+        "backgrounds/alraunes_corner.tmx",
         "backgrounds/skyclad_tower.tmx",
-        "backgrounds/gorgons_room.tmx",
+        "backgrounds/sthenos_room.tmx",
         "backgrounds/lunarium.tmx",
         "backgrounds/solarium_shutters_up.tmx"
     ],
@@ -108,11 +108,11 @@
         "tiles/yuri_jam_2020.tsx",
         "backgrounds/solarium_shutters_up.tmx",
         "backgrounds/lunarium.tmx",
-        "backgrounds/gorgons_room.tmx",
+        "backgrounds/sthenos_room.tmx",
         "backgrounds/skyclad_tower.tmx",
-        "backgrounds/alraunes_room.tmx",
+        "backgrounds/alraunes_corner.tmx",
         "backgrounds/echoing_vaults.tmx",
-        "backgrounds/gorgons_room - broken floor test.tmx",
+        "backgrounds/sthenos_room - broken floor test.tmx",
         "backgrounds/solarium_shutters_down.tmx",
         "backgrounds/solarium - sunbeam test.tmx"
     ],
