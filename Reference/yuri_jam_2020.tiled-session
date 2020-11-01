@@ -3,10 +3,10 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "backgrounds/starlit_court-yard.tmx",
+    "activeFile": "backgrounds/echoing_vaults.tmx",
     "expandedProjectPaths": [
-        "backgrounds",
         ".",
+        "backgrounds",
         "tiles"
     ],
     "exportAsImage.useCurrentScale": false,
@@ -24,8 +24,8 @@
             "scale": 5.5,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 865.3636363636365,
-                "y": 108.9090909090909
+                "x": 578.1818181818182,
+                "y": 42.90909090909092
             }
         },
         "backgrounds/lunarium.tmx": {
@@ -40,7 +40,7 @@
             "scale": 5.388988095238095,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 80.16347269011985,
+                "x": 80.07069089302479,
                 "y": 72.09145634285085
             }
         },
@@ -48,7 +48,7 @@
             "scale": 5.75,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 80,
+                "x": 80.08695652173913,
                 "y": 503.9130434782609
             }
         },
@@ -135,9 +135,9 @@
     "project": "yuri_jam_2020.tiled-project",
     "recentFiles": [
         "backgrounds/skyclad_tower.tmx",
-        "backgrounds/echoing_vaults.tmx",
-        "backgrounds/one-room-measurement.tmx",
         "backgrounds/starlit_court-yard.tmx",
+        "backgrounds/one-room-measurement.tmx",
+        "backgrounds/echoing_vaults.tmx",
         "tiles/yuri_jam_2020.tsx",
         "backgrounds/alraunes_corner.tmx",
         "backgrounds/sthenos_room.tmx",
