@@ -21,11 +21,11 @@
             }
         },
         "backgrounds/echoing_vaults.tmx": {
-            "scale": 5.5,
+            "scale": 2,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 578.1818181818182,
-                "y": 42.90909090909092
+                "x": 1135.75,
+                "y": 85.5
             }
         },
         "backgrounds/lunarium.tmx": {
@@ -40,15 +40,15 @@
             "scale": 5.388988095238095,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 80.07069089302479,
-                "y": 72.09145634285085
+                "x": 80.0706908930248,
+                "y": 72.18423813994589
             }
         },
         "backgrounds/skyclad_tower.tmx": {
             "scale": 5.75,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 80.08695652173913,
+                "x": 79.91304347826087,
                 "y": 503.9130434782609
             }
         },
@@ -76,12 +76,20 @@
                 "y": 70.08695652173913
             }
         },
-        "backgrounds/starlit_court-yard.tmx": {
-            "scale": 5.5,
+        "backgrounds/starlit_court-bridge.tmx": {
+            "scale": 3,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 218.54545454545456,
-                "y": 110.36363636363636
+                "x": 737.5,
+                "y": 112
+            }
+        },
+        "backgrounds/starlit_court-yard.tmx": {
+            "scale": 3,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 167.5,
+                "y": 97.33333333333334
             }
         },
         "backgrounds/statue_hall.tmx": {
@@ -125,7 +133,7 @@
     "map.lastUsedFormat": "tmx",
     "map.tileHeight": 8,
     "map.tileWidth": 8,
-    "map.width": 40,
+    "map.width": 100,
     "openFiles": [
         "backgrounds/skyclad_tower.tmx",
         "backgrounds/echoing_vaults.tmx",
