@@ -40,8 +40,8 @@
             "scale": 5.388988095238095,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 79.8851272988347,
-                "y": 71.90589274866075
+                "x": 79.97790909592976,
+                "y": 71.99867454575579
             }
         },
         "backgrounds/skyclad_tower-balcony.tmx": {
@@ -96,16 +96,16 @@
             "scale": 3,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 745.3333333333333,
-                "y": 142.33333333333334
+                "x": 656.3333333333333,
+                "y": 139.33333333333334
             }
         },
         "backgrounds/starlit_court-yard.tmx": {
             "scale": 3,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 159.66666666666669,
-                "y": 144
+                "x": 204.66666666666669,
+                "y": 143.33333333333334
             }
         },
         "backgrounds/sthenos_room - broken floor test.tmx": {
@@ -132,6 +132,17 @@
                 "y": 72.18423813994589
             }
         },
+        "backgrounds/zipline.tmx": {
+            "scale": 2,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 601,
+                "y": 170.5
+            }
+        },
+        "tiles/yuri_jam_2020-zipline_alternate.tsx": {
+            "scaleInEditor": 11
+        },
         "tiles/yuri_jam_2020.tsx": {
             "scaleInDock": 4,
             "scaleInEditor": 11
@@ -151,18 +162,18 @@
     ],
     "project": "yuri_jam_2020.tiled-project",
     "recentFiles": [
-        "backgrounds/skyclad_tower.tmx",
         "backgrounds/echoing_vaults.tmx",
-        "backgrounds/one-room-measurement.tmx",
         "backgrounds/starlit_court-yard.tmx",
-        "backgrounds/starlit_court-bridge.tmx",
         "tiles/yuri_jam_2020.tsx",
+        "tiles/yuri_jam_2020-zipline_alternate.tsx",
+        "backgrounds/skyclad_tower.tmx",
+        "backgrounds/one-room-measurement.tmx",
+        "backgrounds/starlit_court-bridge.tmx",
         "backgrounds/alraunes_corner.tmx",
         "backgrounds/sthenos_room.tmx",
         "backgrounds/lunarium.tmx",
         "backgrounds/solarium_shutters_up.tmx",
-        "backgrounds/skyclad_tower-hall_of_statues.tmx",
-        "backgrounds/sthenos_room - broken floor test.tmx"
+        "backgrounds/skyclad_tower-hall_of_statues.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {
