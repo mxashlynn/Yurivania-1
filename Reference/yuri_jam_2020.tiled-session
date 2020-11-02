@@ -3,11 +3,11 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "backgrounds/starlit_court-bridge.tmx",
+    "activeFile": "backgrounds/one-room-measurement.tmx",
     "expandedProjectPaths": [
+        "tiles",
         ".",
-        "backgrounds",
-        "tiles"
+        "backgrounds"
     ],
     "exportAsImage.useCurrentScale": false,
     "file.lastUsedOpenFilter": "All Files (*)",
@@ -16,8 +16,8 @@
             "scale": 5.5,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 77.54545454545453,
-                "y": 75.63636363636364
+                "x": 98.72727272727272,
+                "y": 65.09090909090908
             }
         },
         "backgrounds/echoing_vaults.tmx": {
@@ -26,6 +26,14 @@
             "viewCenter": {
                 "x": 639.75,
                 "y": 143.75
+            }
+        },
+        "backgrounds/glassy_tarn.tmx": {
+            "scale": 4,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 106,
+                "y": 104
             }
         },
         "backgrounds/lunarium.tmx": {
@@ -64,8 +72,8 @@
             "scale": 1.5,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 67.33333333333331,
-                "y": 710
+                "x": 66.66666666666663,
+                "y": 709.3333333333333
             }
         },
         "backgrounds/solarium - sunbeam test.tmx": {
@@ -96,8 +104,8 @@
             "scale": 3,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 673,
-                "y": 80.66666666666667
+                "x": 289.3333333333333,
+                "y": 217
             }
         },
         "backgrounds/starlit_court-gatehouse.tmx": {
@@ -105,15 +113,15 @@
             "selectedLayer": 0,
             "viewCenter": {
                 "x": 75.78947368421053,
-                "y": 167.67582673497904
+                "y": 140.84769445738243
             }
         },
         "backgrounds/starlit_court-yard.tmx": {
             "scale": 3,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 105.66666666666669,
-                "y": 143
+                "x": 224.66666666666669,
+                "y": 142.66666666666663
             }
         },
         "backgrounds/sthenos_room - broken floor test.tmx": {
@@ -144,11 +152,12 @@
             "scale": 4,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 742.5,
-                "y": 177
+                "x": 719.25,
+                "y": 176.75
             }
         },
         "tiles/yuri_jam_2020-zipline_alternate.tsx": {
+            "scaleInDock": 4,
             "scaleInEditor": 11
         },
         "tiles/yuri_jam_2020.tsx": {
@@ -160,28 +169,24 @@
     "map.lastUsedFormat": "tmx",
     "map.tileHeight": 8,
     "map.tileWidth": 8,
-    "map.width": 20,
+    "map.width": 80,
     "openFiles": [
-        "backgrounds/skyclad_tower.tmx",
-        "backgrounds/echoing_vaults.tmx",
-        "backgrounds/one-room-measurement.tmx",
-        "backgrounds/starlit_court-yard.tmx",
-        "backgrounds/starlit_court-bridge.tmx"
+        "backgrounds/one-room-measurement.tmx"
     ],
     "project": "yuri_jam_2020.tiled-project",
     "recentFiles": [
-        "backgrounds/echoing_vaults.tmx",
-        "backgrounds/starlit_court-yard.tmx",
-        "tiles/yuri_jam_2020.tsx",
-        "tiles/yuri_jam_2020-zipline_alternate.tsx",
-        "backgrounds/skyclad_tower.tmx",
         "backgrounds/one-room-measurement.tmx",
         "backgrounds/starlit_court-bridge.tmx",
+        "backgrounds/glassy_tarn.tmx",
         "backgrounds/alraunes_corner.tmx",
-        "backgrounds/sthenos_room.tmx",
-        "backgrounds/lunarium.tmx",
-        "backgrounds/solarium_shutters_up.tmx",
-        "backgrounds/skyclad_tower-hall_of_statues.tmx"
+        "backgrounds/starlit_court-yard.tmx",
+        "backgrounds/starlit_court-gatehouse.tmx",
+        "backgrounds/zipline.tmx",
+        "backgrounds/skyclad_tower-balcony.tmx",
+        "backgrounds/skyclad_tower.tmx",
+        "backgrounds/echoing_vaults.tmx",
+        "tiles/yuri_jam_2020.tsx",
+        "tiles/yuri_jam_2020-zipline_alternate.tsx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {
