@@ -3,7 +3,7 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "backgrounds/echoing_vaults.tmx",
+    "activeFile": "backgrounds/starlit_court-bridge.tmx",
     "expandedProjectPaths": [
         ".",
         "backgrounds",
@@ -24,8 +24,8 @@
             "scale": 2,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 1135.75,
-                "y": 85.5
+                "x": 639.75,
+                "y": 143.75
             }
         },
         "backgrounds/lunarium.tmx": {
@@ -40,8 +40,24 @@
             "scale": 5.388988095238095,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 80.0706908930248,
-                "y": 72.18423813994589
+                "x": 79.8851272988347,
+                "y": 71.90589274866075
+            }
+        },
+        "backgrounds/skyclad_tower-balcony.tmx": {
+            "scale": 5.2725,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 80.03793266951162,
+                "y": 72.07207207207207
+            }
+        },
+        "backgrounds/skyclad_tower-hall_of_statues.tmx": {
+            "scale": 5.6584375,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 80.14579996686363,
+                "y": 71.927983652731
             }
         },
         "backgrounds/skyclad_tower.tmx": {
@@ -80,24 +96,16 @@
             "scale": 3,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 737.5,
-                "y": 112
+                "x": 745.3333333333333,
+                "y": 142.33333333333334
             }
         },
         "backgrounds/starlit_court-yard.tmx": {
             "scale": 3,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 167.5,
-                "y": 97.33333333333334
-            }
-        },
-        "backgrounds/statue_hall.tmx": {
-            "scale": 5.6584375,
-            "selectedLayer": 0,
-            "viewCenter": {
-                "x": 80.14579996686363,
-                "y": 71.927983652731
+                "x": 159.66666666666669,
+                "y": 144
             }
         },
         "backgrounds/sthenos_room - broken floor test.tmx": {
@@ -125,7 +133,7 @@
             }
         },
         "tiles/yuri_jam_2020.tsx": {
-            "scaleInDock": 5.5,
+            "scaleInDock": 4,
             "scaleInEditor": 11
         }
     },
@@ -138,22 +146,23 @@
         "backgrounds/skyclad_tower.tmx",
         "backgrounds/echoing_vaults.tmx",
         "backgrounds/one-room-measurement.tmx",
-        "backgrounds/starlit_court-yard.tmx"
+        "backgrounds/starlit_court-yard.tmx",
+        "backgrounds/starlit_court-bridge.tmx"
     ],
     "project": "yuri_jam_2020.tiled-project",
     "recentFiles": [
         "backgrounds/skyclad_tower.tmx",
-        "backgrounds/starlit_court-yard.tmx",
-        "backgrounds/one-room-measurement.tmx",
         "backgrounds/echoing_vaults.tmx",
+        "backgrounds/one-room-measurement.tmx",
+        "backgrounds/starlit_court-yard.tmx",
+        "backgrounds/starlit_court-bridge.tmx",
         "tiles/yuri_jam_2020.tsx",
         "backgrounds/alraunes_corner.tmx",
         "backgrounds/sthenos_room.tmx",
         "backgrounds/lunarium.tmx",
         "backgrounds/solarium_shutters_up.tmx",
-        "backgrounds/statue_hall.tmx",
-        "backgrounds/sthenos_room - broken floor test.tmx",
-        "backgrounds/solarium_shutters_down.tmx"
+        "backgrounds/skyclad_tower-hall_of_statues.tmx",
+        "backgrounds/sthenos_room - broken floor test.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {
