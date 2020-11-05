@@ -1,8 +1,4 @@
 {
-    "Map/SizeTest": {
-        "height": 4300,
-        "width": 2
-    },
     "activeFile": "backgrounds/area-evergreen_gulf.tmx",
     "expandedProjectPaths": [
         "tiles",
@@ -16,32 +12,32 @@
             "scale": 5.5,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 98.72727272727272,
-                "y": 65.09090909090911
+                "x": 98,
+                "y": 65
             }
         },
         "backgrounds/area-echoing_vaults.tmx": {
             "scale": 5.5,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 95.63636363636364,
-                "y": 202.1818181818182
+                "x": 95,
+                "y": 202
             }
         },
         "backgrounds/area-evergreen_gulf.tmx": {
             "scale": 4,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 254.5,
-                "y": 103.75
+                "x": 254,
+                "y": 103
             }
         },
         "backgrounds/area-glassy_tarn.tmx": {
             "scale": 4,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 569.75,
-                "y": 189.25
+                "x": 569,
+                "y": 189
             }
         },
         "backgrounds/area-inner_circle.tmx": {
@@ -49,7 +45,7 @@
             "selectedLayer": 0,
             "viewCenter": {
                 "x": 95,
-                "y": 184.75
+                "y": 185
             }
         },
         "backgrounds/area-lunarium.tmx": {
@@ -57,39 +53,39 @@
             "selectedLayer": 0,
             "viewCenter": {
                 "x": 80,
-                "y": 70.08695652173913
+                "y": 70
             }
         },
         "backgrounds/area-skyclad_tower-balcony.tmx": {
             "scale": 5.2725,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 80.03793266951162,
-                "y": 72.07207207207207
+                "x": 80,
+                "y": 72
             }
         },
         "backgrounds/area-skyclad_tower-hall_of_statues.tmx": {
             "scale": 5.6584375,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 80.05743635058265,
-                "y": 72.10471088529299
+                "x": 80,
+                "y": 72
             }
         },
         "backgrounds/area-skyclad_tower-main.tmx": {
             "scale": 3,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 85.66666666666669,
-                "y": 875.3333333333333
+                "x": 85,
+                "y": 875
             }
         },
         "backgrounds/area-skyclad_tower.tmx": {
             "scale": 1.5,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 66.66666666666663,
-                "y": 709.3333333333333
+                "x": 67,
+                "y": 709
             }
         },
         "backgrounds/area-solarium_shutters_down.tmx": {
@@ -97,7 +93,7 @@
             "selectedLayer": 0,
             "viewCenter": {
                 "x": 80,
-                "y": 70.08695652173913
+                "y": 70
             }
         },
         "backgrounds/area-solarium_shutters_up.tmx": {
@@ -105,23 +101,23 @@
             "selectedLayer": 0,
             "viewCenter": {
                 "x": 80,
-                "y": 70.08695652173913
+                "y": 70
             }
         },
         "backgrounds/area-starlit_court-bridge.tmx": {
             "scale": 5.5,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 98.36363636363636,
-                "y": 108.18181818181819
+                "x": 98,
+                "y": 108
             }
         },
         "backgrounds/area-starlit_court-gatehouse.tmx": {
             "scale": 2.9819444444444443,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 76.79552864462042,
-                "y": 159.96273870517
+                "x": 76,
+                "y": 159
             }
         },
         "backgrounds/area-starlit_court-yard.tmx": {
@@ -136,16 +132,16 @@
             "scale": 5.5,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 78.36363636363637,
-                "y": 65.09090909090908
+                "x": 78,
+                "y": 65
             }
         },
         "backgrounds/area-subterrane.tmx": {
             "scale": 4,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 140.75,
-                "y": 189.25
+                "x": 140,
+                "y": 189
             }
         },
         "backgrounds/cutscene-zipline.tmx": {
@@ -160,8 +156,8 @@
             "scale": 5.388988095238095,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 76.45220080631802,
-                "y": 71.99867454575579
+                "x": 76,
+                "y": 71
             }
         },
         "tiles/yuri_jam_2020-zipline_alternate.tsx": {
@@ -182,28 +178,19 @@
         "backgrounds/one-room-measurement.tmx",
         "backgrounds/area-glassy_tarn.tmx",
         "backgrounds/area-evergreen_gulf.tmx",
-        "backgrounds/area-starlit_court-gatehouse.tmx",
-        "backgrounds/area-starlit_court-yard.tmx",
-        "backgrounds/area-starlit_court-bridge.tmx"
         "backgrounds/area-subterrane.tmx"
     ],
     "project": "yuri_jam_2020.tiled-project",
     "recentFiles": [
         "backgrounds/one-room-measurement.tmx",
         "backgrounds/area-glassy_tarn.tmx",
+        "backgrounds/area-evergreen_gulf.tmx",
         "backgrounds/area-subterrane.tmx",
         "backgrounds/area-starlit_court-bridge.tmx",
         "backgrounds/area-starlit_court-yard.tmx",
         "backgrounds/area-starlit_court-gatehouse.tmx",
-        "backgrounds/area-evergreen_gulf.tmx",
-        "backgrounds/area-solarium_shutters_up.tmx",
-        "backgrounds/area-solarium_shutters_down.tmx",
         "backgrounds/area-echoing_vaults.tmx",
-        "backgrounds/cutscene-zipline.tmx",
-        "backgrounds/area-inner_circle.tmx",
-        "backgrounds/area-lunarium.tmx",
-        "backgrounds/area-skyclad_tower-balcony.tmx",
-        "backgrounds/area-skyclad_tower-hall_of_statues.tmx"
+        "backgrounds/area-inner_circle.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {
