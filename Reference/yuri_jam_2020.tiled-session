@@ -56,6 +56,14 @@
                 "y": 70
             }
         },
+        "backgrounds/area-mossy_tholtan.tmx": {
+            "scale": 5.824404761904762,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 69.36331119059787,
+                "y": 71.93868165559532
+            }
+        },
         "backgrounds/area-skyclad_tower-balcony.tmx": {
             "scale": 5.2725,
             "selectedLayer": 0,
