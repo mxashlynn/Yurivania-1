@@ -22,6 +22,14 @@
             "viewCenter": {
                 "x": 95,
                 "y": 202
+        "backgrounds/area-evergreen_gulf-onis_grotto.tmx": {
+            "scale": 5.5,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 79.45454545454545,
+                "y": 73.45454545454547
+            }
+        },
             }
         },
         "backgrounds/area-evergreen_gulf.tmx": {
