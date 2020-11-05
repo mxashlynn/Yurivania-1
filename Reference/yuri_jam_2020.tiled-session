@@ -1,9 +1,13 @@
 {
-    "activeFile": "backgrounds/area-evergreen_gulf.tmx",
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "backgrounds/area-evergreen_gulf-treetops.tmx",
     "expandedProjectPaths": [
-        "backgrounds",
         "tiles",
-        "."
+        ".",
+        "backgrounds"
     ],
     "exportAsImage.useCurrentScale": false,
     "file.lastUsedOpenFilter": "All Files (*)",
@@ -20,8 +24,18 @@
             "scale": 5.5,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 95,
-                "y": 202
+                "x": 94.72727272727272,
+                "y": 137.0909090909091
+            }
+        },
+        "backgrounds/area-evergreen_gulf-main.tmx": {
+            "scale": 3,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 384,
+                "y": 47
+            }
+        },
         "backgrounds/area-evergreen_gulf-onis_grotto.tmx": {
             "scale": 5.5,
             "selectedLayer": 0,
@@ -30,14 +44,20 @@
                 "y": 73.45454545454547
             }
         },
+        "backgrounds/area-evergreen_gulf-treetops.tmx": {
+            "scale": 2.983231707317073,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 190.73275421563622,
+                "y": 71.06387327542156
             }
         },
         "backgrounds/area-evergreen_gulf.tmx": {
             "scale": 4,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 422.25,
-                "y": 167.25
+                "x": 398.25,
+                "y": 214.75
             }
         },
         "backgrounds/area-glassy_tarn.tmx": {
@@ -181,32 +201,35 @@
             "scaleInEditor": 11
         },
         "tiles/yuri_jam_2020.tsx": {
-            "scaleInDock": 5.5,
+            "scaleInDock": 4,
             "scaleInEditor": 11
         }
     },
-    "map.height": 54,
+    "map.height": 18,
     "map.lastUsedFormat": "tmx",
     "map.tileHeight": 8,
     "map.tileWidth": 8,
-    "map.width": 100,
+    "map.width": 40,
     "openFiles": [
         "backgrounds/one-room-measurement.tmx",
-        "backgrounds/area-glassy_tarn.tmx",
-        "backgrounds/area-evergreen_gulf.tmx",
-        "backgrounds/area-subterrane.tmx"
+        "backgrounds/area-subterrane.tmx",
+        "backgrounds/area-evergreen_gulf-main.tmx",
+        "backgrounds/area-evergreen_gulf-treetops.tmx"
     ],
     "project": "yuri_jam_2020.tiled-project",
     "recentFiles": [
         "backgrounds/one-room-measurement.tmx",
-        "backgrounds/area-glassy_tarn.tmx",
         "backgrounds/area-subterrane.tmx",
+        "backgrounds/area-evergreen_gulf-main.tmx",
+        "backgrounds/area-evergreen_gulf-treetops.tmx",
+        "backgrounds/area-evergreen_gulf-onis_grotto.tmx",
+        "backgrounds/area-echoing_vaults.tmx",
+        "backgrounds/area-glassy_tarn.tmx",
+        "backgrounds/area-mossy_tholtan.tmx",
         "backgrounds/area-evergreen_gulf.tmx",
         "backgrounds/area-starlit_court-bridge.tmx",
         "backgrounds/area-starlit_court-yard.tmx",
-        "backgrounds/area-starlit_court-gatehouse.tmx",
-        "backgrounds/area-echoing_vaults.tmx",
-        "backgrounds/area-inner_circle.tmx"
+        "backgrounds/area-starlit_court-gatehouse.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {
