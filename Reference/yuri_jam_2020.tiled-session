@@ -1,8 +1,8 @@
 {
     "activeFile": "backgrounds/area-evergreen_gulf.tmx",
     "expandedProjectPaths": [
-        "tiles",
         "backgrounds",
+        "tiles",
         "."
     ],
     "exportAsImage.useCurrentScale": false,
@@ -28,16 +28,16 @@
             "scale": 4,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 254,
-                "y": 103
+                "x": 422.25,
+                "y": 167.25
             }
         },
         "backgrounds/area-glassy_tarn.tmx": {
             "scale": 4,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 569,
-                "y": 189
+                "x": 570.5,
+                "y": 71
             }
         },
         "backgrounds/area-inner_circle.tmx": {
@@ -140,8 +140,8 @@
             "scale": 4,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 140,
-                "y": 189
+                "x": 400,
+                "y": 143.875
             }
         },
         "backgrounds/cutscene-zipline.tmx": {
@@ -156,8 +156,8 @@
             "scale": 5.388988095238095,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 76,
-                "y": 71
+                "x": 79.97790909592976,
+                "y": 71.90589274866075
             }
         },
         "tiles/yuri_jam_2020-zipline_alternate.tsx": {
@@ -184,8 +184,8 @@
     "recentFiles": [
         "backgrounds/one-room-measurement.tmx",
         "backgrounds/area-glassy_tarn.tmx",
-        "backgrounds/area-evergreen_gulf.tmx",
         "backgrounds/area-subterrane.tmx",
+        "backgrounds/area-evergreen_gulf.tmx",
         "backgrounds/area-starlit_court-bridge.tmx",
         "backgrounds/area-starlit_court-yard.tmx",
         "backgrounds/area-starlit_court-gatehouse.tmx",
