@@ -3,10 +3,10 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "backgrounds/area-evergreen_gulf-treetops.tmx",
+    "activeFile": "backgrounds/area-subterrane.tmx",
     "expandedProjectPaths": [
-        "tiles",
         ".",
+        "tiles",
         "backgrounds"
     ],
     "exportAsImage.useCurrentScale": false,
@@ -16,24 +16,24 @@
             "scale": 5.5,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 98,
-                "y": 65
+                "x": 98.00000000000001,
+                "y": 65.09090909090908
             }
         },
         "backgrounds/area-echoing_vaults.tmx": {
-            "scale": 5.5,
-            "selectedLayer": 0,
-            "viewCenter": {
-                "x": 94.72727272727272,
-                "y": 137.0909090909091
-            }
-        },
-        "backgrounds/area-evergreen_gulf-main.tmx": {
             "scale": 3,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 384,
-                "y": 47
+                "x": 344,
+                "y": 135.66666666666663
+            }
+        },
+        "backgrounds/area-evergreen_gulf-main.tmx": {
+            "scale": 2,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 241,
+                "y": 196.5
             }
         },
         "backgrounds/area-evergreen_gulf-onis_grotto.tmx": {
@@ -41,15 +41,15 @@
             "selectedLayer": 0,
             "viewCenter": {
                 "x": 79.45454545454545,
-                "y": 73.45454545454547
+                "y": 68.18181818181817
             }
         },
         "backgrounds/area-evergreen_gulf-treetops.tmx": {
             "scale": 2.983231707317073,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 190.73275421563622,
-                "y": 71.06387327542156
+                "x": 177.32447623914155,
+                "y": 70.72866632600919
             }
         },
         "backgrounds/area-evergreen_gulf.tmx": {
@@ -61,19 +61,19 @@
             }
         },
         "backgrounds/area-glassy_tarn.tmx": {
-            "scale": 4,
+            "scale": 3,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 570.5,
-                "y": 71
+                "x": 146.33333333333331,
+                "y": 143
             }
         },
         "backgrounds/area-inner_circle.tmx": {
-            "scale": 4,
+            "scale": 3,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 95,
-                "y": 185
+                "x": 151.66666666666669,
+                "y": 143
             }
         },
         "backgrounds/area-lunarium.tmx": {
@@ -81,39 +81,39 @@
             "selectedLayer": 0,
             "viewCenter": {
                 "x": 80,
-                "y": 70
+                "y": 70.08695652173913
             }
         },
         "backgrounds/area-mossy_tholtan.tmx": {
             "scale": 5.824404761904762,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 69.36331119059787,
-                "y": 71.93868165559532
+                "x": 69.53500255493101,
+                "y": 72.11037301992846
             }
         },
         "backgrounds/area-skyclad_tower-balcony.tmx": {
             "scale": 5.2725,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 80,
-                "y": 72
+                "x": 80.03793266951162,
+                "y": 72.07207207207207
             }
         },
         "backgrounds/area-skyclad_tower-hall_of_statues.tmx": {
             "scale": 5.6584375,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 80,
-                "y": 72
+                "x": 80.05743635058265,
+                "y": 72.10471088529299
             }
         },
         "backgrounds/area-skyclad_tower-main.tmx": {
             "scale": 3,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 85,
-                "y": 875
+                "x": 84.99999999999999,
+                "y": 873.6666666666666
             }
         },
         "backgrounds/area-skyclad_tower.tmx": {
@@ -129,7 +129,7 @@
             "selectedLayer": 0,
             "viewCenter": {
                 "x": 80,
-                "y": 70
+                "y": 70.08695652173913
             }
         },
         "backgrounds/area-solarium_shutters_up.tmx": {
@@ -137,14 +137,14 @@
             "selectedLayer": 0,
             "viewCenter": {
                 "x": 80,
-                "y": 70
+                "y": 70.08695652173913
             }
         },
         "backgrounds/area-starlit_court-bridge.tmx": {
             "scale": 5.5,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 98,
+                "x": 98.00000000000001,
                 "y": 108
             }
         },
@@ -152,16 +152,16 @@
             "scale": 2.9819444444444443,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 76,
-                "y": 159
+                "x": 76.1248253376805,
+                "y": 145.87796925943178
             }
         },
         "backgrounds/area-starlit_court-yard.tmx": {
-            "scale": 4,
+            "scale": 3,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 215,
-                "y": 173
+                "x": 159.33333333333331,
+                "y": 141
             }
         },
         "backgrounds/area-sthenos_room.tmx": {
@@ -169,23 +169,23 @@
             "selectedLayer": 0,
             "viewCenter": {
                 "x": 78,
-                "y": 65
+                "y": 65.09090909090908
             }
         },
         "backgrounds/area-subterrane.tmx": {
-            "scale": 4,
+            "scale": 3,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 400,
-                "y": 143.875
+                "x": 127.99999999999999,
+                "y": 142.66666666666663
             }
         },
         "backgrounds/cutscene-zipline.tmx": {
-            "scale": 4,
+            "scale": 2,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 78,
-                "y": 43
+                "x": 161.5,
+                "y": 137.5
             }
         },
         "backgrounds/one-room-measurement.tmx": {
@@ -212,9 +212,7 @@
     "map.width": 40,
     "openFiles": [
         "backgrounds/one-room-measurement.tmx",
-        "backgrounds/area-subterrane.tmx",
-        "backgrounds/area-evergreen_gulf-main.tmx",
-        "backgrounds/area-evergreen_gulf-treetops.tmx"
+        "backgrounds/area-subterrane.tmx"
     ],
     "project": "yuri_jam_2020.tiled-project",
     "recentFiles": [
@@ -222,14 +220,14 @@
         "backgrounds/area-subterrane.tmx",
         "backgrounds/area-evergreen_gulf-main.tmx",
         "backgrounds/area-evergreen_gulf-treetops.tmx",
-        "backgrounds/area-evergreen_gulf-onis_grotto.tmx",
-        "backgrounds/area-echoing_vaults.tmx",
-        "backgrounds/area-glassy_tarn.tmx",
-        "backgrounds/area-mossy_tholtan.tmx",
-        "backgrounds/area-evergreen_gulf.tmx",
-        "backgrounds/area-starlit_court-bridge.tmx",
+        "backgrounds/cutscene-zipline.tmx",
+        "backgrounds/area-sthenos_room.tmx",
         "backgrounds/area-starlit_court-yard.tmx",
-        "backgrounds/area-starlit_court-gatehouse.tmx"
+        "backgrounds/area-starlit_court-gatehouse.tmx",
+        "backgrounds/area-starlit_court-bridge.tmx",
+        "backgrounds/area-solarium_shutters_up.tmx",
+        "backgrounds/area-solarium_shutters_down.tmx",
+        "backgrounds/area-skyclad_tower-main.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {
