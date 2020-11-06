@@ -12,6 +12,14 @@
     "exportAsImage.useCurrentScale": false,
     "file.lastUsedOpenFilter": "All Files (*)",
     "fileStates": {
+        "areas_glued_together.tmx": {
+            "scale": 3,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 671,
+                "y": 498.33333333333326
+            }
+        },
         "backgrounds/area-alraunes_corner.tmx": {
             "scale": 5.5,
             "selectedLayer": 0,
