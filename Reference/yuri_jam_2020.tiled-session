@@ -13,11 +13,11 @@
     "file.lastUsedOpenFilter": "All Files (*)",
     "fileStates": {
         "areas_glued_together.tmx": {
-            "scale": 3,
+            "scale": 0.33,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 671,
-                "y": 498.33333333333326
+                "x": 1306.0606060606058,
+                "y": 500
             }
         },
         "backgrounds/area-alraunes_corner.tmx": {
@@ -29,11 +29,11 @@
             }
         },
         "backgrounds/area-echoing_vaults.tmx": {
-            "scale": 1.5,
+            "scale": 1,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 481.99999999999994,
-                "y": 64.66666666666669
+                "x": 139,
+                "y": 110
             }
         },
         "backgrounds/area-evergreen_gulf-main.tmx": {
@@ -181,11 +181,11 @@
             }
         },
         "backgrounds/area-subterrane.tmx": {
-            "scale": 1,
+            "scale": 3,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 456,
-                "y": 405
+                "x": 110.99999999999999,
+                "y": 150
             }
         },
         "backgrounds/cutscene-zipline.tmx": {
@@ -224,10 +224,10 @@
     ],
     "project": "yuri_jam_2020.tiled-project",
     "recentFiles": [
-        "backgrounds/area-echoing_vaults.tmx",
-        "backgrounds/one-room-measurement.tmx",
         "backgrounds/area-subterrane.tmx",
+        "backgrounds/area-echoing_vaults.tmx",
         "areas_glued_together.tmx",
+        "backgrounds/one-room-measurement.tmx",
         "backgrounds/area-lunarium.tmx",
         "backgrounds/area-sthenos_room.tmx",
         "backgrounds/area-skyclad_tower-hall_of_statues.tmx",
