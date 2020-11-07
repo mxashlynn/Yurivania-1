@@ -3,11 +3,11 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "backgrounds/area-subterrane.tmx",
+    "activeFile": "backgrounds/one-room-measurement.tmx",
     "expandedProjectPaths": [
         "tiles",
-        "backgrounds",
-        "."
+        ".",
+        "backgrounds"
     ],
     "exportAsImage.useCurrentScale": false,
     "file.lastUsedOpenFilter": "All Files (*)",
@@ -152,8 +152,8 @@
             "scale": 5.5,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 98.00000000000001,
-                "y": 108
+                "x": 97.81818181818183,
+                "y": 75.99999999999999
             }
         },
         "backgrounds/area-starlit_court-gatehouse.tmx": {
@@ -165,11 +165,11 @@
             }
         },
         "backgrounds/area-starlit_court-yard.tmx": {
-            "scale": 2,
+            "scale": 3,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 128,
-                "y": 144.5
+                "x": 205.33333333333331,
+                "y": 136
             }
         },
         "backgrounds/area-sthenos_room.tmx": {
@@ -200,8 +200,16 @@
             "scale": 5.388988095238095,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 79.97790909592976,
-                "y": 71.90589274866075
+                "x": 80.16347269011986,
+                "y": 71.99867454575579
+            }
+        },
+        "backgrounds/screen-title.tmx": {
+            "scale": 5.5,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 80.18181818181819,
+                "y": 72
             }
         },
         "tiles/yuri_jam_2020-zipline_alternate.tsx": {
@@ -213,29 +221,28 @@
             "scaleInEditor": 11
         }
     },
-    "map.height": 180,
+    "map.height": 18,
     "map.lastUsedFormat": "tmx",
     "map.tileHeight": 8,
     "map.tileWidth": 8,
-    "map.width": 320,
+    "map.width": 20,
     "openFiles": [
-        "backgrounds/one-room-measurement.tmx",
-        "backgrounds/area-subterrane.tmx"
+        "backgrounds/one-room-measurement.tmx"
     ],
     "project": "yuri_jam_2020.tiled-project",
     "recentFiles": [
+        "backgrounds/one-room-measurement.tmx",
+        "backgrounds/area-skyclad_tower-balcony.tmx",
+        "backgrounds/area-starlit_court-yard.tmx",
+        "backgrounds/area-starlit_court-bridge.tmx",
+        "backgrounds/screen-title.tmx",
         "backgrounds/area-subterrane.tmx",
         "backgrounds/area-echoing_vaults.tmx",
         "areas_glued_together.tmx",
-        "backgrounds/one-room-measurement.tmx",
         "backgrounds/area-lunarium.tmx",
         "backgrounds/area-sthenos_room.tmx",
         "backgrounds/area-skyclad_tower-hall_of_statues.tmx",
-        "backgrounds/area-skyclad_tower-balcony.tmx",
-        "backgrounds/area-inner_circle.tmx",
-        "backgrounds/area-skyclad_tower-main.tmx",
-        "backgrounds/area-starlit_court-yard.tmx",
-        "backgrounds/area-alraunes_corner.tmx"
+        "backgrounds/area-inner_circle.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {
