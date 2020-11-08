@@ -41215,18 +41215,6 @@
     ],
     "variables": [
         {
-            "id": "0",
-            "name": "Seeds Carried"
-        },
-        {
-            "id": "1",
-            "name": "In Planting Region"
-        },
-        {
-            "id": "2",
-            "name": "Seeds Planted"
-        },
-        {
             "id": "d75e6347-d4f9-4d95-a73b-67c07979054e__L0",
             "name": "Menu Selection"
         }
