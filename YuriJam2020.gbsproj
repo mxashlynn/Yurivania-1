@@ -12940,8 +12940,8 @@
                             "args": {
                                 "sceneId": "116734ed-7043-41b2-b88b-7fbdfc0fb423",
                                 "x": 5,
-                                "y": 29,
-                                "direction": "right",
+                                "y": 18,
+                                "direction": "up",
                                 "fadeSpeed": "1"
                             }
                         },
@@ -37648,8 +37648,8 @@
                             "command": "EVENT_SWITCH_SCENE",
                             "args": {
                                 "sceneId": "d7509120-c6bc-44ff-89d7-b1264379ebaf",
-                                "x": 4,
-                                "y": 33,
+                                "x": 5,
+                                "y": 32,
                                 "direction": "up",
                                 "fadeSpeed": "1"
                             }
@@ -41058,9 +41058,9 @@
         "startY": 12,
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 5850,
-        "worldScrollY": 3762.5,
-        "zoom": 225,
+        "worldScrollX": 0,
+        "worldScrollY": 0,
+        "zoom": 25,
         "customColorsEnabled": true,
         "defaultBackgroundPaletteIds": "default-background",
         "defaultSpritePaletteId": "default-sprite",
