@@ -6,8 +6,8 @@
     "activeFile": "backgrounds/one-room-measurement.tmx",
     "expandedProjectPaths": [
         "backgrounds",
-        ".",
-        "tiles"
+        "tiles",
+        "."
     ],
     "exportAsImage.useCurrentScale": false,
     "file.lastUsedOpenFilter": "All Files (*)",
@@ -77,11 +77,11 @@
             }
         },
         "backgrounds/area-inner_circle.tmx": {
-            "scale": 3,
+            "scale": 5.5,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 168.99999999999997,
-                "y": 143
+                "x": 75.54545454545455,
+                "y": 186.54545454545456
             }
         },
         "backgrounds/area-lunarium.tmx": {
@@ -164,6 +164,14 @@
                 "y": 145.87796925943178
             }
         },
+        "backgrounds/area-starlit_court-gatehouse_gate_down.tmx": {
+            "scale": 4.182638888888889,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 80.21251867839948,
+                "y": 144.1673584592396
+            }
+        },
         "backgrounds/area-starlit_court-yard.tmx": {
             "scale": 3,
             "selectedLayer": 0,
@@ -200,7 +208,7 @@
             "scale": 5.388988095238095,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 80.34903628430993,
+                "x": 56.68967802507318,
                 "y": 71.99867454575579
             }
         },
@@ -231,9 +239,10 @@
     ],
     "project": "yuri_jam_2020.tiled-project",
     "recentFiles": [
+        "backgrounds/area-starlit_court-gatehouse_gate_down.tmx",
+        "backgrounds/area-inner_circle.tmx",
         "backgrounds/one-room-measurement.tmx",
         "backgrounds/area-echoing_vaults.tmx",
-        "backgrounds/area-inner_circle.tmx",
         "backgrounds/area-skyclad_tower-balcony.tmx",
         "backgrounds/area-starlit_court-yard.tmx",
         "backgrounds/area-starlit_court-bridge.tmx",
@@ -241,8 +250,7 @@
         "backgrounds/area-subterrane.tmx",
         "areas_glued_together.tmx",
         "backgrounds/area-lunarium.tmx",
-        "backgrounds/area-sthenos_room.tmx",
-        "backgrounds/area-skyclad_tower-hall_of_statues.tmx"
+        "backgrounds/area-sthenos_room.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {
