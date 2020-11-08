@@ -41373,15 +41373,6 @@
     ],
     "spriteSheets": [
         {
-            "id": "5a20dd62-520d-4d87-9450-450cc5531818",
-            "name": "indicator",
-            "numFrames": 1,
-            "type": "static",
-            "filename": "indicator.png",
-            "inode": "1125899906891027",
-            "_v": 1604870949397
-        },
-        {
             "id": "950514d3-c57d-4808-b67f-ca30dd370a6d",
             "name": "inv-1_amulet_can",
             "numFrames": 4,
@@ -41425,6 +41416,15 @@
             "filename": "inv-5_kiss_pass.png",
             "inode": "10133099161634162",
             "_v": 1604870168906
+        },
+        {
+            "id": "5a20dd62-520d-4d87-9450-450cc5531818",
+            "name": "map-marker",
+            "numFrames": 1,
+            "type": "static",
+            "filename": "map-marker.png",
+            "inode": "1125899906891027",
+            "_v": 1604872482617
         },
         {
             "id": "6d30756f-f2d2-4295-80f7-cefc1725ec22",
