@@ -28082,7 +28082,7 @@
                             "id": "8668920b-51c3-45af-92d6-c4b7fc4aa578",
                             "command": "EVENT_CHOICE",
                             "args": {
-                                "variable": "T0",
+                                "variable": "L0",
                                 "trueText": "Use the zipline.",
                                 "falseText": "Not yet."
                             }
@@ -28091,7 +28091,7 @@
                             "id": "2fe496b9-f36c-48ea-b964-46faa67f5f85",
                             "command": "EVENT_IF_TRUE",
                             "args": {
-                                "variable": "T0",
+                                "variable": "L0",
                                 "__collapseElse": false
                             },
                             "children": {
