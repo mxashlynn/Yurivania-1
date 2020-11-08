@@ -5413,7 +5413,197 @@
                 15
             ],
             "tileColors": [],
-            "script": [],
+            "script": [
+                {
+                    "id": "9f900017-46c2-46db-b9c5-90adfed7db25",
+                    "command": "EVENT_SET_VALUE",
+                    "args": {
+                        "variable": "1",
+                        "value": {
+                            "type": "number",
+                            "value": 1
+                        }
+                    }
+                },
+                {
+                    "id": "5ae9e924-ada4-434f-8729-3a7f443e1d47",
+                    "command": "EVENT_SET_VALUE",
+                    "args": {
+                        "variable": "2",
+                        "value": {
+                            "type": "number",
+                            "value": 5
+                        }
+                    }
+                },
+                {
+                    "id": "1cc8bac9-4e8a-470f-b2b3-5552b210dbe3",
+                    "command": "EVENT_IF_FALSE",
+                    "args": {
+                        "variable": "0",
+                        "__collapseElse": false,
+                        "__disableElse": true
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "id": "4a7350f5-9ca0-45d3-8170-b2142606deb3",
+                                "command": "EVENT_SET_INPUT_SCRIPT",
+                                "args": {
+                                    "input": [
+                                        "b",
+                                        "a",
+                                        "left",
+                                        "up",
+                                        "down",
+                                        "start",
+                                        "select",
+                                        "right"
+                                    ],
+                                    "persist": false,
+                                    "__scriptTabs": "press",
+                                    "__collapse": true
+                                },
+                                "children": {
+                                    "true": [
+                                        {
+                                            "id": "33750850-1817-4a9f-8e6e-d4b8f9d0d7eb",
+                                            "command": "EVENT_END"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "id": "07fbb460-8202-46ee-ac77-20f20a369153",
+                                "command": "EVENT_SET_TRUE",
+                                "args": {
+                                    "variable": "0",
+                                    "__collapse": true
+                                }
+                            },
+                            {
+                                "id": "7d792163-0d26-4f0a-89b9-9b7bdac9c5da",
+                                "command": "EVENT_SET_FALSE",
+                                "args": {
+                                    "variable": "3",
+                                    "__collapse": true
+                                }
+                            },
+                            {
+                                "id": "cb1cd29c-c9b1-4257-8a59-dfd94cceb8a1",
+                                "command": "EVENT_SET_FALSE",
+                                "args": {
+                                    "variable": "4",
+                                    "__collapse": true
+                                }
+                            },
+                            {
+                                "id": "1b7dabdf-9c2d-4280-8693-c17c032a5d8e",
+                                "command": "EVENT_SET_FALSE",
+                                "args": {
+                                    "variable": "5",
+                                    "__collapse": true
+                                }
+                            },
+                            {
+                                "id": "b47e05f4-4fad-4dfa-be4c-b633ad3c3b7f",
+                                "command": "EVENT_SET_FALSE",
+                                "args": {
+                                    "variable": "6",
+                                    "__collapse": true
+                                }
+                            },
+                            {
+                                "id": "30664089-7475-4902-b0a2-3d1fa5dd3a84",
+                                "command": "EVENT_SET_FALSE",
+                                "args": {
+                                    "variable": "7",
+                                    "__collapse": true
+                                }
+                            },
+                            {
+                                "id": "325f57d1-f9b0-402d-b19c-73719ecb7031",
+                                "command": "EVENT_SET_FALSE",
+                                "args": {
+                                    "variable": "8",
+                                    "__collapse": true
+                                }
+                            },
+                            {
+                                "id": "e195ebcf-5a47-4305-b0d2-0d141de455d5",
+                                "command": "EVENT_SET_FALSE",
+                                "args": {
+                                    "variable": "9",
+                                    "__collapse": true
+                                }
+                            },
+                            {
+                                "id": "54691071-9d51-422c-ab07-ae6b7c09d410",
+                                "command": "EVENT_SET_FALSE",
+                                "args": {
+                                    "variable": "10",
+                                    "__collapse": true
+                                }
+                            },
+                            {
+                                "id": "ff9dcf0c-7774-4b32-93c0-d75dd6881154",
+                                "command": "EVENT_SET_FALSE",
+                                "args": {
+                                    "variable": "11",
+                                    "__collapse": true
+                                }
+                            },
+                            {
+                                "id": "169e793f-23aa-4145-8d0f-535dfcb11d88",
+                                "command": "EVENT_SET_FALSE",
+                                "args": {
+                                    "variable": "12",
+                                    "__collapse": true
+                                }
+                            },
+                            {
+                                "id": "3a6c42ea-9c29-414f-907b-1e6afeaa20a0",
+                                "command": "EVENT_SET_FALSE",
+                                "args": {
+                                    "variable": "13",
+                                    "__collapse": true
+                                }
+                            },
+                            {
+                                "id": "993b0f1a-6f5f-4c2f-8b67-c51adeb65449",
+                                "command": "EVENT_REMOVE_INPUT_SCRIPT",
+                                "args": {
+                                    "input": [
+                                        "b",
+                                        "a",
+                                        "left",
+                                        "up",
+                                        "down",
+                                        "right",
+                                        "select",
+                                        "start"
+                                    ],
+                                    "__collapse": true
+                                }
+                            },
+                            {
+                                "id": "efb539f8-b36f-4b4e-8511-43c589111f85",
+                                "command": "EVENT_END"
+                            }
+                        ],
+                        "false": [
+                            {
+                                "id": "8cc563b0-cf88-4a38-a2b7-c3d515378ce7",
+                                "command": "EVENT_END"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ab6204dd-b87b-4dcd-ad16-9e71307086a5",
+                    "command": "EVENT_END"
+                }
+            ],
             "playerHit1Script": [],
             "playerHit2Script": [],
             "playerHit3Script": [],
@@ -7097,7 +7287,35 @@
                 15
             ],
             "tileColors": [],
-            "script": [],
+            "script": [
+                {
+                    "id": "cf4fbfb5-b3cf-4ca3-acb3-615c43d7715f",
+                    "command": "EVENT_SET_VALUE",
+                    "args": {
+                        "variable": "1",
+                        "value": {
+                            "type": "number",
+                            "value": 2
+                        },
+                        "__collapse": true
+                    }
+                },
+                {
+                    "id": "93e9b061-4429-4757-84a3-7e9de30ac201",
+                    "command": "EVENT_SET_VALUE",
+                    "args": {
+                        "variable": "2",
+                        "value": {
+                            "type": "number",
+                            "value": 5
+                        }
+                    }
+                },
+                {
+                    "id": "06c66d24-ead5-49d1-8595-30f2621fd495",
+                    "command": "EVENT_END"
+                }
+            ],
             "playerHit1Script": [],
             "playerHit2Script": [],
             "playerHit3Script": [],
@@ -31426,7 +31644,7 @@
             "playerHit3Script": [],
             "id": "9a093bc6-299a-4b8e-bbaf-c51683da0055",
             "x": 3298.545454545452,
-            "y": 1543.1272727272742,
+            "y": 1539.1272727272744,
             "actors": [],
             "triggers": [
                 {
@@ -40515,8 +40733,8 @@
             "playerHit2Script": [],
             "playerHit3Script": [],
             "id": "16427edb-a907-4eb5-b1bd-895d268f7f3f",
-            "x": 2444.399999999999,
-            "y": 1716.8000000000004,
+            "x": 2438.7999999999997,
+            "y": 1713.6000000000008,
             "actors": [],
             "triggers": [
                 {
@@ -40559,7 +40777,7 @@
             "imageHeight": 144,
             "filename": "area-alraunes_corner.png",
             "inode": "1125899906994099",
-            "_v": 1604861515299
+            "_v": 1604870168906
         },
         {
             "id": "01a0a5ea-c217-47f8-b37f-ada83b78a43d",
@@ -40570,7 +40788,7 @@
             "imageHeight": 288,
             "filename": "area-echoing_vaults.png",
             "inode": "14636698788979462",
-            "_v": 1604861515299
+            "_v": 1604870168906
         },
         {
             "id": "b31c41e5-e9b9-42a6-85d9-f908fe7f9ac8",
@@ -40581,7 +40799,7 @@
             "imageHeight": 576,
             "filename": "area-evergreen_gulf-main.png",
             "inode": "1125899906994061",
-            "_v": 1604861515299
+            "_v": 1604870168906
         },
         {
             "id": "22ed079b-29c4-4014-be81-0969a1c64498",
@@ -40592,7 +40810,7 @@
             "imageHeight": 144,
             "filename": "area-evergreen_gulf-onis_grotto.png",
             "inode": "1407374883704763",
-            "_v": 1604861515299
+            "_v": 1604870168906
         },
         {
             "id": "ee9797b7-e7f1-41d9-9581-d78be013ae76",
@@ -40603,7 +40821,7 @@
             "imageHeight": 144,
             "filename": "area-evergreen_gulf-treetops.png",
             "inode": "1125899906994098",
-            "_v": 1604861515299
+            "_v": 1604870168906
         },
         {
             "id": "42f3dc91-b68e-4baa-a758-5329f66bbb30",
@@ -40614,7 +40832,7 @@
             "imageHeight": 144,
             "filename": "area-glassy_tarn-cant_swim.png",
             "inode": "2814749767140789",
-            "_v": 1604861515299
+            "_v": 1604870168906
         },
         {
             "id": "6c884479-87a6-4cb4-b02a-95a2204381c0",
@@ -40625,7 +40843,7 @@
             "imageHeight": 288,
             "filename": "area-glassy_tarn.png",
             "inode": "1970324837126041",
-            "_v": 1604861515299
+            "_v": 1604870168906
         },
         {
             "id": "93575302-d328-4deb-9ea4-ef28afe2efdd",
@@ -40636,7 +40854,7 @@
             "imageHeight": 288,
             "filename": "area-inner_circle.png",
             "inode": "2814749767131948",
-            "_v": 1604861515299
+            "_v": 1604870168906
         },
         {
             "id": "39d93567-5f1e-425c-a065-13316c5e4c71",
@@ -40647,7 +40865,7 @@
             "imageHeight": 144,
             "filename": "area-lunarium.png",
             "inode": "1125899906994111",
-            "_v": 1604861515299
+            "_v": 1604870168906
         },
         {
             "id": "de00e083-6d54-46bf-9ad9-a8eade79a159",
@@ -40658,7 +40876,7 @@
             "imageHeight": 144,
             "filename": "area-mossy_tholtan.png",
             "inode": "1125899906994095",
-            "_v": 1604861515299
+            "_v": 1604870168906
         },
         {
             "id": "aa4c9dc2-65e2-4473-95e0-340f6baf8f93",
@@ -40669,7 +40887,7 @@
             "imageHeight": 144,
             "filename": "area-skyclad_tower-balcony.png",
             "inode": "1125899906994108",
-            "_v": 1604861515299
+            "_v": 1604870168906
         },
         {
             "id": "833133aa-9b25-4780-abef-97a15a554ede",
@@ -40680,7 +40898,7 @@
             "imageHeight": 144,
             "filename": "area-skyclad_tower-hall_of_statues.png",
             "inode": "8162774324642916",
-            "_v": 1604861515299
+            "_v": 1604870168906
         },
         {
             "id": "ad5b1639-a3ec-401c-8f97-32f53c8f8eaa",
@@ -40691,7 +40909,7 @@
             "imageHeight": 1008,
             "filename": "area-skyclad_tower-main.png",
             "inode": "1125899906994063",
-            "_v": 1604861515299
+            "_v": 1604870168906
         },
         {
             "id": "82c5a95c-cb14-4dae-bfaf-7f8a2747a2c6",
@@ -40702,7 +40920,7 @@
             "imageHeight": 144,
             "filename": "area-solarium_shutters_down.png",
             "inode": "1125899906994116",
-            "_v": 1604861515299
+            "_v": 1604870168906
         },
         {
             "id": "92a4e74e-d30f-4044-b387-0adee866019c",
@@ -40713,7 +40931,7 @@
             "imageHeight": 144,
             "filename": "area-solarium_shutters_up.png",
             "inode": "1407374883704760",
-            "_v": 1604861515299
+            "_v": 1604870168906
         },
         {
             "id": "21df7529-ba2a-47a1-a885-a2a024a9156a",
@@ -40724,7 +40942,7 @@
             "imageHeight": 288,
             "filename": "area-starlit_court-bridge.png",
             "inode": "1125899906994077",
-            "_v": 1604861515299
+            "_v": 1604870168906
         },
         {
             "id": "d27bf46d-632d-4322-aa0e-edf1cf257008",
@@ -40735,7 +40953,7 @@
             "imageHeight": 288,
             "filename": "area-starlit_court-gatehouse_gate_down.png",
             "inode": "1688849860318106",
-            "_v": 1604861515299
+            "_v": 1604870168906
         },
         {
             "id": "d9bf8654-42cc-4779-95aa-45d6379fdca2",
@@ -40746,7 +40964,7 @@
             "imageHeight": 288,
             "filename": "area-starlit_court-gatehouse_gate_up.png",
             "inode": "1125899906994075",
-            "_v": 1604861515299
+            "_v": 1604870168906
         },
         {
             "id": "2b377db1-56a8-4397-9eef-c66c5904eaaa",
@@ -40757,7 +40975,7 @@
             "imageHeight": 288,
             "filename": "area-starlit_court-yard.png",
             "inode": "1125899906994086",
-            "_v": 1604861515299
+            "_v": 1604870168906
         },
         {
             "id": "67019434-4f52-4ea7-80fc-e39693d7d74a",
@@ -40768,7 +40986,7 @@
             "imageHeight": 144,
             "filename": "area-sthenos_room.png",
             "inode": "1125899906994097",
-            "_v": 1604861515299
+            "_v": 1604870168906
         },
         {
             "id": "fc673829-0e0b-42f3-8ebf-181bd0f7c7b4",
@@ -40779,7 +40997,7 @@
             "imageHeight": 288,
             "filename": "area-subterrane.png",
             "inode": "1688849860313138",
-            "_v": 1604861515299
+            "_v": 1604870168906
         },
         {
             "id": "33b370c6-2f24-4caa-aa8d-912cdda5fcdb",
@@ -40790,7 +41008,7 @@
             "imageHeight": 288,
             "filename": "cutscene-evergreen_gulf.png",
             "inode": "8162774324720125",
-            "_v": 1604861515303
+            "_v": 1604870168906
         },
         {
             "id": "2670e3f5-9397-42d5-bc5f-857a332172ab",
@@ -40801,7 +41019,7 @@
             "imageHeight": 144,
             "filename": "cutscene-inner_circle.png",
             "inode": "18858823439638961",
-            "_v": 1604861515308
+            "_v": 1604870168906
         },
         {
             "id": "002edb26-9e8c-4590-8f77-1039bb7f82f2",
@@ -40812,7 +41030,7 @@
             "imageHeight": 288,
             "filename": "cutscene-zipline.png",
             "inode": "1125899906994079",
-            "_v": 1604861515299
+            "_v": 1604870168906
         },
         {
             "id": "c337587f-40ca-45ce-9ce5-a0b6fc3abc0b",
@@ -40823,7 +41041,7 @@
             "imageHeight": 144,
             "filename": "map-alraunes_corner.png",
             "inode": "2251799813733527",
-            "_v": 1604861515299
+            "_v": 1604870168906
         },
         {
             "id": "c245518c-1fbf-49e7-9b27-a0db7ddc86f6",
@@ -40834,7 +41052,7 @@
             "imageHeight": 144,
             "filename": "map-echoing_vaults.png",
             "inode": "1407374883602545",
-            "_v": 1604861515299
+            "_v": 1604870168906
         },
         {
             "id": "92d1edaf-2705-4e01-8592-82946b8a360d",
@@ -40845,7 +41063,7 @@
             "imageHeight": 144,
             "filename": "map-evergreen_gulf.png",
             "inode": "5348024557602478",
-            "_v": 1604861515299
+            "_v": 1604870168906
         },
         {
             "id": "e44df827-5119-4ffa-990d-31c7e2c43113",
@@ -40856,7 +41074,7 @@
             "imageHeight": 144,
             "filename": "map-glassy_tarn.png",
             "inode": "1407374883602552",
-            "_v": 1604861515299
+            "_v": 1604870168906
         },
         {
             "id": "f03f7120-7c26-44cd-a2e3-e76fa73158f6",
@@ -40867,7 +41085,7 @@
             "imageHeight": 144,
             "filename": "map-hidden_room.png",
             "inode": "1407374883580071",
-            "_v": 1604861515299
+            "_v": 1604870168906
         },
         {
             "id": "dc270987-1f2a-4a33-bf23-c7d3c3645cb7",
@@ -40878,7 +41096,7 @@
             "imageHeight": 144,
             "filename": "map-inner_circle.png",
             "inode": "1688849860298973",
-            "_v": 1604861515299
+            "_v": 1604870168906
         },
         {
             "id": "4c2691c1-c5e2-45f3-bdff-297a2bd7bb54",
@@ -40889,7 +41107,7 @@
             "imageHeight": 144,
             "filename": "map-lunarium.png",
             "inode": "1407374883607159",
-            "_v": 1604861515299
+            "_v": 1604870168906
         },
         {
             "id": "2b3672fb-20c0-4d27-b428-b29526a7d250",
@@ -40900,7 +41118,7 @@
             "imageHeight": 144,
             "filename": "map-mossy_tholtan.png",
             "inode": "2251799813935369",
-            "_v": 1604861515299
+            "_v": 1604870168906
         },
         {
             "id": "9418c86e-89c4-4768-8f86-f1ab3c74670f",
@@ -40911,7 +41129,7 @@
             "imageHeight": 144,
             "filename": "map-skyclad_tower.png",
             "inode": "5066549580816749",
-            "_v": 1604861515299
+            "_v": 1604870168906
         },
         {
             "id": "c2fd9f42-6fc9-4e8e-a593-45db6b1bc9e4",
@@ -40922,7 +41140,7 @@
             "imageHeight": 144,
             "filename": "map-solarium.png",
             "inode": "1688849860317520",
-            "_v": 1604861515299
+            "_v": 1604870168906
         },
         {
             "id": "c7690bfc-b944-4d70-837f-dbeea31af1a5",
@@ -40933,7 +41151,7 @@
             "imageHeight": 144,
             "filename": "map-starlit_court.png",
             "inode": "1688849860317522",
-            "_v": 1604861515299
+            "_v": 1604870168906
         },
         {
             "id": "2d9c771d-9027-44ed-aecf-0c70a7831268",
@@ -40944,7 +41162,7 @@
             "imageHeight": 144,
             "filename": "map-sthenos_room.png",
             "inode": "1688849860317530",
-            "_v": 1604861515299
+            "_v": 1604870168906
         },
         {
             "id": "2583290c-eb98-487a-8847-47ce2ef1bb91",
@@ -40955,7 +41173,7 @@
             "imageHeight": 144,
             "filename": "screen-black.png",
             "inode": "1125899906896442",
-            "_v": 1604861515299
+            "_v": 1604870168906
         },
         {
             "id": "ea7a7282-496c-4211-ba52-427b3596333a",
@@ -40966,7 +41184,7 @@
             "imageHeight": 144,
             "filename": "screen-logo.png",
             "inode": "1407374883607341",
-            "_v": 1604861515299
+            "_v": 1604870168906
         },
         {
             "id": "bb6f1bd9-df6a-472a-9c35-33cac9be44e4",
@@ -40977,7 +41195,7 @@
             "imageHeight": 144,
             "filename": "screen-titles.png",
             "inode": "844424930186066",
-            "_v": 1604861515299
+            "_v": 1604870168906
         },
         {
             "id": "0ae633e0-6b16-4b58-bb32-f1e67cc5dca3",
@@ -40988,7 +41206,7 @@
             "imageHeight": 144,
             "filename": "screen-white.png",
             "inode": "844424930186067",
-            "_v": 1604861515299
+            "_v": 1604870168906
         }
     ],
     "spriteSheets": [
@@ -40999,7 +41217,52 @@
             "type": "static",
             "filename": "indicator.png",
             "inode": "1125899906891027",
-            "_v": 1604861515299
+            "_v": 1604870168906
+        },
+        {
+            "id": "950514d3-c57d-4808-b67f-ca30dd370a6d",
+            "name": "inv-1_amulet_can",
+            "numFrames": 4,
+            "type": "animated",
+            "filename": "inv-1_amulet_can.png",
+            "inode": "4785074604117285",
+            "_v": 1604870168906
+        },
+        {
+            "id": "8ec09b11-8a49-4f25-b682-9cdc42815f9c",
+            "name": "inv-2_light_fertilizer",
+            "numFrames": 4,
+            "type": "animated",
+            "filename": "inv-2_light_fertilizer.png",
+            "inode": "10414574138330500",
+            "_v": 1604870168906
+        },
+        {
+            "id": "79bcd5bc-aaf5-436d-981b-953394a383f0",
+            "name": "inv-3_bug_blood",
+            "numFrames": 4,
+            "type": "animated",
+            "filename": "inv-3_bug_blood.png",
+            "inode": "7599824371224041",
+            "_v": 1604870168906
+        },
+        {
+            "id": "724c5e64-62f5-452f-95e4-b65f5b9f6d6f",
+            "name": "inv-4_feather_key",
+            "numFrames": 4,
+            "type": "animated",
+            "filename": "inv-4_feather_key.png",
+            "inode": "1688849860314519",
+            "_v": 1604870168906
+        },
+        {
+            "id": "4f7e5a89-0cf6-4c39-9423-397b7289601f",
+            "name": "inv-5_kiss_pass",
+            "numFrames": 4,
+            "type": "animated",
+            "filename": "inv-5_kiss_pass.png",
+            "inode": "10133099161634162",
+            "_v": 1604870168906
         },
         {
             "id": "6d30756f-f2d2-4295-80f7-cefc1725ec22",
@@ -41008,7 +41271,7 @@
             "type": "actor",
             "filename": "npc-aello.png",
             "inode": "23080948090374539",
-            "_v": 1604861515299
+            "_v": 1604870168906
         },
         {
             "id": "ea905fa7-7d98-4beb-b3d4-4a9d959a05af",
@@ -41017,7 +41280,7 @@
             "type": "actor_animated",
             "filename": "npc-lucy.png",
             "inode": "18577348463147756",
-            "_v": 1604861515299
+            "_v": 1604870168906
         },
         {
             "id": "de6d05d2-0a99-4035-936d-d4cef408d0cd",
@@ -41026,7 +41289,7 @@
             "type": "actor",
             "filename": "npc-rin_rin.png",
             "inode": "6192449487876392",
-            "_v": 1604861515299
+            "_v": 1604870168906
         },
         {
             "id": "6081292c-b340-43fc-9aa9-6ccc923f7608",
@@ -41035,7 +41298,7 @@
             "type": "actor",
             "filename": "npc-tibby.png",
             "inode": "2533274790650722",
-            "_v": 1604861515299
+            "_v": 1604870168906
         },
         {
             "id": "c3bc79c7-3703-4a67-86b2-301f587745b4",
@@ -41044,7 +41307,7 @@
             "type": "actor_animated",
             "filename": "player-stheno.png",
             "inode": "2251799813935380",
-            "_v": 1604861515299
+            "_v": 1604870168906
         }
     ],
     "palettes": [
@@ -41210,10 +41473,66 @@
             "filename": "template.mod",
             "settings": {},
             "inode": "1688849860511376",
-            "_v": 1604861515272
+            "_v": 1604870168901
         }
     ],
     "variables": [
+        {
+            "id": "0",
+            "name": "Initialized"
+        },
+        {
+            "id": "1",
+            "name": "Room X"
+        },
+        {
+            "id": "2",
+            "name": "Room Y"
+        },
+        {
+            "id": "3",
+            "name": "Has Amulet"
+        },
+        {
+            "id": "4",
+            "name": "Has Watering Can"
+        },
+        {
+            "id": "5",
+            "name": "Has Plant Light"
+        },
+        {
+            "id": "6",
+            "name": "Has Fertlizer"
+        },
+        {
+            "id": "7",
+            "name": "Has Ladybug"
+        },
+        {
+            "id": "8",
+            "name": "Has Blood"
+        },
+        {
+            "id": "9",
+            "name": "Has Feather"
+        },
+        {
+            "id": "10",
+            "name": "Has Key"
+        },
+        {
+            "id": "11",
+            "name": "Has Kiss"
+        },
+        {
+            "id": "12",
+            "name": "Has Pass"
+        },
+        {
+            "id": "13",
+            "name": "Examined Solarium Sprout"
+        },
         {
             "id": "d75e6347-d4f9-4d95-a73b-67c07979054e__L0",
             "name": "Menu Selection"
@@ -41225,8 +41544,8 @@
         "startY": 12,
         "showCollisions": true,
         "showConnections": "all",
-        "worldScrollX": 3385,
-        "worldScrollY": 1769,
+        "worldScrollX": 776,
+        "worldScrollY": 1791,
         "zoom": 125,
         "customColorsEnabled": true,
         "defaultBackgroundPaletteIds": "default-background",
