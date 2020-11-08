@@ -5,9 +5,9 @@
     },
     "activeFile": "backgrounds/one-room-measurement.tmx",
     "expandedProjectPaths": [
+        ".",
         "backgrounds",
-        "tiles",
-        "."
+        "tiles"
     ],
     "exportAsImage.useCurrentScale": false,
     "file.lastUsedOpenFilter": "All Files (*)",
@@ -68,20 +68,36 @@
                 "y": 214.75
             }
         },
+        "backgrounds/area-glassy_tarn-cant_swim.tmx": {
+            "scale": 2.6849085365853655,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 156.24368364276387,
+                "y": 72.25572020666553
+            }
+        },
         "backgrounds/area-glassy_tarn.tmx": {
             "scale": 3,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 337.66666666666663,
-                "y": 132.33333333333334
+                "x": 399.5,
+                "y": 131.66666666666666
+            }
+        },
+        "backgrounds/area-inner_circle-entry_only.tmx": {
+            "scale": 5.241964285714285,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 76.02112076307274,
+                "y": 72.11037301992847
             }
         },
         "backgrounds/area-inner_circle.tmx": {
             "scale": 5.5,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 75.54545454545455,
-                "y": 186.54545454545456
+                "x": 404.27272727272725,
+                "y": 186.36363636363637
             }
         },
         "backgrounds/area-lunarium.tmx": {
@@ -204,6 +220,14 @@
                 "y": 144.1673584592396
             }
         },
+        "backgrounds/cutscene-inner_circle.tmx": {
+            "scale": 5.5040625,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 80.03179469709873,
+                "y": 72.12854141827059
+            }
+        },
         "backgrounds/cutscene-zipline.tmx": {
             "scale": 2,
             "selectedLayer": 0,
@@ -237,28 +261,28 @@
             "scaleInEditor": 11
         }
     },
-    "map.height": 36,
+    "map.height": 18,
     "map.lastUsedFormat": "tmx",
     "map.tileHeight": 8,
     "map.tileWidth": 8,
-    "map.width": 20,
+    "map.width": 40,
     "openFiles": [
         "backgrounds/one-room-measurement.tmx"
     ],
     "project": "yuri_jam_2020.tiled-project",
     "recentFiles": [
+        "backgrounds/one-room-measurement.tmx",
+        "backgrounds/area-glassy_tarn.tmx",
+        "backgrounds/area-glassy_tarn-cant_swim.tmx",
+        "backgrounds/area-inner_circle.tmx",
+        "backgrounds/cutscene-inner_circle.tmx",
+        "backgrounds/area-inner_circle-entry_only.tmx",
+        "backgrounds/area-evergreen_gulf-main.tmx",
+        "backgrounds/cutscene-evergreen_gulf.tmx",
         "backgrounds/area-starlit_court-gatehouse_gate_down.tmx",
         "backgrounds/area-echoing_vaults.tmx",
-        "backgrounds/area-inner_circle.tmx",
-        "backgrounds/one-room-measurement.tmx",
         "backgrounds/area-skyclad_tower-balcony.tmx",
-        "backgrounds/area-starlit_court-yard.tmx",
-        "backgrounds/area-starlit_court-bridge.tmx",
-        "backgrounds/screen-title.tmx",
-        "backgrounds/area-subterrane.tmx",
-        "areas_glued_together.tmx",
-        "backgrounds/area-lunarium.tmx",
-        "backgrounds/area-sthenos_room.tmx"
+        "backgrounds/area-starlit_court-yard.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {
