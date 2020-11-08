@@ -37,11 +37,11 @@
             }
         },
         "backgrounds/area-evergreen_gulf-main.tmx": {
-            "scale": 2,
+            "scale": 4,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 350.5,
-                "y": 196.5
+                "x": 98.375,
+                "y": 142.5
             }
         },
         "backgrounds/area-evergreen_gulf-onis_grotto.tmx": {
@@ -168,8 +168,8 @@
             "scale": 4.182638888888889,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 80.21251867839948,
-                "y": 144.1673584592396
+                "x": 83.08152083679231,
+                "y": 208.71990702307824
             }
         },
         "backgrounds/area-starlit_court-yard.tmx": {
@@ -194,6 +194,14 @@
             "viewCenter": {
                 "x": 110.99999999999999,
                 "y": 150
+            }
+        },
+        "backgrounds/cutscene-evergreen_gulf.tmx": {
+            "scale": 4.182638888888889,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 76.14809895400964,
+                "y": 144.1673584592396
             }
         },
         "backgrounds/cutscene-zipline.tmx": {
@@ -229,7 +237,7 @@
             "scaleInEditor": 11
         }
     },
-    "map.height": 18,
+    "map.height": 36,
     "map.lastUsedFormat": "tmx",
     "map.tileHeight": 8,
     "map.tileWidth": 8,
@@ -239,8 +247,8 @@
     ],
     "project": "yuri_jam_2020.tiled-project",
     "recentFiles": [
-        "backgrounds/area-echoing_vaults.tmx",
         "backgrounds/area-starlit_court-gatehouse_gate_down.tmx",
+        "backgrounds/area-echoing_vaults.tmx",
         "backgrounds/area-inner_circle.tmx",
         "backgrounds/one-room-measurement.tmx",
         "backgrounds/area-skyclad_tower-balcony.tmx",
