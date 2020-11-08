@@ -5,8 +5,8 @@
     },
     "activeFile": "backgrounds/one-room-measurement.tmx",
     "expandedProjectPaths": [
-        ".",
         "backgrounds",
+        ".",
         "tiles"
     ],
     "exportAsImage.useCurrentScale": false,
@@ -29,11 +29,11 @@
             }
         },
         "backgrounds/area-echoing_vaults.tmx": {
-            "scale": 5.5,
+            "scale": 3,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 156.90909090909093,
-                "y": 129.0909090909091
+                "x": 1010.3333333333333,
+                "y": 137.66666666666663
             }
         },
         "backgrounds/area-evergreen_gulf-main.tmx": {
@@ -232,8 +232,8 @@
     "project": "yuri_jam_2020.tiled-project",
     "recentFiles": [
         "backgrounds/one-room-measurement.tmx",
-        "backgrounds/area-inner_circle.tmx",
         "backgrounds/area-echoing_vaults.tmx",
+        "backgrounds/area-inner_circle.tmx",
         "backgrounds/area-skyclad_tower-balcony.tmx",
         "backgrounds/area-starlit_court-yard.tmx",
         "backgrounds/area-starlit_court-bridge.tmx",
