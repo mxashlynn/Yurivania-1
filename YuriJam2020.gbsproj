@@ -5576,8 +5576,8 @@
                                                         "command": "EVENT_SWITCH_SCENE",
                                                         "args": {
                                                             "sceneId": "c8978343-6d8c-427a-ba53-03ddbad42dc8",
-                                                            "x": 3,
-                                                            "y": 9,
+                                                            "x": 0,
+                                                            "y": 0,
                                                             "direction": "up",
                                                             "fadeSpeed": "1"
                                                         }
@@ -38211,7 +38211,198 @@
             "id": "c8978343-6d8c-427a-ba53-03ddbad42dc8",
             "x": 881.4857142857147,
             "y": 218.97142857142808,
-            "actors": [],
+            "actors": [
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "5a20dd62-520d-4d87-9450-450cc5531818",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": "1",
+                    "animSpeed": "3",
+                    "script": [],
+                    "startScript": [
+                        {
+                            "id": "adf9bba0-891d-4bab-a3f1-21ab12b498ae",
+                            "command": "EVENT_GROUP",
+                            "args": {
+                                "__label": "Init Map Marker"
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "id": "ccbb63bd-5bfd-4df4-9d58-68a4be051180",
+                                        "command": "EVENT_SET_VALUE",
+                                        "args": {
+                                            "variable": "L3",
+                                            "value": {
+                                                "type": "variable",
+                                                "value": "1"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "id": "78ebf0f4-77ff-4460-acff-64b2c59bb892",
+                                        "command": "EVENT_VARIABLE_MATH",
+                                        "args": {
+                                            "vectorX": "L3",
+                                            "operation": "add",
+                                            "other": "val",
+                                            "vectorY": "L0",
+                                            "value": 2,
+                                            "minValue": "0",
+                                            "maxValue": "255",
+                                            "clamp": false
+                                        }
+                                    },
+                                    {
+                                        "id": "bd8132fd-12cb-4818-b195-b796c2e2e1e7",
+                                        "command": "EVENT_SET_VALUE",
+                                        "args": {
+                                            "variable": "L4",
+                                            "value": {
+                                                "type": "variable",
+                                                "value": "2"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "id": "365ccd4d-b54d-46b0-892d-5db62d931cd4",
+                                        "command": "EVENT_VARIABLE_MATH",
+                                        "args": {
+                                            "vectorX": "L4",
+                                            "operation": "add",
+                                            "other": "val",
+                                            "vectorY": "L0",
+                                            "value": 4,
+                                            "minValue": "0",
+                                            "maxValue": "255",
+                                            "clamp": false
+                                        }
+                                    },
+                                    {
+                                        "id": "7017b7ef-efcc-4d15-a0d4-79e7f9e5e5e6",
+                                        "command": "EVENT_ACTOR_SET_POSITION",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "x": {
+                                                "type": "variable",
+                                                "value": "L3"
+                                            },
+                                            "y": {
+                                                "type": "variable",
+                                                "value": "L4"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "id": "f542c63c-16b0-4934-beeb-b6c98da9d242",
+                                        "command": "EVENT_END"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": "653f9e7b-431c-4721-a4a8-baccbf2df6d3",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "updateScript": [
+                        {
+                            "id": "93ab0094-375a-404f-8528-cd3f15e96037",
+                            "command": "EVENT_INC_VALUE",
+                            "args": {
+                                "variable": "L5"
+                            }
+                        },
+                        {
+                            "id": "55838eea-2416-480f-b594-7a6730760476",
+                            "command": "EVENT_IF_VALUE",
+                            "args": {
+                                "variable": "L5",
+                                "operator": "==",
+                                "comparator": 15,
+                                "__collapseElse": false,
+                                "__label": "Hide Map Marker",
+                                "__collapse": true
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "id": "e704f4fb-8492-4a73-bd5e-66a8f8717867",
+                                        "command": "EVENT_ACTOR_HIDE",
+                                        "args": {
+                                            "actorId": "$self$"
+                                        }
+                                    },
+                                    {
+                                        "id": "6a68c5fb-e494-4f4b-a250-10e0b656a310",
+                                        "command": "EVENT_END"
+                                    }
+                                ],
+                                "false": [
+                                    {
+                                        "id": "3a6a0ecc-a70e-4858-a90d-4574a9f9d3c8",
+                                        "command": "EVENT_IF_VALUE",
+                                        "args": {
+                                            "variable": "L5",
+                                            "operator": "==",
+                                            "comparator": 30,
+                                            "__collapseElse": false,
+                                            "__label": "Show Map Marker",
+                                            "__disableElse": true,
+                                            "__collapse": true
+                                        },
+                                        "children": {
+                                            "true": [
+                                                {
+                                                    "id": "ef6c6e25-8a06-4fce-bf45-eeff27818483",
+                                                    "command": "EVENT_SET_FALSE",
+                                                    "args": {
+                                                        "variable": "L5"
+                                                    }
+                                                },
+                                                {
+                                                    "id": "0bfc4442-3c0d-4c3f-98ba-8a982a142f52",
+                                                    "command": "EVENT_ACTOR_SHOW",
+                                                    "args": {
+                                                        "actorId": "$self$"
+                                                    }
+                                                },
+                                                {
+                                                    "id": "41d75aa9-8e3a-4f3f-a19d-74469543e477",
+                                                    "command": "EVENT_END"
+                                                }
+                                            ],
+                                            "false": [
+                                                {
+                                                    "id": "00db9d99-ad59-4ae7-b748-5f29478f3563",
+                                                    "command": "EVENT_END"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "id": "9c2128f1-2f76-4fca-b756-be319a43358a",
+                                        "command": "EVENT_END"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": "91e7e4e7-777e-406f-add1-80455be9dbe3",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "4088e617-e8ab-4b26-8b49-4a7ab9554be7",
+                    "x": 3,
+                    "y": 9
+                }
+            ],
             "triggers": []
         },
         {
@@ -41280,7 +41471,7 @@
             "imageHeight": 144,
             "filename": "map-mossy_tholtan.png",
             "inode": "2251799813935369",
-            "_v": 1604870963359
+            "_v": 1604874564605
         },
         {
             "id": "9418c86e-89c4-4768-8f86-f1ab3c74670f",
@@ -41698,6 +41889,18 @@
         {
             "id": "d75e6347-d4f9-4d95-a73b-67c07979054e__L0",
             "name": "Menu Selection"
+        },
+        {
+            "id": "4088e617-e8ab-4b26-8b49-4a7ab9554be7__L3",
+            "name": "X Adjusted"
+        },
+        {
+            "id": "4088e617-e8ab-4b26-8b49-4a7ab9554be7__L4",
+            "name": "Y Adjusted"
+        },
+        {
+            "id": "4088e617-e8ab-4b26-8b49-4a7ab9554be7__L5",
+            "name": "Map Marker Counter"
         }
     ],
     "settings": {
@@ -41707,7 +41910,7 @@
         "showCollisions": true,
         "showConnections": "all",
         "worldScrollX": 2077.5,
-        "worldScrollY": 5089,
+        "worldScrollY": 689,
         "zoom": 325,
         "customColorsEnabled": true,
         "defaultBackgroundPaletteIds": "default-background",
