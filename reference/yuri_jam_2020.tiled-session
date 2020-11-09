@@ -3,10 +3,10 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "backgrounds/one-room-measurement.tmx",
+    "activeFile": "backgrounds/area-subterrane.tmx",
     "expandedProjectPaths": [
-        "backgrounds",
         ".",
+        "backgrounds",
         "tiles"
     ],
     "exportAsImage.useCurrentScale": false,
@@ -184,8 +184,8 @@
             "scale": 3,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 110.99999999999999,
-                "y": 150
+                "x": 759,
+                "y": 71.66666666666667
             }
         },
         "backgrounds/cutscene-zipline.tmx": {
@@ -227,18 +227,19 @@
     "map.tileWidth": 8,
     "map.width": 20,
     "openFiles": [
-        "backgrounds/one-room-measurement.tmx"
+        "backgrounds/one-room-measurement.tmx",
+        "backgrounds/area-subterrane.tmx"
     ],
     "project": "yuri_jam_2020.tiled-project",
     "recentFiles": [
         "backgrounds/one-room-measurement.tmx",
+        "backgrounds/area-subterrane.tmx",
         "backgrounds/area-echoing_vaults.tmx",
         "backgrounds/area-inner_circle.tmx",
         "backgrounds/area-skyclad_tower-balcony.tmx",
         "backgrounds/area-starlit_court-yard.tmx",
         "backgrounds/area-starlit_court-bridge.tmx",
         "backgrounds/screen-title.tmx",
-        "backgrounds/area-subterrane.tmx",
         "areas_glued_together.tmx",
         "backgrounds/area-lunarium.tmx",
         "backgrounds/area-sthenos_room.tmx",
