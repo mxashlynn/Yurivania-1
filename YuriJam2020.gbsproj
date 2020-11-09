@@ -5415,28 +5415,6 @@
             "tileColors": [],
             "script": [
                 {
-                    "id": "9f900017-46c2-46db-b9c5-90adfed7db25",
-                    "command": "EVENT_SET_VALUE",
-                    "args": {
-                        "variable": "1",
-                        "value": {
-                            "type": "number",
-                            "value": 1
-                        }
-                    }
-                },
-                {
-                    "id": "5ae9e924-ada4-434f-8729-3a7f443e1d47",
-                    "command": "EVENT_SET_VALUE",
-                    "args": {
-                        "variable": "2",
-                        "value": {
-                            "type": "number",
-                            "value": 5
-                        }
-                    }
-                },
-                {
                     "id": "1cc8bac9-4e8a-470f-b2b3-5552b210dbe3",
                     "command": "EVENT_IF_FALSE",
                     "args": {
@@ -5444,103 +5422,22 @@
                         "__collapseElse": false,
                         "__disableElse": true,
                         "__label": "Init Game State",
-                        "__collapse": true
+                        "__collapse": false
                     },
                     "children": {
                         "true": [
+                            {
+                                "id": "6b2fd6da-2e22-4c04-8b8b-7eab19e32231",
+                                "command": "EVENT_RESET_VARIABLES",
+                                "args": {
+                                    "__collapse": true
+                                }
+                            },
                             {
                                 "id": "07fbb460-8202-46ee-ac77-20f20a369153",
                                 "command": "EVENT_SET_TRUE",
                                 "args": {
                                     "variable": "0",
-                                    "__collapse": true
-                                }
-                            },
-                            {
-                                "id": "7d792163-0d26-4f0a-89b9-9b7bdac9c5da",
-                                "command": "EVENT_SET_FALSE",
-                                "args": {
-                                    "variable": "3",
-                                    "__collapse": true
-                                }
-                            },
-                            {
-                                "id": "cb1cd29c-c9b1-4257-8a59-dfd94cceb8a1",
-                                "command": "EVENT_SET_FALSE",
-                                "args": {
-                                    "variable": "4",
-                                    "__collapse": true
-                                }
-                            },
-                            {
-                                "id": "1b7dabdf-9c2d-4280-8693-c17c032a5d8e",
-                                "command": "EVENT_SET_FALSE",
-                                "args": {
-                                    "variable": "5",
-                                    "__collapse": true
-                                }
-                            },
-                            {
-                                "id": "b47e05f4-4fad-4dfa-be4c-b633ad3c3b7f",
-                                "command": "EVENT_SET_FALSE",
-                                "args": {
-                                    "variable": "6",
-                                    "__collapse": true
-                                }
-                            },
-                            {
-                                "id": "30664089-7475-4902-b0a2-3d1fa5dd3a84",
-                                "command": "EVENT_SET_FALSE",
-                                "args": {
-                                    "variable": "7",
-                                    "__collapse": true
-                                }
-                            },
-                            {
-                                "id": "325f57d1-f9b0-402d-b19c-73719ecb7031",
-                                "command": "EVENT_SET_FALSE",
-                                "args": {
-                                    "variable": "8",
-                                    "__collapse": true
-                                }
-                            },
-                            {
-                                "id": "e195ebcf-5a47-4305-b0d2-0d141de455d5",
-                                "command": "EVENT_SET_FALSE",
-                                "args": {
-                                    "variable": "9",
-                                    "__collapse": true
-                                }
-                            },
-                            {
-                                "id": "54691071-9d51-422c-ab07-ae6b7c09d410",
-                                "command": "EVENT_SET_FALSE",
-                                "args": {
-                                    "variable": "10",
-                                    "__collapse": true
-                                }
-                            },
-                            {
-                                "id": "ff9dcf0c-7774-4b32-93c0-d75dd6881154",
-                                "command": "EVENT_SET_FALSE",
-                                "args": {
-                                    "variable": "11",
-                                    "__collapse": true
-                                }
-                            },
-                            {
-                                "id": "169e793f-23aa-4145-8d0f-535dfcb11d88",
-                                "command": "EVENT_SET_FALSE",
-                                "args": {
-                                    "variable": "12",
-                                    "__collapse": true
-                                }
-                            },
-                            {
-                                "id": "3a6c42ea-9c29-414f-907b-1e6afeaa20a0",
-                                "command": "EVENT_SET_FALSE",
-                                "args": {
-                                    "variable": "13",
                                     "__collapse": true
                                 }
                             },
@@ -5553,7 +5450,8 @@
                                     ],
                                     "persist": true,
                                     "__scriptTabs": "press",
-                                    "__label": "Set Up Map Menu Button"
+                                    "__label": "Set Up Map Menu Button",
+                                    "__collapse": true
                                 },
                                 "children": {
                                     "true": [
@@ -5604,6 +5502,45 @@
                         "false": [
                             {
                                 "id": "8cc563b0-cf88-4a38-a2b7-c3d515378ce7",
+                                "command": "EVENT_END"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "f1f2557a-f4d5-4060-9d0c-563ef42978d4",
+                    "command": "EVENT_GROUP",
+                    "args": {
+                        "__label": "Set Room Coordinates",
+                        "__collapse": true
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "id": "be0ef52d-defd-47b0-9aad-5cbc210f7a3b",
+                                "command": "EVENT_SET_VALUE",
+                                "args": {
+                                    "variable": "1",
+                                    "value": {
+                                        "type": "number",
+                                        "value": 1
+                                    },
+                                    "__collapse": false
+                                }
+                            },
+                            {
+                                "id": "66e8908a-0079-40f8-8e8f-ae2dbeafc646",
+                                "command": "EVENT_SET_VALUE",
+                                "args": {
+                                    "variable": "2",
+                                    "value": {
+                                        "type": "number",
+                                        "value": 5
+                                    }
+                                }
+                            },
+                            {
+                                "id": "e8e25ffc-4c1f-45c1-ad99-ea81f708ad86",
                                 "command": "EVENT_END"
                             }
                         ]
@@ -6019,7 +5956,51 @@
                 15
             ],
             "tileColors": [],
-            "script": [],
+            "script": [
+                {
+                    "id": "3c7239b2-de74-4e6d-a001-4f7d13925463",
+                    "command": "EVENT_GROUP",
+                    "args": {
+                        "__label": "Set Room Coordinates",
+                        "__collapse": true
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "id": "68055b8a-36fa-41ee-a1f6-42292b97032a",
+                                "command": "EVENT_SET_VALUE",
+                                "args": {
+                                    "variable": "1",
+                                    "value": {
+                                        "type": "number",
+                                        "value": 2
+                                    },
+                                    "__collapse": false
+                                }
+                            },
+                            {
+                                "id": "da2186e5-451e-4017-8dd7-6e59c9e135ca",
+                                "command": "EVENT_SET_VALUE",
+                                "args": {
+                                    "variable": "2",
+                                    "value": {
+                                        "type": "number",
+                                        "value": 4
+                                    }
+                                }
+                            },
+                            {
+                                "id": "6bceacdf-2e3f-44b1-ac00-3b25926262b6",
+                                "command": "EVENT_END"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "2f1504f8-7f8c-47d2-95d8-3421795124da",
+                    "command": "EVENT_END"
+                }
+            ],
             "playerHit1Script": [],
             "playerHit2Script": [],
             "playerHit3Script": [],
@@ -7299,26 +7280,42 @@
             "tileColors": [],
             "script": [
                 {
-                    "id": "cf4fbfb5-b3cf-4ca3-acb3-615c43d7715f",
-                    "command": "EVENT_SET_VALUE",
+                    "id": "a3bc4b7d-7976-4615-93a8-8417f512cba6",
+                    "command": "EVENT_GROUP",
                     "args": {
-                        "variable": "1",
-                        "value": {
-                            "type": "number",
-                            "value": 2
-                        },
-                        "__collapse": false
-                    }
-                },
-                {
-                    "id": "93e9b061-4429-4757-84a3-7e9de30ac201",
-                    "command": "EVENT_SET_VALUE",
-                    "args": {
-                        "variable": "2",
-                        "value": {
-                            "type": "number",
-                            "value": 5
-                        }
+                        "__label": "Set Room Coordinates",
+                        "__collapse": true
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "id": "cf4fbfb5-b3cf-4ca3-acb3-615c43d7715f",
+                                "command": "EVENT_SET_VALUE",
+                                "args": {
+                                    "variable": "1",
+                                    "value": {
+                                        "type": "number",
+                                        "value": 2
+                                    },
+                                    "__collapse": false
+                                }
+                            },
+                            {
+                                "id": "93e9b061-4429-4757-84a3-7e9de30ac201",
+                                "command": "EVENT_SET_VALUE",
+                                "args": {
+                                    "variable": "2",
+                                    "value": {
+                                        "type": "number",
+                                        "value": 5
+                                    }
+                                }
+                            },
+                            {
+                                "id": "dcfa5547-dd7d-48e0-b4cb-9db84abbb53f",
+                                "command": "EVENT_END"
+                            }
+                        ]
                     }
                 },
                 {
@@ -40383,25 +40380,42 @@
             "tileColors": [],
             "script": [
                 {
-                    "id": "e58b46cb-3c53-4b44-bf40-45da07dae07b",
-                    "command": "EVENT_SET_VALUE",
+                    "id": "46428f03-480c-4f96-9101-7932c95c7e2f",
+                    "command": "EVENT_GROUP",
                     "args": {
-                        "variable": "1",
-                        "value": {
-                            "type": "number",
-                            "value": 2
-                        }
-                    }
-                },
-                {
-                    "id": "9c774cde-7d6b-4663-877c-f128676fd6ab",
-                    "command": "EVENT_SET_VALUE",
-                    "args": {
-                        "variable": "2",
-                        "value": {
-                            "type": "number",
-                            "value": 6
-                        }
+                        "__label": "Set Room Coordinates",
+                        "__collapse": true
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "id": "3a58b888-fed8-469a-a9b9-de59cd07845d",
+                                "command": "EVENT_SET_VALUE",
+                                "args": {
+                                    "variable": "1",
+                                    "value": {
+                                        "type": "number",
+                                        "value": 2
+                                    },
+                                    "__collapse": false
+                                }
+                            },
+                            {
+                                "id": "9d2b5417-8def-4f24-a467-c085137d70ef",
+                                "command": "EVENT_SET_VALUE",
+                                "args": {
+                                    "variable": "2",
+                                    "value": {
+                                        "type": "number",
+                                        "value": 6
+                                    }
+                                }
+                            },
+                            {
+                                "id": "e1997afb-6630-466a-accc-df707944dd9f",
+                                "command": "EVENT_END"
+                            }
+                        ]
                     }
                 },
                 {
@@ -42002,8 +42016,8 @@
         "startY": 12,
         "showCollisions": true,
         "showConnections": "all",
-        "worldScrollX": 2742.5,
-        "worldScrollY": 2077,
+        "worldScrollX": 840.5,
+        "worldScrollY": 1776,
         "zoom": 125,
         "customColorsEnabled": true,
         "defaultBackgroundPaletteIds": "default-background",
