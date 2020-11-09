@@ -4974,7 +4974,51 @@
                 15
             ],
             "tileColors": [],
-            "script": [],
+            "script": [
+                {
+                    "id": "265b9264-6258-4928-a432-edb9409217ae",
+                    "command": "EVENT_GROUP",
+                    "args": {
+                        "__label": "Set Room Coordinates",
+                        "__collapse": true
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "id": "d2343fbc-2dad-48ab-985a-0569aa9cee4e",
+                                "command": "EVENT_SET_VALUE",
+                                "args": {
+                                    "variable": "1",
+                                    "value": {
+                                        "type": "number",
+                                        "value": 8
+                                    },
+                                    "__collapse": false
+                                }
+                            },
+                            {
+                                "id": "0a10c8f6-524a-4ad2-88f0-58ed9248de42",
+                                "command": "EVENT_SET_VALUE",
+                                "args": {
+                                    "variable": "2",
+                                    "value": {
+                                        "type": "number",
+                                        "value": 8
+                                    }
+                                }
+                            },
+                            {
+                                "id": "1742674b-4017-4d2f-a223-b74ee1ecafcc",
+                                "command": "EVENT_END"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "3ba12b4d-f985-4854-baac-932836c0731c",
+                    "command": "EVENT_END"
+                }
+            ],
             "playerHit1Script": [],
             "playerHit2Script": [],
             "playerHit3Script": [],
@@ -5422,7 +5466,7 @@
                         "__collapseElse": false,
                         "__disableElse": true,
                         "__label": "Init Game State",
-                        "__collapse": false
+                        "__collapse": true
                     },
                     "children": {
                         "true": [
@@ -6426,7 +6470,51 @@
                 15
             ],
             "tileColors": [],
-            "script": [],
+            "script": [
+                {
+                    "id": "2a387de6-9e40-4d10-b29d-9d0bea3a29a4",
+                    "command": "EVENT_GROUP",
+                    "args": {
+                        "__label": "Set Room Coordinates",
+                        "__collapse": true
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "id": "430bb3f3-0c04-40f5-8b35-427170a0478e",
+                                "command": "EVENT_SET_VALUE",
+                                "args": {
+                                    "variable": "1",
+                                    "value": {
+                                        "type": "number",
+                                        "value": 12
+                                    },
+                                    "__collapse": false
+                                }
+                            },
+                            {
+                                "id": "1a7d67d0-d30c-4331-9b94-d9dc2c8222a1",
+                                "command": "EVENT_SET_VALUE",
+                                "args": {
+                                    "variable": "2",
+                                    "value": {
+                                        "type": "number",
+                                        "value": 5
+                                    }
+                                }
+                            },
+                            {
+                                "id": "90d2a7c1-6a8d-4b1b-b5d1-a1581a42a37c",
+                                "command": "EVENT_END"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "5955d462-4ab2-4ac9-98d4-55071ca4c986",
+                    "command": "EVENT_END"
+                }
+            ],
             "playerHit1Script": [],
             "playerHit2Script": [],
             "playerHit3Script": [],
@@ -6852,7 +6940,51 @@
                 15
             ],
             "tileColors": [],
-            "script": [],
+            "script": [
+                {
+                    "id": "7b591ae8-7dd0-4f7a-9472-5490edf61443",
+                    "command": "EVENT_GROUP",
+                    "args": {
+                        "__label": "Set Room Coordinates",
+                        "__collapse": true
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "id": "2989049f-4160-4eef-9deb-0e282ed6e896",
+                                "command": "EVENT_SET_VALUE",
+                                "args": {
+                                    "variable": "1",
+                                    "value": {
+                                        "type": "number",
+                                        "value": 12
+                                    },
+                                    "__collapse": false
+                                }
+                            },
+                            {
+                                "id": "8add6b17-dae5-499e-96ea-1c4797e7d667",
+                                "command": "EVENT_SET_VALUE",
+                                "args": {
+                                    "variable": "2",
+                                    "value": {
+                                        "type": "number",
+                                        "value": 5
+                                    }
+                                }
+                            },
+                            {
+                                "id": "ac636fbf-6699-4258-92d1-c799b3ef2d7e",
+                                "command": "EVENT_END"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "dd491e83-54ad-4a0d-99bf-12b43730a338",
+                    "command": "EVENT_END"
+                }
+            ],
             "playerHit1Script": [],
             "playerHit2Script": [],
             "playerHit3Script": [],
@@ -28430,7 +28562,51 @@
                 4
             ],
             "tileColors": [],
-            "script": [],
+            "script": [
+                {
+                    "id": "a4b120be-d841-4cc2-8461-2088936c807b",
+                    "command": "EVENT_GROUP",
+                    "args": {
+                        "__label": "Set Room Coordinates",
+                        "__collapse": true
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "id": "e368c023-1b0b-4a62-a9d4-6cbbdf5d87ad",
+                                "command": "EVENT_SET_VALUE",
+                                "args": {
+                                    "variable": "1",
+                                    "value": {
+                                        "type": "number",
+                                        "value": 4
+                                    },
+                                    "__collapse": false
+                                }
+                            },
+                            {
+                                "id": "6eb62973-5927-4e1c-9165-47f9897b3998",
+                                "command": "EVENT_SET_VALUE",
+                                "args": {
+                                    "variable": "2",
+                                    "value": {
+                                        "type": "number",
+                                        "value": 4
+                                    }
+                                }
+                            },
+                            {
+                                "id": "a307fcf0-5d10-466e-ba37-4b9021015277",
+                                "command": "EVENT_END"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "af340d58-ea7a-4277-9c3d-8e16aad9c661",
+                    "command": "EVENT_END"
+                }
+            ],
             "playerHit1Script": [],
             "playerHit2Script": [],
             "playerHit3Script": [],
@@ -31305,7 +31481,51 @@
                 15
             ],
             "tileColors": [],
-            "script": [],
+            "script": [
+                {
+                    "id": "5266dd2c-67cd-4bc7-83d3-02eb2d014467",
+                    "command": "EVENT_GROUP",
+                    "args": {
+                        "__label": "Set Room Coordinates",
+                        "__collapse": true
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "id": "540ccca8-9883-4b59-bd64-058b93aa33ea",
+                                "command": "EVENT_SET_VALUE",
+                                "args": {
+                                    "variable": "1",
+                                    "value": {
+                                        "type": "number",
+                                        "value": 14
+                                    },
+                                    "__collapse": false
+                                }
+                            },
+                            {
+                                "id": "80e495f6-2125-48b8-ba92-59d8b653d30b",
+                                "command": "EVENT_SET_VALUE",
+                                "args": {
+                                    "variable": "2",
+                                    "value": {
+                                        "type": "number",
+                                        "value": 8
+                                    }
+                                }
+                            },
+                            {
+                                "id": "d8d29493-847f-4d1e-8f07-ec66147fcee2",
+                                "command": "EVENT_END"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "1a3579d6-8e88-4221-8a67-1f203f40b737",
+                    "command": "EVENT_END"
+                }
+            ],
             "playerHit1Script": [],
             "playerHit2Script": [],
             "playerHit3Script": [],
@@ -31711,7 +31931,51 @@
                 15
             ],
             "tileColors": [],
-            "script": [],
+            "script": [
+                {
+                    "id": "f216d1e5-2ef3-43a0-943e-be82f9c9662e",
+                    "command": "EVENT_GROUP",
+                    "args": {
+                        "__label": "Set Room Coordinates",
+                        "__collapse": true
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "id": "1f29997e-8818-49e6-b311-045c19621eaa",
+                                "command": "EVENT_SET_VALUE",
+                                "args": {
+                                    "variable": "1",
+                                    "value": {
+                                        "type": "number",
+                                        "value": 15
+                                    },
+                                    "__collapse": false
+                                }
+                            },
+                            {
+                                "id": "7370fa85-b3af-4dca-8f8b-32bc3dfd1cc4",
+                                "command": "EVENT_SET_VALUE",
+                                "args": {
+                                    "variable": "2",
+                                    "value": {
+                                        "type": "number",
+                                        "value": 6
+                                    }
+                                }
+                            },
+                            {
+                                "id": "06bc1e92-f36c-4596-82c7-1ce6ace0f389",
+                                "command": "EVENT_END"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "294679e9-ef5e-4854-a5aa-b45a60bc6e10",
+                    "command": "EVENT_END"
+                }
+            ],
             "playerHit1Script": [],
             "playerHit2Script": [],
             "playerHit3Script": [],
@@ -39979,7 +40243,51 @@
                 15
             ],
             "tileColors": [],
-            "script": [],
+            "script": [
+                {
+                    "id": "3672b910-59e7-4141-b8fd-a41974d4425f",
+                    "command": "EVENT_GROUP",
+                    "args": {
+                        "__label": "Set Room Coordinates",
+                        "__collapse": true
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "id": "5a52d6ed-af9e-43c6-9873-4301dc06d899",
+                                "command": "EVENT_SET_VALUE",
+                                "args": {
+                                    "variable": "1",
+                                    "value": {
+                                        "type": "number",
+                                        "value": 12
+                                    },
+                                    "__collapse": false
+                                }
+                            },
+                            {
+                                "id": "aa506a70-b252-4960-81bc-fbe42b48db04",
+                                "command": "EVENT_SET_VALUE",
+                                "args": {
+                                    "variable": "2",
+                                    "value": {
+                                        "type": "number",
+                                        "value": 6
+                                    }
+                                }
+                            },
+                            {
+                                "id": "51b7cde5-9502-4dab-a0d1-0f03afca8fbe",
+                                "command": "EVENT_END"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "7e722346-6800-4be0-b580-bf843c6646fe",
+                    "command": "EVENT_END"
+                }
+            ],
             "playerHit1Script": [],
             "playerHit2Script": [],
             "playerHit3Script": [],
@@ -41188,7 +41496,51 @@
                 15
             ],
             "tileColors": [],
-            "script": [],
+            "script": [
+                {
+                    "id": "2cab5cd2-73d3-40e4-b831-ff8225b24f15",
+                    "command": "EVENT_GROUP",
+                    "args": {
+                        "__label": "Set Room Coordinates",
+                        "__collapse": true
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "id": "b9de0b59-d835-4911-977b-d284dc227884",
+                                "command": "EVENT_SET_VALUE",
+                                "args": {
+                                    "variable": "1",
+                                    "value": {
+                                        "type": "number",
+                                        "value": 11
+                                    },
+                                    "__collapse": false
+                                }
+                            },
+                            {
+                                "id": "a7792312-d5a8-46e2-b4d4-ce4f4114be68",
+                                "command": "EVENT_SET_VALUE",
+                                "args": {
+                                    "variable": "2",
+                                    "value": {
+                                        "type": "number",
+                                        "value": 7
+                                    }
+                                }
+                            },
+                            {
+                                "id": "70487e9e-55cf-4004-bb78-d50b3b8a545b",
+                                "command": "EVENT_END"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "4d707d6d-8e40-4d47-b060-11607d40f6c7",
+                    "command": "EVENT_END"
+                }
+            ],
             "playerHit1Script": [],
             "playerHit2Script": [],
             "playerHit3Script": [],
@@ -41600,7 +41952,7 @@
             "imageHeight": 144,
             "filename": "map-solarium.png",
             "inode": "1688849860317520",
-            "_v": 1604883212488
+            "_v": 1604885826807
         },
         {
             "id": "c7690bfc-b944-4d70-837f-dbeea31af1a5",
@@ -42016,8 +42368,8 @@
         "startY": 12,
         "showCollisions": true,
         "showConnections": "all",
-        "worldScrollX": 840.5,
-        "worldScrollY": 1776,
+        "worldScrollX": 3461,
+        "worldScrollY": 1764,
         "zoom": 125,
         "customColorsEnabled": true,
         "defaultBackgroundPaletteIds": "default-background",
