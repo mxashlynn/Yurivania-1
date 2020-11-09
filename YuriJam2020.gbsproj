@@ -22151,14 +22151,47 @@
                     "trigger": "walk",
                     "script": [
                         {
-                            "id": "485e5832-1cdc-4268-a1ad-5dc4546eaa45",
-                            "command": "EVENT_SWITCH_SCENE",
+                            "id": "696c201d-7bfe-47fb-930d-10022b09a9ce",
+                            "command": "EVENT_IF_TRUE",
                             "args": {
-                                "sceneId": "b28b6654-93dc-4621-b804-66be94e9ec6f",
-                                "x": 77,
-                                "y": 12,
-                                "direction": "left",
-                                "fadeSpeed": "1"
+                                "variable": "11",
+                                "__collapseElse": false
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "id": "485e5832-1cdc-4268-a1ad-5dc4546eaa45",
+                                        "command": "EVENT_SWITCH_SCENE",
+                                        "args": {
+                                            "sceneId": "b28b6654-93dc-4621-b804-66be94e9ec6f",
+                                            "x": 77,
+                                            "y": 12,
+                                            "direction": "left",
+                                            "fadeSpeed": "1"
+                                        }
+                                    },
+                                    {
+                                        "id": "4e158b25-be44-42af-ba9f-2731d2cbbe38",
+                                        "command": "EVENT_END"
+                                    }
+                                ],
+                                "false": [
+                                    {
+                                        "id": "71906746-cbf3-4fec-ae88-918a4da54171",
+                                        "command": "EVENT_SWITCH_SCENE",
+                                        "args": {
+                                            "sceneId": "16427edb-a907-4eb5-b1bd-895d268f7f3f",
+                                            "x": 37,
+                                            "y": 12,
+                                            "direction": "left",
+                                            "fadeSpeed": "1"
+                                        }
+                                    },
+                                    {
+                                        "id": "9d3135e0-ef5c-4480-8a44-e5796150c037",
+                                        "command": "EVENT_END"
+                                    }
+                                ]
                             }
                         },
                         {
@@ -33892,8 +33925,8 @@
             "playerHit2Script": [],
             "playerHit3Script": [],
             "id": "f60f7bcf-52fd-4c1f-a643-ffea6f230841",
-            "x": 176,
-            "y": 1578.4,
+            "x": 192.0000000000001,
+            "y": 1588.7999999999995,
             "actors": [
                 {
                     "name": "Rin~Rin Inner Circle",
@@ -41969,8 +42002,8 @@
         "startY": 12,
         "showCollisions": true,
         "showConnections": "all",
-        "worldScrollX": 877.5,
-        "worldScrollY": 1959.5,
+        "worldScrollX": 2742.5,
+        "worldScrollY": 2077,
         "zoom": 125,
         "customColorsEnabled": true,
         "defaultBackgroundPaletteIds": "default-background",
