@@ -6994,7 +6994,7 @@
             "actors": [
                 {
                     "name": "Lucy - Solarium Up",
-                    "frame": 0,
+                    "frame": 3,
                     "animate": false,
                     "spriteSheetId": "ea905fa7-7d98-4beb-b3d4-4a9d959a05af",
                     "spriteType": "static",
@@ -7009,7 +7009,8 @@
                     "hit3Script": [],
                     "id": "4d60f853-cea8-4a05-ba6c-dd373575be1e",
                     "x": 9,
-                    "y": 14
+                    "y": 14,
+                    "paletteId": "default-sprite"
                 }
             ],
             "triggers": [
@@ -13293,7 +13294,46 @@
             "id": "d7509120-c6bc-44ff-89d7-b1264379ebaf",
             "x": 447.1999999999998,
             "y": 1906.4,
-            "actors": [],
+            "actors": [
+                {
+                    "name": "Kuliltu",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "4f026f4b-a4b1-4e67-8b26-268ba6bb58c6",
+                    "spriteType": "actor",
+                    "direction": "down",
+                    "moveSpeed": "1",
+                    "animSpeed": "3",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "700673e7-57a9-40ec-a963-41e5c90284ff",
+                    "x": 47,
+                    "y": 29
+                },
+                {
+                    "name": "Kuliltu's Tail",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "1c8a0ad2-c4da-46cf-a835-c0078f6986f0",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": "1",
+                    "animSpeed": "3",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "ee4b0f8f-a0e2-4f96-b82c-2131a0808284",
+                    "x": 47,
+                    "y": 31
+                }
+            ],
             "triggers": [
                 {
                     "name": "Exit 6",
@@ -16991,7 +17031,48 @@
             "id": "f8d708bc-de23-4a37-b8db-ce28c38bdfe8",
             "x": 1609.6,
             "y": 1585.6,
-            "actors": [],
+            "actors": [
+                {
+                    "name": "Plant Light - Cutscene",
+                    "frame": 1,
+                    "animate": false,
+                    "spriteSheetId": "8ec09b11-8a49-4f25-b682-9cdc42815f9c",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": "1",
+                    "animSpeed": "3",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "77621e55-efd0-4c6e-bc3b-50b078d6d285",
+                    "x": 47,
+                    "y": 22,
+                    "paletteId": "67aafd96-1b0e-4b9b-8282-105585a4e039"
+                },
+                {
+                    "name": "Key",
+                    "frame": 2,
+                    "animate": false,
+                    "spriteSheetId": "724c5e64-62f5-452f-95e4-b65f5b9f6d6f",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": "1",
+                    "animSpeed": "3",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "18d26d05-44e1-4c30-aa41-6a5be205112f",
+                    "x": 22,
+                    "y": 21,
+                    "paletteId": "67aafd96-1b0e-4b9b-8282-105585a4e039"
+                }
+            ],
             "triggers": [
                 {
                     "name": "Exit 21",
@@ -25310,7 +25391,48 @@
             "id": "b28b6654-93dc-4621-b804-66be94e9ec6f",
             "x": 1940,
             "y": 1915.1999999999998,
-            "actors": [],
+            "actors": [
+                {
+                    "name": "Watering Can",
+                    "frame": 2,
+                    "animate": false,
+                    "spriteSheetId": "950514d3-c57d-4808-b67f-ca30dd370a6d",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": "1",
+                    "animSpeed": "3",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "45702ac0-9120-44ab-80ac-46f11f028fbb",
+                    "x": 69,
+                    "y": 30,
+                    "paletteId": "4f6abe34-6041-4fde-8a4f-6b4c259dbf8b"
+                },
+                {
+                    "name": "Plant Light - Area",
+                    "frame": 1,
+                    "animate": false,
+                    "spriteSheetId": "8ec09b11-8a49-4f25-b682-9cdc42815f9c",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": "1",
+                    "animSpeed": "3",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "e972a54a-f8f2-423d-be6a-20addde7b51d",
+                    "x": 7,
+                    "y": 5,
+                    "paletteId": "67aafd96-1b0e-4b9b-8282-105585a4e039"
+                }
+            ],
             "triggers": [
                 {
                     "name": "Tunnel Entrance",
@@ -30211,6 +30333,26 @@
                     "id": "9f645f8f-572e-4c7b-af48-ff72c5bf96a3",
                     "x": 37,
                     "y": 22
+                },
+                {
+                    "name": "Fertilizer",
+                    "frame": 2,
+                    "animate": false,
+                    "spriteSheetId": "8ec09b11-8a49-4f25-b682-9cdc42815f9c",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": "1",
+                    "animSpeed": "3",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "7c899621-dd60-4ff5-b3c8-625399de5c36",
+                    "x": 11,
+                    "y": 13,
+                    "paletteId": "67aafd96-1b0e-4b9b-8282-105585a4e039"
                 }
             ],
             "triggers": [
@@ -31030,7 +31172,28 @@
             "id": "a19a2fef-5a7b-4c1b-8fec-b1a4619fe94a",
             "x": 2955.9999999999945,
             "y": 1212.8000000000004,
-            "actors": [],
+            "actors": [
+                {
+                    "name": "Ladybug",
+                    "frame": 1,
+                    "animate": false,
+                    "spriteSheetId": "79bcd5bc-aaf5-436d-981b-953394a383f0",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": "1",
+                    "animSpeed": "3",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "fe8e7134-2e85-4300-97b1-83b734457f0e",
+                    "x": 35,
+                    "y": 7,
+                    "paletteId": "481095b4-538b-4fcd-aefb-7bde2b7354ee"
+                }
+            ],
             "triggers": [
                 {
                     "name": "Exit 35",
@@ -31532,7 +31695,46 @@
             "id": "53eb3213-5061-4eef-a0e9-1a8256d95026",
             "x": 3293.5999999999985,
             "y": 1796.8000000000004,
-            "actors": [],
+            "actors": [
+                {
+                    "name": "Suzuka - Area",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "a86d97de-b958-4b3b-9009-337d55620ad5",
+                    "spriteType": "actor",
+                    "direction": "down",
+                    "moveSpeed": "1",
+                    "animSpeed": "3",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "acef9c9b-4bd2-471c-9ab7-7dadc4f6e7e9",
+                    "x": 12,
+                    "y": 9
+                },
+                {
+                    "name": "Suzuka's Hair - Area",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "7c5e5584-8122-488c-ad2a-87d19b2a7045",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": "1",
+                    "animSpeed": "3",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "ef504e7c-9666-407c-9e7f-f76467b5c4bd",
+                    "x": 12,
+                    "y": 7
+                }
+            ],
             "triggers": [
                 {
                     "name": "Exit 39",
@@ -31982,7 +32184,28 @@
             "id": "9a093bc6-299a-4b8e-bbaf-c51683da0055",
             "x": 3465.7454545454525,
             "y": 1539.9272727272744,
-            "actors": [],
+            "actors": [
+                {
+                    "name": "Amulet",
+                    "frame": 1,
+                    "animate": false,
+                    "spriteSheetId": "950514d3-c57d-4808-b67f-ca30dd370a6d",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": "1",
+                    "animSpeed": "3",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "05668ac9-e70a-4412-9cd0-5f493c4ce6bd",
+                    "x": 10,
+                    "y": 5,
+                    "paletteId": "67aafd96-1b0e-4b9b-8282-105585a4e039"
+                }
+            ],
             "triggers": [
                 {
                     "name": "Exit 33",
@@ -34206,6 +34429,25 @@
                     "hit3Script": [],
                     "id": "84397fa5-61e9-472c-a4c6-cbbecefd1be8",
                     "x": 4,
+                    "y": 31
+                },
+                {
+                    "name": "Josette - Area",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "0f160e76-a92d-45f9-aec8-e2a07553c2e8",
+                    "spriteType": "actor",
+                    "direction": "down",
+                    "moveSpeed": "1",
+                    "animSpeed": "3",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "548277c7-00b0-4277-87e4-4208ab5d1510",
+                    "x": 48,
                     "y": 31
                 }
             ],
@@ -39071,7 +39313,28 @@
             "id": "116734ed-7043-41b2-b88b-7fbdfc0fb423",
             "x": 447,
             "y": 2250.4666666666662,
-            "actors": [],
+            "actors": [
+                {
+                    "name": "Pass",
+                    "frame": 2,
+                    "animate": false,
+                    "spriteSheetId": "4f7e5a89-0cf6-4c39-9423-397b7289601f",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": "1",
+                    "animSpeed": "3",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "a7f74b39-335f-4690-946a-637ad0edd774",
+                    "x": 92,
+                    "y": 0,
+                    "paletteId": "481095b4-538b-4fcd-aefb-7bde2b7354ee"
+                }
+            ],
             "triggers": [
                 {
                     "name": "Exit 18",
@@ -42510,7 +42773,27 @@
             "id": "afe9283e-134c-4127-be9c-2af27732f74d",
             "x": 874.8000000000001,
             "y": 1746.3999999999999,
-            "actors": [],
+            "actors": [
+                {
+                    "name": "Josette - Cutscene",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "0f160e76-a92d-45f9-aec8-e2a07553c2e8",
+                    "spriteType": "actor",
+                    "direction": "down",
+                    "moveSpeed": "1",
+                    "animSpeed": "3",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "85062730-298b-4fa1-a874-82670c834576",
+                    "x": 8,
+                    "y": 13
+                }
+            ],
             "triggers": [
                 {
                     "name": "Exit 43",
@@ -44160,7 +44443,7 @@
             "imageHeight": 144,
             "filename": "area-alraunes_corner.png",
             "inode": "1125899906994099",
-            "_v": 1604999618656
+            "_v": 1605036666079
         },
         {
             "id": "01a0a5ea-c217-47f8-b37f-ada83b78a43d",
@@ -44171,7 +44454,7 @@
             "imageHeight": 288,
             "filename": "area-echoing_vaults.png",
             "inode": "14636698788979462",
-            "_v": 1604999618656
+            "_v": 1605036666079
         },
         {
             "id": "b31c41e5-e9b9-42a6-85d9-f908fe7f9ac8",
@@ -44182,7 +44465,7 @@
             "imageHeight": 576,
             "filename": "area-evergreen_gulf-main.png",
             "inode": "1125899906994061",
-            "_v": 1604999618656
+            "_v": 1605036666079
         },
         {
             "id": "22ed079b-29c4-4014-be81-0969a1c64498",
@@ -44193,7 +44476,7 @@
             "imageHeight": 144,
             "filename": "area-evergreen_gulf-onis_grotto.png",
             "inode": "1407374883704763",
-            "_v": 1604999618656
+            "_v": 1605036666079
         },
         {
             "id": "ee9797b7-e7f1-41d9-9581-d78be013ae76",
@@ -44204,7 +44487,7 @@
             "imageHeight": 144,
             "filename": "area-evergreen_gulf-treetops.png",
             "inode": "1125899906994098",
-            "_v": 1604999618656
+            "_v": 1605036666079
         },
         {
             "id": "42f3dc91-b68e-4baa-a758-5329f66bbb30",
@@ -44215,7 +44498,7 @@
             "imageHeight": 144,
             "filename": "area-glassy_tarn-cant_swim.png",
             "inode": "2814749767140789",
-            "_v": 1604999618656
+            "_v": 1605036666079
         },
         {
             "id": "6c884479-87a6-4cb4-b02a-95a2204381c0",
@@ -44226,7 +44509,7 @@
             "imageHeight": 288,
             "filename": "area-glassy_tarn.png",
             "inode": "1970324837126041",
-            "_v": 1604999618656
+            "_v": 1605036666079
         },
         {
             "id": "4b7ae47c-7620-4b83-a186-7d609637d423",
@@ -44237,7 +44520,7 @@
             "imageHeight": 144,
             "filename": "area-human_encounter.png",
             "inode": "20829148276754038",
-            "_v": 1604999618656
+            "_v": 1605036666079
         },
         {
             "id": "93575302-d328-4deb-9ea4-ef28afe2efdd",
@@ -44248,7 +44531,7 @@
             "imageHeight": 288,
             "filename": "area-inner_circle.png",
             "inode": "2814749767131948",
-            "_v": 1604999618656
+            "_v": 1605036666079
         },
         {
             "id": "39d93567-5f1e-425c-a065-13316c5e4c71",
@@ -44259,7 +44542,7 @@
             "imageHeight": 144,
             "filename": "area-lunarium.png",
             "inode": "1125899906994111",
-            "_v": 1604999618656
+            "_v": 1605036666079
         },
         {
             "id": "de00e083-6d54-46bf-9ad9-a8eade79a159",
@@ -44270,7 +44553,7 @@
             "imageHeight": 144,
             "filename": "area-mossy_tholtan.png",
             "inode": "1125899906994095",
-            "_v": 1604999618656
+            "_v": 1605036666079
         },
         {
             "id": "aa4c9dc2-65e2-4473-95e0-340f6baf8f93",
@@ -44281,7 +44564,7 @@
             "imageHeight": 144,
             "filename": "area-skyclad_tower-balcony.png",
             "inode": "1125899906994108",
-            "_v": 1604999618656
+            "_v": 1605036666079
         },
         {
             "id": "833133aa-9b25-4780-abef-97a15a554ede",
@@ -44292,7 +44575,7 @@
             "imageHeight": 144,
             "filename": "area-skyclad_tower-hall_of_statues.png",
             "inode": "8162774324642916",
-            "_v": 1604999618656
+            "_v": 1605036666079
         },
         {
             "id": "ad5b1639-a3ec-401c-8f97-32f53c8f8eaa",
@@ -44303,7 +44586,7 @@
             "imageHeight": 1008,
             "filename": "area-skyclad_tower-main.png",
             "inode": "1125899906994063",
-            "_v": 1604999618656
+            "_v": 1605036666079
         },
         {
             "id": "82c5a95c-cb14-4dae-bfaf-7f8a2747a2c6",
@@ -44314,7 +44597,7 @@
             "imageHeight": 144,
             "filename": "area-solarium_shutters_down.png",
             "inode": "1125899906994116",
-            "_v": 1604999618656
+            "_v": 1605036666079
         },
         {
             "id": "92a4e74e-d30f-4044-b387-0adee866019c",
@@ -44325,7 +44608,7 @@
             "imageHeight": 144,
             "filename": "area-solarium_shutters_up.png",
             "inode": "1407374883704760",
-            "_v": 1604999618656
+            "_v": 1605036666079
         },
         {
             "id": "21df7529-ba2a-47a1-a885-a2a024a9156a",
@@ -44336,7 +44619,7 @@
             "imageHeight": 288,
             "filename": "area-starlit_court-bridge.png",
             "inode": "1125899906994077",
-            "_v": 1604999618657
+            "_v": 1605036666079
         },
         {
             "id": "d27bf46d-632d-4322-aa0e-edf1cf257008",
@@ -44347,7 +44630,7 @@
             "imageHeight": 288,
             "filename": "area-starlit_court-gatehouse_gate_down.png",
             "inode": "1688849860318106",
-            "_v": 1604999618657
+            "_v": 1605036666079
         },
         {
             "id": "d9bf8654-42cc-4779-95aa-45d6379fdca2",
@@ -44358,7 +44641,7 @@
             "imageHeight": 288,
             "filename": "area-starlit_court-gatehouse_gate_up.png",
             "inode": "1125899906994075",
-            "_v": 1604999618657
+            "_v": 1605036666079
         },
         {
             "id": "2b377db1-56a8-4397-9eef-c66c5904eaaa",
@@ -44369,7 +44652,7 @@
             "imageHeight": 288,
             "filename": "area-starlit_court-yard.png",
             "inode": "1125899906994086",
-            "_v": 1604999618657
+            "_v": 1605036666079
         },
         {
             "id": "67019434-4f52-4ea7-80fc-e39693d7d74a",
@@ -44380,7 +44663,7 @@
             "imageHeight": 144,
             "filename": "area-sthenos_room.png",
             "inode": "1125899906994097",
-            "_v": 1604999618657
+            "_v": 1605036666079
         },
         {
             "id": "fc673829-0e0b-42f3-8ebf-181bd0f7c7b4",
@@ -44391,7 +44674,7 @@
             "imageHeight": 288,
             "filename": "area-subterrane.png",
             "inode": "1970324837023794",
-            "_v": 1604999618657
+            "_v": 1605036666079
         },
         {
             "id": "33b370c6-2f24-4caa-aa8d-912cdda5fcdb",
@@ -44402,7 +44685,7 @@
             "imageHeight": 288,
             "filename": "cutscene-evergreen_gulf.png",
             "inode": "8162774324720125",
-            "_v": 1604999618657
+            "_v": 1605036666079
         },
         {
             "id": "2670e3f5-9397-42d5-bc5f-857a332172ab",
@@ -44413,7 +44696,7 @@
             "imageHeight": 144,
             "filename": "cutscene-inner_circle.png",
             "inode": "18858823439638961",
-            "_v": 1604999618657
+            "_v": 1605036666079
         },
         {
             "id": "002edb26-9e8c-4590-8f77-1039bb7f82f2",
@@ -44424,7 +44707,7 @@
             "imageHeight": 288,
             "filename": "cutscene-zipline.png",
             "inode": "1125899906994079",
-            "_v": 1604999618657
+            "_v": 1605036666079
         },
         {
             "id": "c337587f-40ca-45ce-9ce5-a0b6fc3abc0b",
@@ -44435,7 +44718,7 @@
             "imageHeight": 144,
             "filename": "map-alraunes_corner.png",
             "inode": "2251799813733527",
-            "_v": 1604999618657
+            "_v": 1605036666079
         },
         {
             "id": "c245518c-1fbf-49e7-9b27-a0db7ddc86f6",
@@ -44446,7 +44729,7 @@
             "imageHeight": 144,
             "filename": "map-echoing_vaults.png",
             "inode": "1407374883602545",
-            "_v": 1604999618657
+            "_v": 1605036666079
         },
         {
             "id": "92d1edaf-2705-4e01-8592-82946b8a360d",
@@ -44457,7 +44740,7 @@
             "imageHeight": 144,
             "filename": "map-evergreen_gulf.png",
             "inode": "5348024557602478",
-            "_v": 1604999618657
+            "_v": 1605036666079
         },
         {
             "id": "e44df827-5119-4ffa-990d-31c7e2c43113",
@@ -44468,7 +44751,7 @@
             "imageHeight": 144,
             "filename": "map-glassy_tarn.png",
             "inode": "1407374883602552",
-            "_v": 1604999618657
+            "_v": 1605036666079
         },
         {
             "id": "f03f7120-7c26-44cd-a2e3-e76fa73158f6",
@@ -44479,7 +44762,7 @@
             "imageHeight": 144,
             "filename": "map-hidden_room.png",
             "inode": "1407374883580071",
-            "_v": 1604999618657
+            "_v": 1605036666079
         },
         {
             "id": "dc270987-1f2a-4a33-bf23-c7d3c3645cb7",
@@ -44490,7 +44773,7 @@
             "imageHeight": 144,
             "filename": "map-inner_circle.png",
             "inode": "1688849860298973",
-            "_v": 1604999618657
+            "_v": 1605036666079
         },
         {
             "id": "4c2691c1-c5e2-45f3-bdff-297a2bd7bb54",
@@ -44501,7 +44784,7 @@
             "imageHeight": 144,
             "filename": "map-lunarium.png",
             "inode": "1407374883607159",
-            "_v": 1604999618657
+            "_v": 1605036666079
         },
         {
             "id": "2b3672fb-20c0-4d27-b428-b29526a7d250",
@@ -44512,7 +44795,7 @@
             "imageHeight": 144,
             "filename": "map-mossy_tholtan.png",
             "inode": "2251799813935369",
-            "_v": 1604999618657
+            "_v": 1605036666079
         },
         {
             "id": "9418c86e-89c4-4768-8f86-f1ab3c74670f",
@@ -44523,7 +44806,7 @@
             "imageHeight": 144,
             "filename": "map-skyclad_tower.png",
             "inode": "5066549580816749",
-            "_v": 1604999618657
+            "_v": 1605036666079
         },
         {
             "id": "c2fd9f42-6fc9-4e8e-a593-45db6b1bc9e4",
@@ -44534,7 +44817,7 @@
             "imageHeight": 144,
             "filename": "map-solarium.png",
             "inode": "1688849860317520",
-            "_v": 1604999618657
+            "_v": 1605036666079
         },
         {
             "id": "c7690bfc-b944-4d70-837f-dbeea31af1a5",
@@ -44545,7 +44828,7 @@
             "imageHeight": 144,
             "filename": "map-starlit_court.png",
             "inode": "1688849860317522",
-            "_v": 1604999618657
+            "_v": 1605036666079
         },
         {
             "id": "2d9c771d-9027-44ed-aecf-0c70a7831268",
@@ -44556,7 +44839,7 @@
             "imageHeight": 144,
             "filename": "map-sthenos_room.png",
             "inode": "1970324837028186",
-            "_v": 1604999618657
+            "_v": 1605036666079
         },
         {
             "id": "2583290c-eb98-487a-8847-47ce2ef1bb91",
@@ -44567,7 +44850,7 @@
             "imageHeight": 144,
             "filename": "screen-black.png",
             "inode": "1125899906896442",
-            "_v": 1604999618657
+            "_v": 1605036666079
         },
         {
             "id": "ea7a7282-496c-4211-ba52-427b3596333a",
@@ -44578,7 +44861,7 @@
             "imageHeight": 144,
             "filename": "screen-logo.png",
             "inode": "1407374883607341",
-            "_v": 1604999618657
+            "_v": 1605036666079
         },
         {
             "id": "bb6f1bd9-df6a-472a-9c35-33cac9be44e4",
@@ -44589,7 +44872,7 @@
             "imageHeight": 144,
             "filename": "screen-titles.png",
             "inode": "844424930186066",
-            "_v": 1604999618657
+            "_v": 1605036666079
         },
         {
             "id": "0ae633e0-6b16-4b58-bb32-f1e67cc5dca3",
@@ -44600,7 +44883,7 @@
             "imageHeight": 144,
             "filename": "screen-white.png",
             "inode": "844424930186067",
-            "_v": 1604999618657
+            "_v": 1605036666079
         }
     ],
     "spriteSheets": [
@@ -44611,7 +44894,7 @@
             "type": "animated",
             "filename": "inv-1_amulet_can.png",
             "inode": "5066549580827941",
-            "_v": 1604999618657
+            "_v": 1605036666079
         },
         {
             "id": "8ec09b11-8a49-4f25-b682-9cdc42815f9c",
@@ -44620,7 +44903,7 @@
             "type": "animated",
             "filename": "inv-2_light_fertilizer.png",
             "inode": "10696049115041156",
-            "_v": 1604999618657
+            "_v": 1605036666079
         },
         {
             "id": "79bcd5bc-aaf5-436d-981b-953394a383f0",
@@ -44629,7 +44912,7 @@
             "type": "animated",
             "filename": "inv-3_bug_blood.png",
             "inode": "7881299347934697",
-            "_v": 1604999618657
+            "_v": 1605036666079
         },
         {
             "id": "724c5e64-62f5-452f-95e4-b65f5b9f6d6f",
@@ -44638,7 +44921,7 @@
             "type": "animated",
             "filename": "inv-4_feather_key.png",
             "inode": "1970324837025175",
-            "_v": 1604999618657
+            "_v": 1605036666079
         },
         {
             "id": "4f7e5a89-0cf6-4c39-9423-397b7289601f",
@@ -44647,7 +44930,7 @@
             "type": "animated",
             "filename": "inv-5_kiss_pass.png",
             "inode": "10414574138344818",
-            "_v": 1604999618657
+            "_v": 1605036666079
         },
         {
             "id": "5a20dd62-520d-4d87-9450-450cc5531818",
@@ -44656,7 +44939,7 @@
             "type": "static",
             "filename": "map-marker.png",
             "inode": "1125899906891027",
-            "_v": 1604999618657
+            "_v": 1605036666079
         },
         {
             "id": "6d30756f-f2d2-4295-80f7-cefc1725ec22",
@@ -44665,7 +44948,7 @@
             "type": "actor",
             "filename": "npc-aello.png",
             "inode": "23080948090374539",
-            "_v": 1604999618657
+            "_v": 1605036666079
         },
         {
             "id": "0f160e76-a92d-45f9-aec8-e2a07553c2e8",
@@ -44674,7 +44957,7 @@
             "type": "actor",
             "filename": "npc-josette.png",
             "inode": "2814749767361997",
-            "_v": 1604999618657
+            "_v": 1605036666079
         },
         {
             "id": "4f026f4b-a4b1-4e67-8b26-268ba6bb58c6",
@@ -44683,7 +44966,7 @@
             "type": "actor",
             "filename": "npc-kuliltu.png",
             "inode": "1688849860519389",
-            "_v": 1604999618657
+            "_v": 1605036666079
         },
         {
             "id": "1c8a0ad2-c4da-46cf-a835-c0078f6986f0",
@@ -44692,7 +44975,7 @@
             "type": "animated",
             "filename": "npc-kuliltus_tail.png",
             "inode": "1688849860519390",
-            "_v": 1604999618657
+            "_v": 1605036666079
         },
         {
             "id": "ea905fa7-7d98-4beb-b3d4-4a9d959a05af",
@@ -44701,7 +44984,7 @@
             "type": "actor_animated",
             "filename": "npc-lucy.png",
             "inode": "18577348463147756",
-            "_v": 1604999618657
+            "_v": 1605036666079
         },
         {
             "id": "de6d05d2-0a99-4035-936d-d4cef408d0cd",
@@ -44710,7 +44993,7 @@
             "type": "actor",
             "filename": "npc-rin_rin.png",
             "inode": "6192449487876392",
-            "_v": 1604999618657
+            "_v": 1605036666079
         },
         {
             "id": "a86d97de-b958-4b3b-9009-337d55620ad5",
@@ -44719,7 +45002,7 @@
             "type": "actor",
             "filename": "npc-suzuka.png",
             "inode": "1407374883808736",
-            "_v": 1604999618657
+            "_v": 1605036666079
         },
         {
             "id": "7c5e5584-8122-488c-ad2a-87d19b2a7045",
@@ -44728,7 +45011,7 @@
             "type": "static",
             "filename": "npc-suzukas_hair.png",
             "inode": "1407374883808737",
-            "_v": 1604999618657
+            "_v": 1605036666079
         },
         {
             "id": "6081292c-b340-43fc-9aa9-6ccc923f7608",
@@ -44737,7 +45020,7 @@
             "type": "actor",
             "filename": "npc-tibby.png",
             "inode": "2533274790650722",
-            "_v": 1604999618657
+            "_v": 1605036666079
         },
         {
             "id": "c3bc79c7-3703-4a67-86b2-301f587745b4",
@@ -44746,7 +45029,7 @@
             "type": "actor_animated",
             "filename": "player-stheno.png",
             "inode": "2533274790646036",
-            "_v": 1604999618657
+            "_v": 1605036666079
         }
     ],
     "palettes": [
@@ -44982,7 +45265,7 @@
             "filename": "template.mod",
             "settings": {},
             "inode": "1688849860511376",
-            "_v": 1604999618650
+            "_v": 1605036666034
         }
     ],
     "variables": [
@@ -45065,9 +45348,9 @@
         "startY": 12,
         "showCollisions": true,
         "showConnections": "all",
-        "worldScrollX": 3832,
-        "worldScrollY": 1065,
-        "zoom": 450,
+        "worldScrollX": 5535.5,
+        "worldScrollY": 3081,
+        "zoom": 225,
         "customColorsEnabled": true,
         "defaultBackgroundPaletteIds": "default-background",
         "defaultSpritePaletteId": "default-sprite",
