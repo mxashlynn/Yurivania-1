@@ -39125,7 +39125,368 @@
             "width": 20,
             "height": 18,
             "collisions": [],
-            "tileColors": [],
+            "tileColors": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                0,
+                1,
+                1,
+                1,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                2,
+                3,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
             "script": [
                 {
                     "id": "15a9dd16-17e2-408e-9b92-acc2989ef11c",
@@ -39256,7 +39617,7 @@
             "playerHit2Script": [],
             "playerHit3Script": [],
             "id": "c8978343-6d8c-427a-ba53-03ddbad42dc8",
-            "x": 881.4857142857147,
+            "x": 882.3746031746036,
             "y": 218.97142857142808,
             "actors": [
                 {
@@ -39447,10 +39808,223 @@
                     "hit3Script": [],
                     "id": "4088e617-e8ab-4b26-8b49-4a7ab9554be7",
                     "x": 3,
-                    "y": 9
+                    "y": 9,
+                    "paletteId": "67aafd96-1b0e-4b9b-8282-105585a4e039"
+                },
+                {
+                    "name": "Items - Amulet & Can",
+                    "frame": 3,
+                    "animate": false,
+                    "spriteSheetId": "950514d3-c57d-4808-b67f-ca30dd370a6d",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": "1",
+                    "animSpeed": "3",
+                    "script": [],
+                    "startScript": [
+                        {
+                            "id": "174bb7f2-7c82-4684-a5bc-18ed83db9f13",
+                            "command": "EVENT_IF_TRUE",
+                            "args": {
+                                "variable": "3",
+                                "__collapseElse": false,
+                                "__comment": false
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "id": "6d8027c2-f37d-4d3b-823d-25615427fc61",
+                                        "command": "EVENT_IF_TRUE",
+                                        "args": {
+                                            "variable": "4",
+                                            "__collapseElse": false
+                                        },
+                                        "children": {
+                                            "true": [
+                                                {
+                                                    "id": "b3d97841-c803-4d9d-a6e2-b29ca5fa90ba",
+                                                    "command": "EVENT_ACTOR_SET_FRAME",
+                                                    "args": {
+                                                        "actorId": "$self$",
+                                                        "frame": {
+                                                            "type": "number",
+                                                            "value": 3
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "id": "bb6b6072-a1e7-4ded-a4d8-a48c9a01c6fc",
+                                                    "command": "EVENT_END"
+                                                }
+                                            ],
+                                            "false": [
+                                                {
+                                                    "id": "85e21e14-bed3-448d-bf01-0c0c53045df7",
+                                                    "command": "EVENT_ACTOR_SET_FRAME",
+                                                    "args": {
+                                                        "actorId": "$self$",
+                                                        "frame": {
+                                                            "type": "number",
+                                                            "value": 1
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "id": "030aa88c-40e2-43ac-8ad1-7ffd9cff3474",
+                                                    "command": "EVENT_END"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "id": "f4a932f6-b99d-4ff4-bc3a-3e0520ec9933",
+                                        "command": "EVENT_END"
+                                    }
+                                ],
+                                "false": [
+                                    {
+                                        "id": "3481a99a-f07a-4309-a7ab-03d0c6027629",
+                                        "command": "EVENT_IF_TRUE",
+                                        "args": {
+                                            "variable": "4",
+                                            "__collapseElse": false,
+                                            "__disableElse": true
+                                        },
+                                        "children": {
+                                            "true": [
+                                                {
+                                                    "id": "e8ed4507-c425-494a-a360-84d4c8694cd5",
+                                                    "command": "EVENT_ACTOR_SET_FRAME",
+                                                    "args": {
+                                                        "actorId": "$self$",
+                                                        "frame": {
+                                                            "type": "number",
+                                                            "value": 2
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "id": "e84fb925-8ca7-44a7-82cf-73038e66d37c",
+                                                    "command": "EVENT_END"
+                                                }
+                                            ],
+                                            "false": [
+                                                {
+                                                    "id": "c3e36245-4e18-4f86-b0b7-7728925e7215",
+                                                    "command": "EVENT_END"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "id": "c1e20063-354f-45aa-8612-74ba2e1d189a",
+                                        "command": "EVENT_END"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": "eb5aa6bc-89e8-4a66-b2e0-36723855ffb7",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "049d0234-9b0c-412e-8294-6955671d0637",
+                    "x": 3,
+                    "y": 16,
+                    "paletteId": "67aafd96-1b0e-4b9b-8282-105585a4e039"
+                },
+                {
+                    "name": "Items - Light & Fertilizer",
+                    "frame": 3,
+                    "animate": false,
+                    "spriteSheetId": "8ec09b11-8a49-4f25-b682-9cdc42815f9c",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": "1",
+                    "animSpeed": "3",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "082b668e-63d0-46bd-a32d-9dd2f88143eb",
+                    "x": 5,
+                    "y": 16,
+                    "paletteId": "67aafd96-1b0e-4b9b-8282-105585a4e039"
+                },
+                {
+                    "name": "Items -Bug & Blood",
+                    "frame": 3,
+                    "animate": false,
+                    "spriteSheetId": "79bcd5bc-aaf5-436d-981b-953394a383f0",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": "1",
+                    "animSpeed": "3",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "807a716d-a1a5-4a37-97cf-83abba7f560b",
+                    "x": 7,
+                    "y": 16,
+                    "paletteId": "481095b4-538b-4fcd-aefb-7bde2b7354ee"
+                },
+                {
+                    "name": "Equipment - Feather & Key",
+                    "frame": 3,
+                    "animate": false,
+                    "spriteSheetId": "724c5e64-62f5-452f-95e4-b65f5b9f6d6f",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": "1",
+                    "animSpeed": "3",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "2b0b1329-b0fa-4f81-90b7-eec7c893c96b",
+                    "x": 13,
+                    "y": 16,
+                    "paletteId": "67aafd96-1b0e-4b9b-8282-105585a4e039"
+                },
+                {
+                    "name": "Equipment - Kiss & Pass",
+                    "frame": 3,
+                    "animate": false,
+                    "spriteSheetId": "4f7e5a89-0cf6-4c39-9423-397b7289601f",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": "1",
+                    "animSpeed": "3",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "238acc0b-4975-41a1-ae03-0aa0fa88f1da",
+                    "x": 15,
+                    "y": 16,
+                    "paletteId": "481095b4-538b-4fcd-aefb-7bde2b7354ee"
                 }
             ],
-            "triggers": []
+            "triggers": [],
+            "paletteIds": [
+                "82ff6241-0766-4c63-ab16-6a6221f98f33",
+                "675cf548-a210-410c-b004-6415411c7b1e",
+                "2791930c-d56a-4a7b-bde2-64d3022ce1a2",
+                "201397a0-006b-4457-9a28-780964212b9b"
+            ]
         },
         {
             "name": "Map: Subterrane",
@@ -43107,7 +43681,7 @@
             "imageHeight": 144,
             "filename": "area-alraunes_corner.png",
             "inode": "2533274790491126",
-            "_v": 1604957230525
+            "_v": 1604994021224
         },
         {
             "id": "01a0a5ea-c217-47f8-b37f-ada83b78a43d",
@@ -43118,7 +43692,7 @@
             "imageHeight": 288,
             "filename": "area-echoing_vaults.png",
             "inode": "35747322042297215",
-            "_v": 1604957230526
+            "_v": 1604994021225
         },
         {
             "id": "b31c41e5-e9b9-42a6-85d9-f908fe7f9ac8",
@@ -43129,7 +43703,7 @@
             "imageHeight": 576,
             "filename": "area-evergreen_gulf-main.png",
             "inode": "22517998136924207",
-            "_v": 1604957230526
+            "_v": 1604994021225
         },
         {
             "id": "22ed079b-29c4-4014-be81-0969a1c64498",
@@ -43140,7 +43714,7 @@
             "imageHeight": 144,
             "filename": "area-evergreen_gulf-onis_grotto.png",
             "inode": "42784196460052832",
-            "_v": 1604957230526
+            "_v": 1604994021225
         },
         {
             "id": "ee9797b7-e7f1-41d9-9581-d78be013ae76",
@@ -43151,7 +43725,7 @@
             "imageHeight": 144,
             "filename": "area-evergreen_gulf-treetops.png",
             "inode": "27021597764295892",
-            "_v": 1604957230526
+            "_v": 1604994021225
         },
         {
             "id": "42f3dc91-b68e-4baa-a758-5329f66bbb30",
@@ -43162,7 +43736,7 @@
             "imageHeight": 144,
             "filename": "area-glassy_tarn-cant_swim.png",
             "inode": "54606145481935768",
-            "_v": 1604957230526
+            "_v": 1604994021225
         },
         {
             "id": "6c884479-87a6-4cb4-b02a-95a2204381c0",
@@ -43173,7 +43747,7 @@
             "imageHeight": 288,
             "filename": "area-glassy_tarn.png",
             "inode": "49821070877857424",
-            "_v": 1604957230526
+            "_v": 1604994021225
         },
         {
             "id": "4b7ae47c-7620-4b83-a186-7d609637d423",
@@ -43184,7 +43758,7 @@
             "imageHeight": 144,
             "filename": "area-human_encounter.png",
             "inode": "30399297484823742",
-            "_v": 1604957230526
+            "_v": 1604994021225
         },
         {
             "id": "93575302-d328-4deb-9ea4-ef28afe2efdd",
@@ -43195,7 +43769,7 @@
             "imageHeight": 288,
             "filename": "area-inner_circle.png",
             "inode": "34058472182061422",
-            "_v": 1604957230526
+            "_v": 1604994021225
         },
         {
             "id": "39d93567-5f1e-425c-a065-13316c5e4c71",
@@ -43206,7 +43780,7 @@
             "imageHeight": 144,
             "filename": "area-lunarium.png",
             "inode": "27584547717717173",
-            "_v": 1604957230526
+            "_v": 1604994021225
         },
         {
             "id": "de00e083-6d54-46bf-9ad9-a8eade79a159",
@@ -43217,7 +43791,7 @@
             "imageHeight": 144,
             "filename": "area-mossy_tholtan.png",
             "inode": "29554872554691772",
-            "_v": 1604957230526
+            "_v": 1604994021225
         },
         {
             "id": "aa4c9dc2-65e2-4473-95e0-340f6baf8f93",
@@ -43228,7 +43802,7 @@
             "imageHeight": 144,
             "filename": "area-skyclad_tower-balcony.png",
             "inode": "118782440171908367",
-            "_v": 1604957230526
+            "_v": 1604994021225
         },
         {
             "id": "833133aa-9b25-4780-abef-97a15a554ede",
@@ -43239,7 +43813,7 @@
             "imageHeight": 144,
             "filename": "area-skyclad_tower-hall_of_statues.png",
             "inode": "9570149208291649",
-            "_v": 1604957230526
+            "_v": 1604994021225
         },
         {
             "id": "ad5b1639-a3ec-401c-8f97-32f53c8f8eaa",
@@ -43250,7 +43824,7 @@
             "imageHeight": 1008,
             "filename": "area-skyclad_tower-main.png",
             "inode": "26177172834163917",
-            "_v": 1604957230526
+            "_v": 1604994021225
         },
         {
             "id": "82c5a95c-cb14-4dae-bfaf-7f8a2747a2c6",
@@ -43261,7 +43835,7 @@
             "imageHeight": 144,
             "filename": "area-solarium_shutters_down.png",
             "inode": "9570149208233930",
-            "_v": 1604957230526
+            "_v": 1604994021225
         },
         {
             "id": "92a4e74e-d30f-4044-b387-0adee866019c",
@@ -43272,7 +43846,7 @@
             "imageHeight": 144,
             "filename": "area-solarium_shutters_up.png",
             "inode": "16607023626001657",
-            "_v": 1604957230526
+            "_v": 1604994021225
         },
         {
             "id": "21df7529-ba2a-47a1-a885-a2a024a9156a",
@@ -43283,7 +43857,7 @@
             "imageHeight": 288,
             "filename": "area-starlit_court-bridge.png",
             "inode": "41658296553188971",
-            "_v": 1604957230526
+            "_v": 1604994021225
         },
         {
             "id": "d27bf46d-632d-4322-aa0e-edf1cf257008",
@@ -43294,7 +43868,7 @@
             "imageHeight": 288,
             "filename": "area-starlit_court-gatehouse_gate_down.png",
             "inode": "4503599627443981",
-            "_v": 1604957230526
+            "_v": 1604994021225
         },
         {
             "id": "d9bf8654-42cc-4779-95aa-45d6379fdca2",
@@ -43305,7 +43879,7 @@
             "imageHeight": 288,
             "filename": "area-starlit_court-gatehouse_gate_up.png",
             "inode": "3940649674055688",
-            "_v": 1604957230526
+            "_v": 1604994021225
         },
         {
             "id": "2b377db1-56a8-4397-9eef-c66c5904eaaa",
@@ -43316,7 +43890,7 @@
             "imageHeight": 288,
             "filename": "area-starlit_court-yard.png",
             "inode": "14355223812316421",
-            "_v": 1604957230526
+            "_v": 1604994021225
         },
         {
             "id": "67019434-4f52-4ea7-80fc-e39693d7d74a",
@@ -43327,7 +43901,7 @@
             "imageHeight": 144,
             "filename": "area-sthenos_room.png",
             "inode": "2533274790518559",
-            "_v": 1604957230526
+            "_v": 1604994021225
         },
         {
             "id": "fc673829-0e0b-42f3-8ebf-181bd0f7c7b4",
@@ -43338,7 +43912,7 @@
             "imageHeight": 288,
             "filename": "area-subterrane.png",
             "inode": "13229323905412840",
-            "_v": 1604957230526
+            "_v": 1604994021225
         },
         {
             "id": "33b370c6-2f24-4caa-aa8d-912cdda5fcdb",
@@ -43349,7 +43923,7 @@
             "imageHeight": 288,
             "filename": "cutscene-evergreen_gulf.png",
             "inode": "10696049115111495",
-            "_v": 1604957230526
+            "_v": 1604994021225
         },
         {
             "id": "2670e3f5-9397-42d5-bc5f-857a332172ab",
@@ -43360,7 +43934,7 @@
             "imageHeight": 144,
             "filename": "cutscene-inner_circle.png",
             "inode": "2814749767213394",
-            "_v": 1604957230526
+            "_v": 1604994021225
         },
         {
             "id": "002edb26-9e8c-4590-8f77-1039bb7f82f2",
@@ -43371,7 +43945,7 @@
             "imageHeight": 288,
             "filename": "cutscene-zipline.png",
             "inode": "21110623253327173",
-            "_v": 1604957230526
+            "_v": 1604994021225
         },
         {
             "id": "c337587f-40ca-45ce-9ce5-a0b6fc3abc0b",
@@ -43382,7 +43956,7 @@
             "imageHeight": 144,
             "filename": "map-alraunes_corner.png",
             "inode": "11540474045254288",
-            "_v": 1604957230526
+            "_v": 1604994021225
         },
         {
             "id": "c245518c-1fbf-49e7-9b27-a0db7ddc86f6",
@@ -43393,7 +43967,7 @@
             "imageHeight": 144,
             "filename": "map-echoing_vaults.png",
             "inode": "26177172834143275",
-            "_v": 1604957230526
+            "_v": 1604994021225
         },
         {
             "id": "92d1edaf-2705-4e01-8592-82946b8a360d",
@@ -43404,7 +43978,7 @@
             "imageHeight": 144,
             "filename": "map-evergreen_gulf.png",
             "inode": "11821949021977677",
-            "_v": 1604957230526
+            "_v": 1604994021225
         },
         {
             "id": "e44df827-5119-4ffa-990d-31c7e2c43113",
@@ -43415,7 +43989,7 @@
             "imageHeight": 144,
             "filename": "map-glassy_tarn.png",
             "inode": "13792273858924983",
-            "_v": 1604957230526
+            "_v": 1604994021225
         },
         {
             "id": "f03f7120-7c26-44cd-a2e3-e76fa73158f6",
@@ -43426,7 +44000,7 @@
             "imageHeight": 144,
             "filename": "map-hidden_room.png",
             "inode": "7318349394611435",
-            "_v": 1604957230526
+            "_v": 1604994021225
         },
         {
             "id": "dc270987-1f2a-4a33-bf23-c7d3c3645cb7",
@@ -43437,7 +44011,7 @@
             "imageHeight": 144,
             "filename": "map-inner_circle.png",
             "inode": "11258999068555794",
-            "_v": 1604957230526
+            "_v": 1604994021225
         },
         {
             "id": "4c2691c1-c5e2-45f3-bdff-297a2bd7bb54",
@@ -43448,7 +44022,7 @@
             "imageHeight": 144,
             "filename": "map-lunarium.png",
             "inode": "1407374883683373",
-            "_v": 1604957230526
+            "_v": 1604994021225
         },
         {
             "id": "2b3672fb-20c0-4d27-b428-b29526a7d250",
@@ -43459,7 +44033,7 @@
             "imageHeight": 144,
             "filename": "map-mossy_tholtan.png",
             "inode": "5910974511014630",
-            "_v": 1604957230526
+            "_v": 1604994021225
         },
         {
             "id": "9418c86e-89c4-4768-8f86-f1ab3c74670f",
@@ -43470,7 +44044,7 @@
             "imageHeight": 144,
             "filename": "map-skyclad_tower.png",
             "inode": "3377699720657953",
-            "_v": 1604957230526
+            "_v": 1604994021225
         },
         {
             "id": "c2fd9f42-6fc9-4e8e-a593-45db6b1bc9e4",
@@ -43481,7 +44055,7 @@
             "imageHeight": 144,
             "filename": "map-solarium.png",
             "inode": "6755399441185823",
-            "_v": 1604957230526
+            "_v": 1604994021225
         },
         {
             "id": "c7690bfc-b944-4d70-837f-dbeea31af1a5",
@@ -43492,7 +44066,7 @@
             "imageHeight": 144,
             "filename": "map-starlit_court.png",
             "inode": "2814749767236689",
-            "_v": 1604957230526
+            "_v": 1604994021225
         },
         {
             "id": "2d9c771d-9027-44ed-aecf-0c70a7831268",
@@ -43503,7 +44077,7 @@
             "imageHeight": 144,
             "filename": "map-sthenos_room.png",
             "inode": "9570149208291648",
-            "_v": 1604957230526
+            "_v": 1604995304224
         },
         {
             "id": "2583290c-eb98-487a-8847-47ce2ef1bb91",
@@ -43514,7 +44088,7 @@
             "imageHeight": 144,
             "filename": "screen-black.png",
             "inode": "9288674231547207",
-            "_v": 1604957230526
+            "_v": 1604994021225
         },
         {
             "id": "ea7a7282-496c-4211-ba52-427b3596333a",
@@ -43525,7 +44099,7 @@
             "imageHeight": 144,
             "filename": "screen-logo.png",
             "inode": "10133099161700929",
-            "_v": 1604957230526
+            "_v": 1604994021225
         },
         {
             "id": "bb6f1bd9-df6a-472a-9c35-33cac9be44e4",
@@ -43536,7 +44110,7 @@
             "imageHeight": 144,
             "filename": "screen-titles.png",
             "inode": "19421773393154752",
-            "_v": 1604957230526
+            "_v": 1604994021225
         },
         {
             "id": "0ae633e0-6b16-4b58-bb32-f1e67cc5dca3",
@@ -43547,7 +44121,7 @@
             "imageHeight": 144,
             "filename": "screen-white.png",
             "inode": "7318349394756712",
-            "_v": 1604957230526
+            "_v": 1604994021225
         }
     ],
     "spriteSheets": [
@@ -43558,7 +44132,7 @@
             "type": "animated",
             "filename": "inv-1_amulet_can.png",
             "inode": "2814749767213395",
-            "_v": 1604957230526
+            "_v": 1604994021225
         },
         {
             "id": "8ec09b11-8a49-4f25-b682-9cdc42815f9c",
@@ -43567,7 +44141,7 @@
             "type": "animated",
             "filename": "inv-2_light_fertilizer.png",
             "inode": "2533274790502741",
-            "_v": 1604957230526
+            "_v": 1604994021225
         },
         {
             "id": "79bcd5bc-aaf5-436d-981b-953394a383f0",
@@ -43576,7 +44150,7 @@
             "type": "animated",
             "filename": "inv-3_bug_blood.png",
             "inode": "12384898975375702",
-            "_v": 1604957230526
+            "_v": 1604994021225
         },
         {
             "id": "724c5e64-62f5-452f-95e4-b65f5b9f6d6f",
@@ -43585,7 +44159,7 @@
             "type": "animated",
             "filename": "inv-4_feather_key.png",
             "inode": "16325548649324889",
-            "_v": 1604957230526
+            "_v": 1604994021225
         },
         {
             "id": "4f7e5a89-0cf6-4c39-9423-397b7289601f",
@@ -43594,7 +44168,7 @@
             "type": "animated",
             "filename": "inv-5_kiss_pass.png",
             "inode": "14918173765771610",
-            "_v": 1604957230526
+            "_v": 1604994021225
         },
         {
             "id": "5a20dd62-520d-4d87-9450-450cc5531818",
@@ -43603,7 +44177,7 @@
             "type": "static",
             "filename": "map-marker.png",
             "inode": "2814749767213421",
-            "_v": 1604957230526
+            "_v": 1604994021225
         },
         {
             "id": "6d30756f-f2d2-4295-80f7-cefc1725ec22",
@@ -43612,7 +44186,34 @@
             "type": "actor",
             "filename": "npc-aello.png",
             "inode": "17732923532871991",
-            "_v": 1604957230526
+            "_v": 1604994021225
+        },
+        {
+            "id": "0f160e76-a92d-45f9-aec8-e2a07553c2e8",
+            "name": "npc-josette",
+            "numFrames": 3,
+            "type": "actor",
+            "filename": "npc-josette.png",
+            "inode": "16888498602729612",
+            "_v": 1604994021225
+        },
+        {
+            "id": "4f026f4b-a4b1-4e67-8b26-268ba6bb58c6",
+            "name": "npc-kuliltu",
+            "numFrames": 3,
+            "type": "actor",
+            "filename": "npc-kuliltu.png",
+            "inode": "7318349394494780",
+            "_v": 1604994021225
+        },
+        {
+            "id": "1c8a0ad2-c4da-46cf-a835-c0078f6986f0",
+            "name": "npc-kuliltus_tail",
+            "numFrames": 2,
+            "type": "animated",
+            "filename": "npc-kuliltus_tail.png",
+            "inode": "43910096366878149",
+            "_v": 1604994021225
         },
         {
             "id": "ea905fa7-7d98-4beb-b3d4-4a9d959a05af",
@@ -43621,7 +44222,7 @@
             "type": "actor_animated",
             "filename": "npc-lucy.png",
             "inode": "17451448556163371",
-            "_v": 1604957230526
+            "_v": 1604994021225
         },
         {
             "id": "de6d05d2-0a99-4035-936d-d4cef408d0cd",
@@ -43630,7 +44231,25 @@
             "type": "actor",
             "filename": "npc-rin_rin.png",
             "inode": "34621422135446356",
-            "_v": 1604957230526
+            "_v": 1604994021225
+        },
+        {
+            "id": "a86d97de-b958-4b3b-9009-337d55620ad5",
+            "name": "npc-suzuka",
+            "numFrames": 3,
+            "type": "actor",
+            "filename": "npc-suzuka.png",
+            "inode": "14355223812339051",
+            "_v": 1604994021225
+        },
+        {
+            "id": "7c5e5584-8122-488c-ad2a-87d19b2a7045",
+            "name": "npc-suzukas_hair",
+            "numFrames": 1,
+            "type": "static",
+            "filename": "npc-suzukas_hair.png",
+            "inode": "27866022694402500",
+            "_v": 1604994021225
         },
         {
             "id": "6081292c-b340-43fc-9aa9-6ccc923f7608",
@@ -43639,7 +44258,7 @@
             "type": "actor",
             "filename": "npc-tibby.png",
             "inode": "87820192733827361",
-            "_v": 1604957230526
+            "_v": 1604994021225
         },
         {
             "id": "c3bc79c7-3703-4a67-86b2-301f587745b4",
@@ -43648,7 +44267,7 @@
             "type": "actor_animated",
             "filename": "player-stheno.png",
             "inode": "72339069014640021",
-            "_v": 1604957230526
+            "_v": 1604994021225
         }
     ],
     "palettes": [
@@ -43804,6 +44423,66 @@
                 "688840",
                 "583820"
             ]
+        },
+        {
+            "id": "481095b4-538b-4fcd-aefb-7bde2b7354ee",
+            "name": "Blood",
+            "colors": [
+                "F8F8D0",
+                "F83810",
+                "802008",
+                "200800"
+            ]
+        },
+        {
+            "id": "67aafd96-1b0e-4b9b-8282-105585a4e039",
+            "name": "Silver & Gold",
+            "colors": [
+                "F0F0F0",
+                "F8F810",
+                "8080F0",
+                "504000"
+            ]
+        },
+        {
+            "id": "82ff6241-0766-4c63-ab16-6a6221f98f33",
+            "name": "Map BG",
+            "colors": [
+                "F0F0F0",
+                "D880D8",
+                "182098",
+                "201038"
+            ]
+        },
+        {
+            "id": "675cf548-a210-410c-b004-6415411c7b1e",
+            "name": "Map Highlight",
+            "colors": [
+                "F0F0F0",
+                "D880D8",
+                "A82820",
+                "8000A0"
+            ]
+        },
+        {
+            "id": "2791930c-d56a-4a7b-bde2-64d3022ce1a2",
+            "name": "Map Jade Mask",
+            "colors": [
+                "F0F0F0",
+                "D880D8",
+                "A8F878",
+                "201038"
+            ]
+        },
+        {
+            "id": "201397a0-006b-4457-9a28-780964212b9b",
+            "name": "Map Robes",
+            "colors": [
+                "F0F0F0",
+                "D880D8",
+                "A8D0E0",
+                "201038"
+            ]
         }
     ],
     "customEvents": [],
@@ -43814,7 +44493,7 @@
             "filename": "template.mod",
             "settings": {},
             "inode": "3377699720827034",
-            "_v": 1604957230519
+            "_v": 1604994021215
         }
     ],
     "variables": [
@@ -43897,9 +44576,9 @@
         "startY": 12,
         "showCollisions": true,
         "showConnections": "all",
-        "worldScrollX": 3806,
-        "worldScrollY": 3445,
-        "zoom": 225,
+        "worldScrollX": 3556,
+        "worldScrollY": 989,
+        "zoom": 450,
         "customColorsEnabled": true,
         "defaultBackgroundPaletteIds": "default-background",
         "defaultSpritePaletteId": "default-sprite",
