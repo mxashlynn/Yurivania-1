@@ -3,12 +3,11 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "backgrounds/area-mossy_tholtan.tmx",
+    "activeFile": "backgrounds/area-inner_circle.tmx",
     "expandedProjectPaths": [
         ".",
         "backgrounds",
-        "tiles",
-        "."
+        "tiles"
     ],
     "exportAsImage.useCurrentScale": false,
     "file.lastUsedOpenFilter": "All Files (*)",
@@ -105,7 +104,7 @@
             "scale": 5.5,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 404.27272727272725,
+                "x": 250.0909090909091,
                 "y": 186.36363636363637
             }
         },
@@ -249,8 +248,8 @@
             "scale": 5.388988095238095,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 80.0706908930248,
-                "y": 72.18423813994588
+                "x": 79.97790909592977,
+                "y": 72.09145634285085
             }
         },
         "backgrounds/screen-title.tmx": {
@@ -277,18 +276,19 @@
     "map.width": 40,
     "openFiles": [
         "backgrounds/one-room-measurement.tmx",
-        "backgrounds/area-mossy_tholtan.tmx"
+        "backgrounds/area-mossy_tholtan.tmx",
+        "backgrounds/area-inner_circle.tmx"
     ],
     "project": "yuri_jam_2020.tiled-project",
     "recentFiles": [
         "backgrounds/one-room-measurement.tmx",
         "backgrounds/area-mossy_tholtan.tmx",
+        "backgrounds/area-inner_circle.tmx",
         "backgrounds/area-evergreen_gulf-main.tmx",
         "backgrounds/area-human_encounter.tmx",
         "backgrounds/area-starlit_court-gatehouse_gate_down.tmx",
         "backgrounds/area-glassy_tarn.tmx",
         "backgrounds/area-glassy_tarn-cant_swim.tmx",
-        "backgrounds/area-inner_circle.tmx",
         "backgrounds/cutscene-inner_circle.tmx",
         "backgrounds/area-inner_circle-entry_only.tmx",
         "backgrounds/cutscene-evergreen_gulf.tmx",
