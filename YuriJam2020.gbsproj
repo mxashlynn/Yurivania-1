@@ -6069,7 +6069,8 @@
                     "hit3Script": [],
                     "id": "950a26ae-ea99-4de3-9bd9-cae283e11d40",
                     "x": 5,
-                    "y": 14
+                    "y": 14,
+                    "paletteId": "7c404ecd-36ec-4458-bb1a-d6a52119855d"
                 }
             ],
             "triggers": [
@@ -6539,7 +6540,8 @@
                     "hit3Script": [],
                     "id": "a9cca41a-b975-4018-931a-550bc608d3fe",
                     "x": 9,
-                    "y": 14
+                    "y": 14,
+                    "paletteId": "7c404ecd-36ec-4458-bb1a-d6a52119855d"
                 }
             ],
             "triggers": [
@@ -6994,7 +6996,7 @@
             "actors": [
                 {
                     "name": "Lucy - Solarium Up",
-                    "frame": 3,
+                    "frame": 0,
                     "animate": false,
                     "spriteSheetId": "ea905fa7-7d98-4beb-b3d4-4a9d959a05af",
                     "spriteType": "static",
@@ -7010,7 +7012,7 @@
                     "id": "4d60f853-cea8-4a05-ba6c-dd373575be1e",
                     "x": 9,
                     "y": 14,
-                    "paletteId": "default-sprite"
+                    "paletteId": "7c404ecd-36ec-4458-bb1a-d6a52119855d"
                 }
             ],
             "triggers": [
@@ -22326,7 +22328,8 @@
                     "hit3Script": [],
                     "id": "9af3c990-92dd-4cd8-bb34-cc2d0409ee54",
                     "x": 7,
-                    "y": 31
+                    "y": 31,
+                    "paletteId": "82ff6241-0766-4c63-ab16-6a6221f98f33"
                 }
             ],
             "triggers": [
@@ -28120,7 +28123,8 @@
                     "hit3Script": [],
                     "id": "1280b3d1-b85b-46fb-8255-b4f2d2ff0ef3",
                     "x": 13,
-                    "y": 15
+                    "y": 15,
+                    "paletteId": "d20125e9-bc62-4789-b9fd-569955cf2ef3"
                 }
             ],
             "triggers": [
@@ -30313,7 +30317,8 @@
                     "hit3Script": [],
                     "id": "0dffea8c-5a18-4b3f-aaaf-3d5443f65e5e",
                     "x": 17,
-                    "y": 32
+                    "y": 32,
+                    "paletteId": "default-sprite"
                 },
                 {
                     "name": "Lucy - Courtyard",
@@ -30332,7 +30337,8 @@
                     "hit3Script": [],
                     "id": "9f645f8f-572e-4c7b-af48-ff72c5bf96a3",
                     "x": 37,
-                    "y": 22
+                    "y": 22,
+                    "paletteId": "7c404ecd-36ec-4458-bb1a-d6a52119855d"
                 },
                 {
                     "name": "Fertilizer",
@@ -31713,7 +31719,8 @@
                     "hit3Script": [],
                     "id": "acef9c9b-4bd2-471c-9ab7-7dadc4f6e7e9",
                     "x": 12,
-                    "y": 9
+                    "y": 9,
+                    "paletteId": "481095b4-538b-4fcd-aefb-7bde2b7354ee"
                 },
                 {
                     "name": "Suzuka's Hair - Area",
@@ -31732,7 +31739,8 @@
                     "hit3Script": [],
                     "id": "ef504e7c-9666-407c-9e7f-f76467b5c4bd",
                     "x": 12,
-                    "y": 7
+                    "y": 7,
+                    "paletteId": "481095b4-538b-4fcd-aefb-7bde2b7354ee"
                 }
             ],
             "triggers": [
@@ -34448,7 +34456,8 @@
                     "hit3Script": [],
                     "id": "548277c7-00b0-4277-87e4-4208ab5d1510",
                     "x": 48,
-                    "y": 31
+                    "y": 31,
+                    "paletteId": "ad40311a-cd21-4875-bc42-309ca8216dd8"
                 }
             ],
             "triggers": [
@@ -42348,7 +42357,8 @@
                     "hit3Script": [],
                     "id": "55bf5097-7289-406e-99bb-8524e8ec4108",
                     "x": 7,
-                    "y": 31
+                    "y": 31,
+                    "paletteId": "82ff6241-0766-4c63-ab16-6a6221f98f33"
                 }
             ],
             "triggers": [],
@@ -42791,7 +42801,8 @@
                     "hit3Script": [],
                     "id": "85062730-298b-4fa1-a874-82670c834576",
                     "x": 8,
-                    "y": 13
+                    "y": 13,
+                    "paletteId": "ad40311a-cd21-4875-bc42-309ca8216dd8"
                 }
             ],
             "triggers": [
@@ -45255,6 +45266,46 @@
                 "A8D0E0",
                 "201038"
             ]
+        },
+        {
+            "id": "7c404ecd-36ec-4458-bb1a-d6a52119855d",
+            "name": "Black Cat",
+            "colors": [
+                "F8E0E0",
+                "603890",
+                "985098",
+                "000000"
+            ]
+        },
+        {
+            "id": "ad40311a-cd21-4875-bc42-309ca8216dd8",
+            "name": "Vampire Gal",
+            "colors": [
+                "F0F0F8",
+                "F00000",
+                "980000",
+                "000010"
+            ]
+        },
+        {
+            "id": "d20125e9-bc62-4789-b9fd-569955cf2ef3",
+            "name": "Harpy",
+            "colors": [
+                "F8F0A0",
+                "E0B858",
+                "A08850",
+                "504020"
+            ]
+        },
+        {
+            "id": "6824dde5-aac7-420b-8a92-3aa2016ae63c",
+            "name": "Red Oni",
+            "colors": [
+                "E8E8F8",
+                "E04848",
+                "980000",
+                "000068"
+            ]
         }
     ],
     "customEvents": [],
@@ -45348,8 +45399,8 @@
         "startY": 12,
         "showCollisions": true,
         "showConnections": "all",
-        "worldScrollX": 5535.5,
-        "worldScrollY": 3081,
+        "worldScrollX": 7232.5,
+        "worldScrollY": 3896,
         "zoom": 225,
         "customColorsEnabled": true,
         "defaultBackgroundPaletteIds": "default-background",
