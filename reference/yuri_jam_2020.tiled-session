@@ -3,11 +3,11 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "backgrounds/area-inner_circle.tmx",
+    "activeFile": "backgrounds/area-glassy_tarn.tmx",
     "expandedProjectPaths": [
-        ".",
         "backgrounds",
-        "tiles"
+        "tiles",
+        "."
     ],
     "exportAsImage.useCurrentScale": false,
     "file.lastUsedOpenFilter": "All Files (*)",
@@ -277,18 +277,20 @@
     "openFiles": [
         "backgrounds/one-room-measurement.tmx",
         "backgrounds/area-mossy_tholtan.tmx",
-        "backgrounds/area-inner_circle.tmx"
+        "backgrounds/area-inner_circle.tmx",
+        "backgrounds/area-glassy_tarn-cant_swim.tmx",
+        "backgrounds/area-glassy_tarn.tmx"
     ],
     "project": "yuri_jam_2020.tiled-project",
     "recentFiles": [
         "backgrounds/one-room-measurement.tmx",
         "backgrounds/area-mossy_tholtan.tmx",
         "backgrounds/area-inner_circle.tmx",
+        "backgrounds/area-glassy_tarn-cant_swim.tmx",
+        "backgrounds/area-glassy_tarn.tmx",
         "backgrounds/area-evergreen_gulf-main.tmx",
         "backgrounds/area-human_encounter.tmx",
         "backgrounds/area-starlit_court-gatehouse_gate_down.tmx",
-        "backgrounds/area-glassy_tarn.tmx",
-        "backgrounds/area-glassy_tarn-cant_swim.tmx",
         "backgrounds/cutscene-inner_circle.tmx",
         "backgrounds/area-inner_circle-entry_only.tmx",
         "backgrounds/cutscene-evergreen_gulf.tmx",
