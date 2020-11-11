@@ -46531,8 +46531,8 @@
                     "hit2Script": [],
                     "hit3Script": [],
                     "id": "7735525e-1363-471b-b5a9-8cc0f46114c8",
-                    "x": 14,
-                    "y": 7,
+                    "x": 3,
+                    "y": 1,
                     "paletteId": "70cdcaac-2c87-439b-9a03-1e6f58183028"
                 }
             ],
@@ -46568,45 +46568,121 @@
                     "trigger": "walk",
                     "script": [
                         {
-                            "id": "26db050a-84a9-4109-8b27-5ee8e2386ab2",
-                            "command": "EVENT_ACTOR_GET_POSITION",
+                            "id": "5a6631fb-a696-49da-baff-2514eb7f5f41",
+                            "command": "EVENT_GROUP",
                             "args": {
-                                "actorId": "$self$",
-                                "vectorX": "L0",
-                                "vectorY": "L1"
+                                "__label": "Show Splash",
+                                "__collapse": true
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "id": "26db050a-84a9-4109-8b27-5ee8e2386ab2",
+                                        "command": "EVENT_ACTOR_GET_POSITION",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "vectorX": "L0",
+                                            "vectorY": "L1"
+                                        }
+                                    },
+                                    {
+                                        "id": "4cd8c61a-59dc-4788-8117-a3a10a708edd",
+                                        "command": "EVENT_ACTOR_SET_POSITION",
+                                        "args": {
+                                            "actorId": "7735525e-1363-471b-b5a9-8cc0f46114c8",
+                                            "x": {
+                                                "type": "variable",
+                                                "value": "L0"
+                                            },
+                                            "y": {
+                                                "type": "variable",
+                                                "value": "L1"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "id": "25ae6bc6-fd90-4e2a-be52-264b38d50246",
+                                        "command": "EVENT_ACTOR_SET_FRAME",
+                                        "args": {
+                                            "actorId": "7735525e-1363-471b-b5a9-8cc0f46114c8",
+                                            "frame": {
+                                                "type": "number",
+                                                "value": 0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "id": "b5c6ef81-0930-4692-91b7-b349024dd968",
+                                        "command": "EVENT_ACTOR_SHOW",
+                                        "args": {
+                                            "actorId": "7735525e-1363-471b-b5a9-8cc0f46114c8"
+                                        }
+                                    },
+                                    {
+                                        "id": "1415f69d-635c-40a5-b0ee-d959bf808bb1",
+                                        "command": "EVENT_END"
+                                    }
+                                ]
                             }
                         },
                         {
-                            "id": "4cd8c61a-59dc-4788-8117-a3a10a708edd",
-                            "command": "EVENT_ACTOR_SET_POSITION",
+                            "id": "3687e05b-1549-4e22-8bbe-a7bea1d6b9e0",
+                            "command": "EVENT_GROUP",
                             "args": {
-                                "actorId": "7735525e-1363-471b-b5a9-8cc0f46114c8",
-                                "x": {
-                                    "type": "variable",
-                                    "value": "L0"
-                                },
-                                "y": {
-                                    "type": "variable",
-                                    "value": "L1"
-                                }
-                            }
-                        },
-                        {
-                            "id": "25ae6bc6-fd90-4e2a-be52-264b38d50246",
-                            "command": "EVENT_ACTOR_SET_FRAME",
-                            "args": {
-                                "actorId": "7735525e-1363-471b-b5a9-8cc0f46114c8",
-                                "frame": {
-                                    "type": "number",
-                                    "value": 0
-                                }
-                            }
-                        },
-                        {
-                            "id": "b5c6ef81-0930-4692-91b7-b349024dd968",
-                            "command": "EVENT_ACTOR_SHOW",
-                            "args": {
-                                "actorId": "7735525e-1363-471b-b5a9-8cc0f46114c8"
+                                "__label": "Respawn Player",
+                                "__comment": false
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "id": "dbb80530-81cf-431c-a9c2-82f63571f059",
+                                        "command": "EVENT_ACTOR_SET_FRAME",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "frame": {
+                                                "type": "number",
+                                                "value": 1
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "id": "0bb9a05d-666b-49c4-a06f-311b79ddbd78",
+                                        "command": "EVENT_WAIT",
+                                        "args": {
+                                            "time": 0.5
+                                        }
+                                    },
+                                    {
+                                        "id": "e96cd7c3-430c-4e42-aa71-a1dd898eb653",
+                                        "command": "EVENT_ACTOR_SET_DIRECTION",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "direction": {
+                                                "type": "direction",
+                                                "value": "left"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "id": "fc9cac14-c156-46bd-b2e6-1733fa00c95b",
+                                        "command": "EVENT_ACTOR_SET_POSITION",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "x": {
+                                                "type": "number",
+                                                "value": 19
+                                            },
+                                            "y": {
+                                                "type": "number",
+                                                "value": 12
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "id": "30b1f6c0-c833-4e7e-8050-4c9305674899",
+                                        "command": "EVENT_END"
+                                    }
+                                ]
                             }
                         },
                         {
@@ -47440,7 +47516,7 @@
             "imageHeight": 144,
             "filename": "area-alraunes_corner.png",
             "inode": "1125899906994099",
-            "_v": 1605066698869
+            "_v": 1605073839462
         },
         {
             "id": "01a0a5ea-c217-47f8-b37f-ada83b78a43d",
@@ -47451,7 +47527,7 @@
             "imageHeight": 288,
             "filename": "area-echoing_vaults.png",
             "inode": "14636698788979462",
-            "_v": 1605066698869
+            "_v": 1605073839462
         },
         {
             "id": "b31c41e5-e9b9-42a6-85d9-f908fe7f9ac8",
@@ -47462,7 +47538,7 @@
             "imageHeight": 576,
             "filename": "area-evergreen_gulf-main.png",
             "inode": "1125899906994061",
-            "_v": 1605066698871
+            "_v": 1605073839462
         },
         {
             "id": "22ed079b-29c4-4014-be81-0969a1c64498",
@@ -47473,7 +47549,7 @@
             "imageHeight": 144,
             "filename": "area-evergreen_gulf-onis_grotto.png",
             "inode": "1407374883704763",
-            "_v": 1605066698870
+            "_v": 1605073839462
         },
         {
             "id": "ee9797b7-e7f1-41d9-9581-d78be013ae76",
@@ -47484,7 +47560,7 @@
             "imageHeight": 144,
             "filename": "area-evergreen_gulf-treetops.png",
             "inode": "1125899906994098",
-            "_v": 1605066698869
+            "_v": 1605073839462
         },
         {
             "id": "42f3dc91-b68e-4baa-a758-5329f66bbb30",
@@ -47495,7 +47571,7 @@
             "imageHeight": 144,
             "filename": "area-glassy_tarn-cant_swim.png",
             "inode": "2814749767140789",
-            "_v": 1605066698869
+            "_v": 1605073839462
         },
         {
             "id": "6c884479-87a6-4cb4-b02a-95a2204381c0",
@@ -47506,7 +47582,7 @@
             "imageHeight": 288,
             "filename": "area-glassy_tarn.png",
             "inode": "1970324837126041",
-            "_v": 1605066698869
+            "_v": 1605073839462
         },
         {
             "id": "4b7ae47c-7620-4b83-a186-7d609637d423",
@@ -47517,7 +47593,7 @@
             "imageHeight": 144,
             "filename": "area-human_encounter.png",
             "inode": "20829148276754038",
-            "_v": 1605066698869
+            "_v": 1605073839462
         },
         {
             "id": "93575302-d328-4deb-9ea4-ef28afe2efdd",
@@ -47528,7 +47604,7 @@
             "imageHeight": 288,
             "filename": "area-inner_circle.png",
             "inode": "2814749767131948",
-            "_v": 1605066698869
+            "_v": 1605073839462
         },
         {
             "id": "39d93567-5f1e-425c-a065-13316c5e4c71",
@@ -47539,7 +47615,7 @@
             "imageHeight": 144,
             "filename": "area-lunarium.png",
             "inode": "1125899906994111",
-            "_v": 1605066698869
+            "_v": 1605073839462
         },
         {
             "id": "de00e083-6d54-46bf-9ad9-a8eade79a159",
@@ -47550,7 +47626,7 @@
             "imageHeight": 144,
             "filename": "area-mossy_tholtan.png",
             "inode": "1125899906994095",
-            "_v": 1605066698869
+            "_v": 1605073839462
         },
         {
             "id": "aa4c9dc2-65e2-4473-95e0-340f6baf8f93",
@@ -47561,7 +47637,7 @@
             "imageHeight": 144,
             "filename": "area-skyclad_tower-balcony.png",
             "inode": "1125899906994108",
-            "_v": 1605066698870
+            "_v": 1605073839462
         },
         {
             "id": "833133aa-9b25-4780-abef-97a15a554ede",
@@ -47572,7 +47648,7 @@
             "imageHeight": 144,
             "filename": "area-skyclad_tower-hall_of_statues.png",
             "inode": "8162774324642916",
-            "_v": 1605066698869
+            "_v": 1605073839462
         },
         {
             "id": "ad5b1639-a3ec-401c-8f97-32f53c8f8eaa",
@@ -47583,7 +47659,7 @@
             "imageHeight": 1008,
             "filename": "area-skyclad_tower-main.png",
             "inode": "1125899906994063",
-            "_v": 1605066698870
+            "_v": 1605073839462
         },
         {
             "id": "82c5a95c-cb14-4dae-bfaf-7f8a2747a2c6",
@@ -47594,7 +47670,7 @@
             "imageHeight": 144,
             "filename": "area-solarium_shutters_down.png",
             "inode": "1125899906994116",
-            "_v": 1605066698870
+            "_v": 1605073839462
         },
         {
             "id": "92a4e74e-d30f-4044-b387-0adee866019c",
@@ -47605,7 +47681,7 @@
             "imageHeight": 144,
             "filename": "area-solarium_shutters_up.png",
             "inode": "1407374883704760",
-            "_v": 1605066698870
+            "_v": 1605073839462
         },
         {
             "id": "21df7529-ba2a-47a1-a885-a2a024a9156a",
@@ -47616,7 +47692,7 @@
             "imageHeight": 288,
             "filename": "area-starlit_court-bridge.png",
             "inode": "1125899906994077",
-            "_v": 1605066698870
+            "_v": 1605073839462
         },
         {
             "id": "d27bf46d-632d-4322-aa0e-edf1cf257008",
@@ -47627,7 +47703,7 @@
             "imageHeight": 288,
             "filename": "area-starlit_court-gatehouse_gate_down.png",
             "inode": "1688849860318106",
-            "_v": 1605066698870
+            "_v": 1605073839462
         },
         {
             "id": "d9bf8654-42cc-4779-95aa-45d6379fdca2",
@@ -47638,7 +47714,7 @@
             "imageHeight": 288,
             "filename": "area-starlit_court-gatehouse_gate_up.png",
             "inode": "1125899906994075",
-            "_v": 1605066698870
+            "_v": 1605073839463
         },
         {
             "id": "2b377db1-56a8-4397-9eef-c66c5904eaaa",
@@ -47649,7 +47725,7 @@
             "imageHeight": 288,
             "filename": "area-starlit_court-yard.png",
             "inode": "1125899906994086",
-            "_v": 1605066698870
+            "_v": 1605073839463
         },
         {
             "id": "67019434-4f52-4ea7-80fc-e39693d7d74a",
@@ -47660,7 +47736,7 @@
             "imageHeight": 144,
             "filename": "area-sthenos_room.png",
             "inode": "1125899906994097",
-            "_v": 1605066698870
+            "_v": 1605073839463
         },
         {
             "id": "fc673829-0e0b-42f3-8ebf-181bd0f7c7b4",
@@ -47671,7 +47747,7 @@
             "imageHeight": 288,
             "filename": "area-subterrane.png",
             "inode": "1970324837023794",
-            "_v": 1605066698870
+            "_v": 1605073839463
         },
         {
             "id": "33b370c6-2f24-4caa-aa8d-912cdda5fcdb",
@@ -47682,7 +47758,7 @@
             "imageHeight": 288,
             "filename": "cutscene-evergreen_gulf.png",
             "inode": "8162774324720125",
-            "_v": 1605066698870
+            "_v": 1605073839463
         },
         {
             "id": "2670e3f5-9397-42d5-bc5f-857a332172ab",
@@ -47693,7 +47769,7 @@
             "imageHeight": 144,
             "filename": "cutscene-inner_circle.png",
             "inode": "18858823439638961",
-            "_v": 1605066698870
+            "_v": 1605073839463
         },
         {
             "id": "002edb26-9e8c-4590-8f77-1039bb7f82f2",
@@ -47704,7 +47780,7 @@
             "imageHeight": 288,
             "filename": "cutscene-zipline.png",
             "inode": "1125899906994079",
-            "_v": 1605066698870
+            "_v": 1605073839463
         },
         {
             "id": "c337587f-40ca-45ce-9ce5-a0b6fc3abc0b",
@@ -47715,7 +47791,7 @@
             "imageHeight": 144,
             "filename": "map-alraunes_corner.png",
             "inode": "2251799813733527",
-            "_v": 1605066698870
+            "_v": 1605073839463
         },
         {
             "id": "c245518c-1fbf-49e7-9b27-a0db7ddc86f6",
@@ -47726,7 +47802,7 @@
             "imageHeight": 144,
             "filename": "map-echoing_vaults.png",
             "inode": "1407374883602545",
-            "_v": 1605066698870
+            "_v": 1605073839463
         },
         {
             "id": "92d1edaf-2705-4e01-8592-82946b8a360d",
@@ -47737,7 +47813,7 @@
             "imageHeight": 144,
             "filename": "map-evergreen_gulf.png",
             "inode": "5348024557602478",
-            "_v": 1605066698870
+            "_v": 1605073839463
         },
         {
             "id": "e44df827-5119-4ffa-990d-31c7e2c43113",
@@ -47748,7 +47824,7 @@
             "imageHeight": 144,
             "filename": "map-glassy_tarn.png",
             "inode": "1407374883602552",
-            "_v": 1605066698870
+            "_v": 1605073839463
         },
         {
             "id": "f03f7120-7c26-44cd-a2e3-e76fa73158f6",
@@ -47759,7 +47835,7 @@
             "imageHeight": 144,
             "filename": "map-hidden_room.png",
             "inode": "1407374883580071",
-            "_v": 1605066698870
+            "_v": 1605073839463
         },
         {
             "id": "dc270987-1f2a-4a33-bf23-c7d3c3645cb7",
@@ -47770,7 +47846,7 @@
             "imageHeight": 144,
             "filename": "map-inner_circle.png",
             "inode": "1688849860298973",
-            "_v": 1605066698870
+            "_v": 1605073839463
         },
         {
             "id": "4c2691c1-c5e2-45f3-bdff-297a2bd7bb54",
@@ -47781,7 +47857,7 @@
             "imageHeight": 144,
             "filename": "map-lunarium.png",
             "inode": "1407374883607159",
-            "_v": 1605066698870
+            "_v": 1605073839463
         },
         {
             "id": "2b3672fb-20c0-4d27-b428-b29526a7d250",
@@ -47792,7 +47868,7 @@
             "imageHeight": 144,
             "filename": "map-mossy_tholtan.png",
             "inode": "2251799813935369",
-            "_v": 1605066698870
+            "_v": 1605073839463
         },
         {
             "id": "9418c86e-89c4-4768-8f86-f1ab3c74670f",
@@ -47803,7 +47879,7 @@
             "imageHeight": 144,
             "filename": "map-skyclad_tower.png",
             "inode": "5066549580816749",
-            "_v": 1605066698871
+            "_v": 1605073839463
         },
         {
             "id": "c2fd9f42-6fc9-4e8e-a593-45db6b1bc9e4",
@@ -47814,7 +47890,7 @@
             "imageHeight": 144,
             "filename": "map-solarium.png",
             "inode": "1688849860317520",
-            "_v": 1605066698870
+            "_v": 1605073839463
         },
         {
             "id": "c7690bfc-b944-4d70-837f-dbeea31af1a5",
@@ -47825,7 +47901,7 @@
             "imageHeight": 144,
             "filename": "map-starlit_court.png",
             "inode": "1688849860317522",
-            "_v": 1605066698870
+            "_v": 1605073839463
         },
         {
             "id": "2d9c771d-9027-44ed-aecf-0c70a7831268",
@@ -47836,7 +47912,7 @@
             "imageHeight": 144,
             "filename": "map-sthenos_room.png",
             "inode": "1970324837028186",
-            "_v": 1605066698871
+            "_v": 1605073839463
         },
         {
             "id": "2583290c-eb98-487a-8847-47ce2ef1bb91",
@@ -47847,7 +47923,7 @@
             "imageHeight": 144,
             "filename": "screen-black.png",
             "inode": "1125899906896442",
-            "_v": 1605066698870
+            "_v": 1605073839464
         },
         {
             "id": "ea7a7282-496c-4211-ba52-427b3596333a",
@@ -47858,7 +47934,7 @@
             "imageHeight": 144,
             "filename": "screen-logo.png",
             "inode": "1407374883607341",
-            "_v": 1605066698870
+            "_v": 1605073839463
         },
         {
             "id": "bb6f1bd9-df6a-472a-9c35-33cac9be44e4",
@@ -47869,7 +47945,7 @@
             "imageHeight": 144,
             "filename": "screen-titles.png",
             "inode": "844424930186066",
-            "_v": 1605066698870
+            "_v": 1605073839463
         },
         {
             "id": "0ae633e0-6b16-4b58-bb32-f1e67cc5dca3",
@@ -47880,7 +47956,7 @@
             "imageHeight": 144,
             "filename": "screen-white.png",
             "inode": "844424930186067",
-            "_v": 1605066698870
+            "_v": 1605073839464
         }
     ],
     "spriteSheets": [
@@ -47891,7 +47967,7 @@
             "type": "actor",
             "filename": "fx-splash.png",
             "inode": "8444249301341349",
-            "_v": 1605070499900
+            "_v": 1605073839463
         },
         {
             "id": "950514d3-c57d-4808-b67f-ca30dd370a6d",
@@ -47900,7 +47976,7 @@
             "type": "animated",
             "filename": "inv-1_amulet_can.png",
             "inode": "5066549580827941",
-            "_v": 1605066698870
+            "_v": 1605073839463
         },
         {
             "id": "8ec09b11-8a49-4f25-b682-9cdc42815f9c",
@@ -47909,7 +47985,7 @@
             "type": "animated",
             "filename": "inv-2_light_fertilizer.png",
             "inode": "10696049115041156",
-            "_v": 1605066698870
+            "_v": 1605073839463
         },
         {
             "id": "79bcd5bc-aaf5-436d-981b-953394a383f0",
@@ -47918,7 +47994,7 @@
             "type": "animated",
             "filename": "inv-3_bug_blood.png",
             "inode": "7881299347934697",
-            "_v": 1605066698870
+            "_v": 1605073839463
         },
         {
             "id": "724c5e64-62f5-452f-95e4-b65f5b9f6d6f",
@@ -47927,7 +48003,7 @@
             "type": "animated",
             "filename": "inv-4_feather_key.png",
             "inode": "1970324837025175",
-            "_v": 1605066698870
+            "_v": 1605073839463
         },
         {
             "id": "4f7e5a89-0cf6-4c39-9423-397b7289601f",
@@ -47936,7 +48012,7 @@
             "type": "animated",
             "filename": "inv-5_kiss_pass.png",
             "inode": "10414574138344818",
-            "_v": 1605066698870
+            "_v": 1605073839463
         },
         {
             "id": "5a20dd62-520d-4d87-9450-450cc5531818",
@@ -47945,7 +48021,7 @@
             "type": "static",
             "filename": "map-marker.png",
             "inode": "1125899906891027",
-            "_v": 1605066698870
+            "_v": 1605073839463
         },
         {
             "id": "6d30756f-f2d2-4295-80f7-cefc1725ec22",
@@ -47954,7 +48030,7 @@
             "type": "actor",
             "filename": "npc-aello.png",
             "inode": "23080948090374539",
-            "_v": 1605066698870
+            "_v": 1605073839463
         },
         {
             "id": "0f160e76-a92d-45f9-aec8-e2a07553c2e8",
@@ -47963,7 +48039,7 @@
             "type": "actor",
             "filename": "npc-josette.png",
             "inode": "2814749767361997",
-            "_v": 1605066698870
+            "_v": 1605073839463
         },
         {
             "id": "4f026f4b-a4b1-4e67-8b26-268ba6bb58c6",
@@ -47972,7 +48048,7 @@
             "type": "actor",
             "filename": "npc-kuliltu.png",
             "inode": "1688849860519389",
-            "_v": 1605066698870
+            "_v": 1605073839463
         },
         {
             "id": "1c8a0ad2-c4da-46cf-a835-c0078f6986f0",
@@ -47981,7 +48057,7 @@
             "type": "animated",
             "filename": "npc-kuliltus_tail.png",
             "inode": "1688849860519390",
-            "_v": 1605066698870
+            "_v": 1605073839463
         },
         {
             "id": "ea905fa7-7d98-4beb-b3d4-4a9d959a05af",
@@ -47990,7 +48066,7 @@
             "type": "actor_animated",
             "filename": "npc-lucy.png",
             "inode": "18577348463147756",
-            "_v": 1605066698871
+            "_v": 1605073839463
         },
         {
             "id": "de6d05d2-0a99-4035-936d-d4cef408d0cd",
@@ -47999,7 +48075,7 @@
             "type": "actor",
             "filename": "npc-rin_rin.png",
             "inode": "6192449487876392",
-            "_v": 1605066698871
+            "_v": 1605073839463
         },
         {
             "id": "a86d97de-b958-4b3b-9009-337d55620ad5",
@@ -48008,7 +48084,7 @@
             "type": "actor",
             "filename": "npc-suzuka.png",
             "inode": "1407374883808736",
-            "_v": 1605066698871
+            "_v": 1605073839463
         },
         {
             "id": "7c5e5584-8122-488c-ad2a-87d19b2a7045",
@@ -48017,7 +48093,7 @@
             "type": "static",
             "filename": "npc-suzukas_hair.png",
             "inode": "1407374883808737",
-            "_v": 1605066698871
+            "_v": 1605073839463
         },
         {
             "id": "6081292c-b340-43fc-9aa9-6ccc923f7608",
@@ -48026,7 +48102,7 @@
             "type": "actor",
             "filename": "npc-tibby.png",
             "inode": "2533274790650722",
-            "_v": 1605066698871
+            "_v": 1605073839463
         },
         {
             "id": "c3bc79c7-3703-4a67-86b2-301f587745b4",
@@ -48035,7 +48111,7 @@
             "type": "actor_animated",
             "filename": "player-stheno.png",
             "inode": "2533274790646036",
-            "_v": 1605066698871
+            "_v": 1605073839463
         }
     ],
     "palettes": [
@@ -48341,7 +48417,7 @@
             "filename": "template.mod",
             "settings": {},
             "inode": "1688849860511376",
-            "_v": 1605066698819
+            "_v": 1605073839451
         }
     ],
     "variables": [
