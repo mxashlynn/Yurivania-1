@@ -46638,21 +46638,18 @@
                             "children": {
                                 "true": [
                                     {
-                                        "id": "dbb80530-81cf-431c-a9c2-82f63571f059",
-                                        "command": "EVENT_ACTOR_SET_FRAME",
+                                        "id": "ab42ad0b-7efd-4d7a-a7e3-badc104fe758",
+                                        "command": "EVENT_ACTOR_SET_SPRITE",
                                         "args": {
                                             "actorId": "$self$",
-                                            "frame": {
-                                                "type": "number",
-                                                "value": 1
-                                            }
+                                            "spriteSheetId": "390a21a2-7e90-4a7f-962d-5fc1d761ce69"
                                         }
                                     },
                                     {
                                         "id": "0bb9a05d-666b-49c4-a06f-311b79ddbd78",
                                         "command": "EVENT_WAIT",
                                         "args": {
-                                            "time": 0.5
+                                            "time": 0.6
                                         }
                                     },
                                     {
@@ -46664,6 +46661,14 @@
                                                 "type": "direction",
                                                 "value": "left"
                                             }
+                                        }
+                                    },
+                                    {
+                                        "id": "42e3fade-0e74-48c2-a721-d0fc40fd2f77",
+                                        "command": "EVENT_ACTOR_SET_SPRITE",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "spriteSheetId": "c3bc79c7-3703-4a67-86b2-301f587745b4"
                                         }
                                     },
                                     {
@@ -48114,7 +48119,25 @@
             "type": "actor_animated",
             "filename": "player-stheno.png",
             "inode": "72339069014640021",
-            "_v": 1605145185383
+            "_v": 1605152277328
+        },
+        {
+            "id": "390a21a2-7e90-4a7f-962d-5fc1d761ce69",
+            "name": "player-stheno_hit",
+            "numFrames": 1,
+            "type": "static",
+            "filename": "player-stheno_hit.png",
+            "inode": "55450570412007307",
+            "_v": 1605152165121
+        },
+        {
+            "id": "a2a24cd0-d170-43db-b86e-a04df102c85e",
+            "name": "player-stheno_strike",
+            "numFrames": 2,
+            "type": "animated",
+            "filename": "player-stheno_strike.png",
+            "inode": "152840912353897471",
+            "_v": 1605152242606
         }
     ],
     "palettes": [
