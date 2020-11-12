@@ -46622,6 +46622,36 @@
                                         }
                                     },
                                     {
+                                        "id": "f082f2f0-a286-4694-947c-1bf487969046",
+                                        "command": "EVENT_SET_TIMER_SCRIPT",
+                                        "args": {
+                                            "duration": 0.6,
+                                            "__scriptTabs": "end",
+                                            "__label": "Hide Splash",
+                                            "__collapse": true
+                                        },
+                                        "children": {
+                                            "script": [
+                                                {
+                                                    "id": "db79c6b6-3490-455c-ae69-c025fe000251",
+                                                    "command": "EVENT_ACTOR_HIDE",
+                                                    "args": {
+                                                        "actorId": "7735525e-1363-471b-b5a9-8cc0f46114c8"
+                                                    }
+                                                },
+                                                {
+                                                    "id": "82939e8b-6251-4064-a3bd-0d608bcec9c1",
+                                                    "command": "EVENT_TIMER_DISABLE",
+                                                    "args": {}
+                                                },
+                                                {
+                                                    "id": "5f243be5-2f74-419b-bc30-8d3a83a64fcd",
+                                                    "command": "EVENT_END"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
                                         "id": "1415f69d-635c-40a5-b0ee-d959bf808bb1",
                                         "command": "EVENT_END"
                                     }
@@ -46632,17 +46662,17 @@
                             "id": "3687e05b-1549-4e22-8bbe-a7bea1d6b9e0",
                             "command": "EVENT_GROUP",
                             "args": {
-                                "__label": "Respawn Player",
-                                "__comment": false
+                                "__label": "Respawn Player from Splash",
+                                "__comment": false,
+                                "__collapse": false
                             },
                             "children": {
                                 "true": [
                                     {
-                                        "id": "ab42ad0b-7efd-4d7a-a7e3-badc104fe758",
-                                        "command": "EVENT_ACTOR_SET_SPRITE",
+                                        "id": "02c3db46-360c-4825-a4dc-fa4eebf73b60",
+                                        "command": "EVENT_ACTOR_HIDE",
                                         "args": {
-                                            "actorId": "$self$",
-                                            "spriteSheetId": "390a21a2-7e90-4a7f-962d-5fc1d761ce69"
+                                            "actorId": "$self$"
                                         }
                                     },
                                     {
@@ -46664,14 +46694,6 @@
                                         }
                                     },
                                     {
-                                        "id": "42e3fade-0e74-48c2-a721-d0fc40fd2f77",
-                                        "command": "EVENT_ACTOR_SET_SPRITE",
-                                        "args": {
-                                            "actorId": "$self$",
-                                            "spriteSheetId": "c3bc79c7-3703-4a67-86b2-301f587745b4"
-                                        }
-                                    },
-                                    {
                                         "id": "fc9cac14-c156-46bd-b2e6-1733fa00c95b",
                                         "command": "EVENT_ACTOR_SET_POSITION",
                                         "args": {
@@ -46684,6 +46706,13 @@
                                                 "type": "number",
                                                 "value": 12
                                             }
+                                        }
+                                    },
+                                    {
+                                        "id": "a197fb4c-c876-4def-9054-37b45ac8c905",
+                                        "command": "EVENT_ACTOR_SHOW",
+                                        "args": {
+                                            "actorId": "$self$"
                                         }
                                     },
                                     {
