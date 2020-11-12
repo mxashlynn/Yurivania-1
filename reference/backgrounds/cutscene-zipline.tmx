@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="right-down" width="100" height="36" tilewidth="8" tileheight="8" infinite="0" nextlayerid="2" nextobjectid="1">
- <tileset firstgid="1" source="../tiles/yuri_jam_2020.tsx"/>
- <tileset firstgid="181" source="../tiles/yuri_jam_2020-zipline_alternate.tsx"/>
+ <tileset firstgid="1" source="../tiles/yurivania.tsx"/>
+ <tileset firstgid="181" source="../tiles/yurivania-alternate.tsx"/>
  <layer id="1" name="Tile Layer 1" width="100" height="36">
   <data encoding="csv">
 81,73,87,4,88,4,69,4,4,4,70,4,4,4,4,72,4,4,88,4,4,87,88,4,4,4,87,4,4,69,4,4,4,4,69,70,4,87,88,89,90,71,72,69,70,87,88,89,90,4,69,70,4,4,4,87,88,4,4,69,70,4,4,87,88,4,4,69,4,69,70,4,87,88,89,90,71,72,69,70,87,88,89,90,4,4,87,88,90,4,69,70,4,87,88,4,87,69,70,4,
