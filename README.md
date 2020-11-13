@@ -1,4 +1,5 @@
-![Yurivania Title Banner](banner.png)
+<div align="center>![Yurivania Title Banner](banner.png)</p>
+
 ![very gay](https://img.shields.io/badge/very-gay-ff69bf?style=plastic)
 
 # Yurivania: Uhaul of the Night
@@ -46,4 +47,4 @@ To work with this repo you only need [GB Studio 2.0](https://chrismaltby.itch.io
 # License
 
 All parts of this software may be used in your own projects free of charge, including commercially, but you may not sell the software itself in either compiled or source form.
-See the (license)[LICENSE.txt] file for details.
+See the LICENSE file for details.
