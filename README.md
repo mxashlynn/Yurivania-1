@@ -22,8 +22,7 @@ Once done, the game will be available on Itch.
 
 I wanted to create something cute, simple, and gay over the course of the two month jam.
 I liked the idea of working with a toolset I'd never used before.
-I wanted a system with significant creative constraints, as less choices mean faster development.
-[GB Studio](gbstudio.dev/) was the perfect choice!
+I chose a system with significant technical constraints, as fewer choices mean faster development.
 
 # Features
 
@@ -43,7 +42,7 @@ To work with this repo you only need [GB Studio 2.0](https://chrismaltby.itch.io
 - Graphic and music help from [Caidence Stone](https://github.com/caidencestone).
 - Scripting help from the great GB Studio [discord community](https://discord.gg/bxerKnc).
 - Special thanks to [Mint Gould](https://github.com/WispyMouse) and Lillian Harris for ideas, reviews, and emotional support.
-- GB Studio was created by [Chris Maltby](https://github.com/chrismaltby/).
+- [GB Studio](gbstudio.dev/) was created by [Chris Maltby](https://github.com/chrismaltby/).
 
 # License
 
