@@ -44,7 +44,7 @@ To work with this repo you only need [GB Studio 2.0](https://chrismaltby.itch.io
 - Special thanks to [Mint Gould](https://github.com/WispyMouse) and Lillian Harris for ideas, reviews, and emotional support.
 - [GB Studio](gbstudio.dev/) was created by [Chris Maltby](https://github.com/chrismaltby/).
 
-# License
+# Rights and Usage
 
-All parts of this software may be used in your own projects free of charge, including commercially, but you may not sell the software itself in either compiled or source form.
+All parts of this software may be used in your own projects free of charge, including commercially, but you may not sell the software by itself in either compiled or source form.
 See the LICENSE file for details.
