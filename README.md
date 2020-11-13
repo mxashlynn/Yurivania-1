@@ -1,14 +1,14 @@
-<div align="center>![Yurivania Title Banner](banner.png)</p>
+![Yurivania Title Banner](banner.png)
 
 ![very gay](https://img.shields.io/badge/very-gay-ff69bf?style=plastic)
 
 # Yurivania: Uhaul of the Night
 
-An graphical adventure game presented in the style of metroidvania platformers, this is my entry to [YuriJam 2020](https://itch.io/jam/yuri-game-jam-2020).
+This is my entry to [YuriJam 2020](https://itch.io/jam/yuri-game-jam-2020): an adventure game in the style of metroidvania platformers.
 
 Players take the role of Stheno, a gorgon who is hoping her girlfriend Alraune will move in with her.
-But to accomodate a plantgirl's needs Stheno's room will need an overhaul!
-Hopefully their castle community will provide everything they need to make a comfy space for them both....
+But to accomodate a plantgirl Stheno's room will need an overhaul!
+Hopefully their castle community can provide everything necessary to make a comfy space for them both....
 
 # Status
 
@@ -20,9 +20,10 @@ Once done, the game will be available on Itch.
 
 # Goals
 
-The goal of this project was to create something cute, quick, and gay over the course of the two month jam.
-I liked the idea of working with a toolset I had never used before, and of using something with significant creative constraints.
-[GB Studio](gbstudio.dev/) seemed the perfect choice!
+I wanted to create something cute, simple, and gay over the course of the two month jam.
+I liked the idea of working with a toolset I'd never used before.
+I wanted a system with significant creative constraints, as less choices mean faster development.
+[GB Studio](gbstudio.dev/) was the perfect choice!
 
 # Features
 
