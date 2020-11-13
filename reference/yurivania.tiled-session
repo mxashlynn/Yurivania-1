@@ -72,8 +72,8 @@
             "scale": 2.6849085365853655,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 160.15443138590817,
-                "y": 72.06949412365867
+                "x": 160.52688355192188,
+                "y": 72.25572020666553
             }
         },
         "backgrounds/area-glassy_tarn.tmx": {
@@ -120,7 +120,7 @@
             "scale": 5.824404761904762,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 80.00817577925397,
+                "x": 80.17986714358712,
                 "y": 72.11037301992846
             }
         },
@@ -248,7 +248,7 @@
             "scale": 5.388988095238095,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 80.16347269011986,
+                "x": 80.34903628430993,
                 "y": 71.99867454575579
             }
         },
@@ -283,18 +283,18 @@
     ],
     "project": "yurivania.tiled-project",
     "recentFiles": [
-        "backgrounds/one-room-measurement.tmx",
+        "backgrounds/area-sthenos_room.tmx",
         "backgrounds/area-mossy_tholtan.tmx",
         "backgrounds/area-inner_circle.tmx",
         "backgrounds/area-glassy_tarn-cant_swim.tmx",
         "backgrounds/area-glassy_tarn.tmx",
+        "backgrounds/one-room-measurement.tmx",
         "backgrounds/area-evergreen_gulf-main.tmx",
         "backgrounds/area-human_encounter.tmx",
         "backgrounds/area-starlit_court-gatehouse_gate_down.tmx",
         "backgrounds/cutscene-inner_circle.tmx",
         "backgrounds/area-inner_circle-entry_only.tmx",
-        "backgrounds/cutscene-evergreen_gulf.tmx",
-        "backgrounds/area-echoing_vaults.tmx"
+        "backgrounds/cutscene-evergreen_gulf.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {
