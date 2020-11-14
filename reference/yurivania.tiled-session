@@ -104,8 +104,8 @@
             "scale": 5.5,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 252,
-                "y": 106.9090909090909
+                "x": 208,
+                "y": 194.9090909090909
             }
         },
         "backgrounds/area-lunarium.tmx": {
@@ -130,6 +130,14 @@
             "viewCenter": {
                 "x": 80.03793266951162,
                 "y": 72.07207207207207
+            }
+        },
+        "backgrounds/area-skyclad_tower-hall_of_banners.tmx": {
+            "scale": 5.394642857142857,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 75.63058589870903,
+                "y": 71.9232042370076
             }
         },
         "backgrounds/area-skyclad_tower-hall_of_statues.tmx": {
@@ -248,8 +256,8 @@
             "scale": 5.388988095238095,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 79.97790909592976,
-                "y": 71.90589274866075
+                "x": 80.16347269011986,
+                "y": 71.99867454575579
             }
         },
         "backgrounds/screen-title.tmx": {
@@ -276,7 +284,7 @@
     "map.lastUsedFormat": "tmx",
     "map.tileHeight": 8,
     "map.tileWidth": 8,
-    "map.width": 40,
+    "map.width": 20,
     "openFiles": [
         "backgrounds/one-room-measurement.tmx",
         "backgrounds/area-subterrane.tmx",
@@ -284,18 +292,18 @@
     ],
     "project": "yurivania.tiled-project",
     "recentFiles": [
-        "backgrounds/one-room-measurement.tmx",
+        "backgrounds/area-skyclad_tower-hall_of_banners.tmx",
+        "backgrounds/area-inner_circle.tmx",
+        "backgrounds/area-skyclad_tower-hall_of_statues.tmx",
         "backgrounds/area-subterrane.tmx",
         "backgrounds/area-echoing_vaults.tmx",
+        "backgrounds/one-room-measurement.tmx",
         "backgrounds/area-glassy_tarn.tmx",
         "backgrounds/area-glassy_tarn-cant_swim.tmx",
-        "backgrounds/area-inner_circle.tmx",
         "backgrounds/area-mossy_tholtan.tmx",
         "backgrounds/area-sthenos_room.tmx",
         "backgrounds/area-evergreen_gulf-main.tmx",
-        "backgrounds/area-human_encounter.tmx",
-        "backgrounds/area-starlit_court-gatehouse_gate_down.tmx",
-        "backgrounds/cutscene-inner_circle.tmx"
+        "backgrounds/area-human_encounter.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {
