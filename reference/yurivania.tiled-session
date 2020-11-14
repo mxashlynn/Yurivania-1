@@ -3,11 +3,11 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "backgrounds/area-glassy_tarn.tmx",
+    "activeFile": "backgrounds/area-subterrane.tmx",
     "expandedProjectPaths": [
-        "tiles",
         ".",
-        "backgrounds"
+        "backgrounds",
+        "tiles"
     ],
     "exportAsImage.useCurrentScale": false,
     "file.lastUsedOpenFilter": "All Files (*)",
@@ -72,8 +72,8 @@
             "scale": 2.6849085365853655,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 160.52688355192188,
-                "y": 72.25572020666553
+                "x": 159.7819792198944,
+                "y": 71.8832680406518
             }
         },
         "backgrounds/area-glassy_tarn.tmx": {
@@ -105,7 +105,7 @@
             "selectedLayer": 0,
             "viewCenter": {
                 "x": 252,
-                "y": 107
+                "y": 106.9090909090909
             }
         },
         "backgrounds/area-lunarium.tmx": {
@@ -120,8 +120,8 @@
             "scale": 5.824404761904762,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 80.17986714358712,
-                "y": 72.11037301992846
+                "x": 79.8364844149208,
+                "y": 71.85283597342872
             }
         },
         "backgrounds/area-skyclad_tower-balcony.tmx": {
@@ -216,8 +216,8 @@
             "scale": 3,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 759,
-                "y": 71.66666666666667
+                "x": 105.99999999999999,
+                "y": 173.66666666666663
             }
         },
         "backgrounds/cutscene-evergreen_gulf.tmx": {
@@ -248,8 +248,8 @@
             "scale": 5.388988095238095,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 80.34903628430993,
-                "y": 71.99867454575579
+                "x": 79.97790909592976,
+                "y": 71.90589274866075
             }
         },
         "backgrounds/screen-title.tmx": {
@@ -265,8 +265,11 @@
             "scaleInEditor": 11
         },
         "tiles/yurivania.tsx": {
-            "scaleInDock": 5.5,
+            "scaleInDock": 4,
             "scaleInEditor": 11
+        },
+        "tiles/yurivania_alternate.tsx": {
+            "scaleInDock": 4
         }
     },
     "map.height": 18,
@@ -276,25 +279,22 @@
     "map.width": 40,
     "openFiles": [
         "backgrounds/one-room-measurement.tmx",
-        "backgrounds/area-mossy_tholtan.tmx",
-        "backgrounds/area-inner_circle.tmx",
-        "backgrounds/area-glassy_tarn-cant_swim.tmx",
-        "backgrounds/area-glassy_tarn.tmx"
+        "backgrounds/area-subterrane.tmx"
     ],
     "project": "yurivania.tiled-project",
     "recentFiles": [
-        "backgrounds/area-sthenos_room.tmx",
-        "backgrounds/area-mossy_tholtan.tmx",
-        "backgrounds/area-inner_circle.tmx",
-        "backgrounds/area-glassy_tarn-cant_swim.tmx",
-        "backgrounds/area-glassy_tarn.tmx",
         "backgrounds/one-room-measurement.tmx",
+        "backgrounds/area-subterrane.tmx",
+        "backgrounds/area-glassy_tarn.tmx",
+        "backgrounds/area-glassy_tarn-cant_swim.tmx",
+        "backgrounds/area-inner_circle.tmx",
+        "backgrounds/area-mossy_tholtan.tmx",
+        "backgrounds/area-sthenos_room.tmx",
         "backgrounds/area-evergreen_gulf-main.tmx",
         "backgrounds/area-human_encounter.tmx",
         "backgrounds/area-starlit_court-gatehouse_gate_down.tmx",
         "backgrounds/cutscene-inner_circle.tmx",
-        "backgrounds/area-inner_circle-entry_only.tmx",
-        "backgrounds/cutscene-evergreen_gulf.tmx"
+        "backgrounds/area-inner_circle-entry_only.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {
