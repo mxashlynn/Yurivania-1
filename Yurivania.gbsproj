@@ -12738,13 +12738,13 @@
             "actors": [
                 {
                     "name": "Lucy - Solarium Down",
-                    "frame": 3,
-                    "animate": false,
-                    "spriteSheetId": "ea905fa7-7d98-4beb-b3d4-4a9d959a05af",
+                    "frame": 0,
+                    "animate": true,
+                    "spriteSheetId": "416af782-2eef-4303-a90e-ca8014e171d3",
                     "spriteType": "static",
                     "direction": "down",
                     "moveSpeed": "1",
-                    "animSpeed": "",
+                    "animSpeed": "2",
                     "script": [],
                     "startScript": [],
                     "updateScript": [],
@@ -13579,8 +13579,8 @@
                 {
                     "name": "Lucy - Solarium Up",
                     "frame": 0,
-                    "animate": false,
-                    "spriteSheetId": "ea905fa7-7d98-4beb-b3d4-4a9d959a05af",
+                    "animate": true,
+                    "spriteSheetId": "0d2ca5c9-8ad5-46b9-bde7-777bb7f8ec4d",
                     "spriteType": "static",
                     "direction": "down",
                     "moveSpeed": "1",
@@ -59742,7 +59742,7 @@
                     "name": "Lucy - Courtyard",
                     "frame": 0,
                     "animate": true,
-                    "spriteSheetId": "ea905fa7-7d98-4beb-b3d4-4a9d959a05af",
+                    "spriteSheetId": "0d2ca5c9-8ad5-46b9-bde7-777bb7f8ec4d",
                     "spriteType": "static",
                     "direction": "down",
                     "moveSpeed": "1",
@@ -87198,13 +87198,31 @@
             "_v": 1605410765320
         },
         {
+            "id": "0d2ca5c9-8ad5-46b9-bde7-777bb7f8ec4d",
+            "name": "npc-lucy_lay",
+            "numFrames": 2,
+            "type": "animated",
+            "filename": "npc-lucy_lay.png",
+            "inode": "6755399441654438",
+            "_v": 1605412509083
+        },
+        {
+            "id": "416af782-2eef-4303-a90e-ca8014e171d3",
+            "name": "npc-lucy_sit",
+            "numFrames": 2,
+            "type": "animated",
+            "filename": "npc-lucy_sit.png",
+            "inode": "6755399441654436",
+            "_v": 1605412439119
+        },
+        {
             "id": "ea905fa7-7d98-4beb-b3d4-4a9d959a05af",
-            "name": "npc-lucy",
+            "name": "npc-lucy_walk",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "npc-lucy.png",
+            "filename": "npc-lucy_walk.png",
             "inode": "17451448556163371",
-            "_v": 1605410765320
+            "_v": 1605412533665
         },
         {
             "id": "de6d05d2-0a99-4035-936d-d4cef408d0cd",
@@ -87886,8 +87904,8 @@
         "startY": 12,
         "showCollisions": true,
         "showConnections": "all",
-        "worldScrollX": 4808,
-        "worldScrollY": 5167,
+        "worldScrollX": 7636,
+        "worldScrollY": 3326,
         "zoom": 325,
         "customColorsEnabled": true,
         "defaultBackgroundPaletteIds": "default-background",
