@@ -11598,7 +11598,7 @@
                     "spriteType": "actor",
                     "direction": "right",
                     "moveSpeed": "1",
-                    "animSpeed": "1",
+                    "animSpeed": "2",
                     "script": [
                         {
                             "id": "683803ae-d4ef-40b8-8873-f81fc5c28fc6",
@@ -11663,6 +11663,13 @@
                                         }
                                     },
                                     {
+                                        "id": "d8e7eb63-e18e-47b9-9dc1-9604e8e4e76a",
+                                        "command": "EVENT_SET_FALSE",
+                                        "args": {
+                                            "variable": "T1"
+                                        }
+                                    },
+                                    {
                                         "id": "0edf433b-0b54-4d05-bf41-1bc16ea27b3c",
                                         "command": "EVENT_END"
                                     }
@@ -11680,7 +11687,7 @@
                             "id": "8bd30923-eb8a-4b7a-8055-e711d5fca168",
                             "command": "EVENT_WAIT",
                             "args": {
-                                "time": 1
+                                "time": 0.5
                             }
                         },
                         {
@@ -11743,8 +11750,8 @@
                                         "command": "EVENT_ACTOR_MOVE_RELATIVE",
                                         "args": {
                                             "actorId": "$self$",
-                                            "x": 0,
-                                            "y": 2,
+                                            "x": 2,
+                                            "y": 0,
                                             "useCollisions": true,
                                             "verticalFirst": false,
                                             "__collapse": false
@@ -11761,8 +11768,8 @@
                                         "command": "EVENT_ACTOR_MOVE_RELATIVE",
                                         "args": {
                                             "actorId": "$self$",
-                                            "x": 0,
-                                            "y": -2,
+                                            "x": -2,
+                                            "y": 0,
                                             "useCollisions": true,
                                             "verticalFirst": false,
                                             "__collapse": false
@@ -11886,7 +11893,7 @@
                                         "id": "20e7cde3-d067-4379-97ac-24bd30f7f45c",
                                         "command": "EVENT_WAIT",
                                         "args": {
-                                            "time": 0.5
+                                            "time": 0.25
                                         }
                                     },
                                     {
@@ -59734,12 +59741,12 @@
                 {
                     "name": "Lucy - Courtyard",
                     "frame": 0,
-                    "animate": false,
+                    "animate": true,
                     "spriteSheetId": "ea905fa7-7d98-4beb-b3d4-4a9d959a05af",
                     "spriteType": "static",
                     "direction": "down",
                     "moveSpeed": "1",
-                    "animSpeed": "",
+                    "animSpeed": "2",
                     "script": [],
                     "startScript": [],
                     "updateScript": [],
@@ -87302,10 +87309,10 @@
             "id": "default-ui",
             "name": "Default UI",
             "colors": [
-                "E0F8C0",
-                "78E850",
-                "207058",
-                "001028"
+                "F0C8E8",
+                "C880C8",
+                "603890",
+                "201038"
             ],
             "defaultName": "Default UI",
             "defaultColors": [
@@ -87509,12 +87516,12 @@
         },
         {
             "id": "d20125e9-bc62-4789-b9fd-569955cf2ef3",
-            "name": "Harpy",
+            "name": "DEPRECATED",
             "colors": [
-                "F8F0A0",
-                "E0B858",
-                "A08850",
-                "504020"
+                "F80000",
+                "E00000",
+                "F80000",
+                "F80000"
             ]
         },
         {
@@ -87874,14 +87881,14 @@
         }
     ],
     "settings": {
-        "startSceneId": "2bbd4257-3d21-4a2b-8d83-bf5c8b545bf0",
+        "startSceneId": "f8d708bc-de23-4a37-b8db-ce28c38bdfe8",
         "startX": 6,
         "startY": 12,
         "showCollisions": true,
         "showConnections": "all",
-        "worldScrollX": 1376,
-        "worldScrollY": 2911,
-        "zoom": 225,
+        "worldScrollX": 4808,
+        "worldScrollY": 5167,
+        "zoom": 325,
         "customColorsEnabled": true,
         "defaultBackgroundPaletteIds": "default-background",
         "defaultSpritePaletteId": "default-sprite",
