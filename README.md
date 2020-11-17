@@ -4,7 +4,7 @@
 
 # Yurivania: Uhaul of the Night
 
-This is my entry to [YuriJam 2020](https://itch.io/jam/yuri-game-jam-2020): an adventure game in the style of metroidvania platformers.
+This is my entry to [YuriJam 2020](https://itch.io/jam/yuri-game-jam-2020): an adventure game with a metroidvania style.
 
 Players take the role of Stheno, a gorgon who is hoping her girlfriend Alraune will move in with her.
 But to accomodate a plantgirl Stheno's room will need an overhaul!
