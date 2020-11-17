@@ -37,10 +37,10 @@ This game was built with *GB Studio 2.0-beta-4*, using [Tiled](http://www.mapedi
 To work with this repo you only need [GB Studio 2.0](https://chrismaltby.itch.io/gb-studio).
 
 # Contributors
-- Design, code, scenario and dialogue writing, and graphics by [Paige Ashlynn](https://github.com/mxashlynn/).
+- Design, code, scenario, dialogue writing, and graphics by [Paige Ashlynn](https://github.com/mxashlynn/).
 - Font elements by [Jeremy Oduber](https://jeremyoduber.itch.io/fonts-for-gb-studio) and [Anima](https://sododev.itch.io/).
 - Graphic and music help from [Caidence Stone](https://github.com/caidencestone).
-- Scripting help from the great GB Studio [discord community](https://discord.gg/bxerKnc).
+- Scripting help from the GB Studio [discord community](https://discord.gg/bxerKnc).
 - Special thanks to [Mint Gould](https://github.com/WispyMouse) and Lillian Harris for ideas, reviews, and emotional support.
 - [GB Studio](gbstudio.dev/) was created by [Chris Maltby](https://github.com/chrismaltby/).
 
