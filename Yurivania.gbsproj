@@ -15393,8 +15393,8 @@
                 0,
                 0,
                 0,
-                0,
-                0,
+                2,
+                2,
                 15,
                 15,
                 15,
@@ -26872,12 +26872,12 @@
                 {
                     "name": "Kuliltu's Tail",
                     "frame": 0,
-                    "animate": false,
+                    "animate": true,
                     "spriteSheetId": "1c8a0ad2-c4da-46cf-a835-c0078f6986f0",
                     "spriteType": "static",
                     "direction": "down",
                     "moveSpeed": "1",
-                    "animSpeed": "3",
+                    "animSpeed": "2",
                     "script": [],
                     "startScript": [],
                     "updateScript": [],
@@ -26947,8 +26947,8 @@
                     "id": "d8642154-1385-46e7-8e28-8dde35080a8a",
                     "x": 69,
                     "y": 0,
-                    "width": 2,
-                    "height": 2
+                    "width": 6,
+                    "height": 1
                 },
                 {
                     "name": "Exit 13",
@@ -79047,27 +79047,6 @@
                                         "children": {
                                             "true": [
                                                 {
-                                                    "id": "10d85080-9780-4006-a557-991b3743d60f",
-                                                    "command": "EVENT_ACTOR_SET_POSITION",
-                                                    "args": {
-                                                        "actorId": "$self$",
-                                                        "x": {
-                                                            "type": "number",
-                                                            "value": 5
-                                                        },
-                                                        "y": {
-                                                            "type": "number",
-                                                            "value": 29
-                                                        }
-                                                    }
-                                                },
-                                                {
-                                                    "id": "793b8296-0aba-4ab9-92cc-15a6095bdebc",
-                                                    "command": "EVENT_END"
-                                                }
-                                            ],
-                                            "false": [
-                                                {
                                                     "id": "6f35c447-2791-4d1e-88ba-fdb7bb0854d5",
                                                     "command": "EVENT_ACTOR_SET_POSITION",
                                                     "args": {
@@ -79079,6 +79058,27 @@
                                                         "y": {
                                                             "type": "number",
                                                             "value": 28
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "id": "793b8296-0aba-4ab9-92cc-15a6095bdebc",
+                                                    "command": "EVENT_END"
+                                                }
+                                            ],
+                                            "false": [
+                                                {
+                                                    "id": "10d85080-9780-4006-a557-991b3743d60f",
+                                                    "command": "EVENT_ACTOR_SET_POSITION",
+                                                    "args": {
+                                                        "actorId": "$self$",
+                                                        "x": {
+                                                            "type": "number",
+                                                            "value": 5
+                                                        },
+                                                        "y": {
+                                                            "type": "number",
+                                                            "value": 29
                                                         }
                                                     }
                                                 },
@@ -90550,8 +90550,8 @@
         "startY": 12,
         "showCollisions": true,
         "showConnections": "all",
-        "worldScrollX": 3419,
-        "worldScrollY": 4757,
+        "worldScrollX": 4510,
+        "worldScrollY": 4267,
         "zoom": 275,
         "customColorsEnabled": true,
         "defaultBackgroundPaletteIds": "default-background",
