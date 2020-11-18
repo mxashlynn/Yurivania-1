@@ -3,11 +3,11 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "backgrounds/area-echoing_vaults.tmx",
+    "activeFile": "backgrounds/area-echoing_vaults-open.tmx",
     "expandedProjectPaths": [
-        "backgrounds",
         "tiles",
-        "."
+        ".",
+        "backgrounds"
     ],
     "exportAsImage.useCurrentScale": false,
     "file.lastUsedOpenFilter": "All Files (*)",
@@ -34,6 +34,14 @@
             "viewCenter": {
                 "x": 226.375,
                 "y": 130.25
+            }
+        },
+        "backgrounds/area-echoing_vaults-open.tmx": {
+            "scale": 3,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 383.5,
+                "y": 149.33333333333331
             }
         },
         "backgrounds/area-echoing_vaults.tmx": {
@@ -296,12 +304,13 @@
     "openFiles": [
         "backgrounds/one-room-measurement.tmx",
         "backgrounds/area-echoing_vaults-locked.tmx",
-        "backgrounds/area-echoing_vaults.tmx"
+        "backgrounds/area-echoing_vaults-open.tmx"
     ],
     "project": "yurivania.tiled-project",
     "recentFiles": [
         "backgrounds/one-room-measurement.tmx",
         "backgrounds/area-echoing_vaults-locked.tmx",
+        "backgrounds/area-echoing_vaults-open.tmx",
         "backgrounds/area-echoing_vaults.tmx",
         "backgrounds/area-inner_circle.tmx",
         "backgrounds/area-skyclad_tower-hall_of_banners.tmx",
@@ -310,8 +319,7 @@
         "backgrounds/area-glassy_tarn.tmx",
         "backgrounds/area-glassy_tarn-cant_swim.tmx",
         "backgrounds/area-mossy_tholtan.tmx",
-        "backgrounds/area-sthenos_room.tmx",
-        "backgrounds/area-evergreen_gulf-main.tmx"
+        "backgrounds/area-sthenos_room.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {
