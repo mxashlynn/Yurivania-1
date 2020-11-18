@@ -10978,301 +10978,325 @@
                     "animSpeed": "2",
                     "script": [
                         {
-                            "id": "a8b864d5-2286-4b65-8c51-43aacab30ca7",
-                            "command": "EVENT_GROUP",
+                            "id": "059ab5bf-73dc-4594-b775-b59fa0184fa6",
+                            "command": "EVENT_IF_FALSE",
                             "args": {
-                                "__label": "Opening Convo"
+                                "variable": "20",
+                                "__collapseElse": false,
+                                "__disableElse": true
                             },
                             "children": {
                                 "true": [
                                     {
-                                        "id": "dfa3e3fa-285b-4d7a-8b65-a4fc9fb4414d",
-                                        "command": "EVENT_TEXT",
+                                        "id": "a8b864d5-2286-4b65-8c51-43aacab30ca7",
+                                        "command": "EVENT_GROUP",
                                         "args": {
-                                            "text": [
-                                                "TIBBY: So what\nelse is up?  Any\nbig weekend plans?"
-                                            ],
-                                            "avatarId": ""
+                                            "__label": "Opening Convo",
+                                            "__collapse": true
+                                        },
+                                        "children": {
+                                            "true": [
+                                                {
+                                                    "id": "dfa3e3fa-285b-4d7a-8b65-a4fc9fb4414d",
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "TIBBY: So what\nelse is up?  Any\nbig weekend plans?"
+                                                        ],
+                                                        "avatarId": ""
+                                                    }
+                                                },
+                                                {
+                                                    "id": "312922fe-c144-44d2-946e-863e2fccc891",
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "STHENO: One of my\ngirlfriends,\nAlraune, has been",
+                                                            "talking about\nleaving her dingy\ndungeon apartment ",
+                                                            "and moving up to a\nmore lived-in area\nof the castle.",
+                                                            "Tonight, I'm\ngoing to ask her\nto move in with me"
+                                                        ],
+                                                        "avatarId": ""
+                                                    }
+                                                },
+                                                {
+                                                    "id": "8133bc58-4458-4dd0-8ecd-ff2b455ae006",
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "TIBBY: Oh wow,\nthat's a big step!",
+                                                            "How long have you\ntwo been together?"
+                                                        ],
+                                                        "avatarId": ""
+                                                    }
+                                                },
+                                                {
+                                                    "id": "bd2769cf-12d1-4698-bb42-16b8ad2b32f8",
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "STHENO: Only 200\nyears, but we're\npretty committed.",
+                                                            "My biggest concern\nis actually",
+                                                            "getting the place\nready for her."
+                                                        ],
+                                                        "avatarId": ""
+                                                    }
+                                                },
+                                                {
+                                                    "id": "6b29b554-0979-464a-a693-dd84a35b4229",
+                                                    "command": "EVENT_ACTOR_SET_DIRECTION",
+                                                    "args": {
+                                                        "actorId": "$self$",
+                                                        "direction": {
+                                                            "type": "direction",
+                                                            "value": "right"
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "id": "1b1f3b48-5da5-4417-8a76-fddddd3c42dd",
+                                                    "command": "EVENT_ACTOR_EMOTE",
+                                                    "args": {
+                                                        "actorId": "$self$",
+                                                        "emoteId": "4"
+                                                    }
+                                                },
+                                                {
+                                                    "id": "469869ca-a2c6-4581-94fd-d8fbbe3f6f6e",
+                                                    "command": "EVENT_ACTOR_SET_DIRECTION",
+                                                    "args": {
+                                                        "actorId": "$self$",
+                                                        "direction": {
+                                                            "type": "direction",
+                                                            "value": "left"
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "id": "780ff388-33cd-4bcf-8f5c-e957cc5e0c9e",
+                                                    "command": "EVENT_ACTOR_EMOTE",
+                                                    "args": {
+                                                        "actorId": "$self$",
+                                                        "emoteId": "4"
+                                                    }
+                                                },
+                                                {
+                                                    "id": "61e86e30-0452-4dc1-b57a-9b8934750581",
+                                                    "command": "EVENT_ACTOR_SET_DIRECTION",
+                                                    "args": {
+                                                        "actorId": "$self$",
+                                                        "direction": {
+                                                            "type": "direction",
+                                                            "value": "right"
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "id": "a8674ffe-edde-41b6-a1fe-af70c824d54a",
+                                                    "command": "EVENT_ACTOR_EMOTE",
+                                                    "args": {
+                                                        "actorId": "$self$",
+                                                        "emoteId": "4"
+                                                    }
+                                                },
+                                                {
+                                                    "id": "71a86941-438b-4a8d-a276-5f2c792cb5aa",
+                                                    "command": "EVENT_ACTOR_SET_DIRECTION",
+                                                    "args": {
+                                                        "actorId": "$self$",
+                                                        "direction": {
+                                                            "type": "direction",
+                                                            "value": "left"
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "id": "3f3e0827-cebc-4c93-9cea-ef85200e0d8e",
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "TIBBY: Yeah, I see\nwhat  you mean. \nIt may take a",
+                                                            "little rummaging\nto make this place\nplantgirl-comfy...",
+                                                            "Let's see....",
+                                                            "Do you still have\nthat castle map\nthey gave you?"
+                                                        ],
+                                                        "avatarId": ""
+                                                    }
+                                                },
+                                                {
+                                                    "id": "4cbbc6e0-9517-4d66-89a3-475c4c12d5e9",
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "STHENO: During\norientation?",
+                                                            "Yup, I can bring\nit up by pressing\nSELECT."
+                                                        ],
+                                                        "avatarId": ""
+                                                    }
+                                                },
+                                                {
+                                                    "id": "9e2fe214-a5db-4057-9ac2-c1294cd6de9e",
+                                                    "command": "EVENT_ACTOR_MOVE_TO",
+                                                    "args": {
+                                                        "actorId": "player",
+                                                        "x": {
+                                                            "type": "number",
+                                                            "value": 8
+                                                        },
+                                                        "y": {
+                                                            "type": "number",
+                                                            "value": 12
+                                                        },
+                                                        "moveType": "horizontal",
+                                                        "useCollisions": false
+                                                    }
+                                                },
+                                                {
+                                                    "id": "80397db4-f4f4-4ac9-90ef-6458fa31ad83",
+                                                    "command": "EVENT_ACTOR_MOVE_TO",
+                                                    "args": {
+                                                        "actorId": "$self$",
+                                                        "x": {
+                                                            "type": "number",
+                                                            "value": 10
+                                                        },
+                                                        "y": {
+                                                            "type": "number",
+                                                            "value": 12
+                                                        },
+                                                        "moveType": "horizontal",
+                                                        "useCollisions": false
+                                                    }
+                                                },
+                                                {
+                                                    "id": "6be4a05a-c269-4599-b0b5-2d92ec646386",
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "TIBBY: Cool. \nLemme take a\nlook...."
+                                                        ],
+                                                        "avatarId": ""
+                                                    }
+                                                },
+                                                {
+                                                    "id": "644ffc16-3d93-4378-badb-4d90d28895e9",
+                                                    "command": "EVENT_ACTOR_EMOTE",
+                                                    "args": {
+                                                        "actorId": "$self$",
+                                                        "emoteId": "3"
+                                                    }
+                                                },
+                                                {
+                                                    "id": "6136f218-415d-45dd-bbaa-69cf54ab5314",
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "TIBBY: Aww, cute!!",
+                                                            "You've marked your\nroom with a little\n\\House,",
+                                                            "and Alraune's\ncorner with a\n|Heart!  Adorbs~",
+                                                            "Here, let me add a\ncouple things.",
+                                                            "The {Lunarium\nand }Solarium are\ngood landmarks,",
+                                                            "and there's a few\n*Points of\nInterest."
+                                                        ],
+                                                        "avatarId": ""
+                                                    }
+                                                },
+                                                {
+                                                    "id": "d10271b5-f848-4996-88d5-0382bc4a3357",
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "STHENO: Thanks!!"
+                                                        ],
+                                                        "avatarId": ""
+                                                    }
+                                                },
+                                                {
+                                                    "id": "647ffed4-8243-4361-8dd2-8c59e79e8893",
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "TIBBY: Sure!",
+                                                            "Oh dang, I'd\nbetter go or I'll\nI'll miss my shift",
+                                                            "at the gatehouse.\nWell good luck!"
+                                                        ],
+                                                        "avatarId": ""
+                                                    }
+                                                },
+                                                {
+                                                    "id": "5b18cd66-3162-4cf5-9bb7-3991fc306512",
+                                                    "command": "EVENT_ACTOR_SET_DIRECTION",
+                                                    "args": {
+                                                        "actorId": "$self$",
+                                                        "direction": {
+                                                            "type": "direction",
+                                                            "value": "right"
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "id": "1a3f8cf9-63b2-4a3e-90ec-48a9d49b54a9",
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "STEHNO: See ya! \nAnd thanks\nagain, Tibby!!"
+                                                        ],
+                                                        "avatarId": ""
+                                                    }
+                                                },
+                                                {
+                                                    "id": "a5711bd1-d3a8-4abf-8001-bc37f41ebac1",
+                                                    "command": "EVENT_ACTOR_MOVE_TO",
+                                                    "args": {
+                                                        "actorId": "$self$",
+                                                        "x": {
+                                                            "type": "number",
+                                                            "value": 18
+                                                        },
+                                                        "y": {
+                                                            "type": "number",
+                                                            "value": 12
+                                                        },
+                                                        "moveType": "horizontal",
+                                                        "useCollisions": false
+                                                    }
+                                                },
+                                                {
+                                                    "id": "4676daf3-19ad-46f4-b45f-65d94d806d7e",
+                                                    "command": "EVENT_WAIT",
+                                                    "args": {
+                                                        "time": 0.1
+                                                    }
+                                                },
+                                                {
+                                                    "id": "cc2090c4-e00c-4a05-b001-a6ac3644317b",
+                                                    "command": "EVENT_SET_TRUE",
+                                                    "args": {
+                                                        "variable": "20"
+                                                    }
+                                                },
+                                                {
+                                                    "id": "094a4b60-a58b-491f-b6dd-e401dc2aab2e",
+                                                    "command": "EVENT_ACTOR_HIDE",
+                                                    "args": {
+                                                        "actorId": "$self$"
+                                                    }
+                                                },
+                                                {
+                                                    "id": "b7d4f2f0-1257-4d14-8c61-fb93bb6b0cd8",
+                                                    "command": "EVENT_END"
+                                                }
+                                            ]
                                         }
                                     },
                                     {
-                                        "id": "312922fe-c144-44d2-946e-863e2fccc891",
-                                        "command": "EVENT_TEXT",
-                                        "args": {
-                                            "text": [
-                                                "STHENO: One of my\ngirlfriends,\nAlraune, has been",
-                                                "talking about\nleaving her dingy\ndungeon apartment ",
-                                                "and moving up to a\nmore lived-in area\nof the castle.",
-                                                "Tonight, I'm\ngoing to ask her\nto move in with me"
-                                            ],
-                                            "avatarId": ""
-                                        }
-                                    },
+                                        "id": "0cb2bd6a-cb9c-4d2e-a01c-4dd9ce4d2bde",
+                                        "command": "EVENT_END"
+                                    }
+                                ],
+                                "false": [
                                     {
-                                        "id": "8133bc58-4458-4dd0-8ecd-ff2b455ae006",
-                                        "command": "EVENT_TEXT",
-                                        "args": {
-                                            "text": [
-                                                "TIBBY: Oh wow,\nthat's a big step!",
-                                                "How long have you\ntwo been together?"
-                                            ],
-                                            "avatarId": ""
-                                        }
-                                    },
-                                    {
-                                        "id": "bd2769cf-12d1-4698-bb42-16b8ad2b32f8",
-                                        "command": "EVENT_TEXT",
-                                        "args": {
-                                            "text": [
-                                                "STHENO: Only 200\nyears, but we're\npretty committed.",
-                                                "My biggest concern\nis actually",
-                                                "getting the place\nready for her."
-                                            ],
-                                            "avatarId": ""
-                                        }
-                                    },
-                                    {
-                                        "id": "6b29b554-0979-464a-a693-dd84a35b4229",
-                                        "command": "EVENT_ACTOR_SET_DIRECTION",
-                                        "args": {
-                                            "actorId": "$self$",
-                                            "direction": {
-                                                "type": "direction",
-                                                "value": "right"
-                                            }
-                                        }
-                                    },
-                                    {
-                                        "id": "1b1f3b48-5da5-4417-8a76-fddddd3c42dd",
-                                        "command": "EVENT_ACTOR_EMOTE",
-                                        "args": {
-                                            "actorId": "$self$",
-                                            "emoteId": "4"
-                                        }
-                                    },
-                                    {
-                                        "id": "469869ca-a2c6-4581-94fd-d8fbbe3f6f6e",
-                                        "command": "EVENT_ACTOR_SET_DIRECTION",
-                                        "args": {
-                                            "actorId": "$self$",
-                                            "direction": {
-                                                "type": "direction",
-                                                "value": "left"
-                                            }
-                                        }
-                                    },
-                                    {
-                                        "id": "780ff388-33cd-4bcf-8f5c-e957cc5e0c9e",
-                                        "command": "EVENT_ACTOR_EMOTE",
-                                        "args": {
-                                            "actorId": "$self$",
-                                            "emoteId": "4"
-                                        }
-                                    },
-                                    {
-                                        "id": "61e86e30-0452-4dc1-b57a-9b8934750581",
-                                        "command": "EVENT_ACTOR_SET_DIRECTION",
-                                        "args": {
-                                            "actorId": "$self$",
-                                            "direction": {
-                                                "type": "direction",
-                                                "value": "right"
-                                            }
-                                        }
-                                    },
-                                    {
-                                        "id": "a8674ffe-edde-41b6-a1fe-af70c824d54a",
-                                        "command": "EVENT_ACTOR_EMOTE",
-                                        "args": {
-                                            "actorId": "$self$",
-                                            "emoteId": "4"
-                                        }
-                                    },
-                                    {
-                                        "id": "71a86941-438b-4a8d-a276-5f2c792cb5aa",
-                                        "command": "EVENT_ACTOR_SET_DIRECTION",
-                                        "args": {
-                                            "actorId": "$self$",
-                                            "direction": {
-                                                "type": "direction",
-                                                "value": "left"
-                                            }
-                                        }
-                                    },
-                                    {
-                                        "id": "3f3e0827-cebc-4c93-9cea-ef85200e0d8e",
-                                        "command": "EVENT_TEXT",
-                                        "args": {
-                                            "text": [
-                                                "TIBBY: Yeah, I see\nwhat  you mean. \nIt may take a",
-                                                "little rummaging\nto make this place\nplantgirl-comfy...",
-                                                "Let's see....",
-                                                "Do you still have\nthat castle map\nthey gave you?"
-                                            ],
-                                            "avatarId": ""
-                                        }
-                                    },
-                                    {
-                                        "id": "4cbbc6e0-9517-4d66-89a3-475c4c12d5e9",
-                                        "command": "EVENT_TEXT",
-                                        "args": {
-                                            "text": [
-                                                "STHENO: During\norientation?",
-                                                "Yup, I can bring\nit up by pressing\nSELECT."
-                                            ],
-                                            "avatarId": ""
-                                        }
-                                    },
-                                    {
-                                        "id": "9e2fe214-a5db-4057-9ac2-c1294cd6de9e",
-                                        "command": "EVENT_ACTOR_MOVE_TO",
-                                        "args": {
-                                            "actorId": "player",
-                                            "x": {
-                                                "type": "number",
-                                                "value": 8
-                                            },
-                                            "y": {
-                                                "type": "number",
-                                                "value": 12
-                                            },
-                                            "moveType": "horizontal",
-                                            "useCollisions": false
-                                        }
-                                    },
-                                    {
-                                        "id": "80397db4-f4f4-4ac9-90ef-6458fa31ad83",
-                                        "command": "EVENT_ACTOR_MOVE_TO",
-                                        "args": {
-                                            "actorId": "$self$",
-                                            "x": {
-                                                "type": "number",
-                                                "value": 10
-                                            },
-                                            "y": {
-                                                "type": "number",
-                                                "value": 12
-                                            },
-                                            "moveType": "horizontal",
-                                            "useCollisions": false
-                                        }
-                                    },
-                                    {
-                                        "id": "6be4a05a-c269-4599-b0b5-2d92ec646386",
-                                        "command": "EVENT_TEXT",
-                                        "args": {
-                                            "text": [
-                                                "TIBBY: Cool. \nLemme take a\nlook...."
-                                            ],
-                                            "avatarId": ""
-                                        }
-                                    },
-                                    {
-                                        "id": "644ffc16-3d93-4378-badb-4d90d28895e9",
-                                        "command": "EVENT_ACTOR_EMOTE",
-                                        "args": {
-                                            "actorId": "$self$",
-                                            "emoteId": "3"
-                                        }
-                                    },
-                                    {
-                                        "id": "6136f218-415d-45dd-bbaa-69cf54ab5314",
-                                        "command": "EVENT_TEXT",
-                                        "args": {
-                                            "text": [
-                                                "TIBBY: Aww, cute!!",
-                                                "You've marked your\nroom with a little\n\\House,",
-                                                "and Alraune's\ncorner with a\n|Heart!  Adorbs~",
-                                                "Here, let me add a\ncouple things.",
-                                                "The {Lunarium\nand }Solarium are\ngood landmarks,",
-                                                "and there's a few\n*Points of\nInterest."
-                                            ],
-                                            "avatarId": ""
-                                        }
-                                    },
-                                    {
-                                        "id": "d10271b5-f848-4996-88d5-0382bc4a3357",
-                                        "command": "EVENT_TEXT",
-                                        "args": {
-                                            "text": [
-                                                "STHENO: Thanks!!"
-                                            ],
-                                            "avatarId": ""
-                                        }
-                                    },
-                                    {
-                                        "id": "647ffed4-8243-4361-8dd2-8c59e79e8893",
-                                        "command": "EVENT_TEXT",
-                                        "args": {
-                                            "text": [
-                                                "TIBBY: Sure!",
-                                                "Oh dang, I'd\nbetter go or I'll\nI'll miss my shift",
-                                                "at the gatehouse.\nWell good luck!"
-                                            ],
-                                            "avatarId": ""
-                                        }
-                                    },
-                                    {
-                                        "id": "5b18cd66-3162-4cf5-9bb7-3991fc306512",
-                                        "command": "EVENT_ACTOR_SET_DIRECTION",
-                                        "args": {
-                                            "actorId": "$self$",
-                                            "direction": {
-                                                "type": "direction",
-                                                "value": "right"
-                                            }
-                                        }
-                                    },
-                                    {
-                                        "id": "1a3f8cf9-63b2-4a3e-90ec-48a9d49b54a9",
-                                        "command": "EVENT_TEXT",
-                                        "args": {
-                                            "text": [
-                                                "STEHNO: See ya! \nAnd thanks\nagain, Tibby!!"
-                                            ],
-                                            "avatarId": ""
-                                        }
-                                    },
-                                    {
-                                        "id": "a5711bd1-d3a8-4abf-8001-bc37f41ebac1",
-                                        "command": "EVENT_ACTOR_MOVE_TO",
-                                        "args": {
-                                            "actorId": "$self$",
-                                            "x": {
-                                                "type": "number",
-                                                "value": 18
-                                            },
-                                            "y": {
-                                                "type": "number",
-                                                "value": 12
-                                            },
-                                            "moveType": "horizontal",
-                                            "useCollisions": false
-                                        }
-                                    },
-                                    {
-                                        "id": "4676daf3-19ad-46f4-b45f-65d94d806d7e",
-                                        "command": "EVENT_WAIT",
-                                        "args": {
-                                            "time": 0.1
-                                        }
-                                    },
-                                    {
-                                        "id": "cc2090c4-e00c-4a05-b001-a6ac3644317b",
-                                        "command": "EVENT_SET_TRUE",
-                                        "args": {
-                                            "variable": "20"
-                                        }
-                                    },
-                                    {
-                                        "id": "094a4b60-a58b-491f-b6dd-e401dc2aab2e",
-                                        "command": "EVENT_ACTOR_HIDE",
-                                        "args": {
-                                            "actorId": "$self$"
-                                        }
-                                    },
-                                    {
-                                        "id": "b7d4f2f0-1257-4d14-8c61-fb93bb6b0cd8",
+                                        "id": "91438892-d80d-47e5-a33d-af88b7757d5a",
                                         "command": "EVENT_END"
                                     }
                                 ]
@@ -11283,7 +11307,42 @@
                             "command": "EVENT_END"
                         }
                     ],
-                    "startScript": [],
+                    "startScript": [
+                        {
+                            "id": "854701d5-41db-4e8d-b9ed-32010ddb215e",
+                            "command": "EVENT_IF_TRUE",
+                            "args": {
+                                "variable": "20",
+                                "__collapseElse": false,
+                                "__disableElse": true
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "id": "94e0c418-4203-408b-86f7-6d9f2f57e613",
+                                        "command": "EVENT_ACTOR_HIDE",
+                                        "args": {
+                                            "actorId": "$self$"
+                                        }
+                                    },
+                                    {
+                                        "id": "bcc39c65-bdf9-432d-855d-a0e363eb3441",
+                                        "command": "EVENT_END"
+                                    }
+                                ],
+                                "false": [
+                                    {
+                                        "id": "903a361a-9209-4fae-9840-0f6db074e19a",
+                                        "command": "EVENT_END"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": "5a3aeed0-e0e0-4c7b-95b2-151ea6d60a7c",
+                            "command": "EVENT_END"
+                        }
+                    ],
                     "updateScript": [
                         {
                             "id": "e583a490-c643-4ac8-916e-4bd1cbaf8912",
@@ -90550,8 +90609,8 @@
         "startY": 12,
         "showCollisions": true,
         "showConnections": "all",
-        "worldScrollX": 4510,
-        "worldScrollY": 4267,
+        "worldScrollX": 1729,
+        "worldScrollY": 4304.5,
         "zoom": 275,
         "customColorsEnabled": true,
         "defaultBackgroundPaletteIds": "default-background",
