@@ -10090,7 +10090,7 @@
                             "command": "EVENT_SWITCH_SCENE",
                             "args": {
                                 "sceneId": "b28b6654-93dc-4621-b804-66be94e9ec6f",
-                                "x": 9,
+                                "x": 8,
                                 "y": 30,
                                 "direction": "right",
                                 "fadeSpeed": "2"
@@ -51724,9 +51724,9 @@
                         }
                     ],
                     "id": "f102507f-cc18-4e77-8713-878d5d54418d",
-                    "x": 6,
+                    "x": 8,
                     "y": 28,
-                    "width": 9,
+                    "width": 7,
                     "height": 3
                 },
                 {
@@ -101586,7 +101586,7 @@
         "startY": 12,
         "showCollisions": true,
         "showConnections": "all",
-        "worldScrollX": 7005,
+        "worldScrollX": 7849,
         "worldScrollY": 8748,
         "zoom": 425,
         "customColorsEnabled": true,
