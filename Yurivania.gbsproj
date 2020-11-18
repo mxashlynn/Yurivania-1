@@ -60804,7 +60804,148 @@
                     "direction": "right",
                     "moveSpeed": "1",
                     "animSpeed": "3",
-                    "script": [],
+                    "script": [
+                        {
+                            "id": "1f50ec41-0a0c-40e2-843a-8e69665b9d74",
+                            "command": "EVENT_IF_ACTOR_RELATIVE_TO_ACTOR",
+                            "args": {
+                                "actorId": "player",
+                                "operation": "left",
+                                "otherActorId": "$self$",
+                                "__collapseElse": false
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "id": "e1bc6064-f9d3-41bb-b4b9-cd4bd2d8fd59",
+                                        "command": "EVENT_ACTOR_SET_DIRECTION",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "direction": {
+                                                "type": "direction",
+                                                "value": "left"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "id": "cd1b52dd-2d7d-4410-8c97-403ffb7da4d3",
+                                        "command": "EVENT_END"
+                                    }
+                                ],
+                                "false": [
+                                    {
+                                        "id": "77444a5a-2587-4990-99d8-23779ef576ee",
+                                        "command": "EVENT_ACTOR_SET_DIRECTION",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "direction": {
+                                                "type": "direction",
+                                                "value": "right"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "id": "c6c9dcdb-38f1-47cb-9d24-b5a8807b1a6d",
+                                        "command": "EVENT_END"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": "98031c1e-c1e5-4e84-8e74-8bc0a629132d",
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "RIN~RIN: Big sis\nStheno!!  Hi!!"
+                                ],
+                                "avatarId": ""
+                            }
+                        },
+                        {
+                            "id": "4c359f4b-0f1a-4649-80c3-a262cbf73f89",
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "STHENO: Heya,\nRin~Rin.  What's\nup here?"
+                                ],
+                                "avatarId": ""
+                            }
+                        },
+                        {
+                            "id": "8fdde99c-5421-47bb-b6e7-56fa09772dcd",
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "RIN~RIN: Ha!",
+                                    "Auntie Rusalka had\na spat with Auntie\nLorelei. Aaaand,",
+                                    "as you can see,\nthere's a huge\nhole here now."
+                                ],
+                                "avatarId": ""
+                            }
+                        },
+                        {
+                            "id": "71d8a5c5-180e-4a3c-a1a0-90e514580b05",
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "STHENO: Ohhhh...."
+                                ],
+                                "avatarId": ""
+                            }
+                        },
+                        {
+                            "id": "ebfc7b9e-ca03-4d67-9446-d3d3137e6ef0",
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "RIN~RIN: I'm sure\nthey'll fix it!",
+                                    "As soon as they've\nmade up.",
+                                    "As soon as they\ncool down.",
+                                    "As soon as they\nfinish helping in\nthe Inner Circle.",
+                                    "As soon as\nBaphy's ritual is\nover.",
+                                    "TBH, you might\nwant to take a\ndifferent route."
+                                ],
+                                "avatarId": ""
+                            }
+                        },
+                        {
+                            "id": "ccda3ba7-ed4e-492d-9070-1f9f8a16bf19",
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "STHENO: Totally. \nAny suggestions?"
+                                ],
+                                "avatarId": ""
+                            }
+                        },
+                        {
+                            "id": "e66d4196-aae8-4b7f-9bf5-c533b82c6d5f",
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "RIN~RIN: Maybe\nAello would give\nyou a lift!",
+                                    "She flies me\nplaces sometimes!",
+                                    "Her roost is at\nthe top of the\nSkyclad Tower."
+                                ],
+                                "avatarId": ""
+                            }
+                        },
+                        {
+                            "id": "a0ee7fc2-9a31-4e28-a534-e8c4481d4be3",
+                            "command": "EVENT_ACTOR_SET_DIRECTION",
+                            "args": {
+                                "actorId": "$self$",
+                                "direction": {
+                                    "type": "direction",
+                                    "value": "down"
+                                }
+                            }
+                        },
+                        {
+                            "id": "677c7b30-c08d-40c8-9876-c718aa6c9f92",
+                            "command": "EVENT_END"
+                        }
+                    ],
                     "startScript": [],
                     "updateScript": [],
                     "hit1Script": [],
@@ -90409,8 +90550,8 @@
         "startY": 12,
         "showCollisions": true,
         "showConnections": "all",
-        "worldScrollX": 2673,
-        "worldScrollY": 4708.5,
+        "worldScrollX": 3419,
+        "worldScrollY": 4757,
         "zoom": 275,
         "customColorsEnabled": true,
         "defaultBackgroundPaletteIds": "default-background",
