@@ -32,7 +32,7 @@
             "scale": 4,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 226.375,
+                "x": 226.25,
                 "y": 130.25
             }
         },
@@ -40,8 +40,8 @@
             "scale": 3,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 383.5,
-                "y": 149.33333333333331
+                "x": 383.3333333333333,
+                "y": 149
             }
         },
         "backgrounds/area-echoing_vaults.tmx": {
@@ -272,8 +272,8 @@
             "scale": 5.388988095238095,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 80.0706908930248,
-                "y": 72.18423813994588
+                "x": 80.16347269011986,
+                "y": 72.18423813994589
             }
         },
         "backgrounds/screen-title.tmx": {
@@ -308,9 +308,9 @@
     ],
     "project": "yurivania.tiled-project",
     "recentFiles": [
-        "backgrounds/one-room-measurement.tmx",
         "backgrounds/area-echoing_vaults-locked.tmx",
         "backgrounds/area-echoing_vaults-open.tmx",
+        "backgrounds/one-room-measurement.tmx",
         "backgrounds/area-echoing_vaults.tmx",
         "backgrounds/area-inner_circle.tmx",
         "backgrounds/area-skyclad_tower-hall_of_banners.tmx",

@@ -858,8 +858,8 @@
             "playerHit2Script": [],
             "playerHit3Script": [],
             "id": "d75e6347-d4f9-4d95-a73b-67c07979054e",
-            "x": 593.2,
-            "y": 610,
+            "x": 851.8666666666666,
+            "y": 197.99999999999994,
             "actors": [],
             "triggers": [],
             "paletteIds": [
@@ -1292,8 +1292,8 @@
             "playerHit2Script": [],
             "playerHit3Script": [],
             "id": "693f5a7f-f046-491f-b128-3f68cadf2aae",
-            "x": 322,
-            "y": 610,
+            "x": 648.6666666666665,
+            "y": 204.66666666666677,
             "actors": [],
             "triggers": [],
             "paletteIds": [
@@ -10489,10 +10489,10 @@
                                                                     "id": "4f1cee57-2da0-4e52-a499-705c78a89446",
                                                                     "command": "EVENT_SWITCH_SCENE",
                                                                     "args": {
-                                                                        "sceneId": "c8978343-6d8c-427a-ba53-03ddbad42dc8",
+                                                                        "sceneId": "10609123-dfa8-46df-b180-244fba42b6a1",
                                                                         "x": 0,
                                                                         "y": 0,
-                                                                        "direction": "up",
+                                                                        "direction": "down",
                                                                         "fadeSpeed": "1"
                                                                     }
                                                                 },
@@ -53081,40 +53081,6 @@
             ]
         },
         {
-            "name": "Map: Alraune's Corner",
-            "backgroundId": "c337587f-40ca-45ce-9ce5-a0b6fc3abc0b",
-            "width": 20,
-            "height": 18,
-            "collisions": [],
-            "tileColors": [],
-            "script": [],
-            "playerHit1Script": [],
-            "playerHit2Script": [],
-            "playerHit3Script": [],
-            "id": "bda70316-99e1-47e6-ad36-f7c1b805c26f",
-            "x": 1270.5142857142853,
-            "y": 412.45714285714257,
-            "actors": [],
-            "triggers": []
-        },
-        {
-            "name": "Map: Echoing Vaults",
-            "backgroundId": "c245518c-1fbf-49e7-9b27-a0db7ddc86f6",
-            "width": 20,
-            "height": 18,
-            "collisions": [],
-            "tileColors": [],
-            "script": [],
-            "playerHit1Script": [],
-            "playerHit2Script": [],
-            "playerHit3Script": [],
-            "id": "5b3cf295-9b21-486f-b6df-c184f258928c",
-            "x": 1074.1714285714288,
-            "y": 409.8285714285713,
-            "actors": [],
-            "triggers": []
-        },
-        {
             "name": "Area: Skyclad Tower - Main",
             "backgroundId": "ad5b1639-a3ec-401c-8f97-32f53c8f8eaa",
             "width": 20,
@@ -70802,503 +70768,6 @@
             ]
         },
         {
-            "name": "Map: Glassy Tarn",
-            "backgroundId": "e44df827-5119-4ffa-990d-31c7e2c43113",
-            "width": 20,
-            "height": 18,
-            "collisions": [],
-            "tileColors": [],
-            "script": [],
-            "playerHit1Script": [],
-            "playerHit2Script": [],
-            "playerHit3Script": [],
-            "id": "5f980951-0f43-4b7d-8abb-ce3fa28b8054",
-            "x": 1471.5428571428579,
-            "y": 410.7428571428567,
-            "actors": [],
-            "triggers": []
-        },
-        {
-            "name": "Map: Hidden Room",
-            "backgroundId": "f03f7120-7c26-44cd-a2e3-e76fa73158f6",
-            "width": 20,
-            "height": 18,
-            "collisions": [],
-            "tileColors": [],
-            "script": [],
-            "playerHit1Script": [],
-            "playerHit2Script": [],
-            "playerHit3Script": [],
-            "id": "af4dd80e-7dad-4c75-b927-a68f324ef059",
-            "x": 677.5999999999999,
-            "y": 218,
-            "actors": [],
-            "triggers": []
-        },
-        {
-            "name": "Map: Evergreen Gulf",
-            "backgroundId": "92d1edaf-2705-4e01-8592-82946b8a360d",
-            "width": 20,
-            "height": 18,
-            "collisions": [
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "tileColors": [],
-            "script": [],
-            "playerHit1Script": [],
-            "playerHit2Script": [],
-            "playerHit3Script": [],
-            "id": "766207f3-8407-4385-b688-435f6079ab9b",
-            "x": 1669.6000000000001,
-            "y": 288.9142857142867,
-            "actors": [],
-            "triggers": []
-        },
-        {
-            "name": "Map: Inner Circle",
-            "backgroundId": "dc270987-1f2a-4a33-bf23-c7d3c3645cb7",
-            "width": 20,
-            "height": 18,
-            "collisions": [],
-            "tileColors": [],
-            "script": [],
-            "playerHit1Script": [],
-            "playerHit2Script": [],
-            "playerHit3Script": [],
-            "id": "cb25645b-d11f-454b-9f74-4bc39d88db24",
-            "x": 884.2285714285717,
-            "y": 404.2285714285713,
-            "actors": [],
-            "triggers": []
-        },
-        {
-            "name": "Map: Skyclad Tower",
-            "backgroundId": "9418c86e-89c4-4768-8f86-f1ab3c74670f",
-            "width": 20,
-            "height": 18,
-            "collisions": [],
-            "tileColors": [],
-            "script": [],
-            "playerHit1Script": [],
-            "playerHit2Script": [],
-            "playerHit3Script": [],
-            "id": "1cd2048e-914f-41ef-91bc-32e15276124a",
-            "x": 1073.371428571429,
-            "y": 126.2857142857137,
-            "actors": [],
-            "triggers": []
-        },
-        {
-            "name": "Map: Solarium",
-            "backgroundId": "c2fd9f42-6fc9-4e8e-a593-45db6b1bc9e4",
-            "width": 20,
-            "height": 18,
-            "collisions": [],
-            "tileColors": [],
-            "script": [],
-            "playerHit1Script": [],
-            "playerHit2Script": [],
-            "playerHit3Script": [],
-            "id": "2fa962ae-5caf-4c2c-99fa-49b5b64f9b14",
-            "x": 1469.8285714285716,
-            "y": 210.97142857142967,
-            "actors": [],
-            "triggers": []
-        },
-        {
-            "name": "Map: Mossy Tholtan",
-            "backgroundId": "2b3672fb-20c0-4d27-b428-b29526a7d250",
-            "width": 20,
-            "height": 18,
-            "collisions": [],
-            "tileColors": [],
-            "script": [],
-            "playerHit1Script": [],
-            "playerHit2Script": [],
-            "playerHit3Script": [],
-            "id": "fd8b39a0-9721-4db9-bad7-4985bf9108f0",
-            "x": 1848.800000000001,
-            "y": 292.3428571428586,
-            "actors": [],
-            "triggers": []
-        },
-        {
-            "name": "Map: Lunarium",
-            "backgroundId": "4c2691c1-c5e2-45f3-bdff-297a2bd7bb54",
-            "width": 20,
-            "height": 18,
-            "collisions": [],
-            "tileColors": [],
-            "script": [],
-            "playerHit1Script": [],
-            "playerHit2Script": [],
-            "playerHit3Script": [],
-            "id": "e3d751c3-7018-4ae4-96b5-186dded338d5",
-            "x": 884.3428571428551,
-            "y": 30,
-            "actors": [],
-            "triggers": []
-        },
-        {
             "name": "Area: Subterrane",
             "backgroundId": "fc673829-0e0b-42f3-8ebf-181bd0f7c7b4",
             "width": 120,
@@ -80862,24 +80331,7 @@
             ]
         },
         {
-            "name": "Map: Starlit Court",
-            "backgroundId": "c7690bfc-b944-4d70-837f-dbeea31af1a5",
-            "width": 20,
-            "height": 18,
-            "collisions": [],
-            "tileColors": [],
-            "script": [],
-            "playerHit1Script": [],
-            "playerHit2Script": [],
-            "playerHit3Script": [],
-            "id": "4194a9ea-72ec-4020-9f2b-d2b94d0d9b00",
-            "x": 1271.0857142857144,
-            "y": 211.5428571428556,
-            "actors": [],
-            "triggers": []
-        },
-        {
-            "name": "Map: Stheno's Room",
+            "name": "Map",
             "backgroundId": "2d9c771d-9027-44ed-aecf-0c70a7831268",
             "width": 20,
             "height": 18,
@@ -81376,8 +80828,8 @@
             "playerHit2Script": [],
             "playerHit3Script": [],
             "id": "c8978343-6d8c-427a-ba53-03ddbad42dc8",
-            "x": 882.3746031746036,
-            "y": 218.97142857142808,
+            "x": 1062.3746031746036,
+            "y": 190.97142857142808,
             "actors": [
                 {
                     "name": "",
@@ -82263,23 +81715,6 @@
                 "2791930c-d56a-4a7b-bde2-64d3022ce1a2",
                 "201397a0-006b-4457-9a28-780964212b9b"
             ]
-        },
-        {
-            "name": "Map: Subterrane",
-            "backgroundId": "f9bd3328-04e1-4730-b89f-8176ca0b1919",
-            "width": 20,
-            "height": 18,
-            "collisions": [],
-            "tileColors": [],
-            "script": [],
-            "playerHit1Script": [],
-            "playerHit2Script": [],
-            "playerHit3Script": [],
-            "id": "25857c4c-5776-48e6-a4e9-b8e7e42c7cda",
-            "x": 1071.1999999999996,
-            "y": 592.8000000000003,
-            "actors": [],
-            "triggers": []
         },
         {
             "name": "Area: Starlit Court - Gatehouse (Gate Down)",
@@ -101662,6 +101097,572 @@
                 "59523423-ac42-4e9b-8f71-3825aef3115f",
                 "67cd4673-c16a-4527-ae42-1f83f346ce23"
             ]
+        },
+        {
+            "name": "To Do List",
+            "backgroundId": "6e9e4e81-9fac-47e0-b641-c2dea241c502",
+            "width": 20,
+            "height": 18,
+            "collisions": [],
+            "tileColors": [],
+            "script": [
+                {
+                    "id": "38b88f6c-7f1d-4346-9e7d-146f907f78c4",
+                    "command": "EVENT_ACTOR_HIDE",
+                    "args": {
+                        "actorId": "$self$"
+                    }
+                },
+                {
+                    "id": "c51e5bde-9e55-4303-a0ed-e18d76b9c4a5",
+                    "command": "EVENT_REMOVE_INPUT_SCRIPT",
+                    "args": {
+                        "input": [
+                            "b",
+                            "left",
+                            "up",
+                            "down",
+                            "right",
+                            "select",
+                            "start",
+                            "a"
+                        ]
+                    }
+                },
+                {
+                    "id": "04490dd0-22d8-4974-8fc2-eabb1dc9c75b",
+                    "command": "EVENT_SET_INPUT_SCRIPT",
+                    "args": {
+                        "input": [
+                            "b"
+                        ],
+                        "persist": false,
+                        "__scriptTabs": "press",
+                        "__collapse": false,
+                        "__label": "Cancel To Do List"
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "id": "c3b5479e-3530-4f6c-9692-953bdb9db415",
+                                "command": "EVENT_REMOVE_INPUT_SCRIPT",
+                                "args": {
+                                    "input": [
+                                        "b"
+                                    ]
+                                }
+                            },
+                            {
+                                "id": "b7623772-6fa3-4522-92ce-b0d11eacc111",
+                                "command": "EVENT_SET_INPUT_SCRIPT",
+                                "args": {
+                                    "input": [
+                                        "select"
+                                    ],
+                                    "persist": true,
+                                    "__scriptTabs": "press",
+                                    "__label": "Reenable Map Button",
+                                    "__collapse": true
+                                },
+                                "children": {
+                                    "true": [
+                                        {
+                                            "id": "f828996b-01dc-43f5-a332-5fe1cbd1bd1b",
+                                            "command": "EVENT_GROUP",
+                                            "args": {
+                                                "__collapse": false,
+                                                "__label": "Raise Map Menu"
+                                            },
+                                            "children": {
+                                                "true": [
+                                                    {
+                                                        "id": "c37bba1e-f424-4d38-97cd-a162a94e3807",
+                                                        "command": "EVENT_SCENE_PUSH_STATE",
+                                                        "args": {}
+                                                    },
+                                                    {
+                                                        "id": "84ce7f39-d784-44ab-9940-8b301207522c",
+                                                        "command": "EVENT_SWITCH_SCENE",
+                                                        "args": {
+                                                            "sceneId": "c8978343-6d8c-427a-ba53-03ddbad42dc8",
+                                                            "x": 0,
+                                                            "y": 0,
+                                                            "direction": "right",
+                                                            "fadeSpeed": "1"
+                                                        }
+                                                    },
+                                                    {
+                                                        "id": "f59c8f4d-8288-483b-9485-8099857e2a5a",
+                                                        "command": "EVENT_END"
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "id": "8c20a718-99cd-4f03-a033-aa4b4fcb37e4",
+                                            "command": "EVENT_END"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "id": "b4a9d813-3480-4a7d-917d-6c516e505eae",
+                                "command": "EVENT_ACTOR_SHOW",
+                                "args": {
+                                    "actorId": "$self$"
+                                }
+                            },
+                            {
+                                "id": "d98ed555-1169-45e7-b43e-5fe580c07ad4",
+                                "command": "EVENT_SCENE_POP_STATE",
+                                "args": {
+                                    "fadeSpeed": "1"
+                                }
+                            },
+                            {
+                                "id": "0852d600-8596-4e9d-8b29-0d1dc1065814",
+                                "command": "EVENT_END"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "2eb7824e-aa5b-4101-b380-6f92df60f0d1",
+                    "command": "EVENT_END"
+                }
+            ],
+            "playerHit1Script": [],
+            "playerHit2Script": [],
+            "playerHit3Script": [],
+            "id": "10609123-dfa8-46df-b180-244fba42b6a1",
+            "x": 1265.4095238095242,
+            "y": 192.87619047619043,
+            "actors": [
+                {
+                    "name": "Checkmark - Soil",
+                    "frame": 1,
+                    "animate": false,
+                    "spriteSheetId": "e6b0a93d-3cf2-42f0-9bd7-5a82750d1996",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": "1",
+                    "animSpeed": "3",
+                    "script": [],
+                    "startScript": [
+                        {
+                            "id": "9e83f5d6-b308-4220-9a7a-c1f0dde94b45",
+                            "command": "EVENT_IF_TRUE",
+                            "args": {
+                                "variable": "13",
+                                "__collapseElse": false,
+                                "__comment": false
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "id": "cc768efb-5166-4aeb-bd0a-ab9a95ccd640",
+                                        "command": "EVENT_ACTOR_SET_FRAME",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "frame": {
+                                                "type": "number",
+                                                "value": 0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "id": "fe2c9249-fd10-4d7d-972e-14444f927a1a",
+                                        "command": "EVENT_END"
+                                    }
+                                ],
+                                "false": [
+                                    {
+                                        "id": "65b0f5df-e884-4aea-8b0d-be53ca2ccf8f",
+                                        "command": "EVENT_ACTOR_SET_FRAME",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "frame": {
+                                                "type": "number",
+                                                "value": null
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "id": "16c52aab-8e46-4393-8d15-a3f7e7463e0b",
+                                        "command": "EVENT_END"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": "3ed05c21-2770-4ba9-8ce2-4847291dad1e",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "0e5b98a7-093e-4ea9-8b60-4638652699b6",
+                    "x": 3,
+                    "y": 6,
+                    "paletteId": "4f6abe34-6041-4fde-8a4f-6b4c259dbf8b"
+                },
+                {
+                    "name": "Checkmark - Water",
+                    "frame": 1,
+                    "animate": false,
+                    "spriteSheetId": "e6b0a93d-3cf2-42f0-9bd7-5a82750d1996",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": "1",
+                    "animSpeed": "3",
+                    "script": [],
+                    "startScript": [
+                        {
+                            "id": "01a3844f-3ac8-4865-9098-53b665c8d4ed",
+                            "command": "EVENT_IF_TRUE",
+                            "args": {
+                                "variable": "4",
+                                "__collapseElse": false,
+                                "__comment": false
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "id": "7faababc-b6bd-4672-a90b-6c016f6db043",
+                                        "command": "EVENT_ACTOR_SET_FRAME",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "frame": {
+                                                "type": "number",
+                                                "value": 0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "id": "8cf317e4-b455-42c6-9c20-43177a8c761d",
+                                        "command": "EVENT_END"
+                                    }
+                                ],
+                                "false": [
+                                    {
+                                        "id": "771af0ca-5538-4525-8dd7-698d6d8d322f",
+                                        "command": "EVENT_ACTOR_SET_FRAME",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "frame": {
+                                                "type": "number",
+                                                "value": null
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "id": "8d2883ee-3211-4420-aade-545ecffeb5fe",
+                                        "command": "EVENT_END"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": "859af36d-c067-420e-b107-217294d4a71f",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "1407ee04-8192-4f94-bf87-80ab3c774150",
+                    "x": 3,
+                    "y": 8,
+                    "paletteId": "4f6abe34-6041-4fde-8a4f-6b4c259dbf8b"
+                },
+                {
+                    "name": "Checkmark - Light",
+                    "frame": 1,
+                    "animate": false,
+                    "spriteSheetId": "e6b0a93d-3cf2-42f0-9bd7-5a82750d1996",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": "1",
+                    "animSpeed": "3",
+                    "script": [],
+                    "startScript": [
+                        {
+                            "id": "cc9ab815-9597-4d3d-af61-fbbeb8fae767",
+                            "command": "EVENT_IF_TRUE",
+                            "args": {
+                                "variable": "5",
+                                "__collapseElse": false,
+                                "__comment": false
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "id": "2687b755-7195-42af-99c9-1b5abc53a892",
+                                        "command": "EVENT_ACTOR_SET_FRAME",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "frame": {
+                                                "type": "number",
+                                                "value": 0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "id": "87f995a8-5593-433e-9913-0fb20a7133d1",
+                                        "command": "EVENT_END"
+                                    }
+                                ],
+                                "false": [
+                                    {
+                                        "id": "72cecb1c-98b5-4da2-9862-ceeb041713c4",
+                                        "command": "EVENT_ACTOR_SET_FRAME",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "frame": {
+                                                "type": "number",
+                                                "value": null
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "id": "927d5086-1320-49fb-bcd5-b5763c075551",
+                                        "command": "EVENT_END"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": "df39999b-bc65-4251-a3d4-179c4bf71ba3",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "43b22641-8b1a-410f-a524-103a8c10c0d1",
+                    "x": 3,
+                    "y": 10,
+                    "paletteId": "4f6abe34-6041-4fde-8a4f-6b4c259dbf8b"
+                },
+                {
+                    "name": "Checkmark - Light",
+                    "frame": 1,
+                    "animate": false,
+                    "spriteSheetId": "e6b0a93d-3cf2-42f0-9bd7-5a82750d1996",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": "1",
+                    "animSpeed": "3",
+                    "script": [],
+                    "startScript": [
+                        {
+                            "id": "231795f2-099c-43a4-a32f-e82aa02db4a9",
+                            "command": "EVENT_IF_TRUE",
+                            "args": {
+                                "variable": "6",
+                                "__collapseElse": false,
+                                "__comment": false
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "id": "3e7f1ef2-c33c-48a6-99cc-105778e012f1",
+                                        "command": "EVENT_ACTOR_SET_FRAME",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "frame": {
+                                                "type": "number",
+                                                "value": 0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "id": "32b07fbc-5849-43cb-b626-b7cbae9126fc",
+                                        "command": "EVENT_END"
+                                    }
+                                ],
+                                "false": [
+                                    {
+                                        "id": "7f08208a-5100-403e-9030-1a6ba7bcefc6",
+                                        "command": "EVENT_ACTOR_SET_FRAME",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "frame": {
+                                                "type": "number",
+                                                "value": null
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "id": "84c5b5f8-e2c1-499f-9b63-8f8663a0a7fd",
+                                        "command": "EVENT_END"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": "54bd2c2d-e45d-42a2-9e82-bda593e37b87",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "d64ec908-adcb-4f6f-ab7f-925295dcef49",
+                    "x": 3,
+                    "y": 12,
+                    "paletteId": "4f6abe34-6041-4fde-8a4f-6b4c259dbf8b"
+                },
+                {
+                    "name": "Checkmark - Pest Control",
+                    "frame": 1,
+                    "animate": false,
+                    "spriteSheetId": "e6b0a93d-3cf2-42f0-9bd7-5a82750d1996",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": "1",
+                    "animSpeed": "3",
+                    "script": [],
+                    "startScript": [
+                        {
+                            "id": "83d9672d-f12d-40e7-80bf-1274b02e1bc5",
+                            "command": "EVENT_IF_TRUE",
+                            "args": {
+                                "variable": "7",
+                                "__collapseElse": false,
+                                "__comment": false
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "id": "224e21da-2bfd-4b72-97af-ab495e0e78c2",
+                                        "command": "EVENT_ACTOR_SET_FRAME",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "frame": {
+                                                "type": "number",
+                                                "value": 0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "id": "98656c35-c01f-444f-8322-ba03400c85f4",
+                                        "command": "EVENT_END"
+                                    }
+                                ],
+                                "false": [
+                                    {
+                                        "id": "cbfc6016-e0c6-4300-9aa2-3df59f214772",
+                                        "command": "EVENT_ACTOR_SET_FRAME",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "frame": {
+                                                "type": "number",
+                                                "value": null
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "id": "16010a4f-968f-47ec-a134-7cbdc6b76a6b",
+                                        "command": "EVENT_END"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": "2a796aa1-ca81-4e4d-8362-0fef03062062",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "b7f85274-381d-4f92-9add-dd6927e6cafd",
+                    "x": 3,
+                    "y": 14,
+                    "paletteId": "4f6abe34-6041-4fde-8a4f-6b4c259dbf8b"
+                },
+                {
+                    "name": "Checkmark - Blood",
+                    "frame": 1,
+                    "animate": false,
+                    "spriteSheetId": "e6b0a93d-3cf2-42f0-9bd7-5a82750d1996",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": "1",
+                    "animSpeed": "3",
+                    "script": [],
+                    "startScript": [
+                        {
+                            "id": "413f99e4-87f5-47ca-b966-fad87dd649ff",
+                            "command": "EVENT_IF_TRUE",
+                            "args": {
+                                "variable": "8",
+                                "__collapseElse": false,
+                                "__comment": false
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "id": "7bf527c2-736a-413b-a8f4-5b98336d9cc4",
+                                        "command": "EVENT_ACTOR_SET_FRAME",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "frame": {
+                                                "type": "number",
+                                                "value": 0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "id": "5c65c9ce-d87b-430e-8dfe-7615334add11",
+                                        "command": "EVENT_END"
+                                    }
+                                ],
+                                "false": [
+                                    {
+                                        "id": "3a21fdb9-4795-499f-a255-32cf60ec51d9",
+                                        "command": "EVENT_ACTOR_SET_FRAME",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "frame": {
+                                                "type": "number",
+                                                "value": null
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "id": "8f640d60-ddb8-4b1e-b218-a2c61fe69c28",
+                                        "command": "EVENT_END"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": "7ad67164-ee22-425f-843a-f8981c175fda",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "37abd89d-ae42-413a-8fd4-6969f5add91a",
+                    "x": 3,
+                    "y": 16,
+                    "paletteId": "4f6abe34-6041-4fde-8a4f-6b4c259dbf8b"
+                }
+            ],
+            "triggers": [],
+            "paletteIds": [
+                "060557d8-7d7f-4664-b6ec-92adff275044"
+            ]
         }
     ],
     "backgrounds": [
@@ -101982,7 +101983,7 @@
             "imageHeight": 144,
             "filename": "map-alraunes_corner.png",
             "inode": "11540474045254288",
-            "_v": 1605736786927
+            "_v": 1605771348304
         },
         {
             "id": "c245518c-1fbf-49e7-9b27-a0db7ddc86f6",
@@ -102150,6 +102151,17 @@
             "_v": 1605736786927
         },
         {
+            "id": "6e9e4e81-9fac-47e0-b641-c2dea241c502",
+            "name": "screen-to_do_list",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "screen-to_do_list.png",
+            "inode": "27866022694410122",
+            "_v": 1605773043399
+        },
+        {
             "id": "0ae633e0-6b16-4b58-bb32-f1e67cc5dca3",
             "name": "screen-white",
             "width": 20,
@@ -102162,6 +102174,15 @@
         }
     ],
     "spriteSheets": [
+        {
+            "id": "e6b0a93d-3cf2-42f0-9bd7-5a82750d1996",
+            "name": "checkmark",
+            "numFrames": 2,
+            "type": "animated",
+            "filename": "checkmark.png",
+            "inode": "51228445761360090",
+            "_v": 1605774174193
+        },
         {
             "id": "5b8cb77d-ff50-41dd-9018-1289ce7f00a0",
             "name": "fx-splash",
@@ -103024,7 +103045,7 @@
         },
         {
             "id": "13",
-            "name": "Examined Solarium Sprout"
+            "name": "Had Suzuka Convo"
         },
         {
             "id": "14",
@@ -103153,8 +103174,8 @@
         "startY": 12,
         "showCollisions": true,
         "showConnections": "all",
-        "worldScrollX": 6183,
-        "worldScrollY": 7386,
+        "worldScrollX": 4187,
+        "worldScrollY": 660,
         "zoom": 375,
         "customColorsEnabled": true,
         "defaultBackgroundPaletteIds": "default-background",
