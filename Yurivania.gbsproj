@@ -9882,6 +9882,471 @@
                     }
                 },
                 {
+                    "id": "ae802c5d-8de0-462c-a56c-a747aac61706",
+                    "command": "EVENT_IF_FALSE",
+                    "args": {
+                        "variable": "21",
+                        "__collapseElse": false,
+                        "__disableElse": true,
+                        "__comment": false
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "id": "6537cc19-fea4-4fa7-9a85-a323bf0862e7",
+                                "command": "EVENT_TEXT",
+                                "args": {
+                                    "text": [
+                                        "STHENO: Hey babe~|"
+                                    ],
+                                    "avatarId": ""
+                                }
+                            },
+                            {
+                                "id": "c0ca5e44-c373-4084-ad05-b603c624c771",
+                                "command": "EVENT_TEXT",
+                                "args": {
+                                    "text": [
+                                        "ALRAUNE: Oh, hi\nsweets!! |"
+                                    ],
+                                    "avatarId": ""
+                                }
+                            },
+                            {
+                                "id": "ab6efca1-2334-4f88-b880-38b8d10b0e11",
+                                "command": "EVENT_ACTOR_MOVE_TO",
+                                "args": {
+                                    "actorId": "$self$",
+                                    "x": {
+                                        "type": "number",
+                                        "value": 12
+                                    },
+                                    "y": {
+                                        "type": "number",
+                                        "value": 10
+                                    },
+                                    "moveType": "horizontal",
+                                    "useCollisions": false
+                                }
+                            },
+                            {
+                                "id": "e5b73ca7-56dd-4e98-bcc7-185b20bbd830",
+                                "command": "EVENT_ACTOR_EMOTE",
+                                "args": {
+                                    "actorId": "991795c8-4f16-4d7f-bc7d-dab552d91eae",
+                                    "emoteId": "2"
+                                }
+                            },
+                            {
+                                "id": "10d2ada4-6d95-49eb-b6c4-9f2f78a4d584",
+                                "command": "EVENT_ACTOR_MOVE_TO",
+                                "args": {
+                                    "actorId": "$self$",
+                                    "x": {
+                                        "type": "number",
+                                        "value": 8
+                                    },
+                                    "y": {
+                                        "type": "number",
+                                        "value": 12
+                                    },
+                                    "moveType": "vertical",
+                                    "useCollisions": false
+                                }
+                            },
+                            {
+                                "id": "11978bca-5739-4c66-8eb3-22f7122c2ffc",
+                                "command": "EVENT_ACTOR_SET_DIRECTION",
+                                "args": {
+                                    "actorId": "$self$",
+                                    "direction": {
+                                        "type": "direction",
+                                        "value": "right"
+                                    }
+                                }
+                            },
+                            {
+                                "id": "6114273d-110c-4d4b-b779-5d44741c3972",
+                                "command": "EVENT_SET_TRUE",
+                                "args": {
+                                    "variable": "21"
+                                }
+                            },
+                            {
+                                "id": "4e948bb0-1eb6-454a-8289-4f597ccd5bd4",
+                                "command": "EVENT_TEXT",
+                                "args": {
+                                    "text": [
+                                        "STHENO: How are\nthings?"
+                                    ],
+                                    "avatarId": ""
+                                }
+                            },
+                            {
+                                "id": "6c58ccae-02c5-4584-b762-6c89a260ead9",
+                                "command": "EVENT_TEXT",
+                                "args": {
+                                    "text": [
+                                        "ALRAUNE: Good!  I\njust finished\nreading",
+                                        "\"The Goal of the\nSage\".  Talismans\nhere I come!"
+                                    ],
+                                    "avatarId": ""
+                                }
+                            },
+                            {
+                                "id": "f53e9251-7bca-4eff-bf88-90cfd777c6e0",
+                                "command": "EVENT_TEXT",
+                                "args": {
+                                    "text": [
+                                        "STHENO: Rad! I'm\nglad you're\nsticking with that",
+                                        "You'll be warding\nus all from harm\nin no time! |"
+                                    ],
+                                    "avatarId": ""
+                                }
+                            },
+                            {
+                                "id": "e04720e3-7acc-479a-b5e2-892c6a809be5",
+                                "command": "EVENT_TEXT",
+                                "args": {
+                                    "text": "ALRAUNE: Hee hee~",
+                                    "avatarId": ""
+                                }
+                            },
+                            {
+                                "id": "f80d38e1-bba8-4b52-84fe-94a77611578a",
+                                "command": "EVENT_ACTOR_EMOTE",
+                                "args": {
+                                    "actorId": "$self$",
+                                    "emoteId": "3"
+                                }
+                            },
+                            {
+                                "id": "d6377255-d497-4102-af0d-42044bbe3282",
+                                "command": "EVENT_ACTOR_EMOTE",
+                                "args": {
+                                    "actorId": "991795c8-4f16-4d7f-bc7d-dab552d91eae",
+                                    "emoteId": "1"
+                                }
+                            },
+                            {
+                                "id": "af94ad11-8bb1-424f-872a-cd5a4f30a36a",
+                                "command": "EVENT_TEXT",
+                                "args": {
+                                    "text": [
+                                        "STHENO: Um, can I\nask you something\na bit serious?"
+                                    ],
+                                    "avatarId": ""
+                                }
+                            },
+                            {
+                                "id": "de7a105b-5abb-4202-8381-0a173fa40edb",
+                                "command": "EVENT_TEXT",
+                                "args": {
+                                    "text": "ALRAUNE: Totally. \nWhat's up?",
+                                    "avatarId": ""
+                                }
+                            },
+                            {
+                                "id": "297d8b37-d1e3-4bd4-bf02-95b6f93d28bc",
+                                "command": "EVENT_TEXT",
+                                "args": {
+                                    "text": [
+                                        "STHENO: Are you\nstill thinking\nabout moving?"
+                                    ],
+                                    "avatarId": ""
+                                }
+                            },
+                            {
+                                "id": "47b80c5d-6834-4da2-84c2-dac528c54c3c",
+                                "command": "EVENT_TEXT",
+                                "args": {
+                                    "text": [
+                                        "ALRAUNE: Yeah. I\nmoved down here\nwhen I was a teen.",
+                                        "I just wanted to\nget away from mom,\nspread some roots",
+                                        "of my own. But I'm\nstarting to miss\nactual light.",
+                                        "And hardly anyone\ncomes by...."
+                                    ],
+                                    "avatarId": ""
+                                }
+                            },
+                            {
+                                "id": "80352e86-6ffd-443c-bc31-26ffca028d1e",
+                                "command": "EVENT_TEXT",
+                                "args": {
+                                    "text": "STHENO: Did you\nhave anywhere in\nmind?",
+                                    "avatarId": ""
+                                }
+                            },
+                            {
+                                "id": "1fd4b9cf-7d9e-42ed-a03a-a06b270f7972",
+                                "command": "EVENT_TEXT",
+                                "args": {
+                                    "text": [
+                                        "ALRAUNE: Not\nreally.  I have\nrunning roots all ",
+                                        "over the castle\ngrounds now. So I\ncould go about",
+                                        "anywhere there's\nsoil, light, and\nwater.",
+                                        "Why do you ask?"
+                                    ],
+                                    "avatarId": ""
+                                }
+                            },
+                            {
+                                "id": "7c35106c-98fd-436a-9618-4a32e6bc8b18",
+                                "command": "EVENT_TEXT",
+                                "args": {
+                                    "text": [
+                                        "STHENO: Well..."
+                                    ],
+                                    "avatarId": ""
+                                }
+                            },
+                            {
+                                "id": "b5ea1c9c-41f9-4b16-9118-4d7a274d8221",
+                                "command": "EVENT_WAIT",
+                                "args": {
+                                    "time": 0.25
+                                }
+                            },
+                            {
+                                "id": "c6db66b0-f955-49e1-9923-6af55deaa3f2",
+                                "command": "EVENT_ACTOR_MOVE_TO",
+                                "args": {
+                                    "actorId": "$self$",
+                                    "x": {
+                                        "type": "number",
+                                        "value": 9
+                                    },
+                                    "y": {
+                                        "type": "number",
+                                        "value": 12
+                                    },
+                                    "moveType": "horizontal",
+                                    "useCollisions": false
+                                }
+                            },
+                            {
+                                "id": "ab983361-97ac-4e85-8425-6a2ba569b3eb",
+                                "command": "EVENT_TEXT",
+                                "args": {
+                                    "text": [
+                                        "STHENO: I was\nwondering if you'd\nmove in with me?"
+                                    ],
+                                    "avatarId": ""
+                                }
+                            },
+                            {
+                                "id": "27ff3430-715e-486b-95f9-a9ba2159ff36",
+                                "command": "EVENT_ACTOR_EMOTE",
+                                "args": {
+                                    "actorId": "991795c8-4f16-4d7f-bc7d-dab552d91eae",
+                                    "emoteId": 0
+                                }
+                            },
+                            {
+                                "id": "9f3b24ed-2274-4675-8881-f725aab13841",
+                                "command": "EVENT_TEXT",
+                                "args": {
+                                    "text": [
+                                        "ALRAUNE: Oh wow!",
+                                        "I--",
+                                        "I'd love to!!",
+                                        "But...",
+                                        "Can your room\nhouse a plantgirl?"
+                                    ],
+                                    "avatarId": ""
+                                }
+                            },
+                            {
+                                "id": "b5373595-e3bf-4be7-8fd3-1980eb05ecd6",
+                                "command": "EVENT_TEXT",
+                                "args": {
+                                    "text": [
+                                        "STHENO: HURRAY!! |",
+                                        "Well, it will take\nsome doing to set\nit up,",
+                                        "but I think we can\nmake it work!",
+                                        "There are windows,\nand we can put in\nadditional lights",
+                                        "but we'll\ndefinitely need a\nplace for soil.",
+                                        "I can move my bed\nand make room on\nthe shelf for your",
+                                        "books. What am I\nmissing?"
+                                    ],
+                                    "avatarId": ""
+                                }
+                            },
+                            {
+                                "id": "05d59109-8402-4eba-9909-86cc9337ee7d",
+                                "command": "EVENT_TEXT",
+                                "args": {
+                                    "text": [
+                                        "ALRAUNE: Hmm!",
+                                        "Let's see, I'd\nneed a way to get\nwater regularly,",
+                                        "probably some\nfertilizer, and\nsomething to keep",
+                                        "pests away.... \nDoes that sound\ndoable?"
+                                    ],
+                                    "avatarId": ""
+                                }
+                            },
+                            {
+                                "id": "a6e0b16a-a2da-4f1a-b01b-5ba6313f5ded",
+                                "command": "EVENT_TEXT",
+                                "args": {
+                                    "text": [
+                                        "STHENO:\nAbsolutely!",
+                                        "I'm making a\nlist...."
+                                    ],
+                                    "avatarId": ""
+                                }
+                            },
+                            {
+                                "id": "b767926a-4c92-463c-9fe9-51cf1f7abf5e",
+                                "command": "EVENT_ACTOR_EMOTE",
+                                "args": {
+                                    "actorId": "$self$",
+                                    "emoteId": "3"
+                                }
+                            },
+                            {
+                                "id": "9ed9f7ea-bab5-4ead-82cc-49056f18b18b",
+                                "command": "EVENT_TEXT",
+                                "args": {
+                                    "text": [
+                                        "STHENO: Okay! \nI'll spend tonight\ngetting all this",
+                                        "together, then you\ncan check it out\nand tell me what",
+                                        "you think!"
+                                    ],
+                                    "avatarId": ""
+                                }
+                            },
+                            {
+                                "id": "da4df8a4-eac6-49de-8526-81bee10c08b2",
+                                "command": "EVENT_TEXT",
+                                "args": {
+                                    "text": "ALRAUNE:  Eeee! \nThis is so\nexciting! |||",
+                                    "avatarId": ""
+                                }
+                            },
+                            {
+                                "id": "c9e77b36-0ff0-4ecd-a52b-3c1df1c41ad1",
+                                "command": "EVENT_ACTOR_EMOTE",
+                                "args": {
+                                    "actorId": "991795c8-4f16-4d7f-bc7d-dab552d91eae",
+                                    "emoteId": "2"
+                                }
+                            },
+                            {
+                                "id": "9766637b-9486-4e29-8e1e-f35fd546cb07",
+                                "command": "EVENT_ACTOR_EMOTE",
+                                "args": {
+                                    "actorId": "$self$",
+                                    "emoteId": "2"
+                                }
+                            },
+                            {
+                                "id": "de7803e0-452d-4872-872c-4d36fb2a24ed",
+                                "command": "EVENT_TEXT",
+                                "args": {
+                                    "text": "STHENO: Yay!  I'll\nget started right\naway!",
+                                    "avatarId": ""
+                                }
+                            },
+                            {
+                                "id": "60e364ea-24bd-4f5d-be49-0ab6acb50efd",
+                                "command": "EVENT_TEXT",
+                                "args": {
+                                    "text": [
+                                        "ALRAUNE: Let me\nknow if you need\nany help!"
+                                    ],
+                                    "avatarId": ""
+                                }
+                            },
+                            {
+                                "id": "284275c4-ec45-4ead-887d-bdfa19421169",
+                                "command": "EVENT_SET_TRUE",
+                                "args": {
+                                    "variable": "21"
+                                }
+                            },
+                            {
+                                "id": "34744c13-c8c1-4f9c-b9df-e8351f00cdb6",
+                                "command": "EVENT_ACTOR_MOVE_TO",
+                                "args": {
+                                    "actorId": "$self$",
+                                    "x": {
+                                        "type": "number",
+                                        "value": 4
+                                    },
+                                    "y": {
+                                        "type": "number",
+                                        "value": 12
+                                    },
+                                    "moveType": "horizontal",
+                                    "useCollisions": false
+                                }
+                            },
+                            {
+                                "id": "0fb78289-a5a2-463a-98e7-583f30482bcf",
+                                "command": "EVENT_TEXT",
+                                "args": {
+                                    "text": [
+                                        "STHENO: (I want\neverything to be\nperfect, so",
+                                        "I'll add a little\nfresh blood as a\nsurprise, too!)",
+                                        "(Alraune was\nraised on the\nstuff, after all!)"
+                                    ],
+                                    "avatarId": ""
+                                }
+                            },
+                            {
+                                "id": "e059ebb4-8219-485f-a57a-53085330cdb9",
+                                "command": "EVENT_TEXT",
+                                "args": {
+                                    "text": "ALRAUNE: Did you\nsay something?",
+                                    "avatarId": ""
+                                }
+                            },
+                            {
+                                "id": "8b4cabac-24f5-4dc4-86c7-126a2bef6a92",
+                                "command": "EVENT_ACTOR_SET_DIRECTION",
+                                "args": {
+                                    "actorId": "$self$",
+                                    "direction": {
+                                        "type": "direction",
+                                        "value": "right"
+                                    }
+                                }
+                            },
+                            {
+                                "id": "4ca9d05e-5cef-4878-93b2-2ccd76e85af0",
+                                "command": "EVENT_ACTOR_EMOTE",
+                                "args": {
+                                    "actorId": "$self$",
+                                    "emoteId": 0
+                                }
+                            },
+                            {
+                                "id": "80c3bacd-e6f2-45d5-8c95-76616fe221a7",
+                                "command": "EVENT_TEXT",
+                                "args": {
+                                    "text": [
+                                        "STHENO: Just\nthinking over\nlogistics!",
+                                        "This'll be great!!",
+                                        "(I can look at my\nlist using START.)"
+                                    ],
+                                    "avatarId": ""
+                                }
+                            },
+                            {
+                                "id": "7e6993b7-0a3a-4486-bbbf-505c7692b5bd",
+                                "command": "EVENT_END"
+                            }
+                        ],
+                        "false": [
+                            {
+                                "id": "05f149ff-4ddc-41c9-990f-713113998ac6",
+                                "command": "EVENT_END"
+                            }
+                        ]
+                    }
+                },
+                {
                     "id": "3ba12b4d-f985-4854-baac-932836c0731c",
                     "command": "EVENT_END"
                 }
@@ -10012,6 +10477,26 @@
                     "x": 14,
                     "y": 12,
                     "paletteId": "adfc9806-1a28-49da-9e38-9259cf3969b3"
+                },
+                {
+                    "name": "Heart",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "4f7e5a89-0cf6-4c39-9423-397b7289601f",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": "1",
+                    "animSpeed": "3",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "991795c8-4f16-4d7f-bc7d-dab552d91eae",
+                    "x": 12,
+                    "y": 10,
+                    "paletteId": "5a69d27a-83c6-415c-83dd-4eee50820a7b"
                 }
             ],
             "triggers": [
@@ -10126,7 +10611,7 @@
                             "id": "15e08f7f-7f47-4397-8d3f-f1408663c399",
                             "command": "EVENT_ACTOR_EMOTE",
                             "args": {
-                                "actorId": "player",
+                                "actorId": "991795c8-4f16-4d7f-bc7d-dab552d91eae",
                                 "emoteId": "2"
                             }
                         },
@@ -57000,7 +57485,85 @@
                 0,
                 0
             ],
-            "script": [],
+            "script": [
+                {
+                    "id": "c1ddded0-9a52-4d42-9676-499f400eea3e",
+                    "command": "EVENT_IF_TRUE",
+                    "args": {
+                        "variable": "21",
+                        "__collapseElse": false,
+                        "__disableElse": true
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "id": "5344aec7-fa67-4784-8d1f-4577f0e0cf31",
+                                "command": "EVENT_IF_FALSE",
+                                "args": {
+                                    "variable": "23",
+                                    "__collapseElse": false,
+                                    "__disableElse": true
+                                },
+                                "children": {
+                                    "true": [
+                                        {
+                                            "id": "8df238d3-3b1e-4bb9-ae79-248d4034d415",
+                                            "command": "EVENT_ACTOR_EMOTE",
+                                            "args": {
+                                                "actorId": "$self$",
+                                                "emoteId": "3"
+                                            }
+                                        },
+                                        {
+                                            "id": "09d89ab9-2b5b-4092-ad86-aa4b4c9253af",
+                                            "command": "EVENT_TEXT",
+                                            "args": {
+                                                "text": [
+                                                    "STHENO: (Hmm, I\nbet Baphomet might\nhave some",
+                                                    "fresh blood. I\nshould stop by the\nInner Circle and",
+                                                    "ask.  I think\nthat's left of\nhere?)"
+                                                ],
+                                                "avatarId": ""
+                                            }
+                                        },
+                                        {
+                                            "id": "9310b72b-be94-4d38-aea7-064f5c2aedf9",
+                                            "command": "EVENT_SET_TRUE",
+                                            "args": {
+                                                "variable": "23"
+                                            }
+                                        },
+                                        {
+                                            "id": "d5615c6c-5951-4a19-97d5-abb93180223f",
+                                            "command": "EVENT_END"
+                                        }
+                                    ],
+                                    "false": [
+                                        {
+                                            "id": "66441a0a-32be-4699-8b21-f06e76abd855",
+                                            "command": "EVENT_END"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "id": "41216bae-149b-4f6f-9ed5-3b1981a337b0",
+                                "command": "EVENT_END"
+                            }
+                        ],
+                        "false": [
+                            {
+                                "id": "89c3d6c0-639c-4d26-8f66-7eeb40efd68b",
+                                "command": "EVENT_END"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "bb6e4f00-812b-4fec-8728-85d8a161f660",
+                    "command": "EVENT_END"
+                }
+            ],
             "playerHit1Script": [],
             "playerHit2Script": [],
             "playerHit3Script": [],
@@ -101578,16 +102141,20 @@
         {
             "id": "daa08c32-169f-45b8-8925-97ec005d8b73__L0",
             "name": "Menu Choice"
+        },
+        {
+            "id": "23",
+            "name": "Had Baphy Thought"
         }
     ],
     "settings": {
         "startSceneId": "d6237d8a-371b-4b90-9b8e-20e220f8252d",
-        "startX": 6,
+        "startX": 1,
         "startY": 12,
         "showCollisions": true,
         "showConnections": "all",
-        "worldScrollX": 7849,
-        "worldScrollY": 8748,
+        "worldScrollX": 4214,
+        "worldScrollY": 7148,
         "zoom": 425,
         "customColorsEnabled": true,
         "defaultBackgroundPaletteIds": "default-background",
