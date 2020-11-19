@@ -55223,19 +55223,19 @@
                 16,
                 16,
                 16,
-                16,
-                0,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
                 0,
                 0,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                0,
+                0,
                 0,
                 17,
                 17,
@@ -55243,7 +55243,7 @@
                 17,
                 17,
                 17,
-                17,
+                1,
                 15,
                 15,
                 15,
@@ -90712,6 +90712,8 @@
             "collisions": [
                 15,
                 15,
+                8,
+                8,
                 0,
                 0,
                 0,
@@ -90724,14 +90726,14 @@
                 0,
                 0,
                 0,
-                0,
-                0,
-                0,
-                0,
+                4,
+                4,
                 15,
                 15,
                 15,
                 15,
+                8,
+                8,
                 0,
                 0,
                 0,
@@ -90744,14 +90746,14 @@
                 0,
                 0,
                 0,
-                0,
-                0,
-                0,
-                0,
+                4,
+                4,
                 15,
                 15,
                 15,
                 15,
+                8,
+                8,
                 0,
                 0,
                 0,
@@ -90764,16 +90766,14 @@
                 0,
                 0,
                 0,
-                0,
-                0,
-                0,
-                0,
+                4,
+                4,
                 15,
                 15,
                 15,
                 15,
-                0,
-                0,
+                8,
+                8,
                 16,
                 16,
                 0,
@@ -90786,8 +90786,8 @@
                 0,
                 16,
                 16,
-                0,
-                0,
+                4,
+                4,
                 15,
                 15,
                 15,
@@ -91365,19 +91365,19 @@
                 16,
                 16,
                 16,
-                16,
-                0,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
                 0,
                 0,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                0,
+                0,
                 0,
                 17,
                 17,
@@ -91385,7 +91385,7 @@
                 17,
                 17,
                 17,
-                17,
+                1,
                 15,
                 15,
                 15,
@@ -92158,7 +92158,7 @@
             "playerHit2Script": [],
             "playerHit3Script": [],
             "id": "472afab4-4279-4544-bf41-80c7bfe2f8f2",
-            "x": 893.5999999999998,
+            "x": 893.8352941176469,
             "y": 1580.799999999999,
             "actors": [],
             "triggers": [
@@ -92200,12 +92200,12 @@
                     ],
                     "id": "57a53ca1-ce88-405c-9e35-111ddb8b0a9c",
                     "x": 0,
-                    "y": 25,
+                    "y": 30,
                     "width": 1,
-                    "height": 7
+                    "height": 2
                 },
                 {
-                    "name": "Guide 1",
+                    "name": "Guide 2",
                     "trigger": "walk",
                     "script": [
                         {
@@ -92242,9 +92242,9 @@
                     ],
                     "id": "671e5a85-7900-4d0d-a357-c0797025b146",
                     "x": 19,
-                    "y": 25,
+                    "y": 30,
                     "width": 1,
-                    "height": 7
+                    "height": 2
                 },
                 {
                     "name": "Exit 4.5",
@@ -92296,6 +92296,90 @@
                     "x": 8,
                     "y": 35,
                     "width": 9,
+                    "height": 1
+                },
+                {
+                    "name": "Guide 3",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "358b70a2-16bc-4eb9-9fe7-c53974df5e52",
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "STHENO: I should\nprobably visit\nAlraune first."
+                                ],
+                                "avatarId": ""
+                            }
+                        },
+                        {
+                            "id": "1c665a12-555a-47dc-a1af-239bc050275f",
+                            "command": "EVENT_ACTOR_MOVE_TO",
+                            "args": {
+                                "actorId": "$self$",
+                                "x": {
+                                    "type": "number",
+                                    "value": 5
+                                },
+                                "y": {
+                                    "type": "number",
+                                    "value": 3
+                                },
+                                "moveType": "horizontal",
+                                "useCollisions": false
+                            }
+                        },
+                        {
+                            "id": "840829b5-d3e5-4427-a35b-411cb02176d9",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "704aef73-df20-446b-a64f-46e0542225ff",
+                    "x": 4,
+                    "y": 3,
+                    "width": 1,
+                    "height": 1
+                },
+                {
+                    "name": "Guide 1",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "adbcef8c-8613-4cf7-ace5-ead4d7c7d48a",
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "STHENO: I should\nprobably visit\nAlraune first."
+                                ],
+                                "avatarId": ""
+                            }
+                        },
+                        {
+                            "id": "1834bd70-ba8a-4a11-8ed5-bdb5b8611fa1",
+                            "command": "EVENT_ACTOR_MOVE_TO",
+                            "args": {
+                                "actorId": "$self$",
+                                "x": {
+                                    "type": "number",
+                                    "value": 13
+                                },
+                                "y": {
+                                    "type": "number",
+                                    "value": 3
+                                },
+                                "moveType": "horizontal",
+                                "useCollisions": false
+                            }
+                        },
+                        {
+                            "id": "b7dce79b-28ab-47cb-8d5c-866196bb1235",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "d4283753-cdeb-41e2-88ed-0e368a56c124",
+                    "x": 15,
+                    "y": 3,
+                    "width": 1,
                     "height": 1
                 }
             ],
@@ -93349,7 +93433,7 @@
                 15,
                 15,
                 15,
-                16,
+                17,
                 16,
                 0,
                 15,
@@ -102640,13 +102724,13 @@
         }
     ],
     "settings": {
-        "startSceneId": "788a50ac-9a91-48fa-8df3-716c37594d23",
-        "startX": 37,
-        "startY": 27,
+        "startSceneId": "2bbd4257-3d21-4a2b-8d83-bf5c8b545bf0",
+        "startX": 5,
+        "startY": 12,
         "showCollisions": true,
         "showConnections": "all",
-        "worldScrollX": 5239,
-        "worldScrollY": 7080,
+        "worldScrollX": 5036,
+        "worldScrollY": 8234,
         "zoom": 425,
         "customColorsEnabled": true,
         "defaultBackgroundPaletteIds": "default-background",
