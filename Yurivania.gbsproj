@@ -65855,6 +65855,63 @@
                     "x": 10,
                     "y": 5,
                     "paletteId": "67aafd96-1b0e-4b9b-8282-105585a4e039"
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "de6d05d2-0a99-4035-936d-d4cef408d0cd",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": "1",
+                    "animSpeed": "3",
+                    "script": [
+                        {
+                            "id": "24daccc6-9139-42e6-965d-c7a87a04215d",
+                            "command": "EVENT_ACTOR_SET_DIRECTION",
+                            "args": {
+                                "actorId": "$self$",
+                                "direction": {
+                                    "type": "direction",
+                                    "value": "left"
+                                }
+                            }
+                        },
+                        {
+                            "id": "eca030a2-ec6a-4c3e-848a-88c4d8b1a219",
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "LIN: Thanks,\nStheno! I was\ngetting worried!"
+                                ],
+                                "avatarId": ""
+                            }
+                        },
+                        {
+                            "id": "4f7c658d-869d-4b89-84df-6b2d6c74e7e9",
+                            "command": "EVENT_ACTOR_SET_DIRECTION",
+                            "args": {
+                                "actorId": "$self$",
+                                "direction": {
+                                    "type": "direction",
+                                    "value": "down"
+                                }
+                            }
+                        },
+                        {
+                            "id": "e47762f5-1320-41b9-b00e-90e9f78e7fca",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "3ce9d344-7ffc-4dee-b01e-9e28a4bf5874",
+                    "x": 14,
+                    "y": 14,
+                    "paletteId": "67cd4673-c16a-4527-ae42-1f83f346ce23"
                 }
             ],
             "triggers": [
@@ -102740,9 +102797,9 @@
         "startY": 12,
         "showCollisions": true,
         "showConnections": "all",
-        "worldScrollX": 79,
-        "worldScrollY": 27,
-        "zoom": 125,
+        "worldScrollX": 13826,
+        "worldScrollY": 6589,
+        "zoom": 425,
         "customColorsEnabled": true,
         "defaultBackgroundPaletteIds": "default-background",
         "defaultSpritePaletteId": "default-sprite",
