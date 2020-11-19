@@ -10367,7 +10367,19 @@
                     "direction": "down",
                     "moveSpeed": "1",
                     "animSpeed": "1",
-                    "script": [],
+                    "script": [
+                        {
+                            "id": "fed57563-4597-4f12-b0d3-2efe8ed10172",
+                            "command": "EVENT_ACTOR_INVOKE",
+                            "args": {
+                                "actorId": "032d8b0c-14e1-40e0-b599-cb441de6b53a"
+                            }
+                        },
+                        {
+                            "id": "a4579831-4392-432f-bdae-b2bb4e2b293f",
+                            "command": "EVENT_END"
+                        }
+                    ],
                     "startScript": [],
                     "updateScript": [],
                     "hit1Script": [],
@@ -10427,7 +10439,309 @@
                     "direction": "down",
                     "moveSpeed": "1",
                     "animSpeed": "3",
-                    "script": [],
+                    "script": [
+                        {
+                            "id": "21cc8eb4-aaef-4fab-bdf5-c96658b2de92",
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "ALRAUNE: Did you\nneed help with\nsomething?"
+                                ],
+                                "avatarId": ""
+                            }
+                        },
+                        {
+                            "id": "d3352176-2765-4cd5-b44f-b0de6f98533f",
+                            "command": "EVENT_MENU",
+                            "args": {
+                                "variable": "L0",
+                                "items": 6,
+                                "option1": "Soil",
+                                "option2": "Water",
+                                "option3": "Light",
+                                "option4": "Humus",
+                                "option5": "Pests",
+                                "option6": "Cancel",
+                                "option7": "",
+                                "option8": "",
+                                "cancelOnB": true,
+                                "layout": "dialogue",
+                                "cancelOnLastOption": true
+                            }
+                        },
+                        {
+                            "id": "8190a19b-d1b1-45c0-add1-627f6c46afab",
+                            "command": "EVENT_SWITCH",
+                            "args": {
+                                "variable": "L0",
+                                "choices": 5,
+                                "__collapseCase0": false,
+                                "value0": 1,
+                                "__collapseCase1": false,
+                                "value1": 2,
+                                "__collapseCase2": false,
+                                "value2": 3,
+                                "__collapseCase3": false,
+                                "value3": 4,
+                                "__collapseCase4": false,
+                                "value4": 5,
+                                "__collapseCase5": false,
+                                "value5": 6,
+                                "__collapseCase6": false,
+                                "value6": 7,
+                                "__collapseCase7": false,
+                                "value7": 8,
+                                "__collapseCase8": false,
+                                "value8": 9,
+                                "__collapseCase9": false,
+                                "value9": 10,
+                                "__collapseCase10": false,
+                                "value10": 11,
+                                "__collapseCase11": false,
+                                "value11": 12,
+                                "__collapseCase12": false,
+                                "value12": 13,
+                                "__collapseCase13": false,
+                                "value13": 14,
+                                "__collapseCase14": false,
+                                "value14": 15,
+                                "__collapseCase15": false,
+                                "value15": 16,
+                                "__collapseElse": false,
+                                "__disableElse": true
+                            },
+                            "children": {
+                                "true0": [
+                                    {
+                                        "id": "41837a14-51d4-4b8b-b9a1-fc157cdedd66",
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "STHENO: How should\nI make a planting\nspace?",
+                                                "The floor is solid\nserpentine...."
+                                            ],
+                                            "avatarId": ""
+                                        }
+                                    },
+                                    {
+                                        "id": "5b0243d6-e9cc-4e19-99d6-2428f25fe73f",
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "ALRAUNE: Mmm,\nmaybe ask Suzuka\nacross the bridge?",
+                                                "I bet serpentine\nblocks are no\ntrouble for oni!"
+                                            ],
+                                            "avatarId": ""
+                                        }
+                                    },
+                                    {
+                                        "id": "9fa13cd5-e854-4a1b-8cb6-b740a66c726c",
+                                        "command": "EVENT_END"
+                                    }
+                                ],
+                                "true1": [
+                                    {
+                                        "id": "8fae5c81-9ce7-4b7e-a46f-bde8cd6463fc",
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "STHENO: What\nshould we do about\nwater?",
+                                                "I can't exactly\nbuild an\naquaduct..."
+                                            ],
+                                            "avatarId": ""
+                                        }
+                                    },
+                                    {
+                                        "id": "cdee7211-7cc8-44c8-9cf0-e75764cb2b43",
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "ALRAUNE: There's a\nGlassy Tarn below\nthe main bridge.",
+                                                "That's the most\nwater I know of\naround here.",
+                                                "Maybe look there\nfor some way to\ntransport it?"
+                                            ],
+                                            "avatarId": ""
+                                        }
+                                    },
+                                    {
+                                        "id": "280dcd59-a1a1-483a-92e7-69c247609b1f",
+                                        "command": "EVENT_END"
+                                    }
+                                ],
+                                "true2": [
+                                    {
+                                        "id": "5100de1e-9aeb-4d5e-9320-9765499bb3ea",
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "STHENO: Any ideas\non light?  I do\nhave windows."
+                                            ],
+                                            "avatarId": ""
+                                        }
+                                    },
+                                    {
+                                        "id": "c9b5ef97-d22c-4460-9fec-13ade71c34a2",
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "ALRAUNE: True, but\nno southern\nexposure.",
+                                                "And I'm sick of\nthese artificial\nbulbs....",
+                                                "Oh I know!  Mom\nused to have a\nmagic candle",
+                                                "that had been\nkindled from a\nwill~o'~the~wisp.",
+                                                "I don't think\nanyone's used it\nsince she grew",
+                                                "out below the\ncourtyard. Maybe\nit's still there?"
+                                            ],
+                                            "avatarId": ""
+                                        }
+                                    },
+                                    {
+                                        "id": "cd36101c-8560-4d91-9c8a-52b13db5f50c",
+                                        "command": "EVENT_END"
+                                    }
+                                ],
+                                "true3": [
+                                    {
+                                        "id": "02ff37e0-87c8-40e7-a401-a78656f0ad04",
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "STHENO: You said\nyou might need\nfertilizer?"
+                                            ],
+                                            "avatarId": ""
+                                        }
+                                    },
+                                    {
+                                        "id": "7f80d4b1-74c3-4a55-970b-244da13f3bc9",
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "ALRAUNE: Totes.\nThere's got to be\ndecaying matter",
+                                                "all over we can\nuse. I'm not a\npicky eater!"
+                                            ],
+                                            "avatarId": ""
+                                        }
+                                    },
+                                    {
+                                        "id": "8db8d158-5912-4abe-b47e-fcf5e359161b",
+                                        "command": "EVENT_END"
+                                    }
+                                ],
+                                "true4": [
+                                    {
+                                        "id": "189fd92c-3e6e-42da-aae5-1785aae34197",
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "STHENO: How should\nI take care of\nplant pests?"
+                                            ],
+                                            "avatarId": ""
+                                        }
+                                    },
+                                    {
+                                        "id": "45ecb783-959b-4bf9-8844-b06e07b1c93c",
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "ALRAUNE: Something\nnatural, please!",
+                                                "Maybe take a look\nin the Evergreen\nGulf?"
+                                            ],
+                                            "avatarId": ""
+                                        }
+                                    },
+                                    {
+                                        "id": "07a69970-35a1-40df-8c82-3bc8446f0f03",
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "STHENO: You got\nit, babe! |"
+                                            ],
+                                            "avatarId": ""
+                                        }
+                                    },
+                                    {
+                                        "id": "7dee4c3c-a465-4553-ad9a-1cac5fa82d33",
+                                        "command": "EVENT_END"
+                                    }
+                                ],
+                                "true5": [
+                                    {
+                                        "id": "8d9c6648-c00a-4298-b937-b42786397e27",
+                                        "command": "EVENT_END"
+                                    }
+                                ],
+                                "true6": [
+                                    {
+                                        "id": "9a66cd48-8a40-410f-9814-cee65ea0df6a",
+                                        "command": "EVENT_END"
+                                    }
+                                ],
+                                "true7": [
+                                    {
+                                        "id": "ba772329-58cf-4b9b-9186-2d723bdb3f68",
+                                        "command": "EVENT_END"
+                                    }
+                                ],
+                                "true8": [
+                                    {
+                                        "id": "916fec0f-d92e-4e5f-8884-eb1d1bd122fd",
+                                        "command": "EVENT_END"
+                                    }
+                                ],
+                                "true9": [
+                                    {
+                                        "id": "e20fa601-f1e5-4174-ba92-3c3e406eb83a",
+                                        "command": "EVENT_END"
+                                    }
+                                ],
+                                "true10": [
+                                    {
+                                        "id": "4d91f66e-7d68-4966-8fe6-7cd535e0376d",
+                                        "command": "EVENT_END"
+                                    }
+                                ],
+                                "true11": [
+                                    {
+                                        "id": "c9a25dc9-7b7b-4f6a-b57c-cf9570fc3eee",
+                                        "command": "EVENT_END"
+                                    }
+                                ],
+                                "true12": [
+                                    {
+                                        "id": "cfdc94ab-a80d-48e3-94f5-74887facc793",
+                                        "command": "EVENT_END"
+                                    }
+                                ],
+                                "true13": [
+                                    {
+                                        "id": "02ec0f0a-94ef-483c-a97d-7e13a78d8a5f",
+                                        "command": "EVENT_END"
+                                    }
+                                ],
+                                "true14": [
+                                    {
+                                        "id": "635ce581-4ad8-4f6b-a799-a00d5ed384c2",
+                                        "command": "EVENT_END"
+                                    }
+                                ],
+                                "true15": [
+                                    {
+                                        "id": "11921f7f-a98e-4b8f-b4c2-1c666c2cb350",
+                                        "command": "EVENT_END"
+                                    }
+                                ],
+                                "false": [
+                                    {
+                                        "id": "ee677bc5-cb5c-4a3c-b1f7-09f6cbd73e6b",
+                                        "command": "EVENT_END"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": "860eef86-ba18-4979-9e9f-54ab98e50570",
+                            "command": "EVENT_END"
+                        }
+                    ],
                     "startScript": [],
                     "updateScript": [],
                     "hit1Script": [],
@@ -10467,7 +10781,19 @@
                     "direction": "down",
                     "moveSpeed": "1",
                     "animSpeed": "1",
-                    "script": [],
+                    "script": [
+                        {
+                            "id": "fe0a84ae-660f-4a6a-8664-63b6ea45474f",
+                            "command": "EVENT_ACTOR_INVOKE",
+                            "args": {
+                                "actorId": "032d8b0c-14e1-40e0-b599-cb441de6b53a"
+                            }
+                        },
+                        {
+                            "id": "bb1a07dc-30be-4373-9823-5967b69d41c9",
+                            "command": "EVENT_END"
+                        }
+                    ],
                     "startScript": [],
                     "updateScript": [],
                     "hit1Script": [],
@@ -102145,6 +102471,10 @@
         {
             "id": "23",
             "name": "Had Baphy Thought"
+        },
+        {
+            "id": "032d8b0c-14e1-40e0-b599-cb441de6b53a__L0",
+            "name": "Menu Choice"
         }
     ],
     "settings": {
@@ -102153,8 +102483,8 @@
         "startY": 12,
         "showCollisions": true,
         "showConnections": "all",
-        "worldScrollX": 4214,
-        "worldScrollY": 7148,
+        "worldScrollX": 6817,
+        "worldScrollY": 8580,
         "zoom": 425,
         "customColorsEnabled": true,
         "defaultBackgroundPaletteIds": "default-background",
