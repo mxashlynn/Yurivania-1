@@ -1297,7 +1297,7 @@
             "actors": [],
             "triggers": [],
             "paletteIds": [
-                "dmg"
+                "38a3f1c7-da1d-469e-801b-c28d214710fc"
             ]
         },
         {
@@ -81857,7 +81857,7 @@
         },
         {
             "name": "Map: Subterrane",
-            "backgroundId": "2d9c771d-9027-44ed-aecf-0c70a7831268",
+            "backgroundId": "f9bd3328-04e1-4730-b89f-8176ca0b1919",
             "width": 20,
             "height": 18,
             "collisions": [],
@@ -101697,6 +101697,17 @@
             "_v": 1605736786927
         },
         {
+            "id": "f9bd3328-04e1-4730-b89f-8176ca0b1919",
+            "name": "map-subterrane",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "map-subterrane.png",
+            "inode": "7599824371231407",
+            "_v": 1605749936880
+        },
+        {
             "id": "2583290c-eb98-487a-8847-47ce2ef1bb91",
             "name": "screen-black",
             "width": 20,
@@ -102729,9 +102740,9 @@
         "startY": 12,
         "showCollisions": true,
         "showConnections": "all",
-        "worldScrollX": 5036,
-        "worldScrollY": 8234,
-        "zoom": 425,
+        "worldScrollX": 79,
+        "worldScrollY": 27,
+        "zoom": 125,
         "customColorsEnabled": true,
         "defaultBackgroundPaletteIds": "default-background",
         "defaultSpritePaletteId": "default-sprite",
