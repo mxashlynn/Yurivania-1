@@ -46738,7 +46738,7 @@
                             "command": "EVENT_SWITCH_SCENE",
                             "args": {
                                 "sceneId": "a19a2fef-5a7b-4c1b-8fec-b1a4619fe94a",
-                                "x": 17,
+                                "x": 16,
                                 "y": 16,
                                 "direction": "up",
                                 "fadeSpeed": "1"
@@ -63317,10 +63317,10 @@
                 0,
                 0,
                 0,
-                1,
-                1,
-                1,
-                1,
+                15,
+                15,
+                15,
+                15,
                 17,
                 16,
                 0,
@@ -63357,8 +63357,8 @@
                 0,
                 0,
                 0,
-                8,
-                4,
+                0,
+                15,
                 0,
                 0,
                 16,
@@ -63397,8 +63397,8 @@
                 0,
                 0,
                 0,
-                8,
-                4,
+                0,
+                15,
                 0,
                 0,
                 16,
@@ -63437,8 +63437,8 @@
                 0,
                 0,
                 0,
-                8,
-                4,
+                0,
+                15,
                 0,
                 0,
                 16,
@@ -64274,7 +64274,7 @@
                         }
                     ],
                     "id": "e46690a9-b278-451d-b076-384f11246a76",
-                    "x": 13,
+                    "x": 14,
                     "y": 17,
                     "width": 5,
                     "height": 1
@@ -102048,6 +102048,15 @@
             "_v": 1605819455539
         },
         {
+            "id": "a5bfebf9-fa1b-408a-adce-e07eddc963ab",
+            "name": "inv-0_selector",
+            "numFrames": 1,
+            "type": "static",
+            "filename": "inv-0_selector.png",
+            "inode": "21955048183484516",
+            "_v": 1605820248509
+        },
+        {
             "id": "950514d3-c57d-4808-b67f-ca30dd370a6d",
             "name": "inv-1_amulet_can",
             "numFrames": 4,
@@ -102091,15 +102100,6 @@
             "filename": "inv-5_kiss_pass.png",
             "inode": "14918173765771610",
             "_v": 1605819455539
-        },
-        {
-            "id": "a5bfebf9-fa1b-408a-adce-e07eddc963ab",
-            "name": "inv-selector",
-            "numFrames": 1,
-            "type": "static",
-            "filename": "inv-selector.png",
-            "inode": "21955048183484516",
-            "_v": 1605819902366
         },
         {
             "id": "5a20dd62-520d-4d87-9450-450cc5531818",
@@ -103038,8 +103038,8 @@
         "startY": 12,
         "showCollisions": true,
         "showConnections": "all",
-        "worldScrollX": 2257,
-        "worldScrollY": 5109,
+        "worldScrollX": 7522,
+        "worldScrollY": 2909,
         "zoom": 275,
         "customColorsEnabled": true,
         "defaultBackgroundPaletteIds": "default-background",
