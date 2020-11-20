@@ -272,8 +272,8 @@
             "scale": 5.388988095238095,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 80.2562544872149,
-                "y": 72.36980173413598
+                "x": 79.97790909592976,
+                "y": 71.90589274866075
             }
         },
         "backgrounds/screen-album.tmx": {
@@ -282,6 +282,22 @@
             "viewCenter": {
                 "x": 76.02112076307274,
                 "y": 72.11037301992847
+            }
+        },
+        "backgrounds/screen-inventory.tmx": {
+            "scale": 5.241964285714285,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 76.11650485436893,
+                "y": 72.30114120252088
+            }
+        },
+        "backgrounds/screen-lore.tmx": {
+            "scale": 5.664375,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 80.15006068630696,
+                "y": 72.02912942734194
             }
         },
         "backgrounds/screen-title.tmx": {
