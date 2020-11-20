@@ -10349,7 +10349,7 @@
                     }
                 },
                 {
-                    "id": "895a8ba7-f5ea-44e5-82c5-08a4f3fc82bd",
+                    "id": "a587a995-4352-471e-a809-5f211a2d07b0",
                     "command": "EVENT_SET_INPUT_SCRIPT",
                     "args": {
                         "input": [
@@ -10357,342 +10357,21 @@
                         ],
                         "persist": true,
                         "__scriptTabs": "press",
-                        "__label": "Set Up Info Menu Button",
+                        "__label": "Set Up Use Item Button",
                         "__collapse": false
                     },
                     "children": {
                         "true": [
                             {
-                                "id": "7b2835e6-4784-436d-9884-586836de2b5d",
-                                "command": "EVENT_GROUP",
+                                "id": "1155bc8e-41d2-44a8-9ef8-8c58a7bcdec9",
+                                "command": "EVENT_TEXT",
                                 "args": {
-                                    "__collapse": false,
-                                    "__label": "Raise Info Menu"
-                                },
-                                "children": {
-                                    "true": [
-                                        {
-                                            "id": "dfe5b506-245d-471c-96ea-a69df99b2c73",
-                                            "command": "EVENT_MENU",
-                                            "args": {
-                                                "variable": "L0",
-                                                "items": 4,
-                                                "option1": "Items",
-                                                "option2": "To Do",
-                                                "option3": "Lore",
-                                                "option4": "Cancel",
-                                                "option5": "Pests",
-                                                "option6": "Cancel",
-                                                "option7": "",
-                                                "option8": "",
-                                                "cancelOnB": true,
-                                                "layout": "menu",
-                                                "cancelOnLastOption": true
-                                            }
-                                        },
-                                        {
-                                            "id": "49253390-0296-490c-a50e-edce27c1caab",
-                                            "command": "EVENT_SWITCH",
-                                            "args": {
-                                                "variable": "L0",
-                                                "choices": 3,
-                                                "__collapseCase0": false,
-                                                "value0": 1,
-                                                "__collapseCase1": false,
-                                                "value1": 2,
-                                                "__collapseCase2": false,
-                                                "value2": 3,
-                                                "__collapseCase3": false,
-                                                "value3": 4,
-                                                "__collapseCase4": false,
-                                                "value4": 5,
-                                                "__collapseCase5": false,
-                                                "value5": 6,
-                                                "__collapseCase6": false,
-                                                "value6": 7,
-                                                "__collapseCase7": false,
-                                                "value7": 8,
-                                                "__collapseCase8": false,
-                                                "value8": 9,
-                                                "__collapseCase9": false,
-                                                "value9": 10,
-                                                "__collapseCase10": false,
-                                                "value10": 11,
-                                                "__collapseCase11": false,
-                                                "value11": 12,
-                                                "__collapseCase12": false,
-                                                "value12": 13,
-                                                "__collapseCase13": false,
-                                                "value13": 14,
-                                                "__collapseCase14": false,
-                                                "value14": 15,
-                                                "__collapseCase15": false,
-                                                "value15": 16,
-                                                "__collapseElse": false,
-                                                "__disableElse": true
-                                            },
-                                            "children": {
-                                                "true0": [
-                                                    {
-                                                        "id": "9787d107-eacc-4def-8654-1c23a73ecf8a",
-                                                        "command": "EVENT_GROUP",
-                                                        "args": {
-                                                            "__collapse": false,
-                                                            "__label": "Raise Inventory"
-                                                        },
-                                                        "children": {
-                                                            "true": [
-                                                                {
-                                                                    "id": "c611bf68-bac3-4fee-b1e3-28f8601009ab",
-                                                                    "command": "EVENT_SCENE_PUSH_STATE",
-                                                                    "args": {}
-                                                                },
-                                                                {
-                                                                    "id": "118d2efe-c0e2-43ba-a90c-3b0826029433",
-                                                                    "command": "EVENT_SWITCH_SCENE",
-                                                                    "args": {
-                                                                        "sceneId": "c8978343-6d8c-427a-ba53-03ddbad42dc8",
-                                                                        "x": 0,
-                                                                        "y": 0,
-                                                                        "direction": "up",
-                                                                        "fadeSpeed": "1"
-                                                                    }
-                                                                },
-                                                                {
-                                                                    "id": "23585909-64c3-4b0a-9846-3dc416474399",
-                                                                    "command": "EVENT_END"
-                                                                }
-                                                            ]
-                                                        }
-                                                    },
-                                                    {
-                                                        "id": "d67a8168-26b6-45e7-8909-912223d94620",
-                                                        "command": "EVENT_END"
-                                                    }
-                                                ],
-                                                "true1": [
-                                                    {
-                                                        "id": "4b79834a-1cff-4afe-a920-dba9638c2042",
-                                                        "command": "EVENT_GROUP",
-                                                        "args": {
-                                                            "__collapse": false,
-                                                            "__label": "Raise To Do List"
-                                                        },
-                                                        "children": {
-                                                            "true": [
-                                                                {
-                                                                    "id": "61b3b17c-4747-4645-90bd-9cb2e1a94f89",
-                                                                    "command": "EVENT_SCENE_PUSH_STATE",
-                                                                    "args": {}
-                                                                },
-                                                                {
-                                                                    "id": "4f1cee57-2da0-4e52-a499-705c78a89446",
-                                                                    "command": "EVENT_SWITCH_SCENE",
-                                                                    "args": {
-                                                                        "sceneId": "10609123-dfa8-46df-b180-244fba42b6a1",
-                                                                        "x": 0,
-                                                                        "y": 0,
-                                                                        "direction": "down",
-                                                                        "fadeSpeed": "1"
-                                                                    }
-                                                                },
-                                                                {
-                                                                    "id": "118610d1-bc14-4fb1-8734-f61b0620b635",
-                                                                    "command": "EVENT_END"
-                                                                }
-                                                            ]
-                                                        }
-                                                    },
-                                                    {
-                                                        "id": "699a4a09-22b6-4c04-8072-0540b2bf4824",
-                                                        "command": "EVENT_END"
-                                                    }
-                                                ],
-                                                "true2": [
-                                                    {
-                                                        "id": "175e83d1-46cf-4dae-b14b-e03e1b18d023",
-                                                        "command": "EVENT_GROUP",
-                                                        "args": {
-                                                            "__collapse": false,
-                                                            "__label": "Raise Album"
-                                                        },
-                                                        "children": {
-                                                            "true": [
-                                                                {
-                                                                    "id": "7df242cb-670c-4238-896c-3f1af06becb0",
-                                                                    "command": "EVENT_SCENE_PUSH_STATE",
-                                                                    "args": {}
-                                                                },
-                                                                {
-                                                                    "id": "2d8c60b2-82ee-47e3-aa06-f4e3a4777e20",
-                                                                    "command": "EVENT_SWITCH_SCENE",
-                                                                    "args": {
-                                                                        "sceneId": "c8978343-6d8c-427a-ba53-03ddbad42dc8",
-                                                                        "x": 0,
-                                                                        "y": 0,
-                                                                        "direction": "up",
-                                                                        "fadeSpeed": "1"
-                                                                    }
-                                                                },
-                                                                {
-                                                                    "id": "cb1e2c69-4892-4aae-8198-95231c99bcd1",
-                                                                    "command": "EVENT_END"
-                                                                }
-                                                            ]
-                                                        }
-                                                    },
-                                                    {
-                                                        "id": "ccd0b4d0-139a-44f2-865a-4b74d1bb8e67",
-                                                        "command": "EVENT_END"
-                                                    }
-                                                ],
-                                                "true3": [
-                                                    {
-                                                        "id": "4d1f2fad-f828-4077-a5f3-807fb8ea8de4",
-                                                        "command": "EVENT_TEXT",
-                                                        "args": {
-                                                            "text": [
-                                                                "STHENO: You said\nyou might need\nfertilizer?"
-                                                            ],
-                                                            "avatarId": ""
-                                                        }
-                                                    },
-                                                    {
-                                                        "id": "f8888ca3-8725-43be-983f-b03fbc893f32",
-                                                        "command": "EVENT_TEXT",
-                                                        "args": {
-                                                            "text": [
-                                                                "ALRAUNE: Totes.\nThere's got to be\ndecaying matter",
-                                                                "all over we can\nuse. I'm not a\npicky eater!"
-                                                            ],
-                                                            "avatarId": ""
-                                                        }
-                                                    },
-                                                    {
-                                                        "id": "5f27c7ab-eacd-4d62-b83c-feb963d11428",
-                                                        "command": "EVENT_END"
-                                                    }
-                                                ],
-                                                "true4": [
-                                                    {
-                                                        "id": "7dd56eb9-29dc-40bf-a7ce-c79d5252f251",
-                                                        "command": "EVENT_TEXT",
-                                                        "args": {
-                                                            "text": [
-                                                                "STHENO: How should\nI take care of\nplant pests?"
-                                                            ],
-                                                            "avatarId": ""
-                                                        }
-                                                    },
-                                                    {
-                                                        "id": "5526750a-6893-4827-8047-12c63e62f77d",
-                                                        "command": "EVENT_TEXT",
-                                                        "args": {
-                                                            "text": [
-                                                                "ALRAUNE: Something\nnatural, please!",
-                                                                "Maybe take a look\nin the Evergreen\nGulf?"
-                                                            ],
-                                                            "avatarId": ""
-                                                        }
-                                                    },
-                                                    {
-                                                        "id": "5b51876f-b094-42e4-9652-a4975d813d71",
-                                                        "command": "EVENT_TEXT",
-                                                        "args": {
-                                                            "text": [
-                                                                "STHENO: You got\nit, babe! |"
-                                                            ],
-                                                            "avatarId": ""
-                                                        }
-                                                    },
-                                                    {
-                                                        "id": "70c15bed-4528-4a6a-9788-0033ba3f0685",
-                                                        "command": "EVENT_END"
-                                                    }
-                                                ],
-                                                "true5": [
-                                                    {
-                                                        "id": "79f5f39f-3ae2-403a-a2fd-b4c5d567914b",
-                                                        "command": "EVENT_END"
-                                                    }
-                                                ],
-                                                "true6": [
-                                                    {
-                                                        "id": "47128689-6879-4bbd-8167-196c39db40ef",
-                                                        "command": "EVENT_END"
-                                                    }
-                                                ],
-                                                "true7": [
-                                                    {
-                                                        "id": "6c0c53d6-7faf-4896-a457-9c987cd0a4d9",
-                                                        "command": "EVENT_END"
-                                                    }
-                                                ],
-                                                "true8": [
-                                                    {
-                                                        "id": "f142f554-3f32-42fd-aec0-aba020d404a9",
-                                                        "command": "EVENT_END"
-                                                    }
-                                                ],
-                                                "true9": [
-                                                    {
-                                                        "id": "1cc36123-c0f7-4712-a4c7-ede405ffd8d7",
-                                                        "command": "EVENT_END"
-                                                    }
-                                                ],
-                                                "true10": [
-                                                    {
-                                                        "id": "4d309e66-1fe5-4674-8281-cb396ea475f5",
-                                                        "command": "EVENT_END"
-                                                    }
-                                                ],
-                                                "true11": [
-                                                    {
-                                                        "id": "1dc05548-f602-4b4d-bccd-b633fb526da4",
-                                                        "command": "EVENT_END"
-                                                    }
-                                                ],
-                                                "true12": [
-                                                    {
-                                                        "id": "ae4e63c1-8d52-48dd-91a6-3ce8dfc750da",
-                                                        "command": "EVENT_END"
-                                                    }
-                                                ],
-                                                "true13": [
-                                                    {
-                                                        "id": "2fdc1dd4-3c71-48e5-9a2f-26ace10e0bef",
-                                                        "command": "EVENT_END"
-                                                    }
-                                                ],
-                                                "true14": [
-                                                    {
-                                                        "id": "55893c78-e3a9-45e8-b614-d0aebd0962e5",
-                                                        "command": "EVENT_END"
-                                                    }
-                                                ],
-                                                "true15": [
-                                                    {
-                                                        "id": "69f462d4-565c-4c1a-8f72-c26913109ce5",
-                                                        "command": "EVENT_END"
-                                                    }
-                                                ],
-                                                "false": [
-                                                    {
-                                                        "id": "1fa9807f-73ea-453a-b554-e0cacbb753a2",
-                                                        "command": "EVENT_END"
-                                                    }
-                                                ]
-                                            }
-                                        },
-                                        {
-                                            "id": "4ba84daf-054f-4658-887f-cfe006ec4e8f",
-                                            "command": "EVENT_END"
-                                        }
-                                    ]
+                                    "text": "IMPLEMENT \"USE\nITEM\"",
+                                    "avatarId": ""
                                 }
                             },
                             {
-                                "id": "c899c5aa-8b54-4374-8745-bfc68ec7d409",
+                                "id": "af033f00-476d-4bd6-8669-8c72891480e5",
                                 "command": "EVENT_END"
                             }
                         ]
@@ -12081,38 +11760,423 @@
                                     ],
                                     "persist": true,
                                     "__scriptTabs": "press",
-                                    "__label": "Set Up Map Menu Button",
-                                    "__collapse": false
+                                    "__label": "Set Up Pause Menu Button",
+                                    "__collapse": true
                                 },
                                 "children": {
                                     "true": [
                                         {
-                                            "id": "0d45c6dc-af92-45fb-8924-f9e70675add8",
-                                            "command": "EVENT_GROUP",
+                                            "id": "1abaeb08-f922-4259-93a5-fd43178ecb3e",
+                                            "command": "EVENT_CALL_CUSTOM_EVENT",
                                             "args": {
-                                                "__collapse": true,
-                                                "__label": "Raise Map Menu"
+                                                "customEventId": "afaf9820-daf2-441c-8dd9-ea3db825f1d3",
+                                                "__name": "Raise Pause Menu",
+                                                "$variable[0]$": "T0"
                                             },
                                             "children": {
-                                                "true": [
+                                                "script": [
                                                     {
-                                                        "id": "8a5e083a-061d-4f07-95ef-8b35eb0fc9b9",
-                                                        "command": "EVENT_SCENE_PUSH_STATE",
-                                                        "args": {}
-                                                    },
-                                                    {
-                                                        "id": "ade49fa4-a000-47bd-bb70-9db164f70589",
-                                                        "command": "EVENT_SWITCH_SCENE",
+                                                        "id": "ca43d1b7-8748-4654-b1f7-bda38fb6286d",
+                                                        "command": "EVENT_MENU",
                                                         "args": {
-                                                            "sceneId": "c8978343-6d8c-427a-ba53-03ddbad42dc8",
-                                                            "x": 0,
-                                                            "y": 0,
-                                                            "direction": "up",
-                                                            "fadeSpeed": "1"
+                                                            "variable": "0",
+                                                            "items": 5,
+                                                            "option1": "Map",
+                                                            "option2": "Items",
+                                                            "option3": "To Do",
+                                                            "option4": "Lore",
+                                                            "option5": "Save",
+                                                            "option6": "",
+                                                            "option7": "",
+                                                            "option8": "",
+                                                            "cancelOnB": true,
+                                                            "layout": "menu",
+                                                            "cancelOnLastOption": false,
+                                                            "__label": "Display Pause Menu",
+                                                            "__collapse": true
                                                         }
                                                     },
                                                     {
-                                                        "id": "93e9b26c-4d11-4201-8edc-ab00a9106e67",
+                                                        "id": "162011c6-9c71-4c3d-8473-bef8a5d3e917",
+                                                        "command": "EVENT_SWITCH",
+                                                        "args": {
+                                                            "variable": "0",
+                                                            "choices": 5,
+                                                            "__collapseCase0": false,
+                                                            "value0": 1,
+                                                            "__collapseCase1": false,
+                                                            "value1": 2,
+                                                            "__collapseCase2": false,
+                                                            "value2": 3,
+                                                            "__collapseCase3": false,
+                                                            "value3": 4,
+                                                            "__collapseCase4": false,
+                                                            "value4": 5,
+                                                            "__collapseCase5": false,
+                                                            "value5": 6,
+                                                            "__collapseCase6": false,
+                                                            "value6": 7,
+                                                            "__collapseCase7": false,
+                                                            "value7": 8,
+                                                            "__collapseCase8": false,
+                                                            "value8": 9,
+                                                            "__collapseCase9": false,
+                                                            "value9": 10,
+                                                            "__collapseCase10": false,
+                                                            "value10": 11,
+                                                            "__collapseCase11": false,
+                                                            "value11": 12,
+                                                            "__collapseCase12": false,
+                                                            "value12": 13,
+                                                            "__collapseCase13": false,
+                                                            "value13": 14,
+                                                            "__collapseCase14": false,
+                                                            "value14": 15,
+                                                            "__collapseCase15": false,
+                                                            "value15": 16,
+                                                            "__collapseElse": false,
+                                                            "__disableElse": true,
+                                                            "__label": "Respond to Player Selection",
+                                                            "__collapse": true
+                                                        },
+                                                        "children": {
+                                                            "true0": [
+                                                                {
+                                                                    "id": "805efadc-34b2-45e5-a43e-359e44f2871b",
+                                                                    "command": "EVENT_GROUP",
+                                                                    "args": {
+                                                                        "__collapse": false,
+                                                                        "__label": "Raise Map Menu"
+                                                                    },
+                                                                    "children": {
+                                                                        "true": [
+                                                                            {
+                                                                                "id": "eeab5238-f41b-4fd3-9bb9-2c4058a5cf3b",
+                                                                                "command": "EVENT_SCENE_PUSH_STATE",
+                                                                                "args": {}
+                                                                            },
+                                                                            {
+                                                                                "id": "803774a6-d51d-4666-8351-cc3481364dac",
+                                                                                "command": "EVENT_SWITCH_SCENE",
+                                                                                "args": {
+                                                                                    "sceneId": "c8978343-6d8c-427a-ba53-03ddbad42dc8",
+                                                                                    "x": 0,
+                                                                                    "y": 0,
+                                                                                    "direction": "up",
+                                                                                    "fadeSpeed": "1"
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "id": "a13827c7-440d-4a37-838f-30d192d9c076",
+                                                                                "command": "EVENT_END"
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "id": "e0ac2680-71cf-4703-bf35-488ee458f0d6",
+                                                                    "command": "EVENT_GROUP",
+                                                                    "args": {
+                                                                        "__collapse": true,
+                                                                        "__label": "Raise Inventory"
+                                                                    },
+                                                                    "children": {
+                                                                        "true": [
+                                                                            {
+                                                                                "id": "e8b824af-48b0-4998-b9d0-77c2d92923bd",
+                                                                                "command": "EVENT_SCENE_PUSH_STATE",
+                                                                                "args": {}
+                                                                            },
+                                                                            {
+                                                                                "id": "4b713481-196d-4d25-b590-b38aa8028b39",
+                                                                                "command": "EVENT_SWITCH_SCENE",
+                                                                                "args": {
+                                                                                    "sceneId": "c8978343-6d8c-427a-ba53-03ddbad42dc8",
+                                                                                    "x": 0,
+                                                                                    "y": 0,
+                                                                                    "direction": "up",
+                                                                                    "fadeSpeed": "1"
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "id": "f8a81022-7d46-48cb-bf22-63962d93bf3b",
+                                                                                "command": "EVENT_END"
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "id": "c9ccd705-5446-46cb-96b9-93a5a02c8c41",
+                                                                    "command": "EVENT_END"
+                                                                }
+                                                            ],
+                                                            "true1": [
+                                                                {
+                                                                    "id": "fc7f5448-c103-42c3-a2fe-354578f41792",
+                                                                    "command": "EVENT_GROUP",
+                                                                    "args": {
+                                                                        "__collapse": false,
+                                                                        "__label": "Raise Inventory"
+                                                                    },
+                                                                    "children": {
+                                                                        "true": [
+                                                                            {
+                                                                                "id": "4b589cce-9c3d-4aef-8aaf-827e072e8b6e",
+                                                                                "command": "EVENT_SCENE_PUSH_STATE",
+                                                                                "args": {}
+                                                                            },
+                                                                            {
+                                                                                "id": "be4b2dc8-b888-4f3a-9ce2-98c210afe16a",
+                                                                                "command": "EVENT_SWITCH_SCENE",
+                                                                                "args": {
+                                                                                    "sceneId": "4e458931-e14d-45fe-b5aa-a04e9a9cba89",
+                                                                                    "x": 0,
+                                                                                    "y": 0,
+                                                                                    "direction": "up",
+                                                                                    "fadeSpeed": "1"
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "id": "b774cfa0-9543-4f24-b169-9fa2a4aa43b8",
+                                                                                "command": "EVENT_END"
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "id": "cf519621-969a-4856-bf40-6a7b3c1e7ba6",
+                                                                    "command": "EVENT_END"
+                                                                }
+                                                            ],
+                                                            "true2": [
+                                                                {
+                                                                    "id": "70216033-397d-4163-b188-684f34cd95f5",
+                                                                    "command": "EVENT_GROUP",
+                                                                    "args": {
+                                                                        "__collapse": false,
+                                                                        "__label": "Raise To Do List"
+                                                                    },
+                                                                    "children": {
+                                                                        "true": [
+                                                                            {
+                                                                                "id": "5c77048d-937a-4e97-9d49-ae3db4593826",
+                                                                                "command": "EVENT_SCENE_PUSH_STATE",
+                                                                                "args": {}
+                                                                            },
+                                                                            {
+                                                                                "id": "f151b17f-a65a-49d2-a3b2-8fb4550c4b9f",
+                                                                                "command": "EVENT_SWITCH_SCENE",
+                                                                                "args": {
+                                                                                    "sceneId": "10609123-dfa8-46df-b180-244fba42b6a1",
+                                                                                    "x": 0,
+                                                                                    "y": 0,
+                                                                                    "direction": "down",
+                                                                                    "fadeSpeed": "1"
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "id": "40bd693d-719d-46fe-a713-4c6b1db3d24a",
+                                                                                "command": "EVENT_END"
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "id": "fa33f9fc-8bfa-4413-b24b-2704c09ec549",
+                                                                    "command": "EVENT_END"
+                                                                }
+                                                            ],
+                                                            "true3": [
+                                                                {
+                                                                    "id": "9b039f09-aa9b-4cec-9a2b-193916e7e84a",
+                                                                    "command": "EVENT_GROUP",
+                                                                    "args": {
+                                                                        "__collapse": false,
+                                                                        "__label": "Raise Lore"
+                                                                    },
+                                                                    "children": {
+                                                                        "true": [
+                                                                            {
+                                                                                "id": "47b7f460-d075-4ddc-bf66-f7d755a55d22",
+                                                                                "command": "EVENT_SCENE_PUSH_STATE",
+                                                                                "args": {}
+                                                                            },
+                                                                            {
+                                                                                "id": "894beaa7-412e-4694-ab60-cc2c767bacd7",
+                                                                                "command": "EVENT_SWITCH_SCENE",
+                                                                                "args": {
+                                                                                    "sceneId": "755a93c6-250d-4092-a2d0-34cafd871354",
+                                                                                    "x": 0,
+                                                                                    "y": 0,
+                                                                                    "direction": "up",
+                                                                                    "fadeSpeed": "1"
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "id": "c59be6df-5c25-4b11-b90c-45d73357fa4d",
+                                                                                "command": "EVENT_END"
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "id": "273c64b3-3179-4534-86ab-c778919bba69",
+                                                                    "command": "EVENT_END"
+                                                                }
+                                                            ],
+                                                            "true4": [
+                                                                {
+                                                                    "id": "e87b5e22-8a06-4512-b820-c81640aef579",
+                                                                    "command": "EVENT_SAVE_DATA",
+                                                                    "args": {}
+                                                                },
+                                                                {
+                                                                    "id": "9e0aabfa-f131-40ca-aeef-ebd519f14ee7",
+                                                                    "command": "EVENT_IF_SAVED_DATA",
+                                                                    "args": {
+                                                                        "__collapseElse": false,
+                                                                        "__collapse": true
+                                                                    },
+                                                                    "children": {
+                                                                        "true": [
+                                                                            {
+                                                                                "id": "219cb27d-130e-411a-aaa5-b2e9f2195cd8",
+                                                                                "command": "EVENT_SOUND_PLAY_EFFECT",
+                                                                                "args": {
+                                                                                    "type": "tone",
+                                                                                    "pitch": 4,
+                                                                                    "frequency": 400,
+                                                                                    "duration": 0.1,
+                                                                                    "wait": true,
+                                                                                    "__collapse": false
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "id": "db61b1f9-ccdd-46ad-bb1a-8725e2ea38f8",
+                                                                                "command": "EVENT_SOUND_PLAY_EFFECT",
+                                                                                "args": {
+                                                                                    "type": "tone",
+                                                                                    "pitch": 4,
+                                                                                    "frequency": 600,
+                                                                                    "duration": 0.1,
+                                                                                    "wait": true,
+                                                                                    "__collapse": false
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "id": "5fa604cf-050e-47ba-9755-7361cf10fc30",
+                                                                                "command": "EVENT_END"
+                                                                            }
+                                                                        ],
+                                                                        "false": [
+                                                                            {
+                                                                                "id": "7817b65b-1d5d-4dfd-b4f5-8a69ad1972e6",
+                                                                                "command": "EVENT_SOUND_PLAY_EFFECT",
+                                                                                "args": {
+                                                                                    "type": "beep",
+                                                                                    "pitch": 4,
+                                                                                    "frequency": 200,
+                                                                                    "duration": 0.01,
+                                                                                    "wait": false,
+                                                                                    "__collapse": false
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "id": "abf89a99-55af-4e75-a976-b130929d677d",
+                                                                                "command": "EVENT_TEXT",
+                                                                                "args": {
+                                                                                    "text": "Error: Unable To\nSave",
+                                                                                    "avatarId": ""
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "id": "8b37ed07-c47e-47b2-ac22-903a8d2e0a6e",
+                                                                                "command": "EVENT_END"
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "id": "0bc3a8de-1cca-487f-a356-732b65c3494e",
+                                                                    "command": "EVENT_END"
+                                                                }
+                                                            ],
+                                                            "true5": [
+                                                                {
+                                                                    "id": "46fd0160-030c-49e1-8bec-8d072ea583cb",
+                                                                    "command": "EVENT_END"
+                                                                }
+                                                            ],
+                                                            "true6": [
+                                                                {
+                                                                    "id": "be78fac2-d8f9-4b52-a820-bb2eb6352f55",
+                                                                    "command": "EVENT_END"
+                                                                }
+                                                            ],
+                                                            "true7": [
+                                                                {
+                                                                    "id": "54d69d23-5d73-4145-ab93-a60d4aac89bb",
+                                                                    "command": "EVENT_END"
+                                                                }
+                                                            ],
+                                                            "true8": [
+                                                                {
+                                                                    "id": "f825aea3-2aa3-41a9-b1dc-236b558b249a",
+                                                                    "command": "EVENT_END"
+                                                                }
+                                                            ],
+                                                            "true9": [
+                                                                {
+                                                                    "id": "538e4017-a5e0-47fb-9805-65b66cdb3d69",
+                                                                    "command": "EVENT_END"
+                                                                }
+                                                            ],
+                                                            "true10": [
+                                                                {
+                                                                    "id": "52aa90ee-77d3-4fce-942e-8a1536ec867b",
+                                                                    "command": "EVENT_END"
+                                                                }
+                                                            ],
+                                                            "true11": [
+                                                                {
+                                                                    "id": "bb287d6b-2a1d-4bb6-9a22-9ea6ff04cbef",
+                                                                    "command": "EVENT_END"
+                                                                }
+                                                            ],
+                                                            "true12": [
+                                                                {
+                                                                    "id": "270839e8-7935-441e-a3c4-789e29d189b1",
+                                                                    "command": "EVENT_END"
+                                                                }
+                                                            ],
+                                                            "true13": [
+                                                                {
+                                                                    "id": "b2969fee-9ea8-468e-a413-6e79a830d4b1",
+                                                                    "command": "EVENT_END"
+                                                                }
+                                                            ],
+                                                            "true14": [
+                                                                {
+                                                                    "id": "4c15cef4-75f3-4945-858d-4203c11b6c43",
+                                                                    "command": "EVENT_END"
+                                                                }
+                                                            ],
+                                                            "true15": [
+                                                                {
+                                                                    "id": "e093a027-ee8a-4e68-b961-d56090a160da",
+                                                                    "command": "EVENT_END"
+                                                                }
+                                                            ],
+                                                            "false": [
+                                                                {
+                                                                    "id": "a09aca87-27d3-4b96-ab40-e0009547e4d9",
+                                                                    "command": "EVENT_END"
+                                                                }
+                                                            ]
+                                                        }
+                                                    },
+                                                    {
+                                                        "id": "dfa5ced1-c640-44db-b73f-22906b53f388",
                                                         "command": "EVENT_END"
                                                     }
                                                 ]
@@ -80668,13 +80732,13 @@
                 0,
                 0,
                 0,
-                2,
-                3,
                 0,
                 0,
                 0,
-                0,
-                0,
+                1,
+                1,
+                1,
+                1,
                 0,
                 0,
                 0,
@@ -80719,11 +80783,12 @@
                             "select",
                             "start",
                             "a"
-                        ]
+                        ],
+                        "__collapse": false
                     }
                 },
                 {
-                    "id": "03a7fcc3-d861-4d47-84f2-352ddaec89c6",
+                    "id": "0d5253aa-e08e-40c6-ae3b-e6c2ea433126",
                     "command": "EVENT_SET_INPUT_SCRIPT",
                     "args": {
                         "input": [
@@ -80731,89 +80796,491 @@
                         ],
                         "persist": false,
                         "__scriptTabs": "press",
-                        "__collapse": false,
-                        "__label": "Cancel Map Menu"
+                        "__label": "Set Up Exit Menu Button",
+                        "__collapse": false
                     },
                     "children": {
                         "true": [
                             {
-                                "id": "a00bd9ea-285a-4dcd-a08f-1658820dee8f",
-                                "command": "EVENT_REMOVE_INPUT_SCRIPT",
+                                "id": "6bea2994-34cf-427c-9efb-11645b80c941",
+                                "command": "EVENT_CALL_CUSTOM_EVENT",
                                 "args": {
-                                    "input": [
-                                        "b"
-                                    ]
-                                }
-                            },
-                            {
-                                "id": "9cf04b9e-6d30-47e2-94d5-454e86f85a37",
-                                "command": "EVENT_SET_INPUT_SCRIPT",
-                                "args": {
-                                    "input": [
-                                        "select"
-                                    ],
-                                    "persist": true,
-                                    "__scriptTabs": "press",
-                                    "__label": "Reenable Map Button",
-                                    "__collapse": true
+                                    "customEventId": "76752ba7-a5d2-4108-84c2-8a5770b8673c",
+                                    "__name": "Exit Menu Screen",
+                                    "$variable[0]$": "T0"
                                 },
                                 "children": {
-                                    "true": [
+                                    "script": [
                                         {
-                                            "id": "201fcccf-ec7b-4c19-8cde-b260332daf5b",
-                                            "command": "EVENT_GROUP",
+                                            "id": "290bcf61-e8c5-4764-816f-e4bca639e2d9",
+                                            "command": "EVENT_SET_INPUT_SCRIPT",
                                             "args": {
-                                                "__collapse": false,
-                                                "__label": "Raise Map Menu"
+                                                "input": [
+                                                    "select"
+                                                ],
+                                                "persist": true,
+                                                "__scriptTabs": "press",
+                                                "__label": "Set Up Pause Menu Button",
+                                                "__collapse": false
                                             },
                                             "children": {
                                                 "true": [
                                                     {
-                                                        "id": "b6f3ad4e-3b3d-443b-8c3f-9d8fe59671b3",
-                                                        "command": "EVENT_SCENE_PUSH_STATE",
-                                                        "args": {}
-                                                    },
-                                                    {
-                                                        "id": "2a064599-be4c-4e58-ada4-820c0677dfe0",
-                                                        "command": "EVENT_SWITCH_SCENE",
+                                                        "id": "197ff31e-1e7a-422e-ada9-5b2ce58dbde8",
+                                                        "command": "EVENT_CALL_CUSTOM_EVENT",
                                                         "args": {
-                                                            "sceneId": "c8978343-6d8c-427a-ba53-03ddbad42dc8",
-                                                            "x": 0,
-                                                            "y": 0,
-                                                            "direction": "right",
-                                                            "fadeSpeed": "1"
+                                                            "customEventId": "afaf9820-daf2-441c-8dd9-ea3db825f1d3",
+                                                            "__name": "Raise Pause Menu",
+                                                            "$variable[0]$": "T0"
+                                                        },
+                                                        "children": {
+                                                            "script": [
+                                                                {
+                                                                    "id": "ca43d1b7-8748-4654-b1f7-bda38fb6286d",
+                                                                    "command": "EVENT_MENU",
+                                                                    "args": {
+                                                                        "variable": "0",
+                                                                        "items": 5,
+                                                                        "option1": "Map",
+                                                                        "option2": "Items",
+                                                                        "option3": "To Do",
+                                                                        "option4": "Lore",
+                                                                        "option5": "Save",
+                                                                        "option6": "",
+                                                                        "option7": "",
+                                                                        "option8": "",
+                                                                        "cancelOnB": true,
+                                                                        "layout": "menu",
+                                                                        "cancelOnLastOption": false,
+                                                                        "__label": "Display Pause Menu",
+                                                                        "__collapse": true
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "id": "162011c6-9c71-4c3d-8473-bef8a5d3e917",
+                                                                    "command": "EVENT_SWITCH",
+                                                                    "args": {
+                                                                        "variable": "0",
+                                                                        "choices": 5,
+                                                                        "__collapseCase0": false,
+                                                                        "value0": 1,
+                                                                        "__collapseCase1": false,
+                                                                        "value1": 2,
+                                                                        "__collapseCase2": false,
+                                                                        "value2": 3,
+                                                                        "__collapseCase3": false,
+                                                                        "value3": 4,
+                                                                        "__collapseCase4": false,
+                                                                        "value4": 5,
+                                                                        "__collapseCase5": false,
+                                                                        "value5": 6,
+                                                                        "__collapseCase6": false,
+                                                                        "value6": 7,
+                                                                        "__collapseCase7": false,
+                                                                        "value7": 8,
+                                                                        "__collapseCase8": false,
+                                                                        "value8": 9,
+                                                                        "__collapseCase9": false,
+                                                                        "value9": 10,
+                                                                        "__collapseCase10": false,
+                                                                        "value10": 11,
+                                                                        "__collapseCase11": false,
+                                                                        "value11": 12,
+                                                                        "__collapseCase12": false,
+                                                                        "value12": 13,
+                                                                        "__collapseCase13": false,
+                                                                        "value13": 14,
+                                                                        "__collapseCase14": false,
+                                                                        "value14": 15,
+                                                                        "__collapseCase15": false,
+                                                                        "value15": 16,
+                                                                        "__collapseElse": false,
+                                                                        "__disableElse": true,
+                                                                        "__label": "Respond to Player Selection",
+                                                                        "__collapse": true
+                                                                    },
+                                                                    "children": {
+                                                                        "true0": [
+                                                                            {
+                                                                                "id": "805efadc-34b2-45e5-a43e-359e44f2871b",
+                                                                                "command": "EVENT_GROUP",
+                                                                                "args": {
+                                                                                    "__collapse": false,
+                                                                                    "__label": "Raise Map Menu"
+                                                                                },
+                                                                                "children": {
+                                                                                    "true": [
+                                                                                        {
+                                                                                            "id": "eeab5238-f41b-4fd3-9bb9-2c4058a5cf3b",
+                                                                                            "command": "EVENT_SCENE_PUSH_STATE",
+                                                                                            "args": {}
+                                                                                        },
+                                                                                        {
+                                                                                            "id": "803774a6-d51d-4666-8351-cc3481364dac",
+                                                                                            "command": "EVENT_SWITCH_SCENE",
+                                                                                            "args": {
+                                                                                                "sceneId": "c8978343-6d8c-427a-ba53-03ddbad42dc8",
+                                                                                                "x": 0,
+                                                                                                "y": 0,
+                                                                                                "direction": "up",
+                                                                                                "fadeSpeed": "1"
+                                                                                            }
+                                                                                        },
+                                                                                        {
+                                                                                            "id": "a13827c7-440d-4a37-838f-30d192d9c076",
+                                                                                            "command": "EVENT_END"
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "id": "e0ac2680-71cf-4703-bf35-488ee458f0d6",
+                                                                                "command": "EVENT_GROUP",
+                                                                                "args": {
+                                                                                    "__collapse": true,
+                                                                                    "__label": "Raise Inventory"
+                                                                                },
+                                                                                "children": {
+                                                                                    "true": [
+                                                                                        {
+                                                                                            "id": "e8b824af-48b0-4998-b9d0-77c2d92923bd",
+                                                                                            "command": "EVENT_SCENE_PUSH_STATE",
+                                                                                            "args": {}
+                                                                                        },
+                                                                                        {
+                                                                                            "id": "4b713481-196d-4d25-b590-b38aa8028b39",
+                                                                                            "command": "EVENT_SWITCH_SCENE",
+                                                                                            "args": {
+                                                                                                "sceneId": "c8978343-6d8c-427a-ba53-03ddbad42dc8",
+                                                                                                "x": 0,
+                                                                                                "y": 0,
+                                                                                                "direction": "up",
+                                                                                                "fadeSpeed": "1"
+                                                                                            }
+                                                                                        },
+                                                                                        {
+                                                                                            "id": "f8a81022-7d46-48cb-bf22-63962d93bf3b",
+                                                                                            "command": "EVENT_END"
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "id": "c9ccd705-5446-46cb-96b9-93a5a02c8c41",
+                                                                                "command": "EVENT_END"
+                                                                            }
+                                                                        ],
+                                                                        "true1": [
+                                                                            {
+                                                                                "id": "fc7f5448-c103-42c3-a2fe-354578f41792",
+                                                                                "command": "EVENT_GROUP",
+                                                                                "args": {
+                                                                                    "__collapse": false,
+                                                                                    "__label": "Raise Inventory"
+                                                                                },
+                                                                                "children": {
+                                                                                    "true": [
+                                                                                        {
+                                                                                            "id": "4b589cce-9c3d-4aef-8aaf-827e072e8b6e",
+                                                                                            "command": "EVENT_SCENE_PUSH_STATE",
+                                                                                            "args": {}
+                                                                                        },
+                                                                                        {
+                                                                                            "id": "be4b2dc8-b888-4f3a-9ce2-98c210afe16a",
+                                                                                            "command": "EVENT_SWITCH_SCENE",
+                                                                                            "args": {
+                                                                                                "sceneId": "4e458931-e14d-45fe-b5aa-a04e9a9cba89",
+                                                                                                "x": 0,
+                                                                                                "y": 0,
+                                                                                                "direction": "up",
+                                                                                                "fadeSpeed": "1"
+                                                                                            }
+                                                                                        },
+                                                                                        {
+                                                                                            "id": "b774cfa0-9543-4f24-b169-9fa2a4aa43b8",
+                                                                                            "command": "EVENT_END"
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "id": "cf519621-969a-4856-bf40-6a7b3c1e7ba6",
+                                                                                "command": "EVENT_END"
+                                                                            }
+                                                                        ],
+                                                                        "true2": [
+                                                                            {
+                                                                                "id": "70216033-397d-4163-b188-684f34cd95f5",
+                                                                                "command": "EVENT_GROUP",
+                                                                                "args": {
+                                                                                    "__collapse": false,
+                                                                                    "__label": "Raise To Do List"
+                                                                                },
+                                                                                "children": {
+                                                                                    "true": [
+                                                                                        {
+                                                                                            "id": "5c77048d-937a-4e97-9d49-ae3db4593826",
+                                                                                            "command": "EVENT_SCENE_PUSH_STATE",
+                                                                                            "args": {}
+                                                                                        },
+                                                                                        {
+                                                                                            "id": "f151b17f-a65a-49d2-a3b2-8fb4550c4b9f",
+                                                                                            "command": "EVENT_SWITCH_SCENE",
+                                                                                            "args": {
+                                                                                                "sceneId": "10609123-dfa8-46df-b180-244fba42b6a1",
+                                                                                                "x": 0,
+                                                                                                "y": 0,
+                                                                                                "direction": "down",
+                                                                                                "fadeSpeed": "1"
+                                                                                            }
+                                                                                        },
+                                                                                        {
+                                                                                            "id": "40bd693d-719d-46fe-a713-4c6b1db3d24a",
+                                                                                            "command": "EVENT_END"
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "id": "fa33f9fc-8bfa-4413-b24b-2704c09ec549",
+                                                                                "command": "EVENT_END"
+                                                                            }
+                                                                        ],
+                                                                        "true3": [
+                                                                            {
+                                                                                "id": "9b039f09-aa9b-4cec-9a2b-193916e7e84a",
+                                                                                "command": "EVENT_GROUP",
+                                                                                "args": {
+                                                                                    "__collapse": false,
+                                                                                    "__label": "Raise Lore"
+                                                                                },
+                                                                                "children": {
+                                                                                    "true": [
+                                                                                        {
+                                                                                            "id": "47b7f460-d075-4ddc-bf66-f7d755a55d22",
+                                                                                            "command": "EVENT_SCENE_PUSH_STATE",
+                                                                                            "args": {}
+                                                                                        },
+                                                                                        {
+                                                                                            "id": "894beaa7-412e-4694-ab60-cc2c767bacd7",
+                                                                                            "command": "EVENT_SWITCH_SCENE",
+                                                                                            "args": {
+                                                                                                "sceneId": "755a93c6-250d-4092-a2d0-34cafd871354",
+                                                                                                "x": 0,
+                                                                                                "y": 0,
+                                                                                                "direction": "up",
+                                                                                                "fadeSpeed": "1"
+                                                                                            }
+                                                                                        },
+                                                                                        {
+                                                                                            "id": "c59be6df-5c25-4b11-b90c-45d73357fa4d",
+                                                                                            "command": "EVENT_END"
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "id": "273c64b3-3179-4534-86ab-c778919bba69",
+                                                                                "command": "EVENT_END"
+                                                                            }
+                                                                        ],
+                                                                        "true4": [
+                                                                            {
+                                                                                "id": "e87b5e22-8a06-4512-b820-c81640aef579",
+                                                                                "command": "EVENT_SAVE_DATA",
+                                                                                "args": {}
+                                                                            },
+                                                                            {
+                                                                                "id": "9e0aabfa-f131-40ca-aeef-ebd519f14ee7",
+                                                                                "command": "EVENT_IF_SAVED_DATA",
+                                                                                "args": {
+                                                                                    "__collapseElse": false,
+                                                                                    "__collapse": true
+                                                                                },
+                                                                                "children": {
+                                                                                    "true": [
+                                                                                        {
+                                                                                            "id": "219cb27d-130e-411a-aaa5-b2e9f2195cd8",
+                                                                                            "command": "EVENT_SOUND_PLAY_EFFECT",
+                                                                                            "args": {
+                                                                                                "type": "tone",
+                                                                                                "pitch": 4,
+                                                                                                "frequency": 400,
+                                                                                                "duration": 0.1,
+                                                                                                "wait": true,
+                                                                                                "__collapse": false
+                                                                                            }
+                                                                                        },
+                                                                                        {
+                                                                                            "id": "db61b1f9-ccdd-46ad-bb1a-8725e2ea38f8",
+                                                                                            "command": "EVENT_SOUND_PLAY_EFFECT",
+                                                                                            "args": {
+                                                                                                "type": "tone",
+                                                                                                "pitch": 4,
+                                                                                                "frequency": 600,
+                                                                                                "duration": 0.1,
+                                                                                                "wait": true,
+                                                                                                "__collapse": false
+                                                                                            }
+                                                                                        },
+                                                                                        {
+                                                                                            "id": "5fa604cf-050e-47ba-9755-7361cf10fc30",
+                                                                                            "command": "EVENT_END"
+                                                                                        }
+                                                                                    ],
+                                                                                    "false": [
+                                                                                        {
+                                                                                            "id": "7817b65b-1d5d-4dfd-b4f5-8a69ad1972e6",
+                                                                                            "command": "EVENT_SOUND_PLAY_EFFECT",
+                                                                                            "args": {
+                                                                                                "type": "beep",
+                                                                                                "pitch": 4,
+                                                                                                "frequency": 200,
+                                                                                                "duration": 0.01,
+                                                                                                "wait": false,
+                                                                                                "__collapse": false
+                                                                                            }
+                                                                                        },
+                                                                                        {
+                                                                                            "id": "abf89a99-55af-4e75-a976-b130929d677d",
+                                                                                            "command": "EVENT_TEXT",
+                                                                                            "args": {
+                                                                                                "text": "Error: Unable To\nSave",
+                                                                                                "avatarId": ""
+                                                                                            }
+                                                                                        },
+                                                                                        {
+                                                                                            "id": "8b37ed07-c47e-47b2-ac22-903a8d2e0a6e",
+                                                                                            "command": "EVENT_END"
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "id": "0bc3a8de-1cca-487f-a356-732b65c3494e",
+                                                                                "command": "EVENT_END"
+                                                                            }
+                                                                        ],
+                                                                        "true5": [
+                                                                            {
+                                                                                "id": "46fd0160-030c-49e1-8bec-8d072ea583cb",
+                                                                                "command": "EVENT_END"
+                                                                            }
+                                                                        ],
+                                                                        "true6": [
+                                                                            {
+                                                                                "id": "be78fac2-d8f9-4b52-a820-bb2eb6352f55",
+                                                                                "command": "EVENT_END"
+                                                                            }
+                                                                        ],
+                                                                        "true7": [
+                                                                            {
+                                                                                "id": "54d69d23-5d73-4145-ab93-a60d4aac89bb",
+                                                                                "command": "EVENT_END"
+                                                                            }
+                                                                        ],
+                                                                        "true8": [
+                                                                            {
+                                                                                "id": "f825aea3-2aa3-41a9-b1dc-236b558b249a",
+                                                                                "command": "EVENT_END"
+                                                                            }
+                                                                        ],
+                                                                        "true9": [
+                                                                            {
+                                                                                "id": "538e4017-a5e0-47fb-9805-65b66cdb3d69",
+                                                                                "command": "EVENT_END"
+                                                                            }
+                                                                        ],
+                                                                        "true10": [
+                                                                            {
+                                                                                "id": "52aa90ee-77d3-4fce-942e-8a1536ec867b",
+                                                                                "command": "EVENT_END"
+                                                                            }
+                                                                        ],
+                                                                        "true11": [
+                                                                            {
+                                                                                "id": "bb287d6b-2a1d-4bb6-9a22-9ea6ff04cbef",
+                                                                                "command": "EVENT_END"
+                                                                            }
+                                                                        ],
+                                                                        "true12": [
+                                                                            {
+                                                                                "id": "270839e8-7935-441e-a3c4-789e29d189b1",
+                                                                                "command": "EVENT_END"
+                                                                            }
+                                                                        ],
+                                                                        "true13": [
+                                                                            {
+                                                                                "id": "b2969fee-9ea8-468e-a413-6e79a830d4b1",
+                                                                                "command": "EVENT_END"
+                                                                            }
+                                                                        ],
+                                                                        "true14": [
+                                                                            {
+                                                                                "id": "4c15cef4-75f3-4945-858d-4203c11b6c43",
+                                                                                "command": "EVENT_END"
+                                                                            }
+                                                                        ],
+                                                                        "true15": [
+                                                                            {
+                                                                                "id": "e093a027-ee8a-4e68-b961-d56090a160da",
+                                                                                "command": "EVENT_END"
+                                                                            }
+                                                                        ],
+                                                                        "false": [
+                                                                            {
+                                                                                "id": "a09aca87-27d3-4b96-ab40-e0009547e4d9",
+                                                                                "command": "EVENT_END"
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "id": "dfa5ced1-c640-44db-b73f-22906b53f388",
+                                                                    "command": "EVENT_END"
+                                                                }
+                                                            ]
                                                         }
                                                     },
                                                     {
-                                                        "id": "57df3c25-5f18-451a-ac08-ac6541f9945f",
+                                                        "id": "ae421ac9-54f9-4643-af52-c941baf4e68c",
                                                         "command": "EVENT_END"
                                                     }
                                                 ]
                                             }
                                         },
                                         {
-                                            "id": "81b57c06-4b9b-4c5b-ae21-4e65dd70e6e1",
+                                            "id": "2cbaa7fe-63c8-406e-9072-f9dd3d087ed8",
+                                            "command": "EVENT_ACTOR_SET_SPRITE",
+                                            "args": {
+                                                "actorId": "player",
+                                                "spriteSheetId": "c3bc79c7-3703-4a67-86b2-301f587745b4"
+                                            }
+                                        },
+                                        {
+                                            "id": "45086387-4852-408c-868b-5c591fd5a32b",
+                                            "command": "EVENT_ACTOR_SHOW",
+                                            "args": {
+                                                "actorId": "player"
+                                            }
+                                        },
+                                        {
+                                            "id": "9011748f-f3ef-4d52-a7ae-7ad4a4c21854",
+                                            "command": "EVENT_SCENE_POP_STATE",
+                                            "args": {
+                                                "fadeSpeed": "1",
+                                                "__collapse": false
+                                            }
+                                        },
+                                        {
+                                            "id": "0617d17a-b9b3-4722-9659-e55df8f19de4",
                                             "command": "EVENT_END"
                                         }
                                     ]
                                 }
                             },
                             {
-                                "id": "5ec307be-6ed7-4fda-b69e-6d93edff1fe0",
-                                "command": "EVENT_ACTOR_SHOW",
-                                "args": {
-                                    "actorId": "$self$"
-                                }
-                            },
-                            {
-                                "id": "a4fa7d0a-12a1-4295-af53-d2f08c0f46e3",
-                                "command": "EVENT_SCENE_POP_STATE",
-                                "args": {
-                                    "fadeSpeed": "1"
-                                }
-                            },
-                            {
-                                "id": "ad8fd3c9-f90e-4286-a0ab-47f5a6627203",
+                                "id": "f1de561f-39f2-42d7-9376-5a419a9906bc",
                                 "command": "EVENT_END"
                             }
                         ]
@@ -102822,7 +103289,7 @@
             "imageHeight": 144,
             "filename": "screen-map.png",
             "inode": "7881299347942063",
-            "_v": 1605905657438
+            "_v": 1605915814515
         },
         {
             "id": "bb6f1bd9-df6a-472a-9c35-33cac9be44e4",
@@ -103693,7 +104160,7 @@
     "customEvents": [
         {
             "id": "afaf9820-daf2-441c-8dd9-ea3db825f1d3",
-            "name": "Pause Menu",
+            "name": "Raise Pause Menu",
             "description": "Presents an in-game menu with a variety of options.",
             "variables": {
                 "0": {
@@ -103720,7 +104187,8 @@
                         "cancelOnB": true,
                         "layout": "menu",
                         "cancelOnLastOption": false,
-                        "__label": "Display Pause Menu"
+                        "__label": "Display Pause Menu",
+                        "__collapse": true
                     }
                 },
                 {
@@ -103763,7 +104231,8 @@
                         "value15": 16,
                         "__collapseElse": false,
                         "__disableElse": true,
-                        "__label": "Respond to Player Selection"
+                        "__label": "Respond to Player Selection",
+                        "__collapse": true
                     },
                     "children": {
                         "true0": [
@@ -104106,6 +104575,485 @@
                     "command": "EVENT_END"
                 }
             ]
+        },
+        {
+            "id": "76752ba7-a5d2-4108-84c2-8a5770b8673c",
+            "name": "Exit Menu Screen",
+            "description": "Exits the current menu screen when the player presses [B].",
+            "variables": {
+                "0": {
+                    "id": "0",
+                    "name": "Menu Choice"
+                }
+            },
+            "actors": {},
+            "script": [
+                {
+                    "id": "290bcf61-e8c5-4764-816f-e4bca639e2d9",
+                    "command": "EVENT_SET_INPUT_SCRIPT",
+                    "args": {
+                        "input": [
+                            "select"
+                        ],
+                        "persist": true,
+                        "__scriptTabs": "press",
+                        "__label": "Set Up Pause Menu Button",
+                        "__collapse": false
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "id": "197ff31e-1e7a-422e-ada9-5b2ce58dbde8",
+                                "command": "EVENT_CALL_CUSTOM_EVENT",
+                                "args": {
+                                    "customEventId": "afaf9820-daf2-441c-8dd9-ea3db825f1d3",
+                                    "__name": "Raise Pause Menu",
+                                    "$variable[0]$": "T0"
+                                },
+                                "children": {
+                                    "script": [
+                                        {
+                                            "id": "20eeb1d8-16ec-4140-9ee7-4757ee42a337",
+                                            "command": "EVENT_MENU",
+                                            "args": {
+                                                "variable": "0",
+                                                "items": 5,
+                                                "option1": "Map",
+                                                "option2": "Items",
+                                                "option3": "To Do",
+                                                "option4": "Lore",
+                                                "option5": "Save",
+                                                "option6": "",
+                                                "option7": "",
+                                                "option8": "",
+                                                "cancelOnB": true,
+                                                "layout": "menu",
+                                                "cancelOnLastOption": false,
+                                                "__label": "Display Pause Menu",
+                                                "__collapse": true
+                                            }
+                                        },
+                                        {
+                                            "id": "f3a92f51-8c28-4ff7-a270-3ad55d5bd9ea",
+                                            "command": "EVENT_SWITCH",
+                                            "args": {
+                                                "variable": "0",
+                                                "choices": 5,
+                                                "__collapseCase0": false,
+                                                "value0": 1,
+                                                "__collapseCase1": false,
+                                                "value1": 2,
+                                                "__collapseCase2": false,
+                                                "value2": 3,
+                                                "__collapseCase3": false,
+                                                "value3": 4,
+                                                "__collapseCase4": false,
+                                                "value4": 5,
+                                                "__collapseCase5": false,
+                                                "value5": 6,
+                                                "__collapseCase6": false,
+                                                "value6": 7,
+                                                "__collapseCase7": false,
+                                                "value7": 8,
+                                                "__collapseCase8": false,
+                                                "value8": 9,
+                                                "__collapseCase9": false,
+                                                "value9": 10,
+                                                "__collapseCase10": false,
+                                                "value10": 11,
+                                                "__collapseCase11": false,
+                                                "value11": 12,
+                                                "__collapseCase12": false,
+                                                "value12": 13,
+                                                "__collapseCase13": false,
+                                                "value13": 14,
+                                                "__collapseCase14": false,
+                                                "value14": 15,
+                                                "__collapseCase15": false,
+                                                "value15": 16,
+                                                "__collapseElse": false,
+                                                "__disableElse": true,
+                                                "__label": "Respond to Player Selection",
+                                                "__collapse": true
+                                            },
+                                            "children": {
+                                                "true0": [
+                                                    {
+                                                        "id": "79cf873e-1f3f-498f-9f43-45936e3036e2",
+                                                        "command": "EVENT_GROUP",
+                                                        "args": {
+                                                            "__collapse": false,
+                                                            "__label": "Raise Map Menu"
+                                                        },
+                                                        "children": {
+                                                            "true": [
+                                                                {
+                                                                    "id": "cd261c09-f64c-4e20-b8a8-7f91ab927bff",
+                                                                    "command": "EVENT_SCENE_PUSH_STATE",
+                                                                    "args": {}
+                                                                },
+                                                                {
+                                                                    "id": "534226de-75b1-47ef-a138-ec9627a0b597",
+                                                                    "command": "EVENT_SWITCH_SCENE",
+                                                                    "args": {
+                                                                        "sceneId": "c8978343-6d8c-427a-ba53-03ddbad42dc8",
+                                                                        "x": 0,
+                                                                        "y": 0,
+                                                                        "direction": "up",
+                                                                        "fadeSpeed": "1"
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "id": "ec4f1858-81bf-43ca-827e-76136ed324f8",
+                                                                    "command": "EVENT_END"
+                                                                }
+                                                            ]
+                                                        }
+                                                    },
+                                                    {
+                                                        "id": "e9eeb8bc-dd28-4bbb-afb7-93e27832a7e8",
+                                                        "command": "EVENT_GROUP",
+                                                        "args": {
+                                                            "__collapse": true,
+                                                            "__label": "Raise Inventory"
+                                                        },
+                                                        "children": {
+                                                            "true": [
+                                                                {
+                                                                    "id": "84a2522b-587e-428f-a94f-26e25f9d0839",
+                                                                    "command": "EVENT_SCENE_PUSH_STATE",
+                                                                    "args": {}
+                                                                },
+                                                                {
+                                                                    "id": "9fd0c9b9-f42d-4dac-ae54-f6241d1e613a",
+                                                                    "command": "EVENT_SWITCH_SCENE",
+                                                                    "args": {
+                                                                        "sceneId": "c8978343-6d8c-427a-ba53-03ddbad42dc8",
+                                                                        "x": 0,
+                                                                        "y": 0,
+                                                                        "direction": "up",
+                                                                        "fadeSpeed": "1"
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "id": "8aae8f0c-7585-4660-962f-fef1d81f347f",
+                                                                    "command": "EVENT_END"
+                                                                }
+                                                            ]
+                                                        }
+                                                    },
+                                                    {
+                                                        "id": "0857e852-b83e-4668-a465-ba8820c971e9",
+                                                        "command": "EVENT_END"
+                                                    }
+                                                ],
+                                                "true1": [
+                                                    {
+                                                        "id": "21d47106-c6e4-4d42-9b6d-4ac15080248c",
+                                                        "command": "EVENT_GROUP",
+                                                        "args": {
+                                                            "__collapse": false,
+                                                            "__label": "Raise Inventory"
+                                                        },
+                                                        "children": {
+                                                            "true": [
+                                                                {
+                                                                    "id": "87142edd-d9ec-44a8-a845-02955dcc9025",
+                                                                    "command": "EVENT_SCENE_PUSH_STATE",
+                                                                    "args": {}
+                                                                },
+                                                                {
+                                                                    "id": "498497b0-696a-4575-8e7f-bccfc22e7799",
+                                                                    "command": "EVENT_SWITCH_SCENE",
+                                                                    "args": {
+                                                                        "sceneId": "4e458931-e14d-45fe-b5aa-a04e9a9cba89",
+                                                                        "x": 0,
+                                                                        "y": 0,
+                                                                        "direction": "up",
+                                                                        "fadeSpeed": "1"
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "id": "ecb37806-ecb4-4426-808e-0c4b3faaa7c1",
+                                                                    "command": "EVENT_END"
+                                                                }
+                                                            ]
+                                                        }
+                                                    },
+                                                    {
+                                                        "id": "fb05348b-1c40-43f3-998f-76f816a92478",
+                                                        "command": "EVENT_END"
+                                                    }
+                                                ],
+                                                "true2": [
+                                                    {
+                                                        "id": "71c2db9e-6599-49ac-ba35-e61244423bdc",
+                                                        "command": "EVENT_GROUP",
+                                                        "args": {
+                                                            "__collapse": false,
+                                                            "__label": "Raise To Do List"
+                                                        },
+                                                        "children": {
+                                                            "true": [
+                                                                {
+                                                                    "id": "e2a73271-cd7a-465f-96db-7c863ec16566",
+                                                                    "command": "EVENT_SCENE_PUSH_STATE",
+                                                                    "args": {}
+                                                                },
+                                                                {
+                                                                    "id": "7c2e39e8-3722-4a8e-9b5b-e17e7f7e0a60",
+                                                                    "command": "EVENT_SWITCH_SCENE",
+                                                                    "args": {
+                                                                        "sceneId": "10609123-dfa8-46df-b180-244fba42b6a1",
+                                                                        "x": 0,
+                                                                        "y": 0,
+                                                                        "direction": "down",
+                                                                        "fadeSpeed": "1"
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "id": "5a0f52c9-734c-490d-a684-3f29108f797f",
+                                                                    "command": "EVENT_END"
+                                                                }
+                                                            ]
+                                                        }
+                                                    },
+                                                    {
+                                                        "id": "f6847448-5d93-41a7-a8a3-f9603d0de49a",
+                                                        "command": "EVENT_END"
+                                                    }
+                                                ],
+                                                "true3": [
+                                                    {
+                                                        "id": "42a721a9-6b43-42b5-9625-e54f48a2a3cb",
+                                                        "command": "EVENT_GROUP",
+                                                        "args": {
+                                                            "__collapse": false,
+                                                            "__label": "Raise Lore"
+                                                        },
+                                                        "children": {
+                                                            "true": [
+                                                                {
+                                                                    "id": "16437480-bf91-45ea-a032-6e2d70ce3811",
+                                                                    "command": "EVENT_SCENE_PUSH_STATE",
+                                                                    "args": {}
+                                                                },
+                                                                {
+                                                                    "id": "fc949e0d-1246-49a0-9f99-d431a26e2121",
+                                                                    "command": "EVENT_SWITCH_SCENE",
+                                                                    "args": {
+                                                                        "sceneId": "755a93c6-250d-4092-a2d0-34cafd871354",
+                                                                        "x": 0,
+                                                                        "y": 0,
+                                                                        "direction": "up",
+                                                                        "fadeSpeed": "1"
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "id": "b5f720c1-fc59-4918-bfca-7d90c70d9eac",
+                                                                    "command": "EVENT_END"
+                                                                }
+                                                            ]
+                                                        }
+                                                    },
+                                                    {
+                                                        "id": "4d246f8e-0537-42a0-9975-2ec96f039381",
+                                                        "command": "EVENT_END"
+                                                    }
+                                                ],
+                                                "true4": [
+                                                    {
+                                                        "id": "0de40d20-17f1-4263-adaa-65218016f9cf",
+                                                        "command": "EVENT_SAVE_DATA",
+                                                        "args": {}
+                                                    },
+                                                    {
+                                                        "id": "136594f7-a0d7-4431-bb25-30a51f23b0a9",
+                                                        "command": "EVENT_IF_SAVED_DATA",
+                                                        "args": {
+                                                            "__collapseElse": false,
+                                                            "__collapse": true
+                                                        },
+                                                        "children": {
+                                                            "true": [
+                                                                {
+                                                                    "id": "c6c582d1-c072-4538-b2fa-0443467c94e1",
+                                                                    "command": "EVENT_SOUND_PLAY_EFFECT",
+                                                                    "args": {
+                                                                        "type": "tone",
+                                                                        "pitch": 4,
+                                                                        "frequency": 400,
+                                                                        "duration": 0.1,
+                                                                        "wait": true,
+                                                                        "__collapse": false
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "id": "e33e4e69-37d8-4a49-b740-f1e06c5dda72",
+                                                                    "command": "EVENT_SOUND_PLAY_EFFECT",
+                                                                    "args": {
+                                                                        "type": "tone",
+                                                                        "pitch": 4,
+                                                                        "frequency": 600,
+                                                                        "duration": 0.1,
+                                                                        "wait": true,
+                                                                        "__collapse": false
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "id": "2ef5f547-484d-40e8-89f8-80dc57cac19c",
+                                                                    "command": "EVENT_END"
+                                                                }
+                                                            ],
+                                                            "false": [
+                                                                {
+                                                                    "id": "f965e8db-2c8a-402d-93df-f4a937f2c474",
+                                                                    "command": "EVENT_SOUND_PLAY_EFFECT",
+                                                                    "args": {
+                                                                        "type": "beep",
+                                                                        "pitch": 4,
+                                                                        "frequency": 200,
+                                                                        "duration": 0.01,
+                                                                        "wait": false,
+                                                                        "__collapse": false
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "id": "d41091f1-0675-4ce4-9091-0774b2eb5397",
+                                                                    "command": "EVENT_TEXT",
+                                                                    "args": {
+                                                                        "text": "Error: Unable To\nSave",
+                                                                        "avatarId": ""
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "id": "80fda928-e9c5-40dc-b6d6-acfb3c40622e",
+                                                                    "command": "EVENT_END"
+                                                                }
+                                                            ]
+                                                        }
+                                                    },
+                                                    {
+                                                        "id": "7333d809-9be3-4cd5-be4e-24f0dd5c4c25",
+                                                        "command": "EVENT_END"
+                                                    }
+                                                ],
+                                                "true5": [
+                                                    {
+                                                        "id": "b427db44-a329-41c7-b0d5-3f0a02a332bb",
+                                                        "command": "EVENT_END"
+                                                    }
+                                                ],
+                                                "true6": [
+                                                    {
+                                                        "id": "06f6f5ae-7e88-4456-ae9f-40a8346ba467",
+                                                        "command": "EVENT_END"
+                                                    }
+                                                ],
+                                                "true7": [
+                                                    {
+                                                        "id": "1c62b5e8-8aaf-4061-8da8-d8acede6f9b7",
+                                                        "command": "EVENT_END"
+                                                    }
+                                                ],
+                                                "true8": [
+                                                    {
+                                                        "id": "57e4b763-f9fa-489a-a6f1-3efa47cdbd95",
+                                                        "command": "EVENT_END"
+                                                    }
+                                                ],
+                                                "true9": [
+                                                    {
+                                                        "id": "7f2dcd2a-5c95-4099-9633-7495afe60e06",
+                                                        "command": "EVENT_END"
+                                                    }
+                                                ],
+                                                "true10": [
+                                                    {
+                                                        "id": "99674b72-0144-42df-ad93-cef0447659a3",
+                                                        "command": "EVENT_END"
+                                                    }
+                                                ],
+                                                "true11": [
+                                                    {
+                                                        "id": "0ea1423b-d589-4358-9bdb-49781be7005c",
+                                                        "command": "EVENT_END"
+                                                    }
+                                                ],
+                                                "true12": [
+                                                    {
+                                                        "id": "12b9b9e4-c17c-4646-b1d0-ff49cdf9187e",
+                                                        "command": "EVENT_END"
+                                                    }
+                                                ],
+                                                "true13": [
+                                                    {
+                                                        "id": "8516c680-0df8-4239-905b-c45746859e84",
+                                                        "command": "EVENT_END"
+                                                    }
+                                                ],
+                                                "true14": [
+                                                    {
+                                                        "id": "c2f980ef-1cc2-42cf-b6aa-7159ce72f59c",
+                                                        "command": "EVENT_END"
+                                                    }
+                                                ],
+                                                "true15": [
+                                                    {
+                                                        "id": "1bb6d055-5ea1-483d-ae0c-09a574630bfd",
+                                                        "command": "EVENT_END"
+                                                    }
+                                                ],
+                                                "false": [
+                                                    {
+                                                        "id": "af285de6-64b9-4d76-9528-7d81dbaf1b9b",
+                                                        "command": "EVENT_END"
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "id": "8a8b6ae3-6bc7-44f2-874d-902f3c9503a3",
+                                            "command": "EVENT_END"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "id": "ae421ac9-54f9-4643-af52-c941baf4e68c",
+                                "command": "EVENT_END"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "2cbaa7fe-63c8-406e-9072-f9dd3d087ed8",
+                    "command": "EVENT_ACTOR_SET_SPRITE",
+                    "args": {
+                        "actorId": "player",
+                        "spriteSheetId": "c3bc79c7-3703-4a67-86b2-301f587745b4"
+                    }
+                },
+                {
+                    "id": "45086387-4852-408c-868b-5c591fd5a32b",
+                    "command": "EVENT_ACTOR_SHOW",
+                    "args": {
+                        "actorId": "player"
+                    }
+                },
+                {
+                    "id": "9011748f-f3ef-4d52-a7ae-7ad4a4c21854",
+                    "command": "EVENT_SCENE_POP_STATE",
+                    "args": {
+                        "fadeSpeed": "1",
+                        "__collapse": false
+                    }
+                },
+                {
+                    "id": "0617d17a-b9b3-4722-9659-e55df8f19de4",
+                    "command": "EVENT_END"
+                }
+            ]
         }
     ],
     "music": [
@@ -104390,17 +105338,21 @@
         {
             "id": "e0decb7d-e516-4848-9fa5-29df05532908__L1",
             "name": "Y Coord"
+        },
+        {
+            "id": "9c92d29f-7e5b-4c84-a780-79cd7602191d__L0",
+            "name": "Menu Choice"
         }
     ],
     "settings": {
-        "startSceneId": "2bbd4257-3d21-4a2b-8d83-bf5c8b545bf0",
+        "startSceneId": "237d24f5-a91b-483a-a6d8-c972d5b3cc6d",
         "startX": 3,
         "startY": 6,
         "showCollisions": true,
         "showConnections": "all",
-        "worldScrollX": 3821,
-        "worldScrollY": 675,
-        "zoom": 375,
+        "worldScrollX": 2607,
+        "worldScrollY": 384,
+        "zoom": 275,
         "customColorsEnabled": true,
         "defaultBackgroundPaletteIds": "default-background",
         "defaultSpritePaletteId": "default-sprite",
