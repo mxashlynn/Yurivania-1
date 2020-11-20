@@ -3,7 +3,7 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "backgrounds/screen-album.tmx",
+    "activeFile": "backgrounds/screen-lore.tmx",
     "expandedProjectPaths": [
         "tiles",
         "backgrounds",
@@ -313,11 +313,11 @@
             "scaleInEditor": 11
         },
         "tiles/yurivania.tsx": {
-            "scaleInDock": 5.5,
+            "scaleInDock": 4,
             "scaleInEditor": 11
         },
         "tiles/yurivania_alternate.tsx": {
-            "scaleInDock": 5.5
+            "scaleInDock": 4
         }
     },
     "map.height": 18,
@@ -327,11 +327,14 @@
     "map.width": 20,
     "openFiles": [
         "backgrounds/one-room-measurement.tmx",
-        "backgrounds/screen-album.tmx"
+        "backgrounds/screen-inventory.tmx",
+        "backgrounds/screen-lore.tmx"
     ],
     "project": "yurivania.tiled-project",
     "recentFiles": [
         "backgrounds/one-room-measurement.tmx",
+        "backgrounds/screen-inventory.tmx",
+        "backgrounds/screen-lore.tmx",
         "backgrounds/screen-album.tmx",
         "backgrounds/area-echoing_vaults-open.tmx",
         "backgrounds/area-echoing_vaults-locked.tmx",
@@ -340,9 +343,7 @@
         "backgrounds/area-skyclad_tower-hall_of_banners.tmx",
         "backgrounds/area-skyclad_tower-hall_of_statues.tmx",
         "backgrounds/area-subterrane.tmx",
-        "backgrounds/area-glassy_tarn.tmx",
-        "backgrounds/area-glassy_tarn-cant_swim.tmx",
-        "backgrounds/area-mossy_tholtan.tmx"
+        "backgrounds/area-glassy_tarn.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {

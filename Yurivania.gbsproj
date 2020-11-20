@@ -10438,7 +10438,7 @@
                                                         "command": "EVENT_GROUP",
                                                         "args": {
                                                             "__collapse": false,
-                                                            "__label": "Raise Item Menu"
+                                                            "__label": "Raise Inventory"
                                                         },
                                                         "children": {
                                                             "true": [
@@ -101975,6 +101975,17 @@
             "_v": 1605819455539
         },
         {
+            "id": "a20385f2-67a0-4b68-bf25-b365a4512e6e",
+            "name": "screen-inventory",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "screen-inventory.png",
+            "inode": "13792273858928261",
+            "_v": 1605833534924
+        },
+        {
             "id": "ea7a7282-496c-4211-ba52-427b3596333a",
             "name": "screen-logo",
             "width": 20,
@@ -101986,6 +101997,17 @@
             "_v": 1605819455539
         },
         {
+            "id": "572d1710-0fbd-48d7-8d08-b8a171ac3a66",
+            "name": "screen-lore",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "screen-lore.png",
+            "inode": "4785074604199566",
+            "_v": 1605835878219
+        },
+        {
             "id": "2d9c771d-9027-44ed-aecf-0c70a7831268",
             "name": "screen-map",
             "width": 20,
@@ -101994,7 +102016,7 @@
             "imageHeight": 144,
             "filename": "screen-map.png",
             "inode": "7881299347942063",
-            "_v": 1605819455539
+            "_v": 1605831147497
         },
         {
             "id": "bb6f1bd9-df6a-472a-9c35-33cac9be44e4",
@@ -102036,7 +102058,7 @@
             "type": "static",
             "filename": "empty.png",
             "inode": "37717646879270449",
-            "_v": 1605819926298
+            "_v": 1605830134783
         },
         {
             "id": "5b8cb77d-ff50-41dd-9018-1289ce7f00a0",
@@ -102050,11 +102072,11 @@
         {
             "id": "a5bfebf9-fa1b-408a-adce-e07eddc963ab",
             "name": "inv-0_selector",
-            "numFrames": 1,
-            "type": "static",
+            "numFrames": 14,
+            "type": "animated",
             "filename": "inv-0_selector.png",
             "inode": "21955048183484516",
-            "_v": 1605820248509
+            "_v": 1605821899303
         },
         {
             "id": "950514d3-c57d-4808-b67f-ca30dd370a6d",
@@ -102072,7 +102094,7 @@
             "type": "animated",
             "filename": "inv-2_light_fertilizer.png",
             "inode": "2533274790502741",
-            "_v": 1605819455539
+            "_v": 1605821645381
         },
         {
             "id": "79bcd5bc-aaf5-436d-981b-953394a383f0",
@@ -103038,8 +103060,8 @@
         "startY": 12,
         "showCollisions": true,
         "showConnections": "all",
-        "worldScrollX": 7522,
-        "worldScrollY": 2909,
+        "worldScrollX": 4158,
+        "worldScrollY": 5309,
         "zoom": 275,
         "customColorsEnabled": true,
         "defaultBackgroundPaletteIds": "default-background",
