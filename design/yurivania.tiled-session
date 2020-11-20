@@ -3,11 +3,11 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "backgrounds/screen-lore.tmx",
+    "activeFile": "backgrounds/screen-inventory.tmx",
     "expandedProjectPaths": [
         "tiles",
-        "backgrounds",
-        "."
+        ".",
+        "backgrounds"
     ],
     "exportAsImage.useCurrentScale": false,
     "file.lastUsedOpenFilter": "All Files (*)",
@@ -18,6 +18,14 @@
             "viewCenter": {
                 "x": 1306.0606060606058,
                 "y": 500
+            }
+        },
+        "backgrounds/TEMP.tmx": {
+            "scale": 5.394642857142857,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 76.00132406487919,
+                "y": 72.10857332009269
             }
         },
         "backgrounds/area-alraunes_corner.tmx": {
@@ -296,7 +304,7 @@
             "scale": 5.664375,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 80.15006068630696,
+                "x": 79.97351870241644,
                 "y": 72.02912942734194
             }
         },
@@ -327,13 +335,13 @@
     "map.width": 20,
     "openFiles": [
         "backgrounds/one-room-measurement.tmx",
-        "backgrounds/screen-inventory.tmx",
-        "backgrounds/screen-lore.tmx"
+        "backgrounds/screen-inventory.tmx"
     ],
     "project": "yurivania.tiled-project",
     "recentFiles": [
         "backgrounds/one-room-measurement.tmx",
         "backgrounds/screen-inventory.tmx",
+        "backgrounds/TEMP.tmx",
         "backgrounds/screen-lore.tmx",
         "backgrounds/screen-album.tmx",
         "backgrounds/area-echoing_vaults-open.tmx",
@@ -342,8 +350,7 @@
         "backgrounds/area-inner_circle.tmx",
         "backgrounds/area-skyclad_tower-hall_of_banners.tmx",
         "backgrounds/area-skyclad_tower-hall_of_statues.tmx",
-        "backgrounds/area-subterrane.tmx",
-        "backgrounds/area-glassy_tarn.tmx"
+        "backgrounds/area-subterrane.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {
