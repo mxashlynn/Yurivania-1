@@ -316,6 +316,14 @@
                 "y": 72
             }
         },
+        "backgrounds/screen-to_do_list.tmx": {
+            "scale": 5.664375,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 80.15006068630696,
+                "y": 72.02912942734194
+            }
+        },
         "tiles/yurivania-alternate.tsx": {
             "scaleInDock": 4,
             "scaleInEditor": 11
