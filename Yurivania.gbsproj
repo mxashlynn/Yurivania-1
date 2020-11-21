@@ -9890,7 +9890,7 @@
                         "__disableElse": true,
                         "__comment": false,
                         "__label": "Opening Convo",
-                        "__collapse": true
+                        "__collapse": false
                     },
                     "children": {
                         "true": [
@@ -10084,7 +10084,7 @@
                                 "command": "EVENT_TEXT",
                                 "args": {
                                     "text": [
-                                        "ALRAUNE: Not\nreally.  I have\nrunning roots all ",
+                                        "ALRAUNE: Not\nreally.  I have\n>running roots all",
                                         "over the castle\ngrounds now. So I\ncould go about",
                                         "anywhere there's\nsoil, light, and\nwater.",
                                         "Why do you ask?"
@@ -10330,7 +10330,7 @@
                                     "text": [
                                         "STHENO: Just\nthinking over\nlogistics!",
                                         "This'll be great!!",
-                                        "(I can look at my\nlist using START.)"
+                                        "(I can look at my\nto do list using\nSELECT.)"
                                     ],
                                     "avatarId": ""
                                 }
@@ -46565,7 +46565,7 @@
                                                     "command": "EVENT_TEXT",
                                                     "args": {
                                                         "text": [
-                                                            "TIBBY: Any sign of\nthe human yet?"
+                                                            "STHENO: Where did\nyou see the human?"
                                                         ],
                                                         "avatarId": ""
                                                     }
@@ -46575,8 +46575,8 @@
                                                     "command": "EVENT_TEXT",
                                                     "args": {
                                                         "text": [
-                                                            "STHENO: Yes, but\nso far things are\ninconclusive.",
-                                                            "Don't worry, I'll\nget it!"
+                                                            "TIBBY: It was\nlurking right here\nbut slunk off",
+                                                            "to the right,\ntoward the other\nside of the Gulf."
                                                         ],
                                                         "avatarId": ""
                                                     }
@@ -47034,6 +47034,16 @@
                     "x": 26,
                     "y": 55,
                     "width": 9,
+                    "height": 1
+                },
+                {
+                    "name": "",
+                    "trigger": "walk",
+                    "script": [],
+                    "id": "ba5bd275-f19f-4a8a-8f81-c745aa2a27f8",
+                    "x": 7,
+                    "y": 31,
+                    "width": 1,
                     "height": 1
                 }
             ],
@@ -103074,7 +103084,7 @@
                         "persist": false,
                         "__scriptTabs": "press",
                         "__label": "Set Up Exit Menu Button",
-                        "__collapse": false
+                        "__collapse": true
                     },
                     "children": {
                         "true": [
@@ -103575,6 +103585,340 @@
                             },
                             {
                                 "id": "30c6b1da-047c-41f5-ac0e-973c79de08e4",
+                                "command": "EVENT_END"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "bc1611ee-ab23-4bb6-8830-64075ea654ec",
+                    "command": "EVENT_SET_INPUT_SCRIPT",
+                    "args": {
+                        "input": [
+                            "start"
+                        ],
+                        "persist": false,
+                        "__scriptTabs": "press",
+                        "__label": "Set Up Info Button"
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "id": "191e0e05-c9eb-48b6-a16f-232573a68381",
+                                "command": "EVENT_SET_VALUE",
+                                "args": {
+                                    "variable": "L0",
+                                    "value": {
+                                        "type": "property",
+                                        "value": "player:ypos"
+                                    }
+                                }
+                            },
+                            {
+                                "id": "06268cf7-c404-423d-a9d7-a60bde3a1ebb",
+                                "command": "EVENT_SWITCH",
+                                "args": {
+                                    "variable": "L0",
+                                    "choices": 12,
+                                    "__collapseCase0": false,
+                                    "value0": 3,
+                                    "__collapseCase1": false,
+                                    "value1": 4,
+                                    "__collapseCase2": false,
+                                    "value2": 5,
+                                    "__collapseCase3": false,
+                                    "value3": 6,
+                                    "__collapseCase4": false,
+                                    "value4": 7,
+                                    "__collapseCase5": false,
+                                    "value5": 8,
+                                    "__collapseCase6": false,
+                                    "value6": 9,
+                                    "__collapseCase7": false,
+                                    "value7": 10,
+                                    "__collapseCase8": false,
+                                    "value8": 11,
+                                    "__collapseCase9": false,
+                                    "value9": 12,
+                                    "__collapseCase10": false,
+                                    "value10": 13,
+                                    "__collapseCase11": false,
+                                    "value11": 14,
+                                    "__collapseCase12": false,
+                                    "value12": 14,
+                                    "__collapseCase13": false,
+                                    "value13": 15,
+                                    "__collapseCase14": false,
+                                    "value14": 16,
+                                    "__collapseCase15": false,
+                                    "value15": 16,
+                                    "__collapseElse": false,
+                                    "__disableElse": true,
+                                    "__label": "Respond to Player Selection",
+                                    "__collapse": false
+                                },
+                                "children": {
+                                    "true0": [
+                                        {
+                                            "id": "66d1c929-6916-4101-9b92-0946bb0b03ca",
+                                            "command": "EVENT_TEXT",
+                                            "args": {
+                                                "text": [
+                                                    "@ Cyclic amulet.\nA mysterious\npendant found in",
+                                                    "Lin's attic. It\nhas an afinity for",
+                                                    "all sites sacred\nto the moon.... {"
+                                                ],
+                                                "avatarId": ""
+                                            }
+                                        },
+                                        {
+                                            "id": "7e42c3a2-5d78-4d69-a34f-f23330c031ac",
+                                            "command": "EVENT_END"
+                                        }
+                                    ],
+                                    "true1": [
+                                        {
+                                            "id": "008b56a6-1706-4f4a-a336-b66169bd46b4",
+                                            "command": "EVENT_TEXT",
+                                            "args": {
+                                                "text": [
+                                                    "^ An old bone.\nThis can be\ncrushed into",
+                                                    "a tasty plant\nsnack!"
+                                                ],
+                                                "avatarId": ""
+                                            }
+                                        },
+                                        {
+                                            "id": "9258e7b8-76e9-4180-9827-2a7deb7d00e0",
+                                            "command": "EVENT_END"
+                                        }
+                                    ],
+                                    "true2": [
+                                        {
+                                            "id": "290fdbd0-2f11-41b3-b9ce-95739170f625",
+                                            "command": "EVENT_TEXT",
+                                            "args": {
+                                                "text": [
+                                                    "$ Grow light.\nThis enchanted\ncandle was kindled",
+                                                    "from a will-o'-\nthe-wisp and",
+                                                    "burns at a steady\n6,000K, promoting\nlush vegetation."
+                                                ],
+                                                "avatarId": ""
+                                            }
+                                        },
+                                        {
+                                            "id": "d7b3b4e7-dae9-49bc-86ae-7890e690b3f6",
+                                            "command": "EVENT_END"
+                                        }
+                                    ],
+                                    "true3": [
+                                        {
+                                            "id": "d038064b-9612-4de3-8beb-92f3907ed8a0",
+                                            "command": "EVENT_TEXT",
+                                            "args": {
+                                                "text": [
+                                                    "# Ornate pitcher. \nThis portable\ncontainer designed",
+                                                    "specifically for\nconveying water to\nthirsty plants is",
+                                                    "fancier than most.\nBut then, no\njourney of import",
+                                                    "has been made\nwithout such a\nflask. }"
+                                                ],
+                                                "avatarId": ""
+                                            }
+                                        },
+                                        {
+                                            "id": "0df87481-9890-46d8-a28d-75614bb1d5af",
+                                            "command": "EVENT_END"
+                                        }
+                                    ],
+                                    "true4": [
+                                        {
+                                            "id": "1b1d7e3d-fe40-4ac9-9685-b7782fad3760",
+                                            "command": "EVENT_TEXT",
+                                            "args": {
+                                                "text": [
+                                                    "& Ladybug! The\nprettiest of\nhunter-killers,",
+                                                    "an indespensible\nelement in\nsustainable",
+                                                    "agriculture and an\naid against many\npalace pests."
+                                                ],
+                                                "avatarId": ""
+                                            }
+                                        },
+                                        {
+                                            "id": "40419343-b4b9-45cb-9a9b-6687d0a13514",
+                                            "command": "EVENT_END"
+                                        }
+                                    ],
+                                    "true5": [
+                                        {
+                                            "id": "439b8098-27f0-4b35-a819-8e527610ea60",
+                                            "command": "EVENT_TEXT",
+                                            "args": {
+                                                "text": [
+                                                    "_ A vial of fresh\nblood. Not needed\nat the ritual for",
+                                                    "which it was\ninitially\nprepared, Stheno",
+                                                    "intends this as a\nhousewarming gift.\nAlraune grew up",
+                                                    "drinking this\nwarm, nutritious\nliquid."
+                                                ],
+                                                "avatarId": ""
+                                            }
+                                        },
+                                        {
+                                            "id": "8d9836bf-60fe-4988-ad15-ecc11bdcd5f7",
+                                            "command": "EVENT_END"
+                                        }
+                                    ],
+                                    "true6": [
+                                        {
+                                            "id": "8d3e4039-65b7-4014-95af-55e1935097fb",
+                                            "command": "EVENT_TEXT",
+                                            "args": {
+                                                "text": [
+                                                    "< Jade mask. A\nrelic of ancient\nceremonies, Stheno",
+                                                    "received this as a\ngift from a\nvampire friend.",
+                                                    "She seldom removes\nit as few living\nbeings can",
+                                                    "withstand a glance\nat her beautiful\nface."
+                                                ],
+                                                "avatarId": "",
+                                                "__collapse": false
+                                            }
+                                        },
+                                        {
+                                            "id": "471b0243-8cd4-4606-9b9e-a5210e1bb476",
+                                            "command": "EVENT_END"
+                                        }
+                                    ],
+                                    "true7": [
+                                        {
+                                            "id": "9d757ddc-a6fc-44c6-b0fb-22a0a8496bef",
+                                            "command": "EVENT_TEXT",
+                                            "args": {
+                                                "text": [
+                                                    "A robe in the\nstyle of the\nantique chiton",
+                                                    "this and a pair\nof open-toed\nsandals are",
+                                                    "Stheno's prefered\ncasual outfit."
+                                                ],
+                                                "avatarId": ""
+                                            }
+                                        },
+                                        {
+                                            "id": "29e08334-1d39-45a5-943c-409305d46b10",
+                                            "command": "EVENT_END"
+                                        }
+                                    ],
+                                    "true8": [
+                                        {
+                                            "id": "ad2717ab-c8db-47b7-a750-ed9b4e18e886",
+                                            "command": "EVENT_TEXT",
+                                            "args": {
+                                                "text": [
+                                                    "[ A skeleton key\nthat can lock and\nunlock various",
+                                                    "castle doors. \nAfter using this,\nStheno should",
+                                                    "return it to the\nskeleton it\nbelongs to!"
+                                                ],
+                                                "avatarId": ""
+                                            }
+                                        },
+                                        {
+                                            "id": "55bf21d3-ca9f-421b-bf44-b26130c76288",
+                                            "command": "EVENT_END"
+                                        }
+                                    ],
+                                    "true9": [
+                                        {
+                                            "id": "603cb6fd-6391-4303-b271-4484bd1ed922",
+                                            "command": "EVENT_TEXT",
+                                            "args": {
+                                                "text": [
+                                                    "+ A golden\nornament in the\nshape of a harpy",
+                                                    "feather, Aello\nuses one like this\nto repel",
+                                                    "inconvenient gusts\nand mischevious\nsylphs."
+                                                ],
+                                                "avatarId": ""
+                                            }
+                                        },
+                                        {
+                                            "id": "ba28eabc-27b5-4f47-804e-c6d857b2bb35",
+                                            "command": "EVENT_END"
+                                        }
+                                    ],
+                                    "true10": [
+                                        {
+                                            "id": "bf511d9a-5c95-4491-b281-424853c37754",
+                                            "command": "EVENT_TEXT",
+                                            "args": {
+                                                "text": [
+                                                    "= A token of love\nfrom Stheno's gf\nKuliltu,",
+                                                    "this lipstick mark\nhas the added\nbenefit of",
+                                                    "allowing Stheno to\nbreath under\nwater. Wow, that's",
+                                                    "the power of love!\n| | |"
+                                                ],
+                                                "avatarId": ""
+                                            }
+                                        },
+                                        {
+                                            "id": "682a68a2-7ed2-4ab6-8837-d280e9a30d75",
+                                            "command": "EVENT_END"
+                                        }
+                                    ],
+                                    "true11": [
+                                        {
+                                            "id": "518690f2-929a-4bab-94af-8d7ac34e49e8",
+                                            "command": "EVENT_TEXT",
+                                            "args": {
+                                                "text": [
+                                                    "] A simple silver\nemblem signifying\nthat the barer has",
+                                                    "worked through the\nrecomended\nsensitivity",
+                                                    "training. \nAccepted at all\nPalace functions."
+                                                ],
+                                                "avatarId": ""
+                                            }
+                                        },
+                                        {
+                                            "id": "f50192ce-d120-4b11-9909-14ececbc3461",
+                                            "command": "EVENT_END"
+                                        }
+                                    ],
+                                    "true12": [
+                                        {
+                                            "id": "53ad3cc4-d917-4b18-bc36-930238011fbc",
+                                            "command": "EVENT_END"
+                                        }
+                                    ],
+                                    "true13": [
+                                        {
+                                            "id": "a26b450b-03de-4ce7-b9eb-71f17601eb65",
+                                            "command": "EVENT_END"
+                                        }
+                                    ],
+                                    "true14": [
+                                        {
+                                            "id": "7b2a5310-8e9f-4bfc-b86f-04725b1ce948",
+                                            "command": "EVENT_END"
+                                        }
+                                    ],
+                                    "true15": [
+                                        {
+                                            "id": "7e890aad-8c3d-4bed-9cf2-bcc451f26699",
+                                            "command": "EVENT_END"
+                                        }
+                                    ],
+                                    "false": [
+                                        {
+                                            "id": "fb5e3174-2213-485d-857e-c0f89a09245e",
+                                            "command": "EVENT_END"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "id": "5aac7318-c30b-496b-b368-4bbe5bbc1705",
+                                "command": "EVENT_WAIT",
+                                "args": {
+                                    "time": 0.1
+                                }
+                            },
+                            {
+                                "id": "f62a549b-670f-4d1e-9430-2301a132ce9f",
                                 "command": "EVENT_END"
                             }
                         ]
@@ -104350,7 +104694,7 @@
                             "start",
                             "a"
                         ],
-                        "__collapse": false
+                        "__collapse": true
                     }
                 },
                 {
@@ -107731,9 +108075,9 @@
         "startY": 6,
         "showCollisions": true,
         "showConnections": "all",
-        "worldScrollX": 5319,
-        "worldScrollY": 2326,
-        "zoom": 225,
+        "worldScrollX": 4252,
+        "worldScrollY": 5244,
+        "zoom": 275,
         "customColorsEnabled": true,
         "defaultBackgroundPaletteIds": "default-background",
         "defaultSpritePaletteId": "default-sprite",
