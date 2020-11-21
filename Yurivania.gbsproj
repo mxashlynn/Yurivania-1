@@ -90741,8 +90741,8 @@
                                         "args": {
                                             "sceneId": "82ad9ea0-795a-4d40-bde3-e299268b8c7c",
                                             "x": 13,
-                                            "y": 13,
-                                            "direction": "down",
+                                            "y": 14,
+                                            "direction": "right",
                                             "fadeSpeed": "1"
                                         }
                                     },
@@ -105257,6 +105257,13 @@
                                 }
                             },
                             {
+                                "id": "e3aadf2c-a4e8-4f94-a544-65702911f83d",
+                                "command": "EVENT_WAIT",
+                                "args": {
+                                    "time": 0.1
+                                }
+                            },
+                            {
                                 "id": "eb54b7ab-49c8-4cf4-902d-9bbabd0b663b",
                                 "command": "EVENT_END"
                             }
@@ -107724,9 +107731,9 @@
         "startY": 6,
         "showCollisions": true,
         "showConnections": "all",
-        "worldScrollX": 3851,
-        "worldScrollY": 400,
-        "zoom": 275,
+        "worldScrollX": 5319,
+        "worldScrollY": 2326,
+        "zoom": 225,
         "customColorsEnabled": true,
         "defaultBackgroundPaletteIds": "default-background",
         "defaultSpritePaletteId": "default-sprite",
