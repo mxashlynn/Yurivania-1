@@ -2,7 +2,7 @@
 
 ![very gay](https://img.shields.io/badge/very-gay-ff69bf?style=plastic)
 
-# Yurivania: Uhaul of the Night
+# Yurivania: Uhaul of the Night 🧛‍♀️🏰🏳️‍🌈🐍🌱
 
 This is my entry to [YuriJam 2020](https://itch.io/jam/yuri-game-jam-2020): an adventure game with a metroidvania style.
 
@@ -48,3 +48,5 @@ To work with this repo you only need [GB Studio 2.0](https://chrismaltby.itch.io
 
 All parts of this software may be used in your own projects free of charge, including commercially, but you may not sell the software by itself in either compiled or source form.
 See the LICENSE file for details.
+
+👭🏳️‍⚧️
