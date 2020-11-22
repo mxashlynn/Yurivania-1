@@ -3,7 +3,7 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "backgrounds/screen-inventory.tmx",
+    "activeFile": "backgrounds/one-room-measurement.tmx",
     "expandedProjectPaths": [
         "tiles",
         ".",
@@ -144,8 +144,8 @@
             "scale": 5.824404761904762,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 79.8364844149208,
-                "y": 71.85283597342872
+                "x": 80.00817577925397,
+                "y": 71.93868165559532
             }
         },
         "backgrounds/area-skyclad_tower-balcony.tmx": {
@@ -280,8 +280,8 @@
             "scale": 5.388988095238095,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 79.97790909592976,
-                "y": 71.90589274866075
+                "x": 80.16347269011986,
+                "y": 71.99867454575579
             }
         },
         "backgrounds/screen-album.tmx": {
@@ -342,23 +342,22 @@
     "map.tileWidth": 8,
     "map.width": 20,
     "openFiles": [
-        "backgrounds/one-room-measurement.tmx",
-        "backgrounds/screen-inventory.tmx"
+        "backgrounds/one-room-measurement.tmx"
     ],
     "project": "yurivania.tiled-project",
     "recentFiles": [
         "backgrounds/one-room-measurement.tmx",
+        "backgrounds/area-mossy_tholtan.tmx",
+        "backgrounds/screen-lore.tmx",
+        "backgrounds/screen-to_do_list.tmx",
         "backgrounds/screen-inventory.tmx",
         "backgrounds/TEMP.tmx",
-        "backgrounds/screen-lore.tmx",
         "backgrounds/screen-album.tmx",
         "backgrounds/area-echoing_vaults-open.tmx",
         "backgrounds/area-echoing_vaults-locked.tmx",
         "backgrounds/area-echoing_vaults.tmx",
         "backgrounds/area-inner_circle.tmx",
-        "backgrounds/area-skyclad_tower-hall_of_banners.tmx",
-        "backgrounds/area-skyclad_tower-hall_of_statues.tmx",
-        "backgrounds/area-subterrane.tmx"
+        "backgrounds/area-skyclad_tower-hall_of_banners.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {
