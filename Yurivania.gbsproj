@@ -106382,7 +106382,9 @@
                     "id": "3634522a-1d5d-46c1-9b91-388a082c6a4a",
                     "x": 4,
                     "y": 3,
-                    "paletteId": "82ff6241-0766-4c63-ab16-6a6221f98f33"
+                    "paletteId": "82ff6241-0766-4c63-ab16-6a6221f98f33",
+                    "collisionGroup": "1",
+                    "isPinned": true
                 },
                 {
                     "name": "Cover - Fertilizer",
@@ -106452,7 +106454,9 @@
                     "id": "7ca394e1-35b9-49c4-b346-3a3d3bdf1c34",
                     "x": 4,
                     "y": 4,
-                    "paletteId": "82ff6241-0766-4c63-ab16-6a6221f98f33"
+                    "paletteId": "82ff6241-0766-4c63-ab16-6a6221f98f33",
+                    "collisionGroup": "1",
+                    "isPinned": true
                 },
                 {
                     "name": "Cover - Light",
@@ -106522,7 +106526,9 @@
                     "id": "6a47b0e8-bcf4-4569-ad65-1eca908d7009",
                     "x": 4,
                     "y": 5,
-                    "paletteId": "82ff6241-0766-4c63-ab16-6a6221f98f33"
+                    "paletteId": "82ff6241-0766-4c63-ab16-6a6221f98f33",
+                    "collisionGroup": "1",
+                    "isPinned": true
                 },
                 {
                     "name": "Cover - Water",
@@ -106593,7 +106599,8 @@
                     "x": 4,
                     "y": 6,
                     "paletteId": "82ff6241-0766-4c63-ab16-6a6221f98f33",
-                    "isPinned": true
+                    "isPinned": true,
+                    "collisionGroup": "1"
                 },
                 {
                     "name": "Cover - Ladybug",
@@ -106663,7 +106670,9 @@
                     "id": "944a721a-c12f-417f-b88c-07e35101b6f5",
                     "x": 4,
                     "y": 7,
-                    "paletteId": "82ff6241-0766-4c63-ab16-6a6221f98f33"
+                    "paletteId": "82ff6241-0766-4c63-ab16-6a6221f98f33",
+                    "collisionGroup": "1",
+                    "isPinned": true
                 },
                 {
                     "name": "Cover - Blood",
@@ -106733,7 +106742,9 @@
                     "id": "f5710756-9275-449f-9097-6f1bd66a0de2",
                     "x": 4,
                     "y": 8,
-                    "paletteId": "82ff6241-0766-4c63-ab16-6a6221f98f33"
+                    "paletteId": "82ff6241-0766-4c63-ab16-6a6221f98f33",
+                    "collisionGroup": "1",
+                    "isPinned": true
                 },
                 {
                     "name": "Cover - Key",
@@ -106803,7 +106814,9 @@
                     "id": "b79a76f1-ab0d-480b-8056-2be2c598295e",
                     "x": 4,
                     "y": 11,
-                    "paletteId": "82ff6241-0766-4c63-ab16-6a6221f98f33"
+                    "paletteId": "82ff6241-0766-4c63-ab16-6a6221f98f33",
+                    "collisionGroup": "1",
+                    "isPinned": true
                 },
                 {
                     "name": "Cover - Feather",
@@ -106873,7 +106886,9 @@
                     "id": "d975ba13-9776-4739-a3e8-7cd9d113893c",
                     "x": 4,
                     "y": 12,
-                    "paletteId": "82ff6241-0766-4c63-ab16-6a6221f98f33"
+                    "paletteId": "82ff6241-0766-4c63-ab16-6a6221f98f33",
+                    "collisionGroup": "1",
+                    "isPinned": true
                 },
                 {
                     "name": "Cover - Kiss",
@@ -106943,7 +106958,9 @@
                     "id": "de0fede8-e15f-4d3d-b895-ca14b0484bab",
                     "x": 4,
                     "y": 13,
-                    "paletteId": "82ff6241-0766-4c63-ab16-6a6221f98f33"
+                    "paletteId": "82ff6241-0766-4c63-ab16-6a6221f98f33",
+                    "collisionGroup": "1",
+                    "isPinned": true
                 },
                 {
                     "name": "Cover - Pass",
@@ -107013,7 +107030,9 @@
                     "id": "a1edc474-cf26-4b96-8c87-c8a0a80451b6",
                     "x": 4,
                     "y": 14,
-                    "paletteId": "82ff6241-0766-4c63-ab16-6a6221f98f33"
+                    "paletteId": "82ff6241-0766-4c63-ab16-6a6221f98f33",
+                    "collisionGroup": "1",
+                    "isPinned": true
                 }
             ],
             "triggers": [],
@@ -111677,7 +111696,7 @@
         "startY": 12,
         "showCollisions": true,
         "showConnections": "all",
-        "worldScrollX": 3747.5,
+        "worldScrollX": 3900.5,
         "worldScrollY": 600,
         "zoom": 325,
         "customColorsEnabled": true,
