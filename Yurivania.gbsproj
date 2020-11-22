@@ -10838,9 +10838,9 @@
                                                 "value4": 5,
                                                 "__collapseCase5": true,
                                                 "value5": 6,
-                                                "__collapseCase6": true,
+                                                "__collapseCase6": false,
                                                 "value6": 7,
-                                                "__collapseCase7": true,
+                                                "__collapseCase7": false,
                                                 "value7": 8,
                                                 "__collapseCase8": true,
                                                 "value8": 9,
@@ -11017,7 +11017,7 @@
                                                         "command": "EVENT_TEXT",
                                                         "args": {
                                                             "text": [
-                                                                "Not here; Stheno\nwouldn't want to\nhurt anyone!"
+                                                                "Not here; someone\nmight accidentally\nget hurt!"
                                                             ],
                                                             "avatarId": ""
                                                         }
@@ -11033,7 +11033,7 @@
                                                         "command": "EVENT_TEXT",
                                                         "args": {
                                                             "text": [
-                                                                "Stheno's not\ntaking this off\njust yet."
+                                                                "Stheno adjusts her\nrobe till its\nmost comfortable~"
                                                             ],
                                                             "avatarId": ""
                                                         }
@@ -90322,7 +90322,7 @@
                                 "children": {
                                     "script": [
                                         {
-                                            "id": "c633de0f-bd73-42f8-aad2-f569b31a5869",
+                                            "id": "d67aea7e-a23e-4b04-8972-4b379f7ac10a",
                                             "command": "EVENT_SWITCH",
                                             "args": {
                                                 "variable": "0",
@@ -90339,9 +90339,9 @@
                                                 "value4": 5,
                                                 "__collapseCase5": true,
                                                 "value5": 6,
-                                                "__collapseCase6": true,
+                                                "__collapseCase6": false,
                                                 "value6": 7,
-                                                "__collapseCase7": true,
+                                                "__collapseCase7": false,
                                                 "value7": 8,
                                                 "__collapseCase8": true,
                                                 "value8": 9,
@@ -90367,7 +90367,7 @@
                                             "children": {
                                                 "true0": [
                                                     {
-                                                        "id": "432b8f46-87f1-4df3-b39c-03fb96cfbf1e",
+                                                        "id": "4c05c40b-5be9-40bb-a710-32450bd2b476",
                                                         "command": "EVENT_TEXT",
                                                         "args": {
                                                             "text": "Return to the\nLunarium?",
@@ -90375,7 +90375,7 @@
                                                         }
                                                     },
                                                     {
-                                                        "id": "b4035ed2-6e44-4537-803b-3c85df1f4f98",
+                                                        "id": "5f1b1a2a-96bb-4292-b771-1cd0834261d8",
                                                         "command": "EVENT_MENU",
                                                         "args": {
                                                             "variable": "1",
@@ -90394,7 +90394,7 @@
                                                         }
                                                     },
                                                     {
-                                                        "id": "2b3584e5-0f72-4ed6-8c14-38ccf0405d89",
+                                                        "id": "86d10726-53a6-4a81-971f-51c4644ea921",
                                                         "command": "EVENT_IF_TRUE",
                                                         "args": {
                                                             "variable": "1",
@@ -90404,7 +90404,7 @@
                                                         "children": {
                                                             "true": [
                                                                 {
-                                                                    "id": "bc366b26-dfd1-4386-b13f-bd202123b3c0",
+                                                                    "id": "6572c8fe-7d66-4b84-8172-4e8903069b86",
                                                                     "command": "EVENT_SWITCH_SCENE",
                                                                     "args": {
                                                                         "sceneId": "cd808bf8-f2fa-415b-87a0-a28c20ffb9be",
@@ -90415,26 +90415,26 @@
                                                                     }
                                                                 },
                                                                 {
-                                                                    "id": "af1ce444-815a-48d1-b026-6a361130ea68",
+                                                                    "id": "681b67ab-663e-4615-8b40-2b6f81bd4bde",
                                                                     "command": "EVENT_END"
                                                                 }
                                                             ],
                                                             "false": [
                                                                 {
-                                                                    "id": "1e20ff75-baf9-45e7-9a85-ecb9a7328b59",
+                                                                    "id": "d4715f5a-133d-4dc4-aa1b-2ece134a127c",
                                                                     "command": "EVENT_END"
                                                                 }
                                                             ]
                                                         }
                                                     },
                                                     {
-                                                        "id": "41c2a9fd-45d6-4d72-ac5a-06bb3da3c651",
+                                                        "id": "826feb01-67e9-4243-a12b-8a60047b312c",
                                                         "command": "EVENT_END"
                                                     }
                                                 ],
                                                 "true1": [
                                                     {
-                                                        "id": "3bf1efb1-ecea-443d-be8e-dbe9851a14d6",
+                                                        "id": "cb74de4b-43d6-4279-af75-03808e2254cd",
                                                         "command": "EVENT_TEXT",
                                                         "args": {
                                                             "text": [
@@ -90444,13 +90444,13 @@
                                                         }
                                                     },
                                                     {
-                                                        "id": "0a52b704-179e-4ed7-8d8e-10b058b9fb77",
+                                                        "id": "1476a9a7-d050-4b41-bc48-ed95502b6ae0",
                                                         "command": "EVENT_END"
                                                     }
                                                 ],
                                                 "true2": [
                                                     {
-                                                        "id": "3c18ad0e-1fd8-4d42-bbad-0cb46498b0db",
+                                                        "id": "b2e6fad0-d89e-4ebf-b40d-40948e99650e",
                                                         "command": "EVENT_TEXT",
                                                         "args": {
                                                             "text": [
@@ -90460,13 +90460,13 @@
                                                         }
                                                     },
                                                     {
-                                                        "id": "4fcf13c7-af59-43a7-bc69-2bd490c9f024",
+                                                        "id": "da542ae3-4dc2-432b-b50e-0d978383ad6e",
                                                         "command": "EVENT_END"
                                                     }
                                                 ],
                                                 "true3": [
                                                     {
-                                                        "id": "d553fd3a-29fe-4c94-8cb4-fe3ba2118110",
+                                                        "id": "0e9c6668-88b5-454a-b771-41c1bc55107b",
                                                         "command": "EVENT_TEXT",
                                                         "args": {
                                                             "text": [
@@ -90476,13 +90476,13 @@
                                                         }
                                                     },
                                                     {
-                                                        "id": "49b9fdbe-648a-4d44-854c-36fdc2a9109b",
+                                                        "id": "80996083-52b3-4a2e-a91b-9d818f5b5353",
                                                         "command": "EVENT_END"
                                                     }
                                                 ],
                                                 "true4": [
                                                     {
-                                                        "id": "f8d67734-202c-48f2-b5eb-f9b48ab385b6",
+                                                        "id": "11186626-09b5-44f7-8d9b-207910e9e0df",
                                                         "command": "EVENT_TEXT",
                                                         "args": {
                                                             "text": [
@@ -90492,13 +90492,13 @@
                                                         }
                                                     },
                                                     {
-                                                        "id": "20c36032-c67a-45ec-86f4-ce1c188ae597",
+                                                        "id": "eded12e3-ee6d-444e-a83d-df8b680e8d44",
                                                         "command": "EVENT_END"
                                                     }
                                                 ],
                                                 "true5": [
                                                     {
-                                                        "id": "95686af0-2397-4b96-90b4-938988253800",
+                                                        "id": "3eab5b75-758e-454d-8e57-a525d2361e74",
                                                         "command": "EVENT_TEXT",
                                                         "args": {
                                                             "text": [
@@ -90508,45 +90508,45 @@
                                                         }
                                                     },
                                                     {
-                                                        "id": "87d4f6ec-0c82-4b6d-a82c-cac1cb415bf5",
+                                                        "id": "8fadc0f2-7cb4-47bd-b5ad-7c10b3d69f43",
                                                         "command": "EVENT_END"
                                                     }
                                                 ],
                                                 "true6": [
                                                     {
-                                                        "id": "7c059072-5813-435f-b666-85fa909d524b",
+                                                        "id": "9fbbaad4-b570-4b4d-abed-8f8b4a83b8d5",
                                                         "command": "EVENT_TEXT",
                                                         "args": {
                                                             "text": [
-                                                                "Not here; Stheno\nwouldn't want to\nhurt anyone!"
+                                                                "Not here; someone\nmight accidentally\nget hurt!"
                                                             ],
                                                             "avatarId": ""
                                                         }
                                                     },
                                                     {
-                                                        "id": "b4cf05e3-4edf-4542-a94a-cd49c1fe4237",
+                                                        "id": "d3b7b2ea-f4d4-4d90-a0ed-c65795edaabc",
                                                         "command": "EVENT_END"
                                                     }
                                                 ],
                                                 "true7": [
                                                     {
-                                                        "id": "8fccb5c6-b669-4dcf-af37-2dbf45ddd204",
+                                                        "id": "b5162741-55df-4107-a39b-f8386a322dd6",
                                                         "command": "EVENT_TEXT",
                                                         "args": {
                                                             "text": [
-                                                                "Stheno's not\ntaking this off\njust yet."
+                                                                "Stheno adjusts her\nrobe till its\nmost comfortable~"
                                                             ],
                                                             "avatarId": ""
                                                         }
                                                     },
                                                     {
-                                                        "id": "a91eb2b2-bd4a-4c77-bf0b-47d55fab0b26",
+                                                        "id": "f59f92f9-d44b-4f40-be9c-795fe17f50b7",
                                                         "command": "EVENT_END"
                                                     }
                                                 ],
                                                 "true8": [
                                                     {
-                                                        "id": "36639613-4b1c-4201-9d71-3d07e30c8993",
+                                                        "id": "8c798c9d-18ae-4bd0-93f3-9e8b22343a80",
                                                         "command": "EVENT_TEXT",
                                                         "args": {
                                                             "text": [
@@ -90556,13 +90556,13 @@
                                                         }
                                                     },
                                                     {
-                                                        "id": "d1589ff6-791d-4712-bc81-3a15857b2aef",
+                                                        "id": "b6ec9620-fab1-48a0-9810-c1a75acca9b4",
                                                         "command": "EVENT_END"
                                                     }
                                                 ],
                                                 "true9": [
                                                     {
-                                                        "id": "bfe51c39-1473-4fde-84ce-a308717a34fe",
+                                                        "id": "536e03b8-97c4-4748-88e8-3b8094a630a1",
                                                         "command": "EVENT_TEXT",
                                                         "args": {
                                                             "text": "It's enough just\nto carry it.",
@@ -90570,13 +90570,13 @@
                                                         }
                                                     },
                                                     {
-                                                        "id": "e8e80822-7eac-4829-9385-e3276ce3968b",
+                                                        "id": "1ea90799-ad3d-44be-95bf-785be25eb134",
                                                         "command": "EVENT_END"
                                                     }
                                                 ],
                                                 "true10": [
                                                     {
-                                                        "id": "d9dacd8e-6655-4d82-96aa-f3014b40080a",
+                                                        "id": "bc039d2a-ac11-49fe-aab6-130dd75e9624",
                                                         "command": "EVENT_TEXT",
                                                         "args": {
                                                             "text": "Stheno blushes a\nbit under the\nmask~",
@@ -90584,13 +90584,13 @@
                                                         }
                                                     },
                                                     {
-                                                        "id": "957ee5f3-3f9d-4a76-8594-de8c64b0eb60",
+                                                        "id": "898f4353-02a9-4167-9a09-ad0c02c91e7d",
                                                         "command": "EVENT_END"
                                                     }
                                                 ],
                                                 "true11": [
                                                     {
-                                                        "id": "78c5bca5-3db9-4008-acdd-8384a6e4078c",
+                                                        "id": "7b4f9f53-8c1a-43fc-9b65-fda8ac5c4851",
                                                         "command": "EVENT_TEXT",
                                                         "args": {
                                                             "text": "It's enough just\nto carry it.",
@@ -90598,44 +90598,44 @@
                                                         }
                                                     },
                                                     {
-                                                        "id": "1d932548-28f0-4fc0-a326-a00dc0c4b667",
+                                                        "id": "a3d7c662-05f3-41e9-83c3-90ba83d1334f",
                                                         "command": "EVENT_END"
                                                     }
                                                 ],
                                                 "true12": [
                                                     {
-                                                        "id": "9ad4f0f8-8350-435f-aff6-b6412edce32b",
+                                                        "id": "1a3814a8-b8aa-42e5-919e-d43c696e5d6f",
                                                         "command": "EVENT_END"
                                                     }
                                                 ],
                                                 "true13": [
                                                     {
-                                                        "id": "523fd285-7e48-4cec-9e61-b3fe473cdf71",
+                                                        "id": "b897e02e-3e28-49df-8c84-cd4ceaafb6c2",
                                                         "command": "EVENT_END"
                                                     }
                                                 ],
                                                 "true14": [
                                                     {
-                                                        "id": "feee8bad-58b0-414c-9f32-e02274c7db0e",
+                                                        "id": "ff3b0c78-5e6c-4055-b475-d6f010cc3a35",
                                                         "command": "EVENT_END"
                                                     }
                                                 ],
                                                 "true15": [
                                                     {
-                                                        "id": "e97f682e-786a-4845-854f-471d56a62ae3",
+                                                        "id": "e3fe91fe-00e7-4b2b-9eca-560a1bd2f3dc",
                                                         "command": "EVENT_END"
                                                     }
                                                 ],
                                                 "false": [
                                                     {
-                                                        "id": "a8751433-dad2-4dbe-a14a-37f66335a87f",
+                                                        "id": "7dc8b890-0bef-4c34-8e2a-754004a6ac9c",
                                                         "command": "EVENT_END"
                                                     }
                                                 ]
                                             }
                                         },
                                         {
-                                            "id": "57378632-bd5c-470b-822c-bad89de272fb",
+                                            "id": "648e44e3-23d2-4ddb-8e4f-81439f8e6c83",
                                             "command": "EVENT_END"
                                         }
                                     ]
@@ -105270,7 +105270,7 @@
                         "persist": false,
                         "__scriptTabs": "press",
                         "__label": "Set Up Selection Button",
-                        "__collapse": true
+                        "__collapse": false
                     },
                     "children": {
                         "true": [
@@ -105379,7 +105379,7 @@
                                     "__collapseElse": false,
                                     "__disableElse": true,
                                     "__label": "Prevent Selecting Unobtained Items",
-                                    "__collapse": true
+                                    "__collapse": false
                                 },
                                 "children": {
                                     "true0": [
@@ -111064,9 +111064,9 @@
                         "value4": 5,
                         "__collapseCase5": true,
                         "value5": 6,
-                        "__collapseCase6": true,
+                        "__collapseCase6": false,
                         "value6": 7,
-                        "__collapseCase7": true,
+                        "__collapseCase7": false,
                         "value7": 8,
                         "__collapseCase8": true,
                         "value8": 9,
@@ -111243,7 +111243,7 @@
                                 "command": "EVENT_TEXT",
                                 "args": {
                                     "text": [
-                                        "Not here; Stheno\nwouldn't want to\nhurt anyone!"
+                                        "Not here; someone\nmight accidentally\nget hurt!"
                                     ],
                                     "avatarId": ""
                                 }
@@ -111259,7 +111259,7 @@
                                 "command": "EVENT_TEXT",
                                 "args": {
                                     "text": [
-                                        "Stheno's not\ntaking this off\njust yet."
+                                        "Stheno adjusts her\nrobe till its\nmost comfortable~"
                                     ],
                                     "avatarId": ""
                                 }
