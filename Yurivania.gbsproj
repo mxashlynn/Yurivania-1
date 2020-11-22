@@ -104398,27 +104398,6 @@
                 0,
                 0,
                 0,
-                0,
-                2,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                0,
-                0,
-                0,
-                0,
-                0,
-                2,
                 2,
                 2,
                 0,
@@ -104427,25 +104406,9 @@
                 0,
                 0,
                 0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                2,
-                2,
-                2,
-                2,
-                2,
-                0,
-                0,
-                0,
-                0,
+                1,
+                1,
+                1,
                 1,
                 1,
                 1,
@@ -104454,10 +104417,6 @@
                 0,
                 0,
                 0,
-                0,
-                0,
-                0,
-                2,
                 2,
                 2,
                 2,
@@ -104477,6 +104436,47 @@
                 0,
                 0,
                 0,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                0,
+                0,
+                0,
+                0,
+                1,
+                1,
+                1,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
                 0,
                 0,
                 0,
@@ -104498,11 +104498,11 @@
                 0,
                 0,
                 0,
-                0,
                 1,
                 1,
                 1,
                 1,
+                1,
                 0,
                 0,
                 0,
@@ -104518,7 +104518,7 @@
                 0,
                 0,
                 0,
-                0,
+                1,
                 1,
                 1,
                 1,
@@ -105628,7 +105628,69 @@
             "id": "755a93c6-250d-4092-a2d0-34cafd871354",
             "x": 1661.6,
             "y": 190.4,
-            "actors": [],
+            "actors": [
+                {
+                    "name": "Profile Image",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "75d79881-0d84-41c4-aec4-2da5f414d23d",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": "0",
+                    "animSpeed": "0",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [
+                        {
+                            "id": "4d06b630-d281-43ba-877e-361e92018f83",
+                            "command": "EVENT_SET_VALUE",
+                            "args": {
+                                "variable": "L0",
+                                "value": {
+                                    "type": "property",
+                                    "value": "player:ypos"
+                                }
+                            }
+                        },
+                        {
+                            "id": "2dc333c4-7abc-4e0d-80c2-06ab6308e3bb",
+                            "command": "EVENT_VARIABLE_MATH",
+                            "args": {
+                                "vectorX": "L0",
+                                "operation": "sub",
+                                "other": "val",
+                                "vectorY": "L0",
+                                "value": 2,
+                                "minValue": "0",
+                                "maxValue": "255",
+                                "clamp": false
+                            }
+                        },
+                        {
+                            "id": "3422717a-ecbb-4e6c-95f6-6c9516eba8fc",
+                            "command": "EVENT_ACTOR_SET_FRAME",
+                            "args": {
+                                "actorId": "$self$",
+                                "frame": {
+                                    "type": "variable",
+                                    "value": "L0"
+                                }
+                            }
+                        },
+                        {
+                            "id": "9d4d28b4-0230-4bd1-bf60-4f5c2aa4a99a",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "c8ae121b-2e40-487b-9738-2f432387b872",
+                    "x": 14,
+                    "y": 5,
+                    "paletteId": "2bc442ca-b41a-4ced-a3e4-f0d56290ad7f"
+                }
+            ],
             "triggers": [],
             "paletteIds": [
                 "2bc442ca-b41a-4ced-a3e4-f0d56290ad7f",
@@ -105977,7 +106039,7 @@
             "imageHeight": 144,
             "filename": "screen-lore.png",
             "inode": "4785074604199566",
-            "_v": 1606007621217
+            "_v": 1606010662790
         },
         {
             "id": "2d9c771d-9027-44ed-aecf-0c70a7831268",
@@ -106033,6 +106095,15 @@
             "_v": 1606007621217
         },
         {
+            "id": "5a20dd62-520d-4d87-9450-450cc5531818",
+            "name": "fx-map_marker",
+            "numFrames": 1,
+            "type": "static",
+            "filename": "fx-map_marker.png",
+            "inode": "2814749767213421",
+            "_v": 1606009524898
+        },
+        {
             "id": "5b8cb77d-ff50-41dd-9018-1289ce7f00a0",
             "name": "fx-splash",
             "numFrames": 3,
@@ -106044,11 +106115,11 @@
         {
             "id": "a5bfebf9-fa1b-408a-adce-e07eddc963ab",
             "name": "inv-0_selector",
-            "numFrames": 14,
+            "numFrames": 13,
             "type": "animated",
             "filename": "inv-0_selector.png",
             "inode": "21955048183484516",
-            "_v": 1606007621217
+            "_v": 1606008983302
         },
         {
             "id": "950514d3-c57d-4808-b67f-ca30dd370a6d",
@@ -106096,13 +106167,13 @@
             "_v": 1606007621217
         },
         {
-            "id": "5a20dd62-520d-4d87-9450-450cc5531818",
-            "name": "map-marker",
-            "numFrames": 1,
-            "type": "static",
-            "filename": "map-marker.png",
-            "inode": "2814749767213421",
-            "_v": 1606007621217
+            "id": "75d79881-0d84-41c4-aec4-2da5f414d23d",
+            "name": "lore-characters",
+            "numFrames": 15,
+            "type": "animated",
+            "filename": "lore-characters.png",
+            "inode": "22236523160195436",
+            "_v": 1606011028153
         },
         {
             "id": "6d30756f-f2d2-4295-80f7-cefc1725ec22",
@@ -106193,6 +106264,15 @@
             "filename": "npc-kuliltus_tail.png",
             "inode": "43910096366878149",
             "_v": 1606007621217
+        },
+        {
+            "id": "cf8c7b3f-86af-4e08-b26b-e9d5cd6ff19f",
+            "name": "npc-lin",
+            "numFrames": 1,
+            "type": "static",
+            "filename": "npc-lin.png",
+            "inode": "14355223812298811",
+            "_v": 1606010409748
         },
         {
             "id": "0d2ca5c9-8ad5-46b9-bde7-777bb7f8ec4d",
@@ -108069,6 +108149,10 @@
         },
         {
             "id": "755a93c6-250d-4092-a2d0-34cafd871354__L0",
+            "name": "Menu Choice"
+        },
+        {
+            "id": "c8ae121b-2e40-487b-9738-2f432387b872__L0",
             "name": "Menu Choice"
         }
     ],
