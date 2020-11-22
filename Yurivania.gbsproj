@@ -11256,14 +11256,14 @@
                             "command": "EVENT_MENU",
                             "args": {
                                 "variable": "L0",
-                                "items": 6,
+                                "items": 7,
                                 "option1": "Soil",
                                 "option2": "Water",
                                 "option3": "Light",
                                 "option4": "Humus",
                                 "option5": "Pests",
-                                "option6": "Cancel",
-                                "option7": "",
+                                "option6": "Roots",
+                                "option7": "Cancel",
                                 "option8": "",
                                 "cancelOnB": true,
                                 "layout": "dialogue",
@@ -11275,7 +11275,7 @@
                             "command": "EVENT_SWITCH",
                             "args": {
                                 "variable": "L0",
-                                "choices": 5,
+                                "choices": 6,
                                 "__collapseCase0": false,
                                 "value0": 1,
                                 "__collapseCase1": false,
@@ -11465,6 +11465,30 @@
                                     }
                                 ],
                                 "true5": [
+                                    {
+                                        "id": "21f07375-c2c6-41af-95e4-76c29151b9d4",
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "STHENO: You said\nyou had >roots all\nover the grounds?"
+                                            ],
+                                            "avatarId": ""
+                                        }
+                                    },
+                                    {
+                                        "id": "7d17540a-4d5a-40ae-af0f-504c4dafbdf5",
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "ALRAUNE: In lots\nof odd places! If\nyou find me poking",
+                                                "out from between\nthe stones, I'll\nbe happy to lend a",
+                                                "hand or branch!\nSome of those\nroots are",
+                                                "healthier than\nothers, though, so\nI may or may not",
+                                                "be up to a given\ntask/."
+                                            ],
+                                            "avatarId": ""
+                                        }
+                                    },
                                     {
                                         "id": "8d9c6648-c00a-4298-b937-b42786397e27",
                                         "command": "EVENT_END"
@@ -12872,7 +12896,7 @@
                                         "command": "EVENT_GROUP",
                                         "args": {
                                             "__label": "Opening Convo",
-                                            "__collapse": true
+                                            "__collapse": false
                                         },
                                         "children": {
                                             "true": [
@@ -12995,7 +13019,7 @@
                                                     "command": "EVENT_TEXT",
                                                     "args": {
                                                         "text": [
-                                                            "TIBBY: Yeah, I see\nwhat  you mean. \nIt may take a",
+                                                            "TIBBY: Yeah, I see\nwhat you mean. \nIt may take a",
                                                             "little rummaging\nto make this place\nplantgirl-comfy/.",
                                                             "Let's see/.",
                                                             "Do you still have\nthat castle map\nthey gave you?"
@@ -13097,7 +13121,7 @@
                                                     "args": {
                                                         "text": [
                                                             "TIBBY: Sure!",
-                                                            "Oh dang, I'd\nbetter go or I'll\nI'll miss my shift",
+                                                            "Oh dang, I'd\nbetter go or I'll\nmiss my shift",
                                                             "at the gatehouse.\nWell good luck!"
                                                         ],
                                                         "avatarId": ""
@@ -86382,10 +86406,20 @@
                                         "args": {
                                             "text": [
                                                 "STHENO: Oh, yeah,\ntotally. I didn't\nmean to barge in.",
-                                                "Is there a good\ntime for me to\ntalk to Baphy?",
-                                                "Mmm, she's in here\nresting up after\nher role/.",
+                                                "Is there a good\ntime for me to\ntalk to Baphy?"
+                                            ],
+                                            "avatarId": "",
+                                            "__collapse": true
+                                        }
+                                    },
+                                    {
+                                        "id": "fc4edf27-7d47-4d11-a962-3edf56737441",
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "JOSETTE: Mmm,\nshe's in here\nright now.",
                                                 "Honestly if you\nneed to see her in\na hurry",
-                                                "you probably want\nget ahold of a\nspecial invite.",
+                                                "you probably wanna\nget ahold of a\nspecial invite.",
                                                 "There's, like,",
                                                 "a training you\nhave to do."
                                             ],
@@ -111691,13 +111725,13 @@
         }
     ],
     "settings": {
-        "startSceneId": "237d24f5-a91b-483a-a6d8-c972d5b3cc6d",
+        "startSceneId": "2bbd4257-3d21-4a2b-8d83-bf5c8b545bf0",
         "startX": 6,
         "startY": 12,
         "showCollisions": true,
         "showConnections": "all",
-        "worldScrollX": 3900.5,
-        "worldScrollY": 600,
+        "worldScrollX": 5400.5,
+        "worldScrollY": 6600,
         "zoom": 325,
         "customColorsEnabled": true,
         "defaultBackgroundPaletteIds": "default-background",
