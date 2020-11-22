@@ -65628,8 +65628,8 @@
                 0,
                 0,
                 0,
-                0,
-                0,
+                1,
+                1,
                 0,
                 0,
                 0,
@@ -65727,28 +65727,28 @@
                 15,
                 0,
                 0,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
                 0,
                 0,
                 15,
                 15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                0,
-                0,
-                0,
-                0,
                 15,
                 15,
                 15,
@@ -66089,8 +66089,8 @@
                 2,
                 1,
                 1,
-                1,
-                1,
+                2,
+                2,
                 2,
                 2,
                 2,
@@ -66244,7 +66244,7 @@
                     "hit2Script": [],
                     "hit3Script": [],
                     "id": "05668ac9-e70a-4412-9cd0-5f493c4ce6bd",
-                    "x": 10,
+                    "x": 7,
                     "y": 5,
                     "paletteId": "67aafd96-1b0e-4b9b-8282-105585a4e039"
                 },
@@ -66252,42 +66252,55 @@
                     "name": "",
                     "frame": 0,
                     "animate": false,
-                    "spriteSheetId": "de6d05d2-0a99-4035-936d-d4cef408d0cd",
+                    "spriteSheetId": "cf8c7b3f-86af-4e08-b26b-e9d5cd6ff19f",
                     "spriteType": "static",
                     "direction": "down",
                     "moveSpeed": "1",
                     "animSpeed": "3",
                     "script": [
                         {
-                            "id": "24daccc6-9139-42e6-965d-c7a87a04215d",
-                            "command": "EVENT_ACTOR_SET_DIRECTION",
+                            "id": "cb142cf0-5161-480d-91c2-6e03c7862b0f",
+                            "command": "EVENT_IF_FALSE",
                             "args": {
-                                "actorId": "$self$",
-                                "direction": {
-                                    "type": "direction",
-                                    "value": "left"
-                                }
-                            }
-                        },
-                        {
-                            "id": "eca030a2-ec6a-4c3e-848a-88c4d8b1a219",
-                            "command": "EVENT_TEXT",
-                            "args": {
-                                "text": [
-                                    "LIN: Thanks,\nStheno! I was\ngetting worried!"
+                                "variable": "3",
+                                "__collapseElse": false,
+                                "__disableElse": false
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "id": "dddfb321-fefc-41a3-b434-b5e7c8833fdf",
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "LIN: Thanks,\nStheno! I was\ngetting worried!",
+                                                "Hey, you're\ninterested in\ncharms, right?",
+                                                "There's something\nin the attic you\nmight want."
+                                            ],
+                                            "avatarId": ""
+                                        }
+                                    },
+                                    {
+                                        "id": "c292096b-aa7c-43f6-b484-b2c6c8f81e5f",
+                                        "command": "EVENT_END"
+                                    }
                                 ],
-                                "avatarId": ""
-                            }
-                        },
-                        {
-                            "id": "4f7c658d-869d-4b89-84df-6b2d6c74e7e9",
-                            "command": "EVENT_ACTOR_SET_DIRECTION",
-                            "args": {
-                                "actorId": "$self$",
-                                "direction": {
-                                    "type": "direction",
-                                    "value": "down"
-                                }
+                                "false": [
+                                    {
+                                        "id": "eca030a2-ec6a-4c3e-848a-88c4d8b1a219",
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "LIN: Thanks,\nStheno! I was\ngetting worried!"
+                                            ],
+                                            "avatarId": ""
+                                        }
+                                    },
+                                    {
+                                        "id": "dcbd63e1-d366-4dee-abc4-111e519d8fa8",
+                                        "command": "EVENT_END"
+                                    }
+                                ]
                             }
                         },
                         {
@@ -66301,7 +66314,7 @@
                     "hit2Script": [],
                     "hit3Script": [],
                     "id": "3ce9d344-7ffc-4dee-b01e-9e28a4bf5874",
-                    "x": 14,
+                    "x": 9,
                     "y": 14,
                     "paletteId": "67cd4673-c16a-4527-ae42-1f83f346ce23"
                 }
@@ -66411,7 +66424,7 @@
                     "id": "314a39ae-19d0-400a-8ef6-084e80f8f6b7",
                     "x": 7,
                     "y": 16,
-                    "width": 4,
+                    "width": 2,
                     "height": 1
                 }
             ],
@@ -105830,7 +105843,7 @@
             "imageHeight": 144,
             "filename": "area-mossy_tholtan.png",
             "inode": "29554872554691772",
-            "_v": 1606007621217
+            "_v": 1606012220128
         },
         {
             "id": "aa4c9dc2-65e2-4473-95e0-340f6baf8f93",
@@ -108162,9 +108175,9 @@
         "startY": 6,
         "showCollisions": true,
         "showConnections": "all",
-        "worldScrollX": 3639,
-        "worldScrollY": 244,
-        "zoom": 275,
+        "worldScrollX": 17403,
+        "worldScrollY": 8014,
+        "zoom": 525,
         "customColorsEnabled": true,
         "defaultBackgroundPaletteIds": "default-background",
         "defaultSpritePaletteId": "default-sprite",
