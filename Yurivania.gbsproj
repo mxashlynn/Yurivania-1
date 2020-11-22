@@ -105269,11 +105269,11 @@
                                     "value6": 8,
                                     "__collapseCase7": true,
                                     "value7": 9,
-                                    "__collapseCase8": false,
+                                    "__collapseCase8": true,
                                     "value8": 10,
                                     "__collapseCase9": true,
                                     "value9": 11,
-                                    "__collapseCase10": false,
+                                    "__collapseCase10": true,
                                     "value10": 12,
                                     "__collapseCase11": true,
                                     "value11": 13,
@@ -105487,15 +105487,12 @@
                                             "command": "EVENT_TEXT",
                                             "args": {
                                                 "text": [
-                                                    "Suzuka the oni,\nwhile not\ntechnically a",
-                                                    "resident of the\nMidnight Palace,\nis certainly a",
-                                                    "perennial part of\nthe Palace\ncommunity.",
-                                                    "Participating in\nvirtually every\nsport or contest",
-                                                    "the Palace folk\nhold, her prowess\nand physique are",
-                                                    "legends among the\nmonstergirls. When\nnot kicking back",
-                                                    "sake in hand,\nshe takes it upon\nherself to watch",
-                                                    "over nearby trails\nand streams,\nguarding travelers",
-                                                    "and performing\nregular\nmaintenance."
+                                                    "Suzuka, local oni\nranger,\nparticipates",
+                                                    "in virtually every\nsport or contest\nthe Palace folk",
+                                                    "hold. Her prowess\nand physique are\nlegendary among",
+                                                    "the monstergirls.\nWhen not kicking\nback sake in hand,",
+                                                    "she watches over\nnearby trails and\nstreams, guarding",
+                                                    "travelers and\nperforming regular\nmaintenance."
                                                 ],
                                                 "avatarId": ""
                                             }
@@ -105513,12 +105510,11 @@
                                                 "text": [
                                                     "Elected leader of\nthe Palace's demon\npopulation, Baphy",
                                                     "as she is known to\nher many friends,\nis near the",
-                                                    "center of the\nPalace's spirtual\nlife. The primary",
-                                                    "organizer of many\nrituals and\ncelibrations, she",
-                                                    "has worked hard to\nkeep her culture\nalive. Outreach",
-                                                    "is a big part of\nher ethos, too,\nand it was Baphy",
-                                                    "who invited Stheno\nto move in. \nStheno sometimes",
-                                                    "refers to her as\n\"Baphomom\"~"
+                                                    "center of the\nPalace's spirtual\nlife. A primary",
+                                                    "organizer of\nrituals and\ncelibrations, she",
+                                                    "works hard to\nkeep her culture\nalive. It was",
+                                                    "Baphy who invited\nStheno to move in.\nThe gorgon still",
+                                                    "sometimes refers\nto her as\n\"Baphomom\"~"
                                                 ],
                                                 "avatarId": ""
                                             }
