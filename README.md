@@ -33,7 +33,7 @@ I chose a system with significant technical constraints, as fewer choices mean f
 
 # Requirements
 
-This game was built with *GB Studio 2.0-beta-4*, using [Tiled](http://www.mapeditor.org/), and [Aseprite](https://www.aseprite.org/), and [OpenMPT](https://openmpt.org/).
+This game was built with *GB Studio 2.0-beta-4*, using [Tiled](http://www.mapeditor.org/), [Aseprite](https://www.aseprite.org/), and [OpenMPT](https://openmpt.org/).
 To work with this repo you only need [GB Studio 2.0](https://chrismaltby.itch.io/gb-studio).
 
 # Contributors
