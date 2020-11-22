@@ -10066,7 +10066,7 @@
                                         "ALRAUNE: Yeah. I\nmoved down here\nwhen I was a teen.",
                                         "I just wanted to\nget away from mom,\nspread some roots",
                                         "of my own. But I'm\nstarting to miss\nactual light.",
-                                        "And hardly anyone\ncomes by...."
+                                        "And hardly anyone\ncomes by/."
                                     ],
                                     "avatarId": ""
                                 }
@@ -10084,7 +10084,7 @@
                                 "command": "EVENT_TEXT",
                                 "args": {
                                     "text": [
-                                        "ALRAUNE: Not\nreally.  I have\n>running roots all",
+                                        "ALRAUNE: Not\nreally. I have\n>running roots all",
                                         "over the castle\ngrounds now. So I\ncould go about",
                                         "anywhere there's\nsoil, light, and\nwater.",
                                         "Why do you ask?"
@@ -10097,7 +10097,7 @@
                                 "command": "EVENT_TEXT",
                                 "args": {
                                     "text": [
-                                        "STHENO: Well..."
+                                        "STHENO: Well/"
                                     ],
                                     "avatarId": ""
                                 }
@@ -10152,7 +10152,7 @@
                                         "ALRAUNE: Oh wow!",
                                         "I--",
                                         "I'd love to!!",
-                                        "But...",
+                                        "But/",
                                         "Can your room\nhouse a plantgirl?"
                                     ],
                                     "avatarId": ""
@@ -10182,7 +10182,7 @@
                                         "ALRAUNE: Hmm!",
                                         "Let's see, I'd\nneed a way to get\nwater regularly,",
                                         "probably some\nfertilizer, and\nsomething to keep",
-                                        "pests away.... \nDoes that sound\ndoable?"
+                                        "pests away/. \nDoes that sound\ndoable?"
                                     ],
                                     "avatarId": ""
                                 }
@@ -10193,7 +10193,7 @@
                                 "args": {
                                     "text": [
                                         "STHENO:\nAbsolutely!",
-                                        "I'm making a\nlist...."
+                                        "I'm making a\nlist/."
                                     ],
                                     "avatarId": ""
                                 }
@@ -10549,7 +10549,7 @@
                                         "args": {
                                             "text": [
                                                 "STHENO: How should\nI make a planting\nspace?",
-                                                "The floor is solid\nserpentine...."
+                                                "The floor is solid\nserpentine/."
                                             ],
                                             "avatarId": ""
                                         }
@@ -10577,7 +10577,7 @@
                                         "args": {
                                             "text": [
                                                 "STHENO: What\nshould we do about\nwater?",
-                                                "I can't exactly\nbuild an\naquaduct..."
+                                                "I can't exactly\nbuild an\naquaduct/."
                                             ],
                                             "avatarId": ""
                                         }
@@ -10605,7 +10605,7 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "STHENO: Any ideas\non light?  I do\nhave windows."
+                                                "STHENO: Any ideas\non light? I do\nhave windows."
                                             ],
                                             "avatarId": ""
                                         }
@@ -10616,7 +10616,7 @@
                                         "args": {
                                             "text": [
                                                 "ALRAUNE: True, but\nno southern\nexposure.",
-                                                "And I'm sick of\nthese artificial\nbulbs....",
+                                                "And I'm sick of\nthese artificial\nbulbs/.",
                                                 "Oh I know!  Mom\nused to have a\nmagic candle",
                                                 "that had been\nkindled from a\nwill~o'~the~wisp.",
                                                 "I don't think\nanyone's used it\nsince she grew",
@@ -12295,7 +12295,7 @@
                                                     "command": "EVENT_TEXT",
                                                     "args": {
                                                         "text": [
-                                                            "TIBBY: So what\nelse is up?  Any\nbig weekend plans?"
+                                                            "TIBBY: So what\nelse is up? Any\nbig weekend plans?"
                                                         ],
                                                         "avatarId": ""
                                                     }
@@ -12410,8 +12410,8 @@
                                                     "args": {
                                                         "text": [
                                                             "TIBBY: Yeah, I see\nwhat  you mean. \nIt may take a",
-                                                            "little rummaging\nto make this place\nplantgirl-comfy...",
-                                                            "Let's see....",
+                                                            "little rummaging\nto make this place\nplantgirl-comfy/.",
+                                                            "Let's see/.",
                                                             "Do you still have\nthat castle map\nthey gave you?"
                                                         ],
                                                         "avatarId": ""
@@ -12467,7 +12467,7 @@
                                                     "command": "EVENT_TEXT",
                                                     "args": {
                                                         "text": [
-                                                            "TIBBY: Cool. \nLemme take a\nlook...."
+                                                            "TIBBY: Cool. \nLemme take a\nlook/."
                                                         ],
                                                         "avatarId": ""
                                                     }
@@ -13495,7 +13495,7 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "LUCY: Oh, hello\nStheno.  Welcome\nto the Lunarium.",
+                                                "LUCY: Oh, hello\nStheno. Welcome\nto the Lunarium.",
                                                 "LUCY: No matter\nthe time of night\nor day,",
                                                 "the moon is\nalways gleaming\nhere."
                                             ],
@@ -14636,7 +14636,7 @@
                             "args": {
                                 "text": [
                                     "LUCY: But with the\nshutters down,",
-                                    "it might as well\nbe night...."
+                                    "it might as well\nbe night/."
                                 ],
                                 "avatarId": ""
                             }
@@ -14681,7 +14681,7 @@
                             "command": "EVENT_TEXT",
                             "args": {
                                 "text": [
-                                    "It doesn't look\nlike she's getting\nenough light...."
+                                    "It doesn't look\nlike she's getting\nenough light/."
                                 ],
                                 "avatarId": ""
                             }
@@ -14733,7 +14733,7 @@
                             "command": "EVENT_TEXT",
                             "args": {
                                 "text": [
-                                    "It doesn't look\nlike she's getting\nenough light...."
+                                    "It doesn't look\nlike she's getting\nenough light/."
                                 ],
                                 "avatarId": ""
                             }
@@ -46609,7 +46609,7 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "STHENO: Not so\nfar.  I'll keep\nlooking."
+                                                "STHENO: Not so\nfar. I'll keep\nlooking."
                                             ],
                                             "avatarId": ""
                                         }
@@ -58239,7 +58239,7 @@
                                                 "text": [
                                                     "STHENO: (Hmm, I\nbet Baphomet might\nhave some",
                                                     "fresh blood. I\nshould stop by the\nInner Circle and",
-                                                    "ask.  I think\nthat's left of\nhere?)"
+                                                    "ask. I think\nthat's left of\nhere?)"
                                                 ],
                                                 "avatarId": ""
                                             }
@@ -62448,7 +62448,7 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "STHENO: Heya,\nRin~Rin.  What's\nup here?"
+                                                "STHENO: Heya,\nRin~Rin. What's\nup here?"
                                             ],
                                             "avatarId": "",
                                             "__collapse": true
@@ -62507,7 +62507,7 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "STHENO: Ohhhh...."
+                                                "STHENO: Ohhhh/."
                                             ],
                                             "avatarId": "",
                                             "__collapse": true
@@ -83057,7 +83057,7 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "Huh.  Looks like\nthe gates are\nclosed...."
+                                                "Huh. Looks like\nthe gates are\nclosed/."
                                             ],
                                             "avatarId": ""
                                         }
@@ -83067,7 +83067,7 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "...but where's\nTibby?"
+                                                "/but where's\nTibby?"
                                             ],
                                             "avatarId": ""
                                         }
@@ -84706,7 +84706,7 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "STHENO: Yeah,\nwell, the gates\nare closed...."
+                                                "STHENO: Yeah,\nwell, the gates\nare closed/."
                                             ],
                                             "avatarId": ""
                                         }
@@ -84753,7 +84753,7 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "STHENO: A human,\nhuh?  I can take\ncare of those."
+                                                "STHENO: A human,\nhuh? I can take\ncare of those."
                                             ],
                                             "avatarId": ""
                                         }
@@ -85782,9 +85782,9 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "STHENO: Oh, yeah,\ntotally.  I didn't\nmean to barge in.",
+                                                "STHENO: Oh, yeah,\ntotally. I didn't\nmean to barge in.",
                                                 "Is there a good\ntime for me to\ntalk to Baphy?",
-                                                "Mmm, she's in here\nresting up after\nher role....",
+                                                "Mmm, she's in here\nresting up after\nher role/.",
                                                 "Honestly if you\nneed to see her in\na hurry",
                                                 "you probably want\nget ahold of a\nspecial invite.",
                                                 "There's, like,",
@@ -90605,7 +90605,7 @@
                             "args": {
                                 "text": [
                                     "She seems to be\ndoing much better!",
-                                    "Her tendrils are\nstrong enough to\nclimb...."
+                                    "Her tendrils are\nstrong enough to\nclimb/."
                                 ],
                                 "avatarId": ""
                             }
@@ -90640,7 +90640,7 @@
                             "args": {
                                 "text": [
                                     "She seems to be\ndoing much better!",
-                                    "Her tendrils are\nstrong enough to\nclimb...."
+                                    "Her tendrils are\nstrong enough to\nclimb/."
                                 ],
                                 "avatarId": ""
                             }
@@ -90675,7 +90675,7 @@
                             "args": {
                                 "text": [
                                     "She seems to be\ndoing much better!",
-                                    "Her tendrils are\nstrong enough to\nclimb...."
+                                    "Her tendrils are\nstrong enough to\nclimb/."
                                 ],
                                 "avatarId": ""
                             }
@@ -103666,7 +103666,7 @@
                                                 "text": [
                                                     "@ Cyclic amulet.\nA mysterious\npendant found in",
                                                     "Lin's attic. It\nhas an afinity for",
-                                                    "all sites sacred\nto the moon.... {"
+                                                    "all sites sacred\nto the moon/. {"
                                                 ],
                                                 "avatarId": ""
                                             }
@@ -103738,7 +103738,7 @@
                                                 "text": [
                                                     "& Ladybug! The\nprettiest of\nhunter-killers,",
                                                     "an indespensible\nelement in\nsustainable",
-                                                    "agriculture and an\naid against many\npalace pests."
+                                                    "agriculture and an\naid against many\nPalace pests."
                                                 ],
                                                 "avatarId": ""
                                             }
@@ -105350,9 +105350,9 @@
                                                     "Tibby the skeleton\nhad a rough life\nbefore a friend",
                                                     "introduced her to\nthe Midnight\nPalace community.",
                                                     "Now she gives back\nto those that took\nher in by",
-                                                    "volunteering her\ntime all over the\npalace.",
+                                                    "volunteering her\ntime all over the\nPalace.",
                                                     "A swordswoman by\ntraining, she\noften patrols the",
-                                                    "palace grounds\nentries. One of\nthe first to",
+                                                    "Palace grounds\nentries. One of\nthe first to",
                                                     "befriend Stheno\nwhen the gorgon\nmoved in, the",
                                                     "two often hang\nout when Tibby is\nfree."
                                                 ],
@@ -105371,11 +105371,11 @@
                                             "args": {
                                                 "text": [
                                                     "Lucy the black cat\nwas among the\nfirst cadre of",
-                                                    "Midnight Palace\nresidents.  While\nshe may appear to",
+                                                    "Midnight Palace\nresidents. While\nshe may appear to",
                                                     "spend most of her\ntime lazing about,\nthose in the know",
-                                                    "say that she is\ninstrumental to\nrunning the palace",
+                                                    "say that she is\ninstrumental to\nrunning the Palace",
                                                     "Certainly she\nknows how to get\naround like nobody",
-                                                    "else, though she\ndoesn't share her\ntravel secrets...."
+                                                    "else, though she\ndoesn't share her\ntravel secrets/."
                                                 ],
                                                 "avatarId": ""
                                             }
@@ -105394,7 +105394,7 @@
                                                     "Rin~Rin is a\nminidemon with a\nchildlike demeanor",
                                                     "Attracted to\ncommotion, she\nis drawn to drama",
                                                     "like a magnet; if\nshe can't find\nany, she may make",
-                                                    "some herself.  She\nlooks up to\nStheno, however,",
+                                                    "some herself. She\nlooks up to\nStheno, however,",
                                                     "and their\nfriendship has\nlead Rin~Rin to",
                                                     "begin reading\ncomics and drawing\nOCs."
                                                 ],
@@ -105412,7 +105412,7 @@
                                             "command": "EVENT_TEXT",
                                             "args": {
                                                 "text": [
-                                                    "Lin is a reclusive\nmember of the\npalace community,",
+                                                    "Lin is a reclusive\nmember of the\nPalace community,",
                                                     "spending much of\nher time in an\ncrumbling cot on",
                                                     "edge of the\nEvergreen Gulf. \nOf spriggan",
                                                     "ancestry, she is\nworld-wise beyond\nwhat her looks",
@@ -105459,7 +105459,7 @@
                                                 "text": [
                                                     "Aello the harpy is\namong the newest\noccupants of the",
                                                     "Midnight Palace. \nUnlike most of the\nresidents, she",
-                                                    "prefers to sleep\nat night.  During\nthe day, she flies",
+                                                    "prefers to sleep\nat night. During\nthe day, she flies",
                                                     "from rooftop to\nrooftop, often\nwith Rin~Rin in",
                                                     "tow. (The\nminidemon stays up\nto all hours.)",
                                                     "Of an analytical\nbent, she has\nwork helps the",
@@ -105484,7 +105484,7 @@
                                                     "resident of the\nMidnight Palace,\nis certainly a",
                                                     "perennial part of\nthe Palace\ncommunity.",
                                                     "Participating in\nvirtually every\nsport or contest",
-                                                    "the palace folk\nhold, her prowess\nand physique are",
+                                                    "the Palace folk\nhold, her prowess\nand physique are",
                                                     "legends among the\nmonstergirls. When\nnot kicking back",
                                                     "sake in hand,\nshe takes it upon\nherself to watch",
                                                     "over nearby trails\nand streams,\nguarding travelers",
@@ -105506,9 +105506,9 @@
                                                 "text": [
                                                     "Elected leader of\nthe Palace's demon\npopulation, Baphy",
                                                     "as she is known to\nher many friends,\nis near the",
-                                                    "center of the\npalace's spirtual\nlife.  The primary",
+                                                    "center of the\nPalace's spirtual\nlife. The primary",
                                                     "organizer of many\nrituals and\ncelibrations, she",
-                                                    "has worked hard to\nkeep her culture\nalive.  Outreach",
+                                                    "has worked hard to\nkeep her culture\nalive. Outreach",
                                                     "is a big part of\nher ethos, too,\nand it was Baphy",
                                                     "who invited Stheno\nto move in. \nStheno sometime",
                                                     "refers to her as\n\"Baphomom\"~"
