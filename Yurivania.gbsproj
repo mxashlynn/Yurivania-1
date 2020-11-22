@@ -105010,7 +105010,7 @@
                                                     "< Jade mask. A\nrelic of ancient\nceremonies, Stheno",
                                                     "received this as a\ngift from a\nvampire friend.",
                                                     "She seldom removes\nit as few living\nbeings can",
-                                                    "withstand a glance\nat her beautiful\nface."
+                                                    "withstand a glance\nat her surpasingly\nbeautiful face."
                                                 ],
                                                 "avatarId": "",
                                                 "__collapse": false
@@ -105027,8 +105027,8 @@
                                             "command": "EVENT_TEXT",
                                             "args": {
                                                 "text": [
-                                                    "A robe in the\nstyle of the\nantique chiton",
-                                                    "this and a pair\nof open-toed\nsandals are",
+                                                    "A robe in the\nstyle of the\nantique chiton.",
+                                                    "This and a pair\nof open-toed\nsandals are",
                                                     "Stheno's prefered\ncasual outfit."
                                                 ],
                                                 "avatarId": ""
