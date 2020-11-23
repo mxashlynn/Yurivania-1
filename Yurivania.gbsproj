@@ -10358,7 +10358,7 @@
                         "persist": true,
                         "__scriptTabs": "press",
                         "__label": "Set Up Use Item Button",
-                        "__collapse": true
+                        "__collapse": false
                     },
                     "children": {
                         "true": [
@@ -10369,7 +10369,9 @@
                                     "customEventId": "22461f6a-8c7b-432f-b543-996982162f7e",
                                     "__name": "Use Item",
                                     "$variable[0]$": "24",
-                                    "$variable[1]$": "L0"
+                                    "$variable[1]$": "L0",
+                                    "$variable[2]$": "6",
+                                    "$variable[3]$": "25"
                                 },
                                 "children": {
                                     "script": [
@@ -10379,7 +10381,7 @@
                                             "args": {
                                                 "variable": "0",
                                                 "choices": 12,
-                                                "__collapseCase0": false,
+                                                "__collapseCase0": true,
                                                 "value0": 1,
                                                 "__collapseCase1": false,
                                                 "value1": 2,
@@ -10391,9 +10393,9 @@
                                                 "value4": 5,
                                                 "__collapseCase5": true,
                                                 "value5": 6,
-                                                "__collapseCase6": false,
+                                                "__collapseCase6": true,
                                                 "value6": 7,
-                                                "__collapseCase7": false,
+                                                "__collapseCase7": true,
                                                 "value7": 8,
                                                 "__collapseCase8": true,
                                                 "value8": 9,
@@ -10480,6 +10482,97 @@
                                                 ],
                                                 "true1": [
                                                     {
+                                                        "id": "ab02f388-b2e3-4b79-9b9e-93b35d215b0b",
+                                                        "command": "EVENT_IF_TRUE",
+                                                        "args": {
+                                                            "variable": "2",
+                                                            "__collapseElse": false,
+                                                            "__disableElse": true
+                                                        },
+                                                        "children": {
+                                                            "true": [
+                                                                {
+                                                                    "id": "8ce07eef-1b4a-42b5-a740-8c53b7cffa0d",
+                                                                    "command": "EVENT_IF_TRUE",
+                                                                    "args": {
+                                                                        "variable": "3",
+                                                                        "__collapseElse": false,
+                                                                        "__disableElse": true
+                                                                    },
+                                                                    "children": {
+                                                                        "true": [
+                                                                            {
+                                                                                "id": "34ac91d1-1b90-4e43-b816-d6d3b314a070",
+                                                                                "command": "EVENT_TEXT",
+                                                                                "args": {
+                                                                                    "text": [
+                                                                                        "Stheno scrapes\nsome of the bone\nfragment off",
+                                                                                        "around the base of\nthe stem/."
+                                                                                    ],
+                                                                                    "avatarId": ""
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "id": "92ad9984-a81e-4ad1-99ec-8a888119c949",
+                                                                                "command": "EVENT_SOUND_PLAY_EFFECT",
+                                                                                "args": {
+                                                                                    "type": "crash",
+                                                                                    "pitch": 1,
+                                                                                    "frequency": 600,
+                                                                                    "duration": 0.1,
+                                                                                    "wait": false
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "id": "3be61c57-a88a-46fd-b63a-dd8cccc09eb1",
+                                                                                "command": "EVENT_SET_FALSE",
+                                                                                "args": {
+                                                                                    "variable": "3"
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "id": "ede06035-6eeb-4caf-b8d8-139426e7ce79",
+                                                                                "command": "EVENT_SWITCH_SCENE",
+                                                                                "args": {
+                                                                                    "sceneId": "0922b111-7073-4f03-a706-4e42887497d8",
+                                                                                    "x": 10,
+                                                                                    "y": 14,
+                                                                                    "direction": "right",
+                                                                                    "fadeSpeed": "3"
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "id": "5c08daa7-e1a5-428f-aaea-09e92ee322b7",
+                                                                                "command": "EVENT_STOP",
+                                                                                "args": {}
+                                                                            },
+                                                                            {
+                                                                                "id": "c9bf354a-62cf-4f81-aaa0-8d00d04a94c0",
+                                                                                "command": "EVENT_END"
+                                                                            }
+                                                                        ],
+                                                                        "false": [
+                                                                            {
+                                                                                "id": "074d2f4b-e53b-430d-8257-07e649dbd23a",
+                                                                                "command": "EVENT_END"
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "id": "b48e6d58-e678-4836-87eb-c8f0c8b5f76b",
+                                                                    "command": "EVENT_END"
+                                                                }
+                                                            ],
+                                                            "false": [
+                                                                {
+                                                                    "id": "b7acc2dd-0cf3-4e2d-91b9-8eb158c983af",
+                                                                    "command": "EVENT_END"
+                                                                }
+                                                            ]
+                                                        }
+                                                    },
+                                                    {
                                                         "id": "cb74de4b-43d6-4279-af75-03808e2254cd",
                                                         "command": "EVENT_TEXT",
                                                         "args": {
@@ -10532,7 +10625,7 @@
                                                         "command": "EVENT_TEXT",
                                                         "args": {
                                                             "text": [
-                                                                "Carry it gently!"
+                                                                "The ladybug crawls\nacross Stheno's\nhand."
                                                             ],
                                                             "avatarId": ""
                                                         }
@@ -15606,16 +15699,7 @@
                             "command": "EVENT_TEXT",
                             "args": {
                                 "text": [
-                                    "Hey, is this\nsprout part of\nAlraune?!"
-                                ],
-                                "avatarId": ""
-                            }
-                        },
-                        {
-                            "id": "358e20e3-a067-46af-aa5d-e6186a85334a",
-                            "command": "EVENT_TEXT",
-                            "args": {
-                                "text": [
+                                    "Hey, is this\nsprout part of\nAlraune?!",
                                     "It doesn't look\nlike she's getting\nenough light/."
                                 ],
                                 "avatarId": ""
@@ -68375,10 +68459,10 @@
                 0,
                 0,
                 15,
-                0,
-                0,
-                0,
-                0,
+                8,
+                8,
+                8,
+                2,
                 15,
                 1,
                 1,
@@ -68395,11 +68479,11 @@
                 0,
                 15,
                 0,
-                0,
-                0,
-                0,
-                0,
-                0,
+                8,
+                8,
+                8,
+                2,
+                2,
                 15,
                 1,
                 1,
@@ -68415,12 +68499,12 @@
                 15,
                 0,
                 0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
+                8,
+                8,
+                8,
+                2,
+                2,
+                2,
                 15,
                 1,
                 1,
@@ -68435,12 +68519,12 @@
                 15,
                 0,
                 0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
+                8,
+                8,
+                8,
+                2,
+                2,
+                2,
                 15,
                 15,
                 1,
@@ -68458,8 +68542,8 @@
                 15,
                 15,
                 15,
-                1,
-                1,
+                0,
+                0,
                 15,
                 15,
                 15,
@@ -69055,7 +69139,7 @@
                     "command": "EVENT_GROUP",
                     "args": {
                         "__label": "Set Room Coordinates",
-                        "__collapse": true
+                        "__collapse": false
                     },
                     "children": {
                         "true": [
@@ -69445,6 +69529,72 @@
                     "y": 1,
                     "paletteId": "default-ui",
                     "isPinned": true
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "29982554-3ebd-4e7c-88ac-10b5fcd71418",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": "1",
+                    "animSpeed": "3",
+                    "script": [
+                        {
+                            "id": "1ba6d01f-54df-4266-a1e7-5c98ca3aa9e8",
+                            "command": "EVENT_IF_FALSE",
+                            "args": {
+                                "variable": "T0",
+                                "__collapseElse": false,
+                                "__disableElse": true
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "id": "60680254-d394-455d-95d3-4eb25f38ecf5",
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Ah, another\nAlraune sprout!",
+                                                "It look like she's\nnot getting\nenough nutrients/."
+                                            ],
+                                            "avatarId": ""
+                                        }
+                                    },
+                                    {
+                                        "id": "2bf0296e-4c8e-41e3-a5f0-0913db717c01",
+                                        "command": "EVENT_SET_TRUE",
+                                        "args": {
+                                            "variable": "T0"
+                                        }
+                                    },
+                                    {
+                                        "id": "ad125638-59c8-4c89-bd48-50b5ffd77f37",
+                                        "command": "EVENT_END"
+                                    }
+                                ],
+                                "false": [
+                                    {
+                                        "id": "6d870a6f-0bae-45b5-9c65-bc171cd96b2c",
+                                        "command": "EVENT_END"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": "f227c24d-de35-42d1-9cf6-785da8c827ce",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "ca16e9dd-5656-4bbd-ab38-c7970fab2636",
+                    "x": 12,
+                    "y": 14,
+                    "paletteId": "7e158c10-865f-47d3-8ef3-b4974736d6fa"
                 }
             ],
             "triggers": [
@@ -69554,6 +69704,50 @@
                     "y": 16,
                     "width": 2,
                     "height": 1
+                },
+                {
+                    "name": "Too Far From Sprout",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "7c8222ce-8505-4f00-8996-b1d1fc09ac17",
+                            "command": "EVENT_SET_FALSE",
+                            "args": {
+                                "variable": "25"
+                            }
+                        },
+                        {
+                            "id": "69c30e7e-64bb-4732-ad8a-c355e14d8254",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "cdb444eb-889e-4a71-abb7-f3aef2ad5488",
+                    "x": 6,
+                    "y": 7,
+                    "width": 3,
+                    "height": 8
+                },
+                {
+                    "name": "Near Sprout",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "c63404f3-d91b-4004-bb4f-dff2c1643a02",
+                            "command": "EVENT_SET_TRUE",
+                            "args": {
+                                "variable": "25"
+                            }
+                        },
+                        {
+                            "id": "41236449-511a-4dfa-adeb-c81cdcd7b2f6",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "bd479a26-ae7e-4f1a-a9b7-e2f98320b4ad",
+                    "x": 11,
+                    "y": 12,
+                    "width": 4,
+                    "height": 3
                 }
             ],
             "type": "1",
@@ -114178,7 +114372,51 @@
                 0,
                 0
             ],
-            "script": [],
+            "script": [
+                {
+                    "id": "a2d590aa-4851-4c63-b63b-e8b2bd6ee3b5",
+                    "command": "EVENT_GROUP",
+                    "args": {
+                        "__label": "Set Room Coordinates",
+                        "__collapse": false
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "id": "8cca54e1-ed1f-41bb-b790-2854949e6afd",
+                                "command": "EVENT_SET_VALUE",
+                                "args": {
+                                    "variable": "1",
+                                    "value": {
+                                        "type": "number",
+                                        "value": 15
+                                    },
+                                    "__collapse": false
+                                }
+                            },
+                            {
+                                "id": "582bedb1-52b3-47e5-bd26-66f7fc28362c",
+                                "command": "EVENT_SET_VALUE",
+                                "args": {
+                                    "variable": "2",
+                                    "value": {
+                                        "type": "number",
+                                        "value": 6
+                                    }
+                                }
+                            },
+                            {
+                                "id": "36b1143f-bac9-4bce-b596-8f59978b3a30",
+                                "command": "EVENT_END"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "51c99622-09a7-4d86-aa30-8d00106b913a",
+                    "command": "EVENT_END"
+                }
+            ],
             "playerHit1Script": [],
             "playerHit2Script": [],
             "playerHit3Script": [],
@@ -118981,6 +119219,14 @@
                 "1": {
                     "id": "1",
                     "name": "Menu Choice"
+                },
+                "2": {
+                    "id": "2",
+                    "name": "Has Fertilizer"
+                },
+                "3": {
+                    "id": "3",
+                    "name": "Sprout Needs Fertilizer"
                 }
             },
             "actors": {},
@@ -118991,7 +119237,7 @@
                     "args": {
                         "variable": "0",
                         "choices": 12,
-                        "__collapseCase0": false,
+                        "__collapseCase0": true,
                         "value0": 1,
                         "__collapseCase1": false,
                         "value1": 2,
@@ -119003,9 +119249,9 @@
                         "value4": 5,
                         "__collapseCase5": true,
                         "value5": 6,
-                        "__collapseCase6": false,
+                        "__collapseCase6": true,
                         "value6": 7,
-                        "__collapseCase7": false,
+                        "__collapseCase7": true,
                         "value7": 8,
                         "__collapseCase8": true,
                         "value8": 9,
@@ -119092,6 +119338,97 @@
                         ],
                         "true1": [
                             {
+                                "id": "ab02f388-b2e3-4b79-9b9e-93b35d215b0b",
+                                "command": "EVENT_IF_TRUE",
+                                "args": {
+                                    "variable": "2",
+                                    "__collapseElse": false,
+                                    "__disableElse": true
+                                },
+                                "children": {
+                                    "true": [
+                                        {
+                                            "id": "8ce07eef-1b4a-42b5-a740-8c53b7cffa0d",
+                                            "command": "EVENT_IF_TRUE",
+                                            "args": {
+                                                "variable": "3",
+                                                "__collapseElse": false,
+                                                "__disableElse": true
+                                            },
+                                            "children": {
+                                                "true": [
+                                                    {
+                                                        "id": "34ac91d1-1b90-4e43-b816-d6d3b314a070",
+                                                        "command": "EVENT_TEXT",
+                                                        "args": {
+                                                            "text": [
+                                                                "Stheno scrapes\nsome of the bone\nfragment off",
+                                                                "around the base of\nthe stem/."
+                                                            ],
+                                                            "avatarId": ""
+                                                        }
+                                                    },
+                                                    {
+                                                        "id": "92ad9984-a81e-4ad1-99ec-8a888119c949",
+                                                        "command": "EVENT_SOUND_PLAY_EFFECT",
+                                                        "args": {
+                                                            "type": "crash",
+                                                            "pitch": 1,
+                                                            "frequency": 600,
+                                                            "duration": 0.1,
+                                                            "wait": false
+                                                        }
+                                                    },
+                                                    {
+                                                        "id": "3be61c57-a88a-46fd-b63a-dd8cccc09eb1",
+                                                        "command": "EVENT_SET_FALSE",
+                                                        "args": {
+                                                            "variable": "3"
+                                                        }
+                                                    },
+                                                    {
+                                                        "id": "ede06035-6eeb-4caf-b8d8-139426e7ce79",
+                                                        "command": "EVENT_SWITCH_SCENE",
+                                                        "args": {
+                                                            "sceneId": "0922b111-7073-4f03-a706-4e42887497d8",
+                                                            "x": 10,
+                                                            "y": 14,
+                                                            "direction": "right",
+                                                            "fadeSpeed": "3"
+                                                        }
+                                                    },
+                                                    {
+                                                        "id": "5c08daa7-e1a5-428f-aaea-09e92ee322b7",
+                                                        "command": "EVENT_STOP",
+                                                        "args": {}
+                                                    },
+                                                    {
+                                                        "id": "c9bf354a-62cf-4f81-aaa0-8d00d04a94c0",
+                                                        "command": "EVENT_END"
+                                                    }
+                                                ],
+                                                "false": [
+                                                    {
+                                                        "id": "074d2f4b-e53b-430d-8257-07e649dbd23a",
+                                                        "command": "EVENT_END"
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "id": "b48e6d58-e678-4836-87eb-c8f0c8b5f76b",
+                                            "command": "EVENT_END"
+                                        }
+                                    ],
+                                    "false": [
+                                        {
+                                            "id": "b7acc2dd-0cf3-4e2d-91b9-8eb158c983af",
+                                            "command": "EVENT_END"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
                                 "id": "cb74de4b-43d6-4279-af75-03808e2254cd",
                                 "command": "EVENT_TEXT",
                                 "args": {
@@ -119144,7 +119481,7 @@
                                 "command": "EVENT_TEXT",
                                 "args": {
                                     "text": [
-                                        "Carry it gently!"
+                                        "The ladybug crawls\nacross Stheno's\nhand."
                                     ],
                                     "avatarId": ""
                                 }
@@ -119866,16 +120203,20 @@
         {
             "id": "245e196f-c476-44c6-8c64-697091dfc594__L0",
             "name": "Menu Choice"
+        },
+        {
+            "id": "25",
+            "name": "Needs Fertilizer"
         }
     ],
     "settings": {
-        "startSceneId": "0922b111-7073-4f03-a706-4e42887497d8",
+        "startSceneId": "9a093bc6-299a-4b8e-bbaf-c51683da0055",
         "startX": 2,
         "startY": 13,
         "showCollisions": true,
         "showConnections": "all",
         "worldScrollX": 7323.5,
-        "worldScrollY": 3161.5,
+        "worldScrollY": 3261.5,
         "zoom": 225,
         "customColorsEnabled": true,
         "defaultBackgroundPaletteIds": "default-background",
