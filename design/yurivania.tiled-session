@@ -370,9 +370,9 @@
     ],
     "project": "yurivania.tiled-project",
     "recentFiles": [
-        "backgrounds/one-room-measurement.tmx",
-        "backgrounds/area-mossy_tholtan-vine.tmx",
         "backgrounds/area-mossy_tholtan-sprout.tmx",
+        "backgrounds/area-mossy_tholtan-vine.tmx",
+        "backgrounds/one-room-measurement.tmx",
         "backgrounds/area-echoing_vaults-pool.tmx",
         "backgrounds/area-echoing_vaults-open.tmx",
         "backgrounds/area-mossy_tholtan.tmx",
