@@ -45,11 +45,19 @@
             }
         },
         "backgrounds/area-echoing_vaults-open.tmx": {
-            "scale": 3,
+            "scale": 4,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 383.16666666666663,
-                "y": 149
+                "x": 406.375,
+                "y": 165.75
+            }
+        },
+        "backgrounds/area-echoing_vaults-pool.tmx": {
+            "scale": 2.6849085365853655,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 156.24368364276387,
+                "y": 72.25572020666553
             }
         },
         "backgrounds/area-echoing_vaults.tmx": {
@@ -144,8 +152,8 @@
             "scale": 5.824404761904762,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 80.00817577925397,
-                "y": 71.93868165559532
+                "x": 79.92233009708738,
+                "y": 72.11037301992846
             }
         },
         "backgrounds/area-skyclad_tower-balcony.tmx": {
@@ -280,7 +288,7 @@
             "scale": 5.388988095238095,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 80.2562544872149,
+                "x": 80.44181808140497,
                 "y": 71.99867454575579
             }
         },
@@ -340,14 +348,14 @@
     "map.lastUsedFormat": "tmx",
     "map.tileHeight": 8,
     "map.tileWidth": 8,
-    "map.width": 20,
+    "map.width": 40,
     "openFiles": [
         "backgrounds/one-room-measurement.tmx"
     ],
     "project": "yurivania.tiled-project",
     "recentFiles": [
-        "backgrounds/one-room-measurement.tmx",
         "backgrounds/area-mossy_tholtan.tmx",
+        "backgrounds/one-room-measurement.tmx",
         "backgrounds/screen-lore.tmx",
         "backgrounds/screen-to_do_list.tmx",
         "backgrounds/screen-inventory.tmx",
