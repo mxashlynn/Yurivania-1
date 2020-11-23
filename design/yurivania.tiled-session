@@ -354,6 +354,8 @@
     ],
     "project": "yurivania.tiled-project",
     "recentFiles": [
+        "backgrounds/area-echoing_vaults-pool.tmx",
+        "backgrounds/area-echoing_vaults-open.tmx",
         "backgrounds/area-mossy_tholtan.tmx",
         "backgrounds/one-room-measurement.tmx",
         "backgrounds/screen-lore.tmx",
@@ -361,11 +363,9 @@
         "backgrounds/screen-inventory.tmx",
         "backgrounds/TEMP.tmx",
         "backgrounds/screen-album.tmx",
-        "backgrounds/area-echoing_vaults-open.tmx",
         "backgrounds/area-echoing_vaults-locked.tmx",
         "backgrounds/area-echoing_vaults.tmx",
-        "backgrounds/area-inner_circle.tmx",
-        "backgrounds/area-skyclad_tower-hall_of_banners.tmx"
+        "backgrounds/area-inner_circle.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {
