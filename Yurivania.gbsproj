@@ -68959,7 +68959,7 @@
             ]
         },
         {
-            "name": "Area: Evergreen Gult - Oni's Grotto",
+            "name": "Area: Evergreen Gulf - Oni's Grotto",
             "backgroundId": "22ed079b-29c4-4014-be81-0969a1c64498",
             "width": 20,
             "height": 18,
@@ -125041,9 +125041,9 @@
         "startY": 11,
         "showCollisions": true,
         "showConnections": "all",
-        "worldScrollX": 1179,
-        "worldScrollY": 6606,
-        "zoom": 325,
+        "worldScrollX": 769,
+        "worldScrollY": 5462,
+        "zoom": 275,
         "customColorsEnabled": true,
         "defaultBackgroundPaletteIds": "default-background",
         "defaultSpritePaletteId": "default-sprite",
