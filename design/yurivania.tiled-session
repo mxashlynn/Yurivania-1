@@ -196,12 +196,20 @@
                 "y": 72.10471088529299
             }
         },
-        "backgrounds/area-skyclad_tower-main.tmx": {
-            "scale": 3,
+        "backgrounds/area-skyclad_tower-intro.tmx": {
+            "scale": 4,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 84.99999999999999,
-                "y": 895.3333333333333
+                "x": 102,
+                "y": 95.25
+            }
+        },
+        "backgrounds/area-skyclad_tower-main.tmx": {
+            "scale": 4,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 86.25,
+                "y": 748.5
             }
         },
         "backgrounds/area-skyclad_tower.tmx": {
@@ -304,7 +312,7 @@
             "scale": 5.388988095238095,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 80.44181808140497,
+                "x": 80.53459987850003,
                 "y": 71.99867454575579
             }
         },
@@ -370,6 +378,7 @@
     ],
     "project": "yurivania.tiled-project",
     "recentFiles": [
+        "backgrounds/area-skyclad_tower-intro.tmx",
         "backgrounds/one-room-measurement.tmx",
         "backgrounds/area-mossy_tholtan-sprout.tmx",
         "backgrounds/area-mossy_tholtan-vine.tmx",
@@ -380,8 +389,7 @@
         "backgrounds/screen-to_do_list.tmx",
         "backgrounds/screen-inventory.tmx",
         "backgrounds/TEMP.tmx",
-        "backgrounds/screen-album.tmx",
-        "backgrounds/area-echoing_vaults-locked.tmx"
+        "backgrounds/screen-album.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {
