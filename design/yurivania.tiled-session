@@ -205,11 +205,11 @@
             }
         },
         "backgrounds/area-skyclad_tower-main.tmx": {
-            "scale": 4,
+            "scale": 3,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 86.25,
-                "y": 748.5
+                "x": 87.99999999999999,
+                "y": 632
             }
         },
         "backgrounds/area-skyclad_tower.tmx": {
@@ -378,6 +378,7 @@
     ],
     "project": "yurivania.tiled-project",
     "recentFiles": [
+        "backgrounds/area-skyclad_tower-main.tmx",
         "backgrounds/area-skyclad_tower-intro.tmx",
         "backgrounds/one-room-measurement.tmx",
         "backgrounds/area-mossy_tholtan-sprout.tmx",
@@ -388,8 +389,7 @@
         "backgrounds/screen-lore.tmx",
         "backgrounds/screen-to_do_list.tmx",
         "backgrounds/screen-inventory.tmx",
-        "backgrounds/TEMP.tmx",
-        "backgrounds/screen-album.tmx"
+        "backgrounds/TEMP.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {
