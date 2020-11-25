@@ -2,7 +2,7 @@
 
 ![very gay](https://img.shields.io/badge/very-gay-ff69bf?style=plastic)
 
-# Yurivania: Uhaul of the Night 🐍🌱
+# Yurivania: Uhaul of the Night 🌱🐍
 
 This is my entry to [YuriJam 2020](https://itch.io/jam/yuri-game-jam-2020): an adventure game with a metroidvania style.
 
@@ -30,8 +30,7 @@ I chose a system with significant technical constraints, as fewer choices mean f
 
 # Requirements 🩸🐞
 
-This game was built with *GB Studio 2.0-beta-4*, using [Tiled](http://www.mapeditor.org/), [Aseprite](https://www.aseprite.org/), and [OpenMPT](https://openmpt.org/).
-To work with this repo you only need [GB Studio 2.0](https://chrismaltby.itch.io/gb-studio).
+This game was built with [GB Studio 2.0-beta-4](https://chrismaltby.itch.io/gb-studio), using [Tiled](http://www.mapeditor.org/), [Aseprite](https://www.aseprite.org/), and [OpenMPT](https://openmpt.org/).
 
 # Contributors ⚗️🍧
 
