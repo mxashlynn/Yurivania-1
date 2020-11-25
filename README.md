@@ -26,10 +26,11 @@ I chose a system with significant technical constraints, as fewer choices mean f
 
 # Features
 
-1. A peaceful 2D side-scrolling map that may be explored.
+1. A 2D side-scrolling map that may be explored.
 2. Inventory-based puzzle solving.
-3. Several characters to interact with.
-4. A map system.
+3. Environmental hazards to avoid.
+4. Several characters to interact with.
+5. A map system.
 
 # Requirements
 
