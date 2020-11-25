@@ -39225,6 +39225,86 @@
                     "y": 1,
                     "paletteId": "default-ui",
                     "isPinned": true
+                },
+                {
+                    "name": "Star 0 Pink",
+                    "frame": 0,
+                    "animate": true,
+                    "spriteSheetId": "4e5d44e3-5dbf-4b86-9291-c0dcf3b06bac",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": "1",
+                    "animSpeed": "3",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "25d52363-fbed-4880-9173-bbed8320dcf6",
+                    "x": 66,
+                    "y": 7,
+                    "paletteId": "d4c23a1e-f587-4667-a276-8e543356ad0a"
+                },
+                {
+                    "name": "Star 0 Pink",
+                    "frame": 0,
+                    "animate": true,
+                    "spriteSheetId": "4e5d44e3-5dbf-4b86-9291-c0dcf3b06bac",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": "1",
+                    "animSpeed": "3",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "46ced508-e6d6-4191-a9eb-5672ee996047",
+                    "x": 71,
+                    "y": 6,
+                    "paletteId": "adfc9806-1a28-49da-9e38-9259cf3969b3"
+                },
+                {
+                    "name": "Star 1 Yellow",
+                    "frame": 0,
+                    "animate": true,
+                    "spriteSheetId": "4e5d44e3-5dbf-4b86-9291-c0dcf3b06bac",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": "1",
+                    "animSpeed": "3",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "9fd76163-fa73-4746-9f03-4fbb58ac143d",
+                    "x": 62,
+                    "y": 8,
+                    "paletteId": "db5f9449-0fc8-4148-814b-9819b6adc528"
+                },
+                {
+                    "name": "Star 0 Pink",
+                    "frame": 0,
+                    "animate": true,
+                    "spriteSheetId": "4e5d44e3-5dbf-4b86-9291-c0dcf3b06bac",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": "1",
+                    "animSpeed": "3",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "d2327028-5e7a-4dac-9062-c4cfa4554a5b",
+                    "x": 74,
+                    "y": 9,
+                    "paletteId": "bdb56474-4d25-4c1c-98cf-fd42ff896e6c"
                 }
             ],
             "triggers": [
@@ -122234,29 +122314,6 @@
                                         }
                                     },
                                     {
-                                        "id": "5b35c4b0-bd9e-4ea2-80a3-5381c92ecce0",
-                                        "command": "EVENT_TEXT",
-                                        "args": {
-                                            "text": [
-                                                "STHENO: Don't tell\nme you bathe down\nhere! What about",
-                                                "all those traps??"
-                                            ],
-                                            "avatarId": ""
-                                        }
-                                    },
-                                    {
-                                        "id": "7fff0e9c-7d4c-4d05-b7c7-7669397bdcbf",
-                                        "command": "EVENT_TEXT",
-                                        "args": {
-                                            "text": [
-                                                "KULILTU: Haha, oh\nyou land lasses\nhave no inkling",
-                                                "of the ways of the\nwaters. I assure\nyou I did not",
-                                                "walk here."
-                                            ],
-                                            "avatarId": ""
-                                        }
-                                    },
-                                    {
                                         "id": "aea23ae2-9ec7-41b0-9508-372186af8f62",
                                         "command": "EVENT_ACTOR_MOVE_TO",
                                         "args": {
@@ -122270,7 +122327,8 @@
                                                 "value": 11
                                             },
                                             "moveType": "horizontal",
-                                            "useCollisions": false
+                                            "useCollisions": false,
+                                            "__collapse": true
                                         }
                                     },
                                     {
@@ -122278,7 +122336,8 @@
                                         "command": "EVENT_ACTOR_EMOTE",
                                         "args": {
                                             "actorId": "234da532-89b0-44e7-bdad-c071c5d159af",
-                                            "emoteId": "2"
+                                            "emoteId": "2",
+                                            "__collapse": true
                                         }
                                     },
                                     {
@@ -122295,7 +122354,8 @@
                                                 "value": 11
                                             },
                                             "moveType": "horizontal",
-                                            "useCollisions": false
+                                            "useCollisions": false,
+                                            "__collapse": true
                                         }
                                     },
                                     {
@@ -122306,16 +122366,31 @@
                                             "direction": {
                                                 "type": "direction",
                                                 "value": "right"
-                                            }
+                                            },
+                                            "__collapse": true
                                         }
                                     },
                                     {
-                                        "id": "4941cce3-e5d7-483b-b640-5f531ec33e50",
+                                        "id": "5b35c4b0-bd9e-4ea2-80a3-5381c92ecce0",
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "KULILTU: I come\nhere for peace and\nquiet.",
-                                                "Others seldom\nbother me here.",
+                                                "STHENO: Don't tell\nme you bathe down\nhere! What about",
+                                                "all those traps??"
+                                            ],
+                                            "avatarId": ""
+                                        }
+                                    },
+                                    {
+                                        "id": "7fff0e9c-7d4c-4d05-b7c7-7669397bdcbf",
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "KULILTU: Haha, oh\nyou land lasses\nhave no inkling",
+                                                "of the ways of the\nwaters.",
+                                                "I assure you I did\nnot walk here.",
+                                                "I come here for\npeace and quiet.",
+                                                "I'm usually left\nto my own devices\ndown here.",
                                                 "Not that I'd mind\nyou joining me\nfrom time to time/"
                                             ],
                                             "avatarId": ""
@@ -122523,7 +122598,8 @@
                                         "args": {
                                             "color": "black",
                                             "x": 0,
-                                            "y": 17
+                                            "y": 17,
+                                            "__comment": false
                                         }
                                     },
                                     {
@@ -122715,7 +122791,7 @@
                                         "args": {
                                             "text": [
                                                 "KULILTU: All\nright, then on\nyour way!",
-                                                "I need my peace\nand quiet back\nanyway~"
+                                                "I need my peace\nand quiet back~"
                                             ],
                                             "avatarId": ""
                                         }
@@ -123345,7 +123421,7 @@
             "type": "animated",
             "filename": "lore-characters.png",
             "inode": "22236523160195436",
-            "_v": 1606286517221
+            "_v": 1606328087950
         },
         {
             "id": "6d30756f-f2d2-4295-80f7-cefc1725ec22",
@@ -123417,7 +123493,7 @@
             "type": "animated",
             "filename": "npc-baphy.png",
             "inode": "46724846134019742",
-            "_v": 1606286517221
+            "_v": 1606328089484
         },
         {
             "id": "0f160e76-a92d-45f9-aec8-e2a07553c2e8",
@@ -123643,6 +123719,15 @@
             "filename": "trap-stalactite.png",
             "inode": "23925373020414607",
             "_v": 1606286517225
+        },
+        {
+            "id": "4e5d44e3-5dbf-4b86-9291-c0dcf3b06bac",
+            "name": "trap-star",
+            "numFrames": 2,
+            "type": "animated",
+            "filename": "trap-star.png",
+            "inode": "177892185281135852",
+            "_v": 1606328784866
         }
     ],
     "palettes": [
@@ -124187,6 +124272,36 @@
                 "482878",
                 "282878",
                 "000028"
+            ]
+        },
+        {
+            "id": "d4c23a1e-f587-4667-a276-8e543356ad0a",
+            "name": "Pink Star",
+            "colors": [
+                "F8E8E8",
+                "F880A8",
+                "F8A8A8",
+                "B058A0"
+            ]
+        },
+        {
+            "id": "db5f9449-0fc8-4148-814b-9819b6adc528",
+            "name": "Yellow Star",
+            "colors": [
+                "F8F8D8",
+                "F8F888",
+                "F8F810",
+                "F8D008"
+            ]
+        },
+        {
+            "id": "bdb56474-4d25-4c1c-98cf-fd42ff896e6c",
+            "name": "Blue Star",
+            "colors": [
+                "E8F0F8",
+                "A0B0F8",
+                "8080F0",
+                "0830F8"
             ]
         }
     ],
@@ -126516,20 +126631,20 @@
         }
     ],
     "settings": {
-        "startSceneId": "16427edb-a907-4eb5-b1bd-895d268f7f3f",
-        "startX": 34,
-        "startY": 12,
+        "startSceneId": "6dbd723a-e7ca-47d9-85f3-6bc71a83c0f1",
+        "startX": 9,
+        "startY": 10,
         "showCollisions": true,
         "showConnections": "all",
-        "worldScrollX": 6216,
-        "worldScrollY": 4372,
+        "worldScrollX": 483,
+        "worldScrollY": 5307,
         "zoom": 275,
         "customColorsEnabled": true,
         "defaultBackgroundPaletteIds": "default-background",
         "defaultSpritePaletteId": "default-sprite",
         "defaultUIPaletteId": "default-ui",
         "defaultFadeStyle": "black",
-        "startDirection": "right",
+        "startDirection": "left",
         "playerSpriteSheetId": "c3bc79c7-3703-4a67-86b2-301f587745b4",
         "customControlsA": [
             "Alt",
