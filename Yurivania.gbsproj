@@ -50132,6 +50132,44 @@
                     "trigger": "walk",
                     "script": [
                         {
+                            "id": "d4a9214c-f9d2-46a2-9179-c002e50d8e27",
+                            "command": "EVENT_CALL_CUSTOM_EVENT",
+                            "args": {
+                                "customEventId": "13a90e52-ede8-4825-805a-5df9623c9673",
+                                "__name": "Play Splash Sound"
+                            },
+                            "children": {
+                                "script": [
+                                    {
+                                        "id": "de1eaf96-1c79-4990-83d4-77883bd80432",
+                                        "command": "EVENT_SOUND_PLAY_EFFECT",
+                                        "args": {
+                                            "type": "tone",
+                                            "pitch": 8,
+                                            "frequency": 600,
+                                            "duration": 0.05,
+                                            "wait": false
+                                        }
+                                    },
+                                    {
+                                        "id": "d11e2a17-e3c3-40bb-b08f-980294bd0a75",
+                                        "command": "EVENT_SOUND_PLAY_EFFECT",
+                                        "args": {
+                                            "type": "crash",
+                                            "pitch": 4,
+                                            "frequency": 200,
+                                            "duration": 0.2,
+                                            "wait": false
+                                        }
+                                    },
+                                    {
+                                        "id": "edc77c8b-43a4-48f0-9c2c-ac66c6556efe",
+                                        "command": "EVENT_END"
+                                    }
+                                ]
+                            }
+                        },
+                        {
                             "id": "dd77f0cd-bc94-4e6c-bd8f-5154d55efd96",
                             "command": "EVENT_GROUP",
                             "args": {
@@ -56702,6 +56740,44 @@
                     "name": "",
                     "trigger": "walk",
                     "script": [
+                        {
+                            "id": "2ebda5cd-136f-4784-baa3-170c73a6142a",
+                            "command": "EVENT_CALL_CUSTOM_EVENT",
+                            "args": {
+                                "customEventId": "13a90e52-ede8-4825-805a-5df9623c9673",
+                                "__name": "Play Splash Sound"
+                            },
+                            "children": {
+                                "script": [
+                                    {
+                                        "id": "af608f6f-26bb-4e1f-af01-448af73c63f8",
+                                        "command": "EVENT_SOUND_PLAY_EFFECT",
+                                        "args": {
+                                            "type": "tone",
+                                            "pitch": 8,
+                                            "frequency": 600,
+                                            "duration": 0.05,
+                                            "wait": false
+                                        }
+                                    },
+                                    {
+                                        "id": "9caff603-29f3-458b-b9d0-e48158731ff7",
+                                        "command": "EVENT_SOUND_PLAY_EFFECT",
+                                        "args": {
+                                            "type": "crash",
+                                            "pitch": 4,
+                                            "frequency": 200,
+                                            "duration": 0.2,
+                                            "wait": false
+                                        }
+                                    },
+                                    {
+                                        "id": "a4d6a432-b7c7-4a28-8138-888696143867",
+                                        "command": "EVENT_END"
+                                    }
+                                ]
+                            }
+                        },
                         {
                             "id": "ade9e42f-dd4c-4ee9-97ff-d0e7f1afacb3",
                             "command": "EVENT_GROUP",
@@ -69942,6 +70018,44 @@
                     "name": "",
                     "trigger": "walk",
                     "script": [
+                        {
+                            "id": "9437379b-0440-48b4-bc9a-c4ce2873a473",
+                            "command": "EVENT_CALL_CUSTOM_EVENT",
+                            "args": {
+                                "customEventId": "13a90e52-ede8-4825-805a-5df9623c9673",
+                                "__name": "Play Splash Sound"
+                            },
+                            "children": {
+                                "script": [
+                                    {
+                                        "id": "c3342ce5-c1c7-4fe5-be96-0b253d627355",
+                                        "command": "EVENT_SOUND_PLAY_EFFECT",
+                                        "args": {
+                                            "type": "tone",
+                                            "pitch": 8,
+                                            "frequency": 600,
+                                            "duration": 0.05,
+                                            "wait": false
+                                        }
+                                    },
+                                    {
+                                        "id": "ce823886-2ce3-4a29-9389-c1955360208f",
+                                        "command": "EVENT_SOUND_PLAY_EFFECT",
+                                        "args": {
+                                            "type": "crash",
+                                            "pitch": 4,
+                                            "frequency": 200,
+                                            "duration": 0.2,
+                                            "wait": false
+                                        }
+                                    },
+                                    {
+                                        "id": "4ee4ea3a-d08e-436e-b002-6342f24b61a2",
+                                        "command": "EVENT_END"
+                                    }
+                                ]
+                            }
+                        },
                         {
                             "id": "b6cd24a9-99fc-476d-8265-076af797d111",
                             "command": "EVENT_GROUP",
@@ -96505,6 +96619,44 @@
                     "trigger": "walk",
                     "script": [
                         {
+                            "id": "04dfd065-1dc6-4980-95e6-381e95ecb731",
+                            "command": "EVENT_CALL_CUSTOM_EVENT",
+                            "args": {
+                                "customEventId": "13a90e52-ede8-4825-805a-5df9623c9673",
+                                "__name": "Play Splash Sound"
+                            },
+                            "children": {
+                                "script": [
+                                    {
+                                        "id": "1fc23623-7bd2-46eb-9ef1-93b9d9f55a62",
+                                        "command": "EVENT_SOUND_PLAY_EFFECT",
+                                        "args": {
+                                            "type": "tone",
+                                            "pitch": 8,
+                                            "frequency": 600,
+                                            "duration": 0.05,
+                                            "wait": false
+                                        }
+                                    },
+                                    {
+                                        "id": "c8860d73-437f-4e91-b602-9039a2b65367",
+                                        "command": "EVENT_SOUND_PLAY_EFFECT",
+                                        "args": {
+                                            "type": "crash",
+                                            "pitch": 4,
+                                            "frequency": 200,
+                                            "duration": 0.2,
+                                            "wait": false
+                                        }
+                                    },
+                                    {
+                                        "id": "0697ca14-1d52-4019-884f-dee963f40f49",
+                                        "command": "EVENT_END"
+                                    }
+                                ]
+                            }
+                        },
+                        {
                             "id": "5a6631fb-a696-49da-baff-2514eb7f5f41",
                             "command": "EVENT_GROUP",
                             "args": {
@@ -122644,7 +122796,7 @@
             "imageHeight": 144,
             "filename": "area-alraunes_corner.png",
             "inode": "2533274790491126",
-            "_v": 1606191417462
+            "_v": 1606286517219
         },
         {
             "id": "e94f4f38-d534-4d28-a87c-2837ad60dd27",
@@ -122655,7 +122807,7 @@
             "imageHeight": 288,
             "filename": "area-echoing_vaults-locked.png",
             "inode": "4222124650660972",
-            "_v": 1606191417462
+            "_v": 1606286517221
         },
         {
             "id": "01a0a5ea-c217-47f8-b37f-ada83b78a43d",
@@ -122666,7 +122818,7 @@
             "imageHeight": 288,
             "filename": "area-echoing_vaults-open.png",
             "inode": "39406496739493080",
-            "_v": 1606191417462
+            "_v": 1606286517219
         },
         {
             "id": "84ca13fc-0a00-4ee6-9041-2c10bca00cb1",
@@ -122677,7 +122829,7 @@
             "imageHeight": 144,
             "filename": "area-echoing_vaults-pool.png",
             "inode": "22236523160195172",
-            "_v": 1606191417462
+            "_v": 1606286517221
         },
         {
             "id": "b31c41e5-e9b9-42a6-85d9-f908fe7f9ac8",
@@ -122688,7 +122840,7 @@
             "imageHeight": 576,
             "filename": "area-evergreen_gulf-main.png",
             "inode": "22517998136924207",
-            "_v": 1606191417462
+            "_v": 1606286517221
         },
         {
             "id": "22ed079b-29c4-4014-be81-0969a1c64498",
@@ -122699,7 +122851,7 @@
             "imageHeight": 144,
             "filename": "area-evergreen_gulf-onis_grotto.png",
             "inode": "42784196460052832",
-            "_v": 1606191417462
+            "_v": 1606286517221
         },
         {
             "id": "ee9797b7-e7f1-41d9-9581-d78be013ae76",
@@ -122710,7 +122862,7 @@
             "imageHeight": 144,
             "filename": "area-evergreen_gulf-treetops.png",
             "inode": "27021597764295892",
-            "_v": 1606191417462
+            "_v": 1606286517221
         },
         {
             "id": "42f3dc91-b68e-4baa-a758-5329f66bbb30",
@@ -122721,7 +122873,7 @@
             "imageHeight": 144,
             "filename": "area-glassy_tarn-cant_swim.png",
             "inode": "72620543991382441",
-            "_v": 1606191417462
+            "_v": 1606286517221
         },
         {
             "id": "6c884479-87a6-4cb4-b02a-95a2204381c0",
@@ -122732,7 +122884,7 @@
             "imageHeight": 288,
             "filename": "area-glassy_tarn.png",
             "inode": "49821070877857424",
-            "_v": 1606191417462
+            "_v": 1606286517221
         },
         {
             "id": "4b7ae47c-7620-4b83-a186-7d609637d423",
@@ -122743,7 +122895,7 @@
             "imageHeight": 144,
             "filename": "area-human_encounter.png",
             "inode": "30399297484823742",
-            "_v": 1606191417462
+            "_v": 1606286517221
         },
         {
             "id": "93575302-d328-4deb-9ea4-ef28afe2efdd",
@@ -122754,7 +122906,7 @@
             "imageHeight": 288,
             "filename": "area-inner_circle.png",
             "inode": "34339947158772078",
-            "_v": 1606191417462
+            "_v": 1606286517221
         },
         {
             "id": "39d93567-5f1e-425c-a065-13316c5e4c71",
@@ -122765,7 +122917,7 @@
             "imageHeight": 144,
             "filename": "area-lunarium.png",
             "inode": "27584547717717173",
-            "_v": 1606191417462
+            "_v": 1606286517221
         },
         {
             "id": "de00e083-6d54-46bf-9ad9-a8eade79a159",
@@ -122776,7 +122928,7 @@
             "imageHeight": 144,
             "filename": "area-mossy_tholtan-sprout.png",
             "inode": "15199648742431688",
-            "_v": 1606191417462
+            "_v": 1606286517221
         },
         {
             "id": "ce490d84-7dc7-4401-8b3b-4e5ae84ef45e",
@@ -122787,7 +122939,7 @@
             "imageHeight": 144,
             "filename": "area-mossy_tholtan-vine.png",
             "inode": "37436171902590304",
-            "_v": 1606191417462
+            "_v": 1606286517221
         },
         {
             "id": "aa4c9dc2-65e2-4473-95e0-340f6baf8f93",
@@ -122798,7 +122950,7 @@
             "imageHeight": 144,
             "filename": "area-skyclad_tower-balcony.png",
             "inode": "118782440171908367",
-            "_v": 1606191417462
+            "_v": 1606286517221
         },
         {
             "id": "6cda4914-df98-4568-b3e8-736f58cd6e4b",
@@ -122809,7 +122961,7 @@
             "imageHeight": 144,
             "filename": "area-skyclad_tower-hall_of_banners.png",
             "inode": "4222124650789355",
-            "_v": 1606191417462
+            "_v": 1606286517221
         },
         {
             "id": "833133aa-9b25-4780-abef-97a15a554ede",
@@ -122820,7 +122972,7 @@
             "imageHeight": 144,
             "filename": "area-skyclad_tower-hall_of_statues.png",
             "inode": "9570149208291649",
-            "_v": 1606191417462
+            "_v": 1606286517221
         },
         {
             "id": "768aa13d-b40d-4763-ac1f-da822d9a2764",
@@ -122831,7 +122983,7 @@
             "imageHeight": 288,
             "filename": "area-skyclad_tower-intro.png",
             "inode": "85286917943332470",
-            "_v": 1606191417492
+            "_v": 1606286517221
         },
         {
             "id": "ad5b1639-a3ec-401c-8f97-32f53c8f8eaa",
@@ -122842,7 +122994,7 @@
             "imageHeight": 1008,
             "filename": "area-skyclad_tower-main.png",
             "inode": "26177172834163917",
-            "_v": 1606191417495
+            "_v": 1606286517221
         },
         {
             "id": "82c5a95c-cb14-4dae-bfaf-7f8a2747a2c6",
@@ -122853,7 +123005,7 @@
             "imageHeight": 144,
             "filename": "area-solarium_shutters_down.png",
             "inode": "9570149208233930",
-            "_v": 1606191417462
+            "_v": 1606286517221
         },
         {
             "id": "92a4e74e-d30f-4044-b387-0adee866019c",
@@ -122864,7 +123016,7 @@
             "imageHeight": 144,
             "filename": "area-solarium_shutters_up.png",
             "inode": "16607023626001657",
-            "_v": 1606191417495
+            "_v": 1606286517221
         },
         {
             "id": "21df7529-ba2a-47a1-a885-a2a024a9156a",
@@ -122875,7 +123027,7 @@
             "imageHeight": 288,
             "filename": "area-starlit_court-bridge.png",
             "inode": "41658296553188971",
-            "_v": 1606191417495
+            "_v": 1606286517221
         },
         {
             "id": "d27bf46d-632d-4322-aa0e-edf1cf257008",
@@ -122886,7 +123038,7 @@
             "imageHeight": 288,
             "filename": "area-starlit_court-gatehouse_gate_down.png",
             "inode": "4503599627443981",
-            "_v": 1606191417495
+            "_v": 1606286517221
         },
         {
             "id": "d9bf8654-42cc-4779-95aa-45d6379fdca2",
@@ -122897,7 +123049,7 @@
             "imageHeight": 288,
             "filename": "area-starlit_court-gatehouse_gate_up.png",
             "inode": "3940649674055688",
-            "_v": 1606191417495
+            "_v": 1606286517221
         },
         {
             "id": "2b377db1-56a8-4397-9eef-c66c5904eaaa",
@@ -122908,7 +123060,7 @@
             "imageHeight": 288,
             "filename": "area-starlit_court-yard.png",
             "inode": "14355223812316421",
-            "_v": 1606191417495
+            "_v": 1606286517221
         },
         {
             "id": "67019434-4f52-4ea7-80fc-e39693d7d74a",
@@ -122919,7 +123071,7 @@
             "imageHeight": 144,
             "filename": "area-sthenos_room.png",
             "inode": "2533274790518559",
-            "_v": 1606191417495
+            "_v": 1606286517221
         },
         {
             "id": "fc673829-0e0b-42f3-8ebf-181bd0f7c7b4",
@@ -122930,7 +123082,7 @@
             "imageHeight": 288,
             "filename": "area-subterrane.png",
             "inode": "13229323905412840",
-            "_v": 1606191417495
+            "_v": 1606286517221
         },
         {
             "id": "33b370c6-2f24-4caa-aa8d-912cdda5fcdb",
@@ -122941,7 +123093,7 @@
             "imageHeight": 288,
             "filename": "cutscene-evergreen_gulf.png",
             "inode": "10696049115111495",
-            "_v": 1606191417495
+            "_v": 1606286517221
         },
         {
             "id": "2670e3f5-9397-42d5-bc5f-857a332172ab",
@@ -122952,7 +123104,7 @@
             "imageHeight": 144,
             "filename": "cutscene-inner_circle.png",
             "inode": "2814749767213394",
-            "_v": 1606191417495
+            "_v": 1606286517221
         },
         {
             "id": "002edb26-9e8c-4590-8f77-1039bb7f82f2",
@@ -122963,7 +123115,7 @@
             "imageHeight": 288,
             "filename": "cutscene-zipline.png",
             "inode": "21110623253327173",
-            "_v": 1606191417495
+            "_v": 1606286517221
         },
         {
             "id": "a20385f2-67a0-4b68-bf25-b365a4512e6e",
@@ -122974,7 +123126,7 @@
             "imageHeight": 144,
             "filename": "screen-inventory.png",
             "inode": "13792273858928261",
-            "_v": 1606191417495
+            "_v": 1606286517221
         },
         {
             "id": "ea7a7282-496c-4211-ba52-427b3596333a",
@@ -122985,7 +123137,7 @@
             "imageHeight": 144,
             "filename": "screen-logo.png",
             "inode": "10133099161700929",
-            "_v": 1606191417495
+            "_v": 1606286517221
         },
         {
             "id": "572d1710-0fbd-48d7-8d08-b8a171ac3a66",
@@ -122996,7 +123148,7 @@
             "imageHeight": 144,
             "filename": "screen-lore.png",
             "inode": "4785074604199566",
-            "_v": 1606191417495
+            "_v": 1606286517221
         },
         {
             "id": "2d9c771d-9027-44ed-aecf-0c70a7831268",
@@ -123007,7 +123159,7 @@
             "imageHeight": 144,
             "filename": "screen-map.png",
             "inode": "7881299347942063",
-            "_v": 1606191417495
+            "_v": 1606286517221
         },
         {
             "id": "bb6f1bd9-df6a-472a-9c35-33cac9be44e4",
@@ -123018,7 +123170,7 @@
             "imageHeight": 144,
             "filename": "screen-titles.png",
             "inode": "19703248369865408",
-            "_v": 1606191417495
+            "_v": 1606286517221
         },
         {
             "id": "6e9e4e81-9fac-47e0-b641-c2dea241c502",
@@ -123029,7 +123181,7 @@
             "imageHeight": 144,
             "filename": "screen-to_do_list.png",
             "inode": "27866022694410122",
-            "_v": 1606191417495
+            "_v": 1606286517221
         }
     ],
     "spriteSheets": [
@@ -123040,7 +123192,7 @@
             "type": "animated",
             "filename": "fx-checkmark.png",
             "inode": "51228445761360090",
-            "_v": 1606191417495
+            "_v": 1606286517221
         },
         {
             "id": "058d5c62-81db-4dc1-a11c-53840c1d34de",
@@ -123049,7 +123201,7 @@
             "type": "animated",
             "filename": "fx-cover.png",
             "inode": "29836347531402428",
-            "_v": 1606191417495
+            "_v": 1606286517221
         },
         {
             "id": "634c44b8-e2ef-4bf3-801f-c846dec82630",
@@ -123058,7 +123210,7 @@
             "type": "static",
             "filename": "fx-empty.png",
             "inode": "37717646879270449",
-            "_v": 1606191417495
+            "_v": 1606286517221
         },
         {
             "id": "5a20dd62-520d-4d87-9450-450cc5531818",
@@ -123067,7 +123219,7 @@
             "type": "static",
             "filename": "fx-map_marker.png",
             "inode": "2814749767213421",
-            "_v": 1606191417495
+            "_v": 1606286517221
         },
         {
             "id": "244aef94-27ab-432b-bfe1-f3ab0b2e2b6e",
@@ -123076,7 +123228,7 @@
             "type": "animated",
             "filename": "fx-sparkle.png",
             "inode": "10696049115091387",
-            "_v": 1606191417495
+            "_v": 1606286517221
         },
         {
             "id": "5b8cb77d-ff50-41dd-9018-1289ce7f00a0",
@@ -123085,7 +123237,7 @@
             "type": "actor",
             "filename": "fx-splash.png",
             "inode": "54887620458646424",
-            "_v": 1606191417495
+            "_v": 1606286517221
         },
         {
             "id": "a04be08a-c5c8-486f-b012-c627160ff4a1",
@@ -123094,7 +123246,7 @@
             "type": "static",
             "filename": "inv-amulet.png",
             "inode": "50102545854569826",
-            "_v": 1606191417495
+            "_v": 1606286517221
         },
         {
             "id": "50967022-e242-470c-8c22-d5be8df40846",
@@ -123103,7 +123255,7 @@
             "type": "static",
             "filename": "inv-blood.png",
             "inode": "3940649674022289",
-            "_v": 1606191417495
+            "_v": 1606286517221
         },
         {
             "id": "f1ae5bc5-3ca5-4b14-a200-a1033e8d4cb5",
@@ -123112,7 +123264,7 @@
             "type": "static",
             "filename": "inv-feather.png",
             "inode": "10414574138367378",
-            "_v": 1606191417495
+            "_v": 1606286517221
         },
         {
             "id": "0481a42d-3900-45e6-9636-a26cbe133568",
@@ -123121,7 +123273,7 @@
             "type": "static",
             "filename": "inv-fertilizer.png",
             "inode": "20266198323239896",
-            "_v": 1606191417495
+            "_v": 1606286517221
         },
         {
             "id": "724c5e64-62f5-452f-95e4-b65f5b9f6d6f",
@@ -123130,7 +123282,7 @@
             "type": "static",
             "filename": "inv-key.png",
             "inode": "18577348462976822",
-            "_v": 1606191417495
+            "_v": 1606286517221
         },
         {
             "id": "9b17a5ba-0d60-4a95-9a7e-5a17ef0b7a60",
@@ -123139,7 +123291,7 @@
             "type": "static",
             "filename": "inv-kiss.png",
             "inode": "24769797950611262",
-            "_v": 1606191417495
+            "_v": 1606286517221
         },
         {
             "id": "a2de4b73-0df5-41a5-bd35-aec6c0da03a7",
@@ -123148,7 +123300,7 @@
             "type": "static",
             "filename": "inv-ladybug.png",
             "inode": "20547673299951434",
-            "_v": 1606191417495
+            "_v": 1606286517221
         },
         {
             "id": "5767b87e-74bf-4fbf-b506-d59f9b9599a0",
@@ -123157,7 +123309,7 @@
             "type": "static",
             "filename": "inv-light.png",
             "inode": "21110623253372747",
-            "_v": 1606191417495
+            "_v": 1606286517221
         },
         {
             "id": "a195ddc1-6658-488a-8ba1-526e45730997",
@@ -123166,7 +123318,7 @@
             "type": "static",
             "filename": "inv-pass.png",
             "inode": "16607023626002477",
-            "_v": 1606191417495
+            "_v": 1606286517221
         },
         {
             "id": "a5bfebf9-fa1b-408a-adce-e07eddc963ab",
@@ -123175,7 +123327,7 @@
             "type": "animated",
             "filename": "inv-selector.png",
             "inode": "31806672368378287",
-            "_v": 1606191417495
+            "_v": 1606286517221
         },
         {
             "id": "2c1de2ac-3362-4174-82e0-7b6c2785328c",
@@ -123184,7 +123336,7 @@
             "type": "static",
             "filename": "inv-watering.png",
             "inode": "14073748835607048",
-            "_v": 1606191417495
+            "_v": 1606286517221
         },
         {
             "id": "75d79881-0d84-41c4-aec4-2da5f414d23d",
@@ -123193,7 +123345,7 @@
             "type": "animated",
             "filename": "lore-characters.png",
             "inode": "22236523160195436",
-            "_v": 1606194293689
+            "_v": 1606286517221
         },
         {
             "id": "6d30756f-f2d2-4295-80f7-cefc1725ec22",
@@ -123202,7 +123354,7 @@
             "type": "actor",
             "filename": "npc-aello.png",
             "inode": "17732923532871991",
-            "_v": 1606191417495
+            "_v": 1606286517221
         },
         {
             "id": "7d5cdf2f-33f1-4b9c-bc7e-7211475b80f7",
@@ -123211,7 +123363,7 @@
             "type": "animated",
             "filename": "npc-alraune_nc.png",
             "inode": "7881299348497875",
-            "_v": 1606191417495
+            "_v": 1606286517221
         },
         {
             "id": "b1ad6d1e-9161-4020-ba49-a1a07dc3f77e",
@@ -123220,7 +123372,7 @@
             "type": "animated",
             "filename": "npc-alraune_ne.png",
             "inode": "8162774325208530",
-            "_v": 1606191417495
+            "_v": 1606286517221
         },
         {
             "id": "9a6b637f-99dc-4018-a1de-77c7d45a9423",
@@ -123229,7 +123381,7 @@
             "type": "animated",
             "filename": "npc-alraune_nw.png",
             "inode": "7599824371787220",
-            "_v": 1606191417495
+            "_v": 1606286517221
         },
         {
             "id": "4965ab5e-6a56-4aab-811e-72e6ad48c1b2",
@@ -123238,7 +123390,7 @@
             "type": "static",
             "filename": "npc-alraune_sc.png",
             "inode": "12384898975868334",
-            "_v": 1606191417495
+            "_v": 1606286517221
         },
         {
             "id": "3b09397a-0c57-42ac-94ce-3d25036938bb",
@@ -123247,7 +123399,7 @@
             "type": "animated",
             "filename": "npc-alraune_se.png",
             "inode": "8162774325208496",
-            "_v": 1606191417495
+            "_v": 1606286517221
         },
         {
             "id": "6cab1bc6-8406-4544-bce0-1418f19a03f1",
@@ -123256,7 +123408,7 @@
             "type": "animated",
             "filename": "npc-alraune_sw.png",
             "inode": "23080948090520897",
-            "_v": 1606191417495
+            "_v": 1606286517221
         },
         {
             "id": "0b40f685-c5c6-45da-b0d3-34f0df67c04e",
@@ -123265,7 +123417,7 @@
             "type": "animated",
             "filename": "npc-baphy.png",
             "inode": "46724846134019742",
-            "_v": 1606191417495
+            "_v": 1606286517221
         },
         {
             "id": "0f160e76-a92d-45f9-aec8-e2a07553c2e8",
@@ -123274,7 +123426,7 @@
             "type": "actor",
             "filename": "npc-josette.png",
             "inode": "16888498602729612",
-            "_v": 1606191417495
+            "_v": 1606286517221
         },
         {
             "id": "a3a7f910-871d-41b8-a783-02a9d1d9dc68",
@@ -123283,7 +123435,7 @@
             "type": "static",
             "filename": "npc-josette_one_frame.png",
             "inode": "22799473113581062",
-            "_v": 1606191417495
+            "_v": 1606286517221
         },
         {
             "id": "4f026f4b-a4b1-4e67-8b26-268ba6bb58c6",
@@ -123292,7 +123444,7 @@
             "type": "actor",
             "filename": "npc-kuliltu.png",
             "inode": "7318349394494780",
-            "_v": 1606193488982
+            "_v": 1606286517221
         },
         {
             "id": "1c8a0ad2-c4da-46cf-a835-c0078f6986f0",
@@ -123301,7 +123453,7 @@
             "type": "animated",
             "filename": "npc-kuliltus_tail.png",
             "inode": "43910096366878149",
-            "_v": 1606193424388
+            "_v": 1606286517221
         },
         {
             "id": "cf8c7b3f-86af-4e08-b26b-e9d5cd6ff19f",
@@ -123310,7 +123462,7 @@
             "type": "static",
             "filename": "npc-lin.png",
             "inode": "14636698789009467",
-            "_v": 1606191417495
+            "_v": 1606286517221
         },
         {
             "id": "0d2ca5c9-8ad5-46b9-bde7-777bb7f8ec4d",
@@ -123319,7 +123471,7 @@
             "type": "animated",
             "filename": "npc-lucy_lay.png",
             "inode": "6755399441654438",
-            "_v": 1606191417495
+            "_v": 1606286517221
         },
         {
             "id": "416af782-2eef-4303-a90e-ca8014e171d3",
@@ -123328,7 +123480,7 @@
             "type": "animated",
             "filename": "npc-lucy_sit.png",
             "inode": "6755399441654436",
-            "_v": 1606191417495
+            "_v": 1606286517221
         },
         {
             "id": "ea905fa7-7d98-4beb-b3d4-4a9d959a05af",
@@ -123337,7 +123489,7 @@
             "type": "actor_animated",
             "filename": "npc-lucy_walk.png",
             "inode": "17451448556163371",
-            "_v": 1606191417495
+            "_v": 1606286517221
         },
         {
             "id": "8bb40527-758e-4aad-8b18-80bde73694c7",
@@ -123346,7 +123498,7 @@
             "type": "static",
             "filename": "npc-mae.png",
             "inode": "87257242780368218",
-            "_v": 1606191417495
+            "_v": 1606286517221
         },
         {
             "id": "9116b552-549c-4a1a-ac0d-d87fd1f432c6",
@@ -123355,7 +123507,7 @@
             "type": "static",
             "filename": "npc-reaper.png",
             "inode": "17169973579421768",
-            "_v": 1606191604353
+            "_v": 1606286517221
         },
         {
             "id": "de6d05d2-0a99-4035-936d-d4cef408d0cd",
@@ -123364,7 +123516,7 @@
             "type": "actor",
             "filename": "npc-rin_rin.png",
             "inode": "34621422135446356",
-            "_v": 1606191417495
+            "_v": 1606286517221
         },
         {
             "id": "d16efae4-939d-4e36-b1fe-1345f872d3c1",
@@ -123373,7 +123525,7 @@
             "type": "static",
             "filename": "npc-rin_rin_one_frame.png",
             "inode": "24769797950588215",
-            "_v": 1606191417495
+            "_v": 1606286517221
         },
         {
             "id": "095db020-330c-4f8b-88f7-57f2fbb1af55",
@@ -123382,7 +123534,7 @@
             "type": "animated",
             "filename": "npc-snakebat.png",
             "inode": "19703248369816421",
-            "_v": 1606191417495
+            "_v": 1606286517221
         },
         {
             "id": "a86d97de-b958-4b3b-9009-337d55620ad5",
@@ -123391,7 +123543,7 @@
             "type": "actor",
             "filename": "npc-suzuka.png",
             "inode": "14355223812339051",
-            "_v": 1606191417495
+            "_v": 1606286517221
         },
         {
             "id": "7c5e5584-8122-488c-ad2a-87d19b2a7045",
@@ -123400,7 +123552,7 @@
             "type": "static",
             "filename": "npc-suzukas_hair.png",
             "inode": "27866022694402500",
-            "_v": 1606191417495
+            "_v": 1606286517221
         },
         {
             "id": "6081292c-b340-43fc-9aa9-6ccc923f7608",
@@ -123409,7 +123561,7 @@
             "type": "actor_animated",
             "filename": "npc-tibby.png",
             "inode": "87820192733827361",
-            "_v": 1606191417496
+            "_v": 1606286517221
         },
         {
             "id": "564aeee9-cb27-4a88-9b5d-ca92658e76bf",
@@ -123418,7 +123570,7 @@
             "type": "animated",
             "filename": "plant-leaf.png",
             "inode": "27584547717891316",
-            "_v": 1606191417496
+            "_v": 1606286517221
         },
         {
             "id": "29982554-3ebd-4e7c-88ac-10b5fcd71418",
@@ -123427,7 +123579,7 @@
             "type": "static",
             "filename": "plant-sprout.png",
             "inode": "27303072740946380",
-            "_v": 1606191417496
+            "_v": 1606286517221
         },
         {
             "id": "f56afb0e-31be-4ac1-b62c-35d71a027dfd",
@@ -123436,7 +123588,7 @@
             "type": "static",
             "filename": "plant-stalk.png",
             "inode": "18858823439688564",
-            "_v": 1606191417496
+            "_v": 1606286517221
         },
         {
             "id": "132be5ee-3aad-4ab0-b18d-163306b914bd",
@@ -123445,7 +123597,7 @@
             "type": "static",
             "filename": "player-cursor.png",
             "inode": "15199648742494900",
-            "_v": 1606191417496
+            "_v": 1606286517221
         },
         {
             "id": "c3bc79c7-3703-4a67-86b2-301f587745b4",
@@ -123454,7 +123606,7 @@
             "type": "actor_animated",
             "filename": "player-stheno.png",
             "inode": "72339069014640021",
-            "_v": 1606191417496
+            "_v": 1606286517223
         },
         {
             "id": "390a21a2-7e90-4a7f-962d-5fc1d761ce69",
@@ -123463,7 +123615,7 @@
             "type": "static",
             "filename": "player-stheno_hit.png",
             "inode": "55450570412007307",
-            "_v": 1606191417496
+            "_v": 1606286517221
         },
         {
             "id": "a2a24cd0-d170-43db-b86e-a04df102c85e",
@@ -123472,7 +123624,7 @@
             "type": "animated",
             "filename": "player-stheno_strike.png",
             "inode": "152840912353897471",
-            "_v": 1606191417496
+            "_v": 1606286517222
         },
         {
             "id": "5820fdfe-68c8-4d6d-9318-670def503664",
@@ -123481,7 +123633,7 @@
             "type": "animated",
             "filename": "trap-spike.png",
             "inode": "26177172834156720",
-            "_v": 1606191417496
+            "_v": 1606286517225
         },
         {
             "id": "45e9c25d-a630-43c7-bfe7-2c4391f0d62c",
@@ -123490,7 +123642,7 @@
             "type": "static",
             "filename": "trap-stalactite.png",
             "inode": "23925373020414607",
-            "_v": 1606269041306
+            "_v": 1606286517225
         }
     ],
     "palettes": [
@@ -125722,7 +125874,7 @@
             "filename": "template.mod",
             "settings": {},
             "inode": "3377699720827034",
-            "_v": 1606191417432
+            "_v": 1606286517196
         }
     ],
     "variables": [
@@ -125829,6 +125981,18 @@
         {
             "id": "25",
             "name": "Tholtan Sprout Needs Fertilizer"
+        },
+        {
+            "id": "26",
+            "name": "Sprang Trap 0"
+        },
+        {
+            "id": "27",
+            "name": "Sprang Trap 1"
+        },
+        {
+            "id": "28",
+            "name": "Sprang Trap 2"
         },
         {
             "id": "d75e6347-d4f9-4d95-a73b-67c07979054e__L0",
@@ -126335,10 +126499,6 @@
             "name": "Menu Choice"
         },
         {
-            "id": "26",
-            "name": "Sprang Trap 0"
-        },
-        {
             "id": "3f51950b-f276-4618-937e-339719254f6b__L0",
             "name": "Y"
         },
@@ -126347,30 +126507,22 @@
             "name": "Y"
         },
         {
-            "id": "27",
-            "name": "Sprang Trap 1"
-        },
-        {
             "id": "59f7c192-1da9-4ca1-99fb-13e0f8a41cbd__L0",
             "name": "Y"
         },
         {
             "id": "157c8148-9043-48e6-bd2e-eb1be96f81df__L0",
             "name": "Y"
-        },
-        {
-            "id": "28",
-            "name": "Sprang Trap 2"
         }
     ],
     "settings": {
-        "startSceneId": "116734ed-7043-41b2-b88b-7fbdfc0fb423",
-        "startX": 5,
-        "startY": 18,
+        "startSceneId": "16427edb-a907-4eb5-b1bd-895d268f7f3f",
+        "startX": 34,
+        "startY": 12,
         "showCollisions": true,
         "showConnections": "all",
-        "worldScrollX": 1176,
-        "worldScrollY": 7071,
+        "worldScrollX": 6216,
+        "worldScrollY": 4372,
         "zoom": 275,
         "customColorsEnabled": true,
         "defaultBackgroundPaletteIds": "default-background",

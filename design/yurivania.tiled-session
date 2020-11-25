@@ -5,8 +5,8 @@
     },
     "activeFile": "backgrounds/one-room-measurement.tmx",
     "expandedProjectPaths": [
-        "backgrounds",
         ".",
+        "backgrounds",
         "tiles"
     ],
     "exportAsImage.useCurrentScale": false,
@@ -378,9 +378,9 @@
     ],
     "project": "yurivania.tiled-project",
     "recentFiles": [
+        "backgrounds/one-room-measurement.tmx",
         "backgrounds/area-skyclad_tower-main.tmx",
         "backgrounds/area-skyclad_tower-intro.tmx",
-        "backgrounds/one-room-measurement.tmx",
         "backgrounds/area-mossy_tholtan-sprout.tmx",
         "backgrounds/area-mossy_tholtan-vine.tmx",
         "backgrounds/area-echoing_vaults-pool.tmx",
