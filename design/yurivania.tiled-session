@@ -6,8 +6,8 @@
     "activeFile": "backgrounds/one-room-measurement.tmx",
     "expandedProjectPaths": [
         "backgrounds",
-        ".",
-        "tiles"
+        "tiles",
+        "."
     ],
     "exportAsImage.useCurrentScale": false,
     "file.lastUsedOpenFilter": "All Files (*)",
@@ -284,6 +284,14 @@
                 "y": 173
             }
         },
+        "backgrounds/area-subterrane_sprout.tmx": {
+            "scale": 4,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 756.75,
+                "y": 50.5
+            }
+        },
         "backgrounds/cutscene-evergreen_gulf.tmx": {
             "scale": 4.182638888888889,
             "selectedLayer": 0,
@@ -361,7 +369,7 @@
             "scaleInEditor": 11
         },
         "tiles/yurivania.tsx": {
-            "scaleInDock": 5.5,
+            "scaleInDock": 4,
             "scaleInEditor": 11
         },
         "tiles/yurivania_alternate.tsx": {
@@ -379,6 +387,7 @@
     "project": "yurivania.tiled-project",
     "recentFiles": [
         "backgrounds/one-room-measurement.tmx",
+        "backgrounds/area-subterrane_sprout.tmx",
         "backgrounds/area-skyclad_tower-main.tmx",
         "backgrounds/area-skyclad_tower-intro.tmx",
         "backgrounds/area-mossy_tholtan-sprout.tmx",
@@ -388,8 +397,7 @@
         "backgrounds/area-mossy_tholtan.tmx",
         "backgrounds/screen-lore.tmx",
         "backgrounds/screen-to_do_list.tmx",
-        "backgrounds/screen-inventory.tmx",
-        "backgrounds/TEMP.tmx"
+        "backgrounds/screen-inventory.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {
