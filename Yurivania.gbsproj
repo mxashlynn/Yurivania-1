@@ -10419,15 +10419,6 @@
                                                 "__collapseCase10": true,
                                                 "value10": 11,
                                                 "__collapseCase11": true,
-                                                "value11": 12,
-                                                "__collapseCase12": true,
-                                                "value12": 14,
-                                                "__collapseCase13": true,
-                                                "value13": 15,
-                                                "__collapseCase14": true,
-                                                "value14": 16,
-                                                "__collapseCase15": false,
-                                                "value15": 16,
                                                 "__collapseElse": false,
                                                 "__disableElse": true,
                                                 "__label": "Respond to Player Selection",
@@ -10780,30 +10771,6 @@
                                                         "command": "EVENT_END"
                                                     }
                                                 ],
-                                                "true12": [
-                                                    {
-                                                        "id": "1a3814a8-b8aa-42e5-919e-d43c696e5d6f",
-                                                        "command": "EVENT_END"
-                                                    }
-                                                ],
-                                                "true13": [
-                                                    {
-                                                        "id": "b897e02e-3e28-49df-8c84-cd4ceaafb6c2",
-                                                        "command": "EVENT_END"
-                                                    }
-                                                ],
-                                                "true14": [
-                                                    {
-                                                        "id": "ff3b0c78-5e6c-4055-b475-d6f010cc3a35",
-                                                        "command": "EVENT_END"
-                                                    }
-                                                ],
-                                                "true15": [
-                                                    {
-                                                        "id": "e3fe91fe-00e7-4b2b-9eca-560a1bd2f3dc",
-                                                        "command": "EVENT_END"
-                                                    }
-                                                ],
                                                 "false": [
                                                     {
                                                         "id": "7dc8b890-0bef-4c34-8e2a-754004a6ac9c",
@@ -10966,27 +10933,6 @@
                                 "__collapseCase4": false,
                                 "value4": 5,
                                 "__collapseCase5": false,
-                                "value5": 6,
-                                "__collapseCase6": false,
-                                "value6": 7,
-                                "__collapseCase7": false,
-                                "value7": 8,
-                                "__collapseCase8": false,
-                                "value8": 9,
-                                "__collapseCase9": false,
-                                "value9": 10,
-                                "__collapseCase10": false,
-                                "value10": 11,
-                                "__collapseCase11": false,
-                                "value11": 12,
-                                "__collapseCase12": false,
-                                "value12": 13,
-                                "__collapseCase13": false,
-                                "value13": 14,
-                                "__collapseCase14": false,
-                                "value14": 15,
-                                "__collapseCase15": false,
-                                "value15": 16,
                                 "__collapseElse": false,
                                 "__disableElse": true
                             },
@@ -11170,66 +11116,6 @@
                                     },
                                     {
                                         "id": "8d9c6648-c00a-4298-b937-b42786397e27",
-                                        "command": "EVENT_END"
-                                    }
-                                ],
-                                "true6": [
-                                    {
-                                        "id": "9a66cd48-8a40-410f-9814-cee65ea0df6a",
-                                        "command": "EVENT_END"
-                                    }
-                                ],
-                                "true7": [
-                                    {
-                                        "id": "ba772329-58cf-4b9b-9186-2d723bdb3f68",
-                                        "command": "EVENT_END"
-                                    }
-                                ],
-                                "true8": [
-                                    {
-                                        "id": "916fec0f-d92e-4e5f-8884-eb1d1bd122fd",
-                                        "command": "EVENT_END"
-                                    }
-                                ],
-                                "true9": [
-                                    {
-                                        "id": "e20fa601-f1e5-4174-ba92-3c3e406eb83a",
-                                        "command": "EVENT_END"
-                                    }
-                                ],
-                                "true10": [
-                                    {
-                                        "id": "4d91f66e-7d68-4966-8fe6-7cd535e0376d",
-                                        "command": "EVENT_END"
-                                    }
-                                ],
-                                "true11": [
-                                    {
-                                        "id": "c9a25dc9-7b7b-4f6a-b57c-cf9570fc3eee",
-                                        "command": "EVENT_END"
-                                    }
-                                ],
-                                "true12": [
-                                    {
-                                        "id": "cfdc94ab-a80d-48e3-94f5-74887facc793",
-                                        "command": "EVENT_END"
-                                    }
-                                ],
-                                "true13": [
-                                    {
-                                        "id": "02ec0f0a-94ef-483c-a97d-7e13a78d8a5f",
-                                        "command": "EVENT_END"
-                                    }
-                                ],
-                                "true14": [
-                                    {
-                                        "id": "635ce581-4ad8-4f6b-a799-a00d5ed384c2",
-                                        "command": "EVENT_END"
-                                    }
-                                ],
-                                "true15": [
-                                    {
-                                        "id": "11921f7f-a98e-4b8f-b4c2-1c666c2cb350",
                                         "command": "EVENT_END"
                                     }
                                 ],
@@ -14463,32 +14349,6 @@
                                 "value1": 2,
                                 "__collapseCase2": false,
                                 "value2": 3,
-                                "__collapseCase3": false,
-                                "value3": 4,
-                                "__collapseCase4": false,
-                                "value4": 5,
-                                "__collapseCase5": false,
-                                "value5": 6,
-                                "__collapseCase6": false,
-                                "value6": 7,
-                                "__collapseCase7": false,
-                                "value7": 8,
-                                "__collapseCase8": false,
-                                "value8": 9,
-                                "__collapseCase9": false,
-                                "value9": 10,
-                                "__collapseCase10": false,
-                                "value10": 11,
-                                "__collapseCase11": false,
-                                "value11": 12,
-                                "__collapseCase12": false,
-                                "value12": 13,
-                                "__collapseCase13": false,
-                                "value13": 14,
-                                "__collapseCase14": false,
-                                "value14": 15,
-                                "__collapseCase15": false,
-                                "value15": 16,
                                 "__collapseElse": false
                             },
                             "children": {
@@ -14561,78 +14421,6 @@
                                     },
                                     {
                                         "id": "817f05ae-3466-4d96-bf0f-855435fa4e5a",
-                                        "command": "EVENT_END"
-                                    }
-                                ],
-                                "true4": [
-                                    {
-                                        "id": "cb5e5a9d-7dab-4f6a-a1ca-c5179aecc2c5",
-                                        "command": "EVENT_END"
-                                    }
-                                ],
-                                "true5": [
-                                    {
-                                        "id": "dda12e2a-ad2c-4396-817f-0f3bf2f9743c",
-                                        "command": "EVENT_END"
-                                    }
-                                ],
-                                "true6": [
-                                    {
-                                        "id": "ce5a915b-97fc-4aa1-8ba7-d965b592d267",
-                                        "command": "EVENT_END"
-                                    }
-                                ],
-                                "true7": [
-                                    {
-                                        "id": "b67821b2-88aa-45e7-ba61-5f87af0f8023",
-                                        "command": "EVENT_END"
-                                    }
-                                ],
-                                "true8": [
-                                    {
-                                        "id": "3f7beefd-963c-4a41-a9b0-750f73dec596",
-                                        "command": "EVENT_END"
-                                    }
-                                ],
-                                "true9": [
-                                    {
-                                        "id": "2eece8c8-561e-44b5-b01a-4b34f1deebc4",
-                                        "command": "EVENT_END"
-                                    }
-                                ],
-                                "true10": [
-                                    {
-                                        "id": "834b770d-0cce-48b5-8d0b-bd0962ecc31f",
-                                        "command": "EVENT_END"
-                                    }
-                                ],
-                                "true11": [
-                                    {
-                                        "id": "acd66537-a274-4776-a3c1-7ee831f8bd20",
-                                        "command": "EVENT_END"
-                                    }
-                                ],
-                                "true12": [
-                                    {
-                                        "id": "cb1775f2-b7d4-438d-8cbb-2da166a2529e",
-                                        "command": "EVENT_END"
-                                    }
-                                ],
-                                "true13": [
-                                    {
-                                        "id": "fdd80462-ce8e-4017-9047-6f1ec26a6d0f",
-                                        "command": "EVENT_END"
-                                    }
-                                ],
-                                "true14": [
-                                    {
-                                        "id": "ee47f107-5122-4428-82bb-1d7f38f71803",
-                                        "command": "EVENT_END"
-                                    }
-                                ],
-                                "true15": [
-                                    {
-                                        "id": "23441d35-2dd7-4db6-9f41-6426db5baa09",
                                         "command": "EVENT_END"
                                     }
                                 ],
@@ -39850,16 +39638,6 @@
                                                                     "value9": 10,
                                                                     "__collapseCase10": true,
                                                                     "value10": 11,
-                                                                    "__collapseCase11": true,
-                                                                    "value11": 12,
-                                                                    "__collapseCase12": true,
-                                                                    "value12": 14,
-                                                                    "__collapseCase13": true,
-                                                                    "value13": 15,
-                                                                    "__collapseCase14": true,
-                                                                    "value14": 16,
-                                                                    "__collapseCase15": false,
-                                                                    "value15": 16,
                                                                     "__collapseElse": false,
                                                                     "__disableElse": true,
                                                                     "__label": "Respond to Player Selection",
@@ -40209,30 +39987,6 @@
                                                                         },
                                                                         {
                                                                             "id": "a3d7c662-05f3-41e9-83c3-90ba83d1334f",
-                                                                            "command": "EVENT_END"
-                                                                        }
-                                                                    ],
-                                                                    "true12": [
-                                                                        {
-                                                                            "id": "1a3814a8-b8aa-42e5-919e-d43c696e5d6f",
-                                                                            "command": "EVENT_END"
-                                                                        }
-                                                                    ],
-                                                                    "true13": [
-                                                                        {
-                                                                            "id": "b897e02e-3e28-49df-8c84-cd4ceaafb6c2",
-                                                                            "command": "EVENT_END"
-                                                                        }
-                                                                    ],
-                                                                    "true14": [
-                                                                        {
-                                                                            "id": "ff3b0c78-5e6c-4055-b475-d6f010cc3a35",
-                                                                            "command": "EVENT_END"
-                                                                        }
-                                                                    ],
-                                                                    "true15": [
-                                                                        {
-                                                                            "id": "e3fe91fe-00e7-4b2b-9eca-560a1bd2f3dc",
                                                                             "command": "EVENT_END"
                                                                         }
                                                                     ],
@@ -40783,34 +40537,6 @@
                                 "value0": 40,
                                 "__collapseCase1": false,
                                 "value1": 80,
-                                "__collapseCase2": false,
-                                "value2": 3,
-                                "__collapseCase3": false,
-                                "value3": 4,
-                                "__collapseCase4": false,
-                                "value4": 5,
-                                "__collapseCase5": false,
-                                "value5": 6,
-                                "__collapseCase6": false,
-                                "value6": 7,
-                                "__collapseCase7": false,
-                                "value7": 8,
-                                "__collapseCase8": false,
-                                "value8": 9,
-                                "__collapseCase9": false,
-                                "value9": 10,
-                                "__collapseCase10": false,
-                                "value10": 11,
-                                "__collapseCase11": false,
-                                "value11": 12,
-                                "__collapseCase12": false,
-                                "value12": 13,
-                                "__collapseCase13": false,
-                                "value13": 14,
-                                "__collapseCase14": false,
-                                "value14": 15,
-                                "__collapseCase15": false,
-                                "value15": 16,
                                 "__collapseElse": false
                             },
                             "children": {
@@ -40875,90 +40601,6 @@
                                     },
                                     {
                                         "id": "1f844c36-ed4a-457e-aef7-270fbf0420a1",
-                                        "command": "EVENT_END"
-                                    }
-                                ],
-                                "true2": [
-                                    {
-                                        "id": "b541661a-d666-4303-9ea7-42d3f2517e5f",
-                                        "command": "EVENT_END"
-                                    }
-                                ],
-                                "true3": [
-                                    {
-                                        "id": "edb7b1f9-3131-41cb-b0ff-986efd8d357a",
-                                        "command": "EVENT_END"
-                                    }
-                                ],
-                                "true4": [
-                                    {
-                                        "id": "cb470d55-ba0a-4765-ab65-3a1ad6255d0a",
-                                        "command": "EVENT_END"
-                                    }
-                                ],
-                                "true5": [
-                                    {
-                                        "id": "ce3be530-64a7-4f57-a8cf-6313d96a31a5",
-                                        "command": "EVENT_END"
-                                    }
-                                ],
-                                "true6": [
-                                    {
-                                        "id": "c15996e3-41de-4455-8094-b80fa65eb902",
-                                        "command": "EVENT_END"
-                                    }
-                                ],
-                                "true7": [
-                                    {
-                                        "id": "73ddd785-00aa-48df-b563-67bc81db86cb",
-                                        "command": "EVENT_END"
-                                    }
-                                ],
-                                "true8": [
-                                    {
-                                        "id": "872e514d-ab57-4505-b3db-9c25373ff0c5",
-                                        "command": "EVENT_END"
-                                    }
-                                ],
-                                "true9": [
-                                    {
-                                        "id": "e04bcbb4-8f0e-4dfc-bdb6-39a57a1815f6",
-                                        "command": "EVENT_END"
-                                    }
-                                ],
-                                "true10": [
-                                    {
-                                        "id": "d52732bf-c49a-4a29-bc16-f14470f50dc9",
-                                        "command": "EVENT_END"
-                                    }
-                                ],
-                                "true11": [
-                                    {
-                                        "id": "0d76bf5d-1c80-4759-8482-d222a659c9de",
-                                        "command": "EVENT_END"
-                                    }
-                                ],
-                                "true12": [
-                                    {
-                                        "id": "61a226f8-0e0d-48d3-97d2-94194f645764",
-                                        "command": "EVENT_END"
-                                    }
-                                ],
-                                "true13": [
-                                    {
-                                        "id": "d32f8b43-f46f-40a2-be54-4cfdd3c3223f",
-                                        "command": "EVENT_END"
-                                    }
-                                ],
-                                "true14": [
-                                    {
-                                        "id": "218e1d93-516e-4f3b-9551-6fd3ca8ab2b4",
-                                        "command": "EVENT_END"
-                                    }
-                                ],
-                                "true15": [
-                                    {
-                                        "id": "aebc6a56-abcd-4780-b2cb-1f459b4dd924",
                                         "command": "EVENT_END"
                                     }
                                 ],
@@ -70453,34 +70095,6 @@
                                 "value0": 40,
                                 "__collapseCase1": false,
                                 "value1": 80,
-                                "__collapseCase2": false,
-                                "value2": 3,
-                                "__collapseCase3": false,
-                                "value3": 4,
-                                "__collapseCase4": false,
-                                "value4": 5,
-                                "__collapseCase5": false,
-                                "value5": 6,
-                                "__collapseCase6": false,
-                                "value6": 7,
-                                "__collapseCase7": false,
-                                "value7": 8,
-                                "__collapseCase8": false,
-                                "value8": 9,
-                                "__collapseCase9": false,
-                                "value9": 10,
-                                "__collapseCase10": false,
-                                "value10": 11,
-                                "__collapseCase11": false,
-                                "value11": 12,
-                                "__collapseCase12": false,
-                                "value12": 13,
-                                "__collapseCase13": false,
-                                "value13": 14,
-                                "__collapseCase14": false,
-                                "value14": 15,
-                                "__collapseCase15": false,
-                                "value15": 16,
                                 "__collapseElse": false
                             },
                             "children": {
@@ -70545,90 +70159,6 @@
                                     },
                                     {
                                         "id": "aaaa334d-c92f-40ce-8585-42bd3e79d35f",
-                                        "command": "EVENT_END"
-                                    }
-                                ],
-                                "true2": [
-                                    {
-                                        "id": "00b20e59-3195-42f0-8228-2cb6d5410ee3",
-                                        "command": "EVENT_END"
-                                    }
-                                ],
-                                "true3": [
-                                    {
-                                        "id": "f739e79d-14c7-41ef-aa35-30dad5dee375",
-                                        "command": "EVENT_END"
-                                    }
-                                ],
-                                "true4": [
-                                    {
-                                        "id": "7835f438-38c2-49b2-af89-52a0b49bdaf1",
-                                        "command": "EVENT_END"
-                                    }
-                                ],
-                                "true5": [
-                                    {
-                                        "id": "ee4e87ea-f990-4841-be10-fc04efcb02f0",
-                                        "command": "EVENT_END"
-                                    }
-                                ],
-                                "true6": [
-                                    {
-                                        "id": "e9ecc4ca-f42a-40b4-8b68-9de92a223df4",
-                                        "command": "EVENT_END"
-                                    }
-                                ],
-                                "true7": [
-                                    {
-                                        "id": "62715834-c593-418f-bed9-22913d856d82",
-                                        "command": "EVENT_END"
-                                    }
-                                ],
-                                "true8": [
-                                    {
-                                        "id": "b8ce0843-4efd-41d1-b10a-dcc7054c4036",
-                                        "command": "EVENT_END"
-                                    }
-                                ],
-                                "true9": [
-                                    {
-                                        "id": "d92a6e21-f556-47b6-b4d6-830c4bc2db1c",
-                                        "command": "EVENT_END"
-                                    }
-                                ],
-                                "true10": [
-                                    {
-                                        "id": "ad3d30bc-e372-4c19-ae02-c8ee7e8db4b0",
-                                        "command": "EVENT_END"
-                                    }
-                                ],
-                                "true11": [
-                                    {
-                                        "id": "ef33ba13-fade-473e-92ed-d47dee4cb86f",
-                                        "command": "EVENT_END"
-                                    }
-                                ],
-                                "true12": [
-                                    {
-                                        "id": "b929120a-f741-4080-9856-2d646a910eb5",
-                                        "command": "EVENT_END"
-                                    }
-                                ],
-                                "true13": [
-                                    {
-                                        "id": "79a8183f-e06d-4e0a-bc5f-1add88db163a",
-                                        "command": "EVENT_END"
-                                    }
-                                ],
-                                "true14": [
-                                    {
-                                        "id": "1692e1af-a948-41db-bb14-36ad98db2204",
-                                        "command": "EVENT_END"
-                                    }
-                                ],
-                                "true15": [
-                                    {
-                                        "id": "c27ee72a-3466-4919-a4c5-7d0b526e839e",
                                         "command": "EVENT_END"
                                     }
                                 ],
@@ -78357,22 +77887,6 @@
                                             "value6": 7,
                                             "__collapseCase7": false,
                                             "value7": 8,
-                                            "__collapseCase8": false,
-                                            "value8": 9,
-                                            "__collapseCase9": false,
-                                            "value9": 10,
-                                            "__collapseCase10": false,
-                                            "value10": 11,
-                                            "__collapseCase11": false,
-                                            "value11": 12,
-                                            "__collapseCase12": false,
-                                            "value12": 13,
-                                            "__collapseCase13": false,
-                                            "value13": 14,
-                                            "__collapseCase14": false,
-                                            "value14": 15,
-                                            "__collapseCase15": false,
-                                            "value15": 16,
                                             "__collapseElse": false,
                                             "__label": "Pick Location"
                                         },
@@ -78566,48 +78080,6 @@
                                                     "command": "EVENT_END"
                                                 }
                                             ],
-                                            "true9": [
-                                                {
-                                                    "id": "f482095e-b9c9-4837-a357-0b30de07031f",
-                                                    "command": "EVENT_END"
-                                                }
-                                            ],
-                                            "true10": [
-                                                {
-                                                    "id": "e0a6ef8a-e37f-436e-b2ef-d7af112234b2",
-                                                    "command": "EVENT_END"
-                                                }
-                                            ],
-                                            "true11": [
-                                                {
-                                                    "id": "a2947252-8897-4a1b-b511-40e5aac3a712",
-                                                    "command": "EVENT_END"
-                                                }
-                                            ],
-                                            "true12": [
-                                                {
-                                                    "id": "64855232-6d81-4050-aaac-a319869a931f",
-                                                    "command": "EVENT_END"
-                                                }
-                                            ],
-                                            "true13": [
-                                                {
-                                                    "id": "46de8f27-be57-4dcb-9379-29750d4184bd",
-                                                    "command": "EVENT_END"
-                                                }
-                                            ],
-                                            "true14": [
-                                                {
-                                                    "id": "1716e3dd-dd74-43fc-99e6-d24c7275ccd3",
-                                                    "command": "EVENT_END"
-                                                }
-                                            ],
-                                            "true15": [
-                                                {
-                                                    "id": "0361098c-5182-4bfd-8c88-de624a57268b",
-                                                    "command": "EVENT_END"
-                                                }
-                                            ],
                                             "false": [
                                                 {
                                                     "id": "c6417076-3af0-4e2b-b67c-b8029e8d806c",
@@ -78736,20 +78208,6 @@
                                             "value7": 8,
                                             "__collapseCase8": false,
                                             "value8": 9,
-                                            "__collapseCase9": false,
-                                            "value9": 10,
-                                            "__collapseCase10": false,
-                                            "value10": 11,
-                                            "__collapseCase11": false,
-                                            "value11": 12,
-                                            "__collapseCase12": false,
-                                            "value12": 13,
-                                            "__collapseCase13": false,
-                                            "value13": 14,
-                                            "__collapseCase14": false,
-                                            "value14": 15,
-                                            "__collapseCase15": false,
-                                            "value15": 16,
                                             "__collapseElse": false,
                                             "__label": "Pick Location"
                                         },
@@ -78943,48 +78401,6 @@
                                                     "command": "EVENT_END"
                                                 }
                                             ],
-                                            "true9": [
-                                                {
-                                                    "id": "9348d08f-b363-40bf-926f-485c3c5b9b89",
-                                                    "command": "EVENT_END"
-                                                }
-                                            ],
-                                            "true10": [
-                                                {
-                                                    "id": "c756b191-c3bf-47cc-a46b-fde038bc104b",
-                                                    "command": "EVENT_END"
-                                                }
-                                            ],
-                                            "true11": [
-                                                {
-                                                    "id": "86630230-30cf-45a9-ad81-64df2bec733c",
-                                                    "command": "EVENT_END"
-                                                }
-                                            ],
-                                            "true12": [
-                                                {
-                                                    "id": "348ddd92-dcf5-4dc2-8db9-7f6d4dae6e3d",
-                                                    "command": "EVENT_END"
-                                                }
-                                            ],
-                                            "true13": [
-                                                {
-                                                    "id": "42ffe130-9455-4751-b6f6-9165605317fd",
-                                                    "command": "EVENT_END"
-                                                }
-                                            ],
-                                            "true14": [
-                                                {
-                                                    "id": "bb013cc5-1d23-4d54-96f0-65c016130a29",
-                                                    "command": "EVENT_END"
-                                                }
-                                            ],
-                                            "true15": [
-                                                {
-                                                    "id": "00c2d937-544e-419b-9f0f-5ef6d215493e",
-                                                    "command": "EVENT_END"
-                                                }
-                                            ],
                                             "false": [
                                                 {
                                                     "id": "bd21c1e0-c148-4b8f-987f-c592b1baa6c4",
@@ -79111,22 +78527,6 @@
                                             "value6": 7,
                                             "__collapseCase7": false,
                                             "value7": 8,
-                                            "__collapseCase8": false,
-                                            "value8": 9,
-                                            "__collapseCase9": false,
-                                            "value9": 10,
-                                            "__collapseCase10": false,
-                                            "value10": 11,
-                                            "__collapseCase11": false,
-                                            "value11": 12,
-                                            "__collapseCase12": false,
-                                            "value12": 13,
-                                            "__collapseCase13": false,
-                                            "value13": 14,
-                                            "__collapseCase14": false,
-                                            "value14": 15,
-                                            "__collapseCase15": false,
-                                            "value15": 16,
                                             "__collapseElse": false,
                                             "__label": "Pick Location"
                                         },
@@ -79317,48 +78717,6 @@
                                                 },
                                                 {
                                                     "id": "68d504da-65b2-4df9-8ddc-368f25e765a3",
-                                                    "command": "EVENT_END"
-                                                }
-                                            ],
-                                            "true9": [
-                                                {
-                                                    "id": "2a3c95b6-524a-4505-9ec4-bf1f303bb9c8",
-                                                    "command": "EVENT_END"
-                                                }
-                                            ],
-                                            "true10": [
-                                                {
-                                                    "id": "9855d155-25f5-4fb1-bd5a-97ea727e9f57",
-                                                    "command": "EVENT_END"
-                                                }
-                                            ],
-                                            "true11": [
-                                                {
-                                                    "id": "c2a42d3c-0941-4b5a-baf4-4b488fdbce6c",
-                                                    "command": "EVENT_END"
-                                                }
-                                            ],
-                                            "true12": [
-                                                {
-                                                    "id": "6632cc9b-b96d-4cd9-a6d5-91f80a1a9c3c",
-                                                    "command": "EVENT_END"
-                                                }
-                                            ],
-                                            "true13": [
-                                                {
-                                                    "id": "250a3b5c-78fa-4094-b743-3c88c34b638a",
-                                                    "command": "EVENT_END"
-                                                }
-                                            ],
-                                            "true14": [
-                                                {
-                                                    "id": "fd57cabb-fed0-4f68-a5ec-2bc233de117c",
-                                                    "command": "EVENT_END"
-                                                }
-                                            ],
-                                            "true15": [
-                                                {
-                                                    "id": "6d5a5ec4-372b-4297-890c-2d4213c6cb76",
                                                     "command": "EVENT_END"
                                                 }
                                             ],
@@ -91640,16 +90998,6 @@
                                                                         "value9": 10,
                                                                         "__collapseCase10": true,
                                                                         "value10": 11,
-                                                                        "__collapseCase11": true,
-                                                                        "value11": 12,
-                                                                        "__collapseCase12": true,
-                                                                        "value12": 14,
-                                                                        "__collapseCase13": true,
-                                                                        "value13": 15,
-                                                                        "__collapseCase14": true,
-                                                                        "value14": 16,
-                                                                        "__collapseCase15": false,
-                                                                        "value15": 16,
                                                                         "__collapseElse": false,
                                                                         "__disableElse": true,
                                                                         "__label": "Respond to Player Selection",
@@ -91999,30 +91347,6 @@
                                                                             },
                                                                             {
                                                                                 "id": "9a9c7e1f-d8b6-4822-930d-6dc1532a16b0",
-                                                                                "command": "EVENT_END"
-                                                                            }
-                                                                        ],
-                                                                        "true12": [
-                                                                            {
-                                                                                "id": "b8a894bc-0912-4761-8127-e4981f347da5",
-                                                                                "command": "EVENT_END"
-                                                                            }
-                                                                        ],
-                                                                        "true13": [
-                                                                            {
-                                                                                "id": "94975f5d-dbbe-42e8-a669-b419137d4ecb",
-                                                                                "command": "EVENT_END"
-                                                                            }
-                                                                        ],
-                                                                        "true14": [
-                                                                            {
-                                                                                "id": "2d9ac2db-6dc9-481c-a91c-58e670d9d5ab",
-                                                                                "command": "EVENT_END"
-                                                                            }
-                                                                        ],
-                                                                        "true15": [
-                                                                            {
-                                                                                "id": "2257ee47-ef34-49ac-84bd-5810b6e1a01d",
                                                                                 "command": "EVENT_END"
                                                                             }
                                                                         ],
@@ -113121,16 +112445,6 @@
                                                                         "value9": 10,
                                                                         "__collapseCase10": true,
                                                                         "value10": 11,
-                                                                        "__collapseCase11": true,
-                                                                        "value11": 12,
-                                                                        "__collapseCase12": true,
-                                                                        "value12": 14,
-                                                                        "__collapseCase13": true,
-                                                                        "value13": 15,
-                                                                        "__collapseCase14": true,
-                                                                        "value14": 16,
-                                                                        "__collapseCase15": false,
-                                                                        "value15": 16,
                                                                         "__collapseElse": false,
                                                                         "__disableElse": true,
                                                                         "__label": "Respond to Player Selection",
@@ -113480,30 +112794,6 @@
                                                                             },
                                                                             {
                                                                                 "id": "9a9c7e1f-d8b6-4822-930d-6dc1532a16b0",
-                                                                                "command": "EVENT_END"
-                                                                            }
-                                                                        ],
-                                                                        "true12": [
-                                                                            {
-                                                                                "id": "b8a894bc-0912-4761-8127-e4981f347da5",
-                                                                                "command": "EVENT_END"
-                                                                            }
-                                                                        ],
-                                                                        "true13": [
-                                                                            {
-                                                                                "id": "94975f5d-dbbe-42e8-a669-b419137d4ecb",
-                                                                                "command": "EVENT_END"
-                                                                            }
-                                                                        ],
-                                                                        "true14": [
-                                                                            {
-                                                                                "id": "2d9ac2db-6dc9-481c-a91c-58e670d9d5ab",
-                                                                                "command": "EVENT_END"
-                                                                            }
-                                                                        ],
-                                                                        "true15": [
-                                                                            {
-                                                                                "id": "2257ee47-ef34-49ac-84bd-5810b6e1a01d",
                                                                                 "command": "EVENT_END"
                                                                             }
                                                                         ],
@@ -115204,16 +114494,6 @@
                                                                         "value9": 10,
                                                                         "__collapseCase10": true,
                                                                         "value10": 11,
-                                                                        "__collapseCase11": true,
-                                                                        "value11": 12,
-                                                                        "__collapseCase12": true,
-                                                                        "value12": 14,
-                                                                        "__collapseCase13": true,
-                                                                        "value13": 15,
-                                                                        "__collapseCase14": true,
-                                                                        "value14": 16,
-                                                                        "__collapseCase15": false,
-                                                                        "value15": 16,
                                                                         "__collapseElse": false,
                                                                         "__disableElse": true,
                                                                         "__label": "Respond to Player Selection",
@@ -115566,30 +114846,6 @@
                                                                                 "command": "EVENT_END"
                                                                             }
                                                                         ],
-                                                                        "true12": [
-                                                                            {
-                                                                                "id": "b8a894bc-0912-4761-8127-e4981f347da5",
-                                                                                "command": "EVENT_END"
-                                                                            }
-                                                                        ],
-                                                                        "true13": [
-                                                                            {
-                                                                                "id": "94975f5d-dbbe-42e8-a669-b419137d4ecb",
-                                                                                "command": "EVENT_END"
-                                                                            }
-                                                                        ],
-                                                                        "true14": [
-                                                                            {
-                                                                                "id": "2d9ac2db-6dc9-481c-a91c-58e670d9d5ab",
-                                                                                "command": "EVENT_END"
-                                                                            }
-                                                                        ],
-                                                                        "true15": [
-                                                                            {
-                                                                                "id": "2257ee47-ef34-49ac-84bd-5810b6e1a01d",
-                                                                                "command": "EVENT_END"
-                                                                            }
-                                                                        ],
                                                                         "false": [
                                                                             {
                                                                                 "id": "213598a1-4955-4d03-8345-9740cadec20d",
@@ -115700,18 +114956,6 @@
                                     "value8": 11,
                                     "__collapseCase9": false,
                                     "value9": 12,
-                                    "__collapseCase10": false,
-                                    "value10": 13,
-                                    "__collapseCase11": false,
-                                    "value11": 14,
-                                    "__collapseCase12": false,
-                                    "value12": 15,
-                                    "__collapseCase13": false,
-                                    "value13": 15,
-                                    "__collapseCase14": false,
-                                    "value14": 16,
-                                    "__collapseCase15": false,
-                                    "value15": 16,
                                     "__collapseElse": false,
                                     "__disableElse": true,
                                     "__label": "Respond to Player Selection",
@@ -116181,24 +115425,6 @@
                                         },
                                         {
                                             "id": "53ad3cc4-d917-4b18-bc36-930238011fbc",
-                                            "command": "EVENT_END"
-                                        }
-                                    ],
-                                    "true13": [
-                                        {
-                                            "id": "a26b450b-03de-4ce7-b9eb-71f17601eb65",
-                                            "command": "EVENT_END"
-                                        }
-                                    ],
-                                    "true14": [
-                                        {
-                                            "id": "7b2a5310-8e9f-4bfc-b86f-04725b1ce948",
-                                            "command": "EVENT_END"
-                                        }
-                                    ],
-                                    "true15": [
-                                        {
-                                            "id": "7e890aad-8c3d-4bed-9cf2-bcc451f26699",
                                             "command": "EVENT_END"
                                         }
                                     ],
@@ -117199,16 +116425,6 @@
                                                                         "value9": 10,
                                                                         "__collapseCase10": true,
                                                                         "value10": 11,
-                                                                        "__collapseCase11": true,
-                                                                        "value11": 12,
-                                                                        "__collapseCase12": true,
-                                                                        "value12": 14,
-                                                                        "__collapseCase13": true,
-                                                                        "value13": 15,
-                                                                        "__collapseCase14": true,
-                                                                        "value14": 16,
-                                                                        "__collapseCase15": false,
-                                                                        "value15": 16,
                                                                         "__collapseElse": false,
                                                                         "__disableElse": true,
                                                                         "__label": "Respond to Player Selection",
@@ -117558,30 +116774,6 @@
                                                                             },
                                                                             {
                                                                                 "id": "9a9c7e1f-d8b6-4822-930d-6dc1532a16b0",
-                                                                                "command": "EVENT_END"
-                                                                            }
-                                                                        ],
-                                                                        "true12": [
-                                                                            {
-                                                                                "id": "b8a894bc-0912-4761-8127-e4981f347da5",
-                                                                                "command": "EVENT_END"
-                                                                            }
-                                                                        ],
-                                                                        "true13": [
-                                                                            {
-                                                                                "id": "94975f5d-dbbe-42e8-a669-b419137d4ecb",
-                                                                                "command": "EVENT_END"
-                                                                            }
-                                                                        ],
-                                                                        "true14": [
-                                                                            {
-                                                                                "id": "2d9ac2db-6dc9-481c-a91c-58e670d9d5ab",
-                                                                                "command": "EVENT_END"
-                                                                            }
-                                                                        ],
-                                                                        "true15": [
-                                                                            {
-                                                                                "id": "2257ee47-ef34-49ac-84bd-5810b6e1a01d",
                                                                                 "command": "EVENT_END"
                                                                             }
                                                                         ],
@@ -119586,16 +118778,6 @@
                                                                         "value9": 10,
                                                                         "__collapseCase10": true,
                                                                         "value10": 11,
-                                                                        "__collapseCase11": true,
-                                                                        "value11": 12,
-                                                                        "__collapseCase12": true,
-                                                                        "value12": 14,
-                                                                        "__collapseCase13": true,
-                                                                        "value13": 15,
-                                                                        "__collapseCase14": true,
-                                                                        "value14": 16,
-                                                                        "__collapseCase15": false,
-                                                                        "value15": 16,
                                                                         "__collapseElse": false,
                                                                         "__disableElse": true,
                                                                         "__label": "Respond to Player Selection",
@@ -119945,30 +119127,6 @@
                                                                             },
                                                                             {
                                                                                 "id": "9a9c7e1f-d8b6-4822-930d-6dc1532a16b0",
-                                                                                "command": "EVENT_END"
-                                                                            }
-                                                                        ],
-                                                                        "true12": [
-                                                                            {
-                                                                                "id": "b8a894bc-0912-4761-8127-e4981f347da5",
-                                                                                "command": "EVENT_END"
-                                                                            }
-                                                                        ],
-                                                                        "true13": [
-                                                                            {
-                                                                                "id": "94975f5d-dbbe-42e8-a669-b419137d4ecb",
-                                                                                "command": "EVENT_END"
-                                                                            }
-                                                                        ],
-                                                                        "true14": [
-                                                                            {
-                                                                                "id": "2d9ac2db-6dc9-481c-a91c-58e670d9d5ab",
-                                                                                "command": "EVENT_END"
-                                                                            }
-                                                                        ],
-                                                                        "true15": [
-                                                                            {
-                                                                                "id": "2257ee47-ef34-49ac-84bd-5810b6e1a01d",
                                                                                 "command": "EVENT_END"
                                                                             }
                                                                         ],
@@ -126767,16 +125925,6 @@
                                                 "value9": 10,
                                                 "__collapseCase10": true,
                                                 "value10": 11,
-                                                "__collapseCase11": true,
-                                                "value11": 12,
-                                                "__collapseCase12": true,
-                                                "value12": 14,
-                                                "__collapseCase13": true,
-                                                "value13": 15,
-                                                "__collapseCase14": true,
-                                                "value14": 16,
-                                                "__collapseCase15": false,
-                                                "value15": 16,
                                                 "__collapseElse": false,
                                                 "__disableElse": true,
                                                 "__label": "Respond to Player Selection",
@@ -127129,30 +126277,6 @@
                                                         "command": "EVENT_END"
                                                     }
                                                 ],
-                                                "true12": [
-                                                    {
-                                                        "id": "b8a894bc-0912-4761-8127-e4981f347da5",
-                                                        "command": "EVENT_END"
-                                                    }
-                                                ],
-                                                "true13": [
-                                                    {
-                                                        "id": "94975f5d-dbbe-42e8-a669-b419137d4ecb",
-                                                        "command": "EVENT_END"
-                                                    }
-                                                ],
-                                                "true14": [
-                                                    {
-                                                        "id": "2d9ac2db-6dc9-481c-a91c-58e670d9d5ab",
-                                                        "command": "EVENT_END"
-                                                    }
-                                                ],
-                                                "true15": [
-                                                    {
-                                                        "id": "2257ee47-ef34-49ac-84bd-5810b6e1a01d",
-                                                        "command": "EVENT_END"
-                                                    }
-                                                ],
                                                 "false": [
                                                     {
                                                         "id": "213598a1-4955-4d03-8345-9740cadec20d",
@@ -127347,16 +126471,6 @@
                         "value9": 10,
                         "__collapseCase10": true,
                         "value10": 11,
-                        "__collapseCase11": true,
-                        "value11": 12,
-                        "__collapseCase12": true,
-                        "value12": 14,
-                        "__collapseCase13": true,
-                        "value13": 15,
-                        "__collapseCase14": true,
-                        "value14": 16,
-                        "__collapseCase15": false,
-                        "value15": 16,
                         "__collapseElse": false,
                         "__disableElse": true,
                         "__label": "Respond to Player Selection",
@@ -127706,30 +126820,6 @@
                             },
                             {
                                 "id": "a3d7c662-05f3-41e9-83c3-90ba83d1334f",
-                                "command": "EVENT_END"
-                            }
-                        ],
-                        "true12": [
-                            {
-                                "id": "1a3814a8-b8aa-42e5-919e-d43c696e5d6f",
-                                "command": "EVENT_END"
-                            }
-                        ],
-                        "true13": [
-                            {
-                                "id": "b897e02e-3e28-49df-8c84-cd4ceaafb6c2",
-                                "command": "EVENT_END"
-                            }
-                        ],
-                        "true14": [
-                            {
-                                "id": "ff3b0c78-5e6c-4055-b475-d6f010cc3a35",
-                                "command": "EVENT_END"
-                            }
-                        ],
-                        "true15": [
-                            {
-                                "id": "e3fe91fe-00e7-4b2b-9eca-560a1bd2f3dc",
                                 "command": "EVENT_END"
                             }
                         ],
