@@ -39795,7 +39795,7 @@
                                             "persist": true,
                                             "__scriptTabs": "press",
                                             "__label": "Set Up Use Item Button",
-                                            "__collapse": true
+                                            "__collapse": false
                                         },
                                         "children": {
                                             "true": [
@@ -126482,7 +126482,7 @@
                                                                     "args": {
                                                                         "sceneId": "c8978343-6d8c-427a-ba53-03ddbad42dc8",
                                                                         "x": 3,
-                                                                        "y": 5,
+                                                                        "y": 3,
                                                                         "direction": "up",
                                                                         "fadeSpeed": "1"
                                                                     }
@@ -126520,7 +126520,7 @@
                                                                     "args": {
                                                                         "sceneId": "4e458931-e14d-45fe-b5aa-a04e9a9cba89",
                                                                         "x": 3,
-                                                                        "y": 5,
+                                                                        "y": 3,
                                                                         "direction": "up",
                                                                         "fadeSpeed": "1"
                                                                     }
@@ -128482,8 +128482,8 @@
         "startY": 21,
         "showCollisions": true,
         "showConnections": "all",
-        "worldScrollX": 3078,
-        "worldScrollY": 342,
+        "worldScrollX": 5164,
+        "worldScrollY": 5242,
         "zoom": 325,
         "customColorsEnabled": true,
         "defaultBackgroundPaletteIds": "default-background",
