@@ -3,11 +3,11 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "backgrounds/one-room-measurement.tmx",
+    "activeFile": "backgrounds/area-sthenos_room_after.tmx",
     "expandedProjectPaths": [
-        "backgrounds",
         "tiles",
-        "."
+        ".",
+        "backgrounds"
     ],
     "exportAsImage.useCurrentScale": false,
     "file.lastUsedOpenFilter": "All Files (*)",
@@ -276,6 +276,22 @@
                 "y": 65.09090909090908
             }
         },
+        "backgrounds/area-sthenos_room_after.tmx": {
+            "scale": 5.5040625,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 80.03179469709873,
+                "y": 72.12854141827059
+            }
+        },
+        "backgrounds/area-sthenos_room_before.tmx": {
+            "scale": 5.5040625,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 80.03179469709873,
+                "y": 72.12854141827059
+            }
+        },
         "backgrounds/area-subterrane.tmx": {
             "scale": 3,
             "selectedLayer": 0,
@@ -320,7 +336,7 @@
             "scale": 5.388988095238095,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 80.53459987850003,
+                "x": 80.62738167559509,
                 "y": 71.99867454575579
             }
         },
@@ -369,7 +385,7 @@
             "scaleInEditor": 11
         },
         "tiles/yurivania.tsx": {
-            "scaleInDock": 4,
+            "scaleInDock": 5.5,
             "scaleInEditor": 11
         },
         "tiles/yurivania_alternate.tsx": {
@@ -382,11 +398,15 @@
     "map.tileWidth": 8,
     "map.width": 40,
     "openFiles": [
-        "backgrounds/one-room-measurement.tmx"
+        "backgrounds/one-room-measurement.tmx",
+        "backgrounds/area-sthenos_room_after.tmx",
+        "backgrounds/area-sthenos_room_before.tmx"
     ],
     "project": "yurivania.tiled-project",
     "recentFiles": [
         "backgrounds/one-room-measurement.tmx",
+        "backgrounds/area-sthenos_room_before.tmx",
+        "backgrounds/area-sthenos_room_after.tmx",
         "backgrounds/area-subterrane_sprout.tmx",
         "backgrounds/area-skyclad_tower-main.tmx",
         "backgrounds/area-skyclad_tower-intro.tmx",
@@ -395,9 +415,7 @@
         "backgrounds/area-echoing_vaults-pool.tmx",
         "backgrounds/area-echoing_vaults-open.tmx",
         "backgrounds/area-mossy_tholtan.tmx",
-        "backgrounds/screen-lore.tmx",
-        "backgrounds/screen-to_do_list.tmx",
-        "backgrounds/screen-inventory.tmx"
+        "backgrounds/screen-lore.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {
