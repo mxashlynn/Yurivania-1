@@ -12,7 +12,7 @@ Hopefully their castle community can provide everything necessary to make a comf
 
 # How to Play 🧛‍♀️🏰
 
-Right now the game is unfinished and cannot be played.  Once done, the game will be available on Itch.  Expected delivery date is *November 30th, 2020*.
+Right now the game is unfinished and cannot be played.  Once done, the game will be available on Itch.  Expected delivery date is *December 5th, 2020*.
 
 # Goals 👭🕸️
 
