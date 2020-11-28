@@ -22,7 +22,7 @@ I chose a system with significant technical constraints, as fewer choices mean f
 
 # Features 🎭🗺️
 
-1. A 2D side-scrolling map that may be explored.
+1. 2D side-scrolling exploration.
 2. Inventory-based puzzle solving.
 3. Environmental hazards to avoid.
 4. Several characters to interact with.
