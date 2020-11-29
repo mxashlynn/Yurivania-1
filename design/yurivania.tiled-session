@@ -5,8 +5,8 @@
     },
     "activeFile": "backgrounds/area-sthenos_room_after.tmx",
     "expandedProjectPaths": [
-        "tiles",
         ".",
+        "tiles",
         "backgrounds"
     ],
     "exportAsImage.useCurrentScale": false,
@@ -408,22 +408,23 @@
     "openFiles": [
         "backgrounds/one-room-measurement.tmx",
         "backgrounds/area-sthenos_room_after.tmx",
-        "backgrounds/area-sthenos_room_before.tmx"
+        "backgrounds/area-sthenos_room_before.tmx",
+        "backgrounds/cutscene-sthenos_room.tmx"
     ],
     "project": "yurivania.tiled-project",
     "recentFiles": [
-        "backgrounds/area-alraunes_corner.tmx",
-        "backgrounds/area-skyclad_tower-main.tmx",
         "backgrounds/one-room-measurement.tmx",
+        "backgrounds/cutscene-sthenos_room.tmx",
         "backgrounds/area-sthenos_room_before.tmx",
         "backgrounds/area-sthenos_room_after.tmx",
+        "backgrounds/area-alraunes_corner.tmx",
+        "backgrounds/area-skyclad_tower-main.tmx",
         "backgrounds/area-subterrane_sprout.tmx",
         "backgrounds/area-skyclad_tower-intro.tmx",
         "backgrounds/area-mossy_tholtan-sprout.tmx",
         "backgrounds/area-mossy_tholtan-vine.tmx",
         "backgrounds/area-echoing_vaults-pool.tmx",
-        "backgrounds/area-echoing_vaults-open.tmx",
-        "backgrounds/area-mossy_tholtan.tmx"
+        "backgrounds/area-echoing_vaults-open.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {
