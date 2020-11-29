@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="20" height="126" tilewidth="8" tileheight="8" infinite="0" nextlayerid="2" nextobjectid="1">
+<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="right-down" width="20" height="126" tilewidth="8" tileheight="8" infinite="0" nextlayerid="2" nextobjectid="1">
  <tileset firstgid="1" source="../tiles/yurivania.tsx"/>
+ <tileset firstgid="181" source="../tiles/yurivania_alternate.tsx"/>
  <layer id="1" name="Tile Layer 1" width="20" height="126">
   <data encoding="csv">
 87,4,4,4,4,4,87,4,69,4,4,4,4,4,69,70,72,4,87,90,
@@ -18,7 +19,7 @@
 120,120,117,99,120,99,31,99,117,154,117,99,117,99,117,120,117,99,120,120,
 120,120,31,117,120,117,99,117,99,154,99,117,99,117,99,120,99,117,120,120,
 120,120,117,99,120,30,32,99,117,154,117,99,117,99,117,120,31,99,120,120,
-64,65,99,117,120,147,148,117,99,154,99,31,160,161,161,120,99,117,64,65,
+64,65,99,117,120,147,148,117,99,154,99,31,160,356,161,120,99,117,64,65,
 63,125,86,86,125,86,86,86,172,154,99,172,86,86,86,125,86,86,125,63,
 64,65,117,99,120,99,117,102,103,154,117,84,85,31,117,120,117,99,64,65,
 65,64,65,31,120,117,102,103,99,154,99,117,84,85,99,120,99,64,65,64,
