@@ -32,8 +32,8 @@
             "scale": 5.5,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 98.00000000000001,
-                "y": 65.09090909090908
+                "x": 97.9090909090909,
+                "y": 65.09090909090911
             }
         },
         "backgrounds/area-echoing_vaults-locked.tmx": {
@@ -324,6 +324,14 @@
                 "y": 72.12854141827059
             }
         },
+        "backgrounds/cutscene-sthenos_room.tmx": {
+            "scale": 5.5040625,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 80.03179469709873,
+                "y": 72.12854141827059
+            }
+        },
         "backgrounds/cutscene-zipline.tmx": {
             "scale": 2,
             "selectedLayer": 0,
@@ -336,8 +344,8 @@
             "scale": 5.388988095238095,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 80.62738167559509,
-                "y": 71.99867454575579
+                "x": 79.97790909592977,
+                "y": 72.09145634285085
             }
         },
         "backgrounds/screen-album.tmx": {
