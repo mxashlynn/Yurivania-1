@@ -280,8 +280,8 @@
             "scale": 5.5040625,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 80.03179469709873,
-                "y": 72.12854141827059
+                "x": 80.21347868052007,
+                "y": 72.1285414182706
             }
         },
         "backgrounds/area-sthenos_room_before.tmx": {
@@ -289,7 +289,7 @@
             "selectedLayer": 0,
             "viewCenter": {
                 "x": 80.03179469709873,
-                "y": 72.12854141827059
+                "y": 72.1285414182706
             }
         },
         "backgrounds/area-subterrane.tmx": {
@@ -344,8 +344,8 @@
             "scale": 5.388988095238095,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 79.97790909592977,
-                "y": 72.09145634285085
+                "x": 80.07069089302482,
+                "y": 71.99867454575579
             }
         },
         "backgrounds/screen-album.tmx": {
