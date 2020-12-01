@@ -6,9 +6,10 @@
 
 This is my entry to [YuriJam 2020](https://itch.io/jam/yuri-game-jam-2020): an adventure game with a metroidvania style.
 
-Players take the role of Stheno, a gorgon who is hoping her girlfriend Alraune will move in with her.
-But to accommodate a plantgirl Stheno's room will need an overhaul!
-Hopefully their castle community can provide everything necessary to make a comfy space for them both....
+Stheno the gorgon wants her girlfriend Alraune to move in, but to accommodate a plantgirl Stheno's room needs an overhaul!
+Hopefully their castle community can provide everything they need to make the space comfy for both of them!
+Explore the Midnight Palace, ask your girlfriends and other monstergirls for help, and make the perfect two-lady lovenest!
+You might have to avoid some nasty traps or trounce a creepy human along the way, but in the end love always wins!
 
 # How to Play 🧛‍♀️🏰
 
