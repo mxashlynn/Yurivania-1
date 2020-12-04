@@ -141114,7 +141114,7 @@
             "variables": {
                 "0": {
                     "id": "0",
-                    "name": "Current Item"
+                    "name": "Had Alraune Convo"
                 },
                 "1": {
                     "id": "1",
@@ -141122,31 +141122,31 @@
                 },
                 "2": {
                     "id": "2",
-                    "name": "Tholtan Sprout Needs Fertilizer"
+                    "name": "Current Item"
                 },
                 "3": {
                     "id": "3",
-                    "name": "Standing Near Bridge Sprout"
+                    "name": "Tholtan Sprout Needs Fertilizer"
                 },
                 "4": {
                     "id": "4",
-                    "name": "Used Ladybug Under Bridge"
+                    "name": "Standing Near Bridge Sprout"
                 },
                 "5": {
                     "id": "5",
-                    "name": "Is Charging"
+                    "name": "Used Ladybug Under Bridge"
                 },
                 "6": {
                     "id": "6",
-                    "name": "Stheno Attacks"
+                    "name": "Is Charging"
                 },
                 "7": {
                     "id": "7",
-                    "name": "Room X"
+                    "name": "Stheno Attacks"
                 },
                 "8": {
                     "id": "8",
-                    "name": "Had Alraune Convo"
+                    "name": "Room X"
                 }
             },
             "actors": {},
@@ -141155,7 +141155,7 @@
                     "id": "94bbb523-5a6a-45f4-9799-d1657045d023",
                     "command": "EVENT_IF_FALSE",
                     "args": {
-                        "variable": "8",
+                        "variable": "0",
                         "__collapseElse": false,
                         "__disableElse": true,
                         "__label": "Break Before Alraune Convo"
@@ -141184,7 +141184,7 @@
                     "id": "d67aea7e-a23e-4b04-8972-4b379f7ac10a",
                     "command": "EVENT_SWITCH",
                     "args": {
-                        "variable": "0",
+                        "variable": "2",
                         "choices": 12,
                         "__collapseCase0": true,
                         "value0": 1,
@@ -141281,7 +141281,7 @@
                                 "id": "ab02f388-b2e3-4b79-9b9e-93b35d215b0b",
                                 "command": "EVENT_IF_TRUE",
                                 "args": {
-                                    "variable": "2",
+                                    "variable": "3",
                                     "__collapseElse": false,
                                     "__disableElse": false
                                 },
@@ -141315,7 +141315,7 @@
                                             "id": "3be61c57-a88a-46fd-b63a-dd8cccc09eb1",
                                             "command": "EVENT_SET_FALSE",
                                             "args": {
-                                                "variable": "2",
+                                                "variable": "3",
                                                 "__collapse": true
                                             }
                                         },
@@ -141395,7 +141395,7 @@
                                 "id": "7ea392b3-9b0c-4f7e-bfdc-8d0bad4770ad",
                                 "command": "EVENT_IF_TRUE",
                                 "args": {
-                                    "variable": "3",
+                                    "variable": "4",
                                     "__collapseElse": false,
                                     "__disableElse": false
                                 },
@@ -141405,7 +141405,7 @@
                                             "id": "efcb1dfc-70d2-440c-952a-c88c00a9a8c6",
                                             "command": "EVENT_SET_TRUE",
                                             "args": {
-                                                "variable": "4"
+                                                "variable": "5"
                                             }
                                         },
                                         {
@@ -141468,7 +141468,7 @@
                                 "id": "11bdacbf-39d9-40d1-a96d-bc2f3f44ffc0",
                                 "command": "EVENT_IF_TRUE",
                                 "args": {
-                                    "variable": "5",
+                                    "variable": "6",
                                     "__collapseElse": false
                                 },
                                 "children": {
@@ -141477,7 +141477,7 @@
                                             "id": "5cb36108-beba-45dc-8923-29d0bf06c135",
                                             "command": "EVENT_SET_TRUE",
                                             "args": {
-                                                "variable": "6"
+                                                "variable": "7"
                                             }
                                         },
                                         {
@@ -141490,7 +141490,7 @@
                                             "id": "20c5c33b-b589-4f26-b083-67b149f4791e",
                                             "command": "EVENT_IF_VALUE",
                                             "args": {
-                                                "variable": "7",
+                                                "variable": "8",
                                                 "operator": "<",
                                                 "comparator": 14,
                                                 "__collapseElse": false,
