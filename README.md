@@ -14,7 +14,18 @@ You might have to avoid some nasty traps or trounce a creepy human along the way
 
 # How to Play 🧛‍♀️🏰
 
-Right now the game is unfinished and cannot be played.  Once done, the game will be available on Itch.  Expected delivery date is *December 5th, 2020*.
+You can play it now for free in your browser on [Itch](https://mxashlynn.itch.io/yurivania)!
+
+## Keyboard Controls
+
+Up - Up Arrow / W  
+Down - Down Arrow / S  
+Left - Left Arrow / A  
+Right - Right Arrow / D  
+A - Alt / Z / J  
+B - Ctrl / K / X  
+Start - Enter  
+Select - Shift  
 
 # Goals 👭🕸️
 
