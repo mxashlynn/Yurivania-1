@@ -3,7 +3,7 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "backgrounds/area-sthenos_room_after.tmx",
+    "activeFile": "backgrounds/one-room-measurement.tmx",
     "expandedProjectPaths": [
         ".",
         "tiles",
@@ -72,8 +72,8 @@
             "scale": 4,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 366.875,
-                "y": 141.5
+                "x": 65.375,
+                "y": 208
             }
         },
         "backgrounds/area-evergreen_gulf-onis_grotto.tmx": {
@@ -406,25 +406,22 @@
     "map.tileWidth": 8,
     "map.width": 40,
     "openFiles": [
-        "backgrounds/one-room-measurement.tmx",
-        "backgrounds/area-sthenos_room_after.tmx",
-        "backgrounds/area-sthenos_room_before.tmx",
-        "backgrounds/cutscene-sthenos_room.tmx"
+        "backgrounds/one-room-measurement.tmx"
     ],
     "project": "yurivania.tiled-project",
     "recentFiles": [
+        "backgrounds/one-room-measurement.tmx",
+        "backgrounds/area-evergreen_gulf-main.tmx",
         "backgrounds/area-starlit_court-yard.tmx",
         "backgrounds/area-skyclad_tower-main.tmx",
         "backgrounds/area-echoing_vaults-open.tmx",
         "backgrounds/cutscene-sthenos_room.tmx",
         "backgrounds/area-sthenos_room_before.tmx",
         "backgrounds/area-sthenos_room_after.tmx",
-        "backgrounds/one-room-measurement.tmx",
         "backgrounds/area-alraunes_corner.tmx",
         "backgrounds/area-subterrane_sprout.tmx",
         "backgrounds/area-skyclad_tower-intro.tmx",
-        "backgrounds/area-mossy_tholtan-sprout.tmx",
-        "backgrounds/area-mossy_tholtan-vine.tmx"
+        "backgrounds/area-mossy_tholtan-sprout.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {
