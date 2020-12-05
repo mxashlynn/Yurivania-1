@@ -72,7 +72,7 @@
             "scale": 3,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 368.83333333333326,
+                "x": 374.3333333333333,
                 "y": 86.33333333333334
             }
         },
@@ -344,8 +344,8 @@
             "scale": 5.388988095238095,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 80.25625448721489,
-                "y": 71.99867454575579
+                "x": 79.88512729883472,
+                "y": 71.90589274866075
             }
         },
         "backgrounds/screen-album.tmx": {
@@ -411,8 +411,8 @@
     ],
     "project": "yurivania.tiled-project",
     "recentFiles": [
-        "backgrounds/one-room-measurement.tmx",
         "backgrounds/area-evergreen_gulf-main.tmx",
+        "backgrounds/one-room-measurement.tmx",
         "backgrounds/area-starlit_court-yard.tmx",
         "backgrounds/area-skyclad_tower-main.tmx",
         "backgrounds/area-echoing_vaults-open.tmx",
