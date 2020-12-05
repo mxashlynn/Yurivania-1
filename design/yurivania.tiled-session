@@ -3,11 +3,11 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "backgrounds/one-room-measurement.tmx",
+    "activeFile": "backgrounds/area-evergreen_gulf-main.tmx",
     "expandedProjectPaths": [
-        ".",
         "tiles",
-        "backgrounds"
+        "backgrounds",
+        "."
     ],
     "exportAsImage.useCurrentScale": false,
     "file.lastUsedOpenFilter": "All Files (*)",
@@ -69,11 +69,11 @@
             }
         },
         "backgrounds/area-evergreen_gulf-main.tmx": {
-            "scale": 4,
+            "scale": 3,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 65.375,
-                "y": 208
+                "x": 368.83333333333326,
+                "y": 86.33333333333334
             }
         },
         "backgrounds/area-evergreen_gulf-onis_grotto.tmx": {
@@ -406,7 +406,8 @@
     "map.tileWidth": 8,
     "map.width": 40,
     "openFiles": [
-        "backgrounds/one-room-measurement.tmx"
+        "backgrounds/one-room-measurement.tmx",
+        "backgrounds/area-evergreen_gulf-main.tmx"
     ],
     "project": "yurivania.tiled-project",
     "recentFiles": [
