@@ -43,7 +43,7 @@ I chose a system with significant technical constraints, as fewer choices mean f
 
 # Requirements 🩸🐞
 
-This game was built with [GB Studio 2.0-beta](https://chrismaltby.itch.io/gb-studio), using [Tiled](http://www.mapeditor.org/), [Aseprite](https://www.aseprite.org/), and [OpenMPT](https://openmpt.org/).
+This game was built with [GB Studio 2.0-beta](https://github.com/chrismaltby/gb-studio/tree/v2beta#beta-builds), using [Tiled](http://www.mapeditor.org/), [Aseprite](https://www.aseprite.org/), and [OpenMPT](https://openmpt.org/).
 
 # Contributors ⚗️🍧
 
