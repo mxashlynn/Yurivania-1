@@ -3,11 +3,11 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "backgrounds/area-evergreen_gulf-main.tmx",
+    "activeFile": "backgrounds/one-room-measurement.tmx",
     "expandedProjectPaths": [
         "tiles",
-        "backgrounds",
-        "."
+        ".",
+        "backgrounds"
     ],
     "exportAsImage.useCurrentScale": false,
     "file.lastUsedOpenFilter": "All Files (*)",
@@ -72,7 +72,7 @@
             "scale": 3,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 368.83333333333326,
+                "x": 374.3333333333333,
                 "y": 86.33333333333334
             }
         },
@@ -240,8 +240,8 @@
             "scale": 5.5,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 97.81818181818183,
-                "y": 75.99999999999999
+                "x": 237.0909090909091,
+                "y": 179.63636363636363
             }
         },
         "backgrounds/area-starlit_court-gatehouse.tmx": {
@@ -301,11 +301,11 @@
             }
         },
         "backgrounds/area-subterrane_sprout.tmx": {
-            "scale": 4,
+            "scale": 1.5,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 756.75,
-                "y": 50.5
+                "x": 562.6666666666666,
+                "y": 130
             }
         },
         "backgrounds/cutscene-evergreen_gulf.tmx": {
@@ -344,7 +344,7 @@
             "scale": 5.388988095238095,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 80.25625448721489,
+                "x": 80.34903628430993,
                 "y": 71.99867454575579
             }
         },
@@ -393,11 +393,11 @@
             "scaleInEditor": 11
         },
         "tiles/yurivania.tsx": {
-            "scaleInDock": 5.5,
+            "scaleInDock": 4,
             "scaleInEditor": 11
         },
         "tiles/yurivania_alternate.tsx": {
-            "scaleInDock": 5.5
+            "scaleInDock": 4
         }
     },
     "map.height": 18,
@@ -406,12 +406,13 @@
     "map.tileWidth": 8,
     "map.width": 40,
     "openFiles": [
-        "backgrounds/one-room-measurement.tmx",
-        "backgrounds/area-evergreen_gulf-main.tmx"
+        "backgrounds/one-room-measurement.tmx"
     ],
     "project": "yurivania.tiled-project",
     "recentFiles": [
         "backgrounds/one-room-measurement.tmx",
+        "backgrounds/area-subterrane_sprout.tmx",
+        "backgrounds/area-starlit_court-bridge.tmx",
         "backgrounds/area-evergreen_gulf-main.tmx",
         "backgrounds/area-starlit_court-yard.tmx",
         "backgrounds/area-skyclad_tower-main.tmx",
@@ -420,9 +421,7 @@
         "backgrounds/area-sthenos_room_before.tmx",
         "backgrounds/area-sthenos_room_after.tmx",
         "backgrounds/area-alraunes_corner.tmx",
-        "backgrounds/area-subterrane_sprout.tmx",
-        "backgrounds/area-skyclad_tower-intro.tmx",
-        "backgrounds/area-mossy_tholtan-sprout.tmx"
+        "backgrounds/area-skyclad_tower-intro.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {
