@@ -3,11 +3,11 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "backgrounds/one-room-measurement.tmx",
+    "activeFile": "backgrounds/screen-controls.tmx",
     "expandedProjectPaths": [
-        ".",
+        "tiles",
         "backgrounds",
-        "tiles"
+        "."
     ],
     "exportAsImage.useCurrentScale": false,
     "file.lastUsedOpenFilter": "All Files (*)",
@@ -422,12 +422,14 @@
     "map.tileWidth": 8,
     "map.width": 40,
     "openFiles": [
-        "backgrounds/one-room-measurement.tmx"
+        "backgrounds/one-room-measurement.tmx",
+        "backgrounds/screen-controls.tmx"
     ],
     "project": "yurivania.tiled-project",
     "recentFiles": [
-        "backgrounds/temp.tmx",
         "backgrounds/one-room-measurement.tmx",
+        "backgrounds/screen-controls.tmx",
+        "backgrounds/temp.tmx",
         "backgrounds/area-subterrane_sprout.tmx",
         "backgrounds/area-starlit_court-bridge.tmx",
         "backgrounds/area-evergreen_gulf-main.tmx",
@@ -436,8 +438,7 @@
         "backgrounds/area-echoing_vaults-open.tmx",
         "backgrounds/cutscene-sthenos_room.tmx",
         "backgrounds/area-sthenos_room_before.tmx",
-        "backgrounds/area-sthenos_room_after.tmx",
-        "backgrounds/area-alraunes_corner.tmx"
+        "backgrounds/area-sthenos_room_after.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {
