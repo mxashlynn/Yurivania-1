@@ -5,9 +5,9 @@
     },
     "activeFile": "backgrounds/one-room-measurement.tmx",
     "expandedProjectPaths": [
-        "tiles",
         ".",
-        "backgrounds"
+        "backgrounds",
+        "tiles"
     ],
     "exportAsImage.useCurrentScale": false,
     "file.lastUsedOpenFilter": "All Files (*)",
@@ -341,11 +341,11 @@
             }
         },
         "backgrounds/one-room-measurement.tmx": {
-            "scale": 5.388988095238095,
+            "scale": 5.5,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 80.34903628430993,
-                "y": 71.99867454575579
+                "x": 80.18181818181819,
+                "y": 72.18181818181817
             }
         },
         "backgrounds/screen-album.tmx": {
