@@ -3,11 +3,11 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "backgrounds/screen-controls.tmx",
+    "activeFile": "backgrounds/one-room-measurement.tmx",
     "expandedProjectPaths": [
-        "tiles",
+        ".",
         "backgrounds",
-        "."
+        "tiles"
     ],
     "exportAsImage.useCurrentScale": false,
     "file.lastUsedOpenFilter": "All Files (*)",
@@ -160,7 +160,7 @@
             "scale": 5.75,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 80,
+                "x": 80.08695652173913,
                 "y": 70.08695652173913
             }
         },
@@ -361,7 +361,7 @@
             "selectedLayer": 0,
             "viewCenter": {
                 "x": 79.18181818181819,
-                "y": 72.18181818181817
+                "y": 72
             }
         },
         "backgrounds/screen-album.tmx": {
@@ -384,7 +384,7 @@
             "scale": 5.241964285714285,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 76.11650485436893,
+                "x": 76.40265712825754,
                 "y": 72.49190938511327
             }
         },
@@ -392,7 +392,7 @@
             "scale": 5.664375,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 80.15006068630696,
+                "x": 80.23833167825224,
                 "y": 72.02912942734194
             }
         },
@@ -438,23 +438,22 @@
     "map.tileWidth": 8,
     "map.width": 20,
     "openFiles": [
-        "backgrounds/one-room-measurement.tmx",
-        "backgrounds/screen-controls.tmx"
+        "backgrounds/one-room-measurement.tmx"
     ],
     "project": "yurivania.tiled-project",
     "recentFiles": [
+        "backgrounds/one-room-measurement.tmx",
+        "backgrounds/screen-inventory.tmx",
+        "backgrounds/screen-lore.tmx",
+        "backgrounds/area-lunarium.tmx",
         "backgrounds/area-alraunes_corner-before.tmx",
         "backgrounds/area-alraunes_corner-after.tmx",
         "backgrounds/screen-controls.tmx",
-        "backgrounds/one-room-measurement.tmx",
         "backgrounds/temp.tmx",
         "backgrounds/area-subterrane_sprout.tmx",
         "backgrounds/area-starlit_court-bridge.tmx",
         "backgrounds/area-evergreen_gulf-main.tmx",
-        "backgrounds/area-starlit_court-yard.tmx",
-        "backgrounds/area-skyclad_tower-main.tmx",
-        "backgrounds/area-echoing_vaults-open.tmx",
-        "backgrounds/cutscene-sthenos_room.tmx"
+        "backgrounds/area-starlit_court-yard.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {
