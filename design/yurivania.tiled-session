@@ -28,6 +28,22 @@
                 "y": 72.10857332009269
             }
         },
+        "backgrounds/area-alraunes_corner-after.tmx": {
+            "scale": 5.394642857142857,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 76.00132406487919,
+                "y": 72.10857332009269
+            }
+        },
+        "backgrounds/area-alraunes_corner-before.tmx": {
+            "scale": 5.664375,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 80.15006068630696,
+                "y": 72.02912942734194
+            }
+        },
         "backgrounds/area-alraunes_corner.tmx": {
             "scale": 5.5,
             "selectedLayer": 0,
@@ -360,7 +376,7 @@
             "scale": 5.5,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 78.36363636363637,
+                "x": 78.54545454545453,
                 "y": 73.09090909090908
             }
         },
@@ -420,7 +436,7 @@
     "map.lastUsedFormat": "tmx",
     "map.tileHeight": 8,
     "map.tileWidth": 8,
-    "map.width": 40,
+    "map.width": 20,
     "openFiles": [
         "backgrounds/one-room-measurement.tmx",
         "backgrounds/screen-controls.tmx"
