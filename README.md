@@ -18,14 +18,20 @@ You can play it now for free in your browser on [Itch](https://mxashlynn.itch.io
 
 ## Keyboard Controls
 
-Up - Up Arrow / W  
-Down - Down Arrow / S  
-Left - Left Arrow / A  
-Right - Right Arrow / D  
-A - Alt / Z / J  
-B - Ctrl / K / X  
-Start - Enter  
-Select - Shift  
+- Keyboard Controls
+  - WASD Keys = Run, Climb, and Drop from certain platforms.
+  - Z Key = Interact and Confirm Selection.
+  - X Key = Jump and Cancel Selection.
+  - Shift Key = Main Menu (including Select an Item).
+  - Enter Key = Use Selected Item.
+- ROM Controls
+  - D-Pad = Run, Climb, and Drop from certain platforms.
+  - A Button = Interact and Confirm Selection.
+  - B Button = Jump and Cancel Selection.
+  - SELECT Button = Main Menu (including Select an Item).
+  - START Button = Use Selected Item. 
+- Mobile Controls
+  - Same as ROM Controls, but shown on-screen.
 
 # Goals 👭🕸️
 
