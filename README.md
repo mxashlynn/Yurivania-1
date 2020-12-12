@@ -59,3 +59,5 @@ This game was built with [GB Studio 2.0-beta](https://github.com/chrismaltby/gb-
 If you'd like to look at these game files to learn how GB Studio works, or if you want to include parts of them in your own game, you may do so.
 However, you may not sell the game by itself in either compiled or source form.
 See the LICENSE file for details.
+
+(*Note*, however, that this was my first GB Studio game and the scripting and tileset could both have been better organized!)
