@@ -360,7 +360,7 @@
             "scale": 5.5,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 80.18181818181819,
+                "x": 79.18181818181819,
                 "y": 72.18181818181817
             }
         },
@@ -443,8 +443,10 @@
     ],
     "project": "yurivania.tiled-project",
     "recentFiles": [
-        "backgrounds/one-room-measurement.tmx",
+        "backgrounds/area-alraunes_corner-before.tmx",
+        "backgrounds/area-alraunes_corner-after.tmx",
         "backgrounds/screen-controls.tmx",
+        "backgrounds/one-room-measurement.tmx",
         "backgrounds/temp.tmx",
         "backgrounds/area-subterrane_sprout.tmx",
         "backgrounds/area-starlit_court-bridge.tmx",
@@ -452,9 +454,7 @@
         "backgrounds/area-starlit_court-yard.tmx",
         "backgrounds/area-skyclad_tower-main.tmx",
         "backgrounds/area-echoing_vaults-open.tmx",
-        "backgrounds/cutscene-sthenos_room.tmx",
-        "backgrounds/area-sthenos_room_before.tmx",
-        "backgrounds/area-sthenos_room_after.tmx"
+        "backgrounds/cutscene-sthenos_room.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {
