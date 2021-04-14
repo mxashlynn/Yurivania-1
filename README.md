@@ -49,7 +49,7 @@ I chose a system with significant technical constraints, as fewer choices mean f
 
 # Requirements 🩸🐞
 
-This game was built with [GB Studio 2.0-beta](https://github.com/chrismaltby/gb-studio/tree/v2beta#beta-builds), using [Tiled](http://www.mapeditor.org/), [Aseprite](https://www.aseprite.org/), and [OpenMPT](https://openmpt.org/).
+This game was built with RichardULZ's fixes to [GB Studio 2.0-beta 5](https://github.com/RichardULZ/gb-studio/tree/fix/beta5), using [Tiled](http://www.mapeditor.org/), [Aseprite](https://www.aseprite.org/), and [OpenMPT](https://openmpt.org/).
 
 # Contributors ⚗️🍧
 
@@ -66,4 +66,4 @@ If you'd like to look at these game files to learn how GB Studio works, or if yo
 However, you may not sell the game by itself in either compiled or source form.
 See the LICENSE file for details.
 
-(*Note*, however, that this was my first GB Studio game and the scripting and tileset could both have been better organized!)
+(*Note*, however, that this was my first GB Studio game and the scripting and tileset could be improved!)
