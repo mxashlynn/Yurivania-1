@@ -5,8 +5,8 @@
     },
     "activeFile": "backgrounds/one-room-measurement.tmx",
     "expandedProjectPaths": [
-        "tiles",
         "backgrounds",
+        "tiles",
         "."
     ],
     "exportAsImage.useCurrentScale": false,
