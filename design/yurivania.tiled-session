@@ -12,6 +12,14 @@
     "exportAsImage.useCurrentScale": false,
     "file.lastUsedOpenFilter": "All Files (*)",
     "fileStates": {
+        "C:/Users/mxash/Source/Repos/Jams/Yurivania-0/design/backgrounds/test_stairs.tmx": {
+            "scale": 8,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 100.4375,
+                "y": 68.875
+            }
+        },
         "areas_glued_together.tmx": {
             "scale": 0.33,
             "selectedLayer": 0,
@@ -376,7 +384,7 @@
             "scale": 5.5,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 78.54545454545453,
+                "x": 78.63636363636363,
                 "y": 73.09090909090908
             }
         },
