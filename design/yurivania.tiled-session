@@ -3,15 +3,26 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "backgrounds/one-room-measurement.tmx",
+    "activeFile": "backgrounds/screen-controls.tmx",
     "expandedProjectPaths": [
+        ".",
         "backgrounds",
-        "tiles",
-        "."
+        "tiles"
     ],
     "exportAsImage.useCurrentScale": false,
     "file.lastUsedOpenFilter": "All Files (*)",
     "fileStates": {
+        "C:/Users/mxash/Source/Repos/Jams/Yurivania-0/design/backgrounds/test_stairs.tmx": {
+            "scale": 8,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 100.4375,
+                "y": 68.875
+            }
+        },
+        "C:/Users/mxash/Source/Repos/Jams/Yurivania-0/design/tiles/yurivania-0.tsx": {
+            "scaleInDock": 3
+        },
         "areas_glued_together.tmx": {
             "scale": 0.33,
             "selectedLayer": 0,
@@ -376,7 +387,7 @@
             "scale": 5.5,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 78.54545454545453,
+                "x": 78.63636363636363,
                 "y": 73.09090909090908
             }
         },
@@ -438,22 +449,23 @@
     "map.tileWidth": 8,
     "map.width": 20,
     "openFiles": [
-        "backgrounds/one-room-measurement.tmx"
+        "backgrounds/one-room-measurement.tmx",
+        "backgrounds/screen-controls.tmx"
     ],
     "project": "yurivania.tiled-project",
     "recentFiles": [
         "backgrounds/one-room-measurement.tmx",
+        "backgrounds/screen-controls.tmx",
+        "C:/Users/mxash/Source/Repos/Jams/Yurivania-0/design/backgrounds/test_stairs.tmx",
         "backgrounds/screen-inventory.tmx",
         "backgrounds/screen-lore.tmx",
         "backgrounds/area-lunarium.tmx",
         "backgrounds/area-alraunes_corner-before.tmx",
         "backgrounds/area-alraunes_corner-after.tmx",
-        "backgrounds/screen-controls.tmx",
         "backgrounds/temp.tmx",
         "backgrounds/area-subterrane_sprout.tmx",
         "backgrounds/area-starlit_court-bridge.tmx",
-        "backgrounds/area-evergreen_gulf-main.tmx",
-        "backgrounds/area-starlit_court-yard.tmx"
+        "backgrounds/area-evergreen_gulf-main.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {
