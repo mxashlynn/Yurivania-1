@@ -64,7 +64,7 @@ void Update_Platform() {
   UBYTE hit_actor = 0;
   UBYTE hit_trigger = 0;
 
-  // Update scene pos from player pos (incase was moved by a script)
+  // Update scene position from player position (in case was moved by a script).
   pl_pos_x = ((player.pos.x + 4u) << 4) + (pl_pos_x & 0xF);
   pl_pos_y = ((player.pos.y) << 4) + (pl_pos_y & 0xF);
 
@@ -108,9 +108,11 @@ void Update_Platform() {
     if (INPUT_LEFT) {
       player.dir.x = -1;
       if (INPUT_A) {
+        // Run
         pl_vel_x -= plat_run_acc;
         pl_vel_x = CLAMP(pl_vel_x, -plat_run_vel, -plat_min_vel);
       } else {
+        // Walk
         pl_vel_x -= plat_walk_acc;
         pl_vel_x = CLAMP(pl_vel_x, -plat_walk_vel, -plat_min_vel);
       } 
@@ -120,9 +122,11 @@ void Update_Platform() {
     } else if (INPUT_RIGHT) {
       player.dir.x = 1;
       if (INPUT_A) {
+        // Run
         pl_vel_x += plat_run_acc;
         pl_vel_x = CLAMP(pl_vel_x, plat_min_vel, plat_run_vel);
       } else {
+        // Walk
         pl_vel_x += plat_walk_acc;
         pl_vel_x = CLAMP(pl_vel_x, plat_min_vel, plat_walk_vel);
       }
@@ -148,6 +152,7 @@ void Update_Platform() {
   tile_x = pl_pos_x >> 7;
   tile_y = pl_pos_y >> 7;
 
+  // Interact
   if (grounded && INPUT_A_PRESSED) {
     if (player.dir.x == 1) {
       hit_actor = ActorAtTile(tile_x + 2, tile_y, TRUE);
