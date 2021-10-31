@@ -177,7 +177,7 @@ void Update_Platform() {
 
   if (!on_ladder) {
     // Gravity
-    if (INPUT_B && pl_vel_y < 0) {
+    if (INPUT_A && pl_vel_y < 0) {
       pl_vel_y += plat_hold_grav;
     } else {
       pl_vel_y += plat_grav;
