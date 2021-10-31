@@ -107,7 +107,7 @@ void Update_Platform() {
  
     if (INPUT_LEFT) {
       player.dir.x = -1;
-      if (INPUT_A) {
+      if (INPUT_B) {
         // Run
         pl_vel_x -= plat_run_acc;
         pl_vel_x = CLAMP(pl_vel_x, -plat_run_vel, -plat_min_vel);
@@ -121,7 +121,7 @@ void Update_Platform() {
       }
     } else if (INPUT_RIGHT) {
       player.dir.x = 1;
-      if (INPUT_A) {
+      if (INPUT_B) {
         // Run
         pl_vel_x += plat_run_acc;
         pl_vel_x = CLAMP(pl_vel_x, plat_min_vel, plat_run_vel);
@@ -165,7 +165,7 @@ void Update_Platform() {
   }
 
   // Jump
-  if (INPUT_B_PRESSED && grounded) {
+  if (INPUT_A_PRESSED && grounded) {
     if (!( (((pl_pos_x >> 4) & 0x7) != 7 &&
           TileAt(tile_x, tile_y - 1) & COLLISION_BOTTOM) ||  // Left Edge
           (((pl_pos_x >> 4) & 0x7) != 0 &&
