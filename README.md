@@ -18,20 +18,12 @@ You can play it now for free in your browser on [Itch](https://mxashlynn.itch.io
 
 ## Keyboard Controls
 
-- Keyboard Controls
-  - WASD Keys = Run, Climb, and Drop from certain platforms.
-  - Z Key = Interact and Confirm Selection.
-  - X Key = Jump and Cancel Selection.
-  - Shift Key = Main Menu (including Select an Item).
-  - Enter Key = Use Selected Item.
-- ROM Controls
-  - D-Pad = Run, Climb, and Drop from certain platforms.
-  - A Button = Interact and Confirm Selection.
-  - B Button = Jump and Cancel Selection.
-  - SELECT Button = Main Menu (including Select an Item).
-  - START Button = Use Selected Item. 
-- Mobile Controls
-  - Same as ROM Controls, but shown on-screen.
+- Controls
+    - **Pad / Arrow Keys** = Walk, Climb, and Drop from certain platforms.
+    - **A Button / ALT** = Jump, Talk, and Confirm Selection.
+    - **B Button / CTRL** = Cancel Selection or hold to Run.
+    - **SELECT / Shift** = Open Menu.
+    - **START / Enter** = Use selected item.
 
 # Goals 👭🕸️
 
@@ -62,7 +54,7 @@ This game was built with RichardULZ's fixes to [GB Studio 2.0-beta 5](https://gi
 
 # Rights 🏳️‍🌈🏳️‍⚧️
 
-If you'd like to look at these game files to learn how GB Studio works, or if you want to include parts of them in your own game, you may do so.
+If you'd like to look at these game files to learn how GB Studio works you may do so.
 However, you may not sell the game by itself in either compiled or source form.
 See the LICENSE file for details.
 
